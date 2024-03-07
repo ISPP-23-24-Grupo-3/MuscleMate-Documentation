@@ -1,33 +1,34 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
+import Heading from "@theme/Heading";
+import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <div className={clsx("container-image", styles.containerImage)}>
           <img
-            src='/img/MuscleMateLogo.svg'
+            src="/img/MuscleMateLogo.svg"
             alt="MuscleMate logo"
             className={clsx("hero-image", styles.heroImage)}
           />
           <div>
-            <Heading as='h1' className='hero__title'>
+            <Heading as="h1" className="hero__title">
               {siteConfig.title}
             </Heading>
-            <p className='hero__subtitle'>{siteConfig.tagline}</p>
+            <p className="hero__subtitle">{siteConfig.tagline}</p>
           </div>
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="/docs/intro">
+              to="/docs/intro"
+            >
               Docusaurus Tutorial - 5min ⏱️
             </Link>
           </div>
@@ -141,22 +142,22 @@ function Team() {
       team: "Beti",
       photo: "/img/team/Marco_Chasco.png",
     },
-  ]
+  ];
   return (
-    <div id='teams' className={clsx("meet-us", styles.meetUs)}>
-      <div className='container'>
+    <div id="teams" className={clsx("meet-us", styles.meetUs)}>
+      <div className="container">
         <h2>Conoce al equipo</h2>
         <h4>Xtreme</h4>
         <div className={clsx("card-container", styles.cardContainer)}>
           {teamMembers
-            .filter(member => member.team === "Xtreme")
-            .map(member => (
+            .filter((member) => member.team === "Xtreme")
+            .map((member) => (
               <div
                 key={member.name}
                 className={clsx(
                   "card card-member",
                   styles.cardMember,
-                  styles.card
+                  styles.card,
                 )}
               >
                 <img src={member.photo} alt={member.name} />
@@ -174,14 +175,14 @@ function Team() {
         <h4>España</h4>
         <div className={clsx("card-container", styles.cardContainer)}>
           {teamMembers
-            .filter(member => member.team === "España")
-            .map(member => (
+            .filter((member) => member.team === "España")
+            .map((member) => (
               <div
                 key={member.name}
                 className={clsx(
                   "card card-member",
                   styles.cardMember,
-                  styles.card
+                  styles.card,
                 )}
               >
                 <img src={member.photo} alt={member.name} />
@@ -199,14 +200,14 @@ function Team() {
         <h4>Beti</h4>
         <div className={clsx("card-container", styles.cardContainer)}>
           {teamMembers
-            .filter(member => member.team === "Beti")
-            .map(member => (
+            .filter((member) => member.team === "Beti")
+            .map((member) => (
               <div
                 key={member.name}
                 className={clsx(
                   "card card-member",
                   styles.cardMember,
-                  styles.card
+                  styles.card,
                 )}
               >
                 <img src={member.photo} alt={member.name} />
@@ -223,7 +224,7 @@ function Team() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default function Home() {
@@ -231,7 +232,8 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Description will go into a meta tag in <head />"
+    >
       <HomepageHeader />
       <main>
         <HomepageFeatures />
