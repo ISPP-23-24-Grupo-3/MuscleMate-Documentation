@@ -3,6 +3,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import { Icon } from "@iconify-icon/react";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -10,31 +11,65 @@ import styles from "./index.module.css";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <div className={clsx("container-image", styles.containerImage)}>
-          <img
-            src="/img/MuscleMateLogo.svg"
-            alt="MuscleMate logo"
-            className={clsx("hero-image", styles.heroImage)}
-          />
-          <div>
-            <Heading as="h1" className="hero__title">
-              {siteConfig.title}
-            </Heading>
-            <p className="hero__subtitle">{siteConfig.tagline}</p>
-          </div>
-          <div className={styles.buttons}>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/intro"
-            >
-              Docusaurus Tutorial - 5min ⏱️
-            </Link>
+    <>
+      <header className={clsx("hero hero--primary", styles.heroBanner)}>
+        <div className="container">
+          <div className={clsx("container-image", styles.containerImage)}>
+            <img
+              src="/img/MuscleMateLogo.svg"
+              alt="MuscleMate logo"
+              className={clsx("hero-image", styles.heroImage)}
+            />
+            <div>
+              <Heading as="h1" className="hero__title">
+                {siteConfig.title}
+              </Heading>
+              <p className="hero__subtitle">{siteConfig.tagline}</p>
+            </div>
+            <div className={styles.buttons}>
+              <Link
+                className="button button--primary button--lg"
+                to="/docs/intro"
+              >
+                Pruébalo ya
+              </Link>
+              <Link
+                className="button button--secondary button--lg"
+                to="/docs/intro"
+              >
+                Mira nuestro proceso
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+      <section className="hero container">
+        <div className="col col-6">
+          <Heading as="h1">Administra fácilmente tu gimnasio</Heading>
+          <p>
+            <span className="icon">
+              <Icon icon="solar:chart-bold" />
+            </span>
+            Obtén datos sobre tus máquinas
+          </p>
+          <p>
+            <span className="icon">
+              <Icon icon="material-symbols:event" />
+            </span>
+            Gestiona tus eventos
+          </p>
+          <p>
+            <span className="icon">
+              <Icon icon="carbon:review" />
+            </span>
+            Conoce las opiniones de tus usuarios
+          </p>
+        </div>
+        <div className="col col-6">
+          <img src="/img/svg_data.svg" />
+        </div>
+      </section>
+    </>
   );
 }
 

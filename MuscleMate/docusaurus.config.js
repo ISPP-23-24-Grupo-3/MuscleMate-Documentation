@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "MuscleMate Documentación",
+  title: "Conectando usuarios y gimnasios",
   tagline:
     "Fuerza a Través de la Conexión: Únete a la Comunidad de MuscleMate (Plataforma de documentación)",
   favicon: "img/MuscleMateLogo.ico",
@@ -31,8 +31,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "es",
+    locales: ["es"],
   },
 
   presets: [
