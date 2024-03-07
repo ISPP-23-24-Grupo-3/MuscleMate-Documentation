@@ -1,0 +1,82 @@
+## Historial de versiones
+
+| Versión | Fecha      | Diferencia entre versiones                                                                                     |
+| ------- | ---------- | ---------------------------------------------------------------------------------------------------------------|
+| 1.0     | 2024-02-16 | Versión inicial del documento.                                                                                 |
+| 2.0     | 2024-02-17 | Se han realizado modificaciones en las fórmulas propuestas.                                                    |
+| 3.0     | 2024-02-23 | Se ha añadido un apartado sobre la implicación de las fórmulas por cada rol.                                   |
+| 4.0     | 2024-02-29 | Se ha añadido un apartado con las fórmulas para evaluar el rendimiento según el rol.                           |
+
+## 1. Introducción
+
+En nuestro entorno actual, la medición efectiva del rendimiento del equipo es algo primordial. Para maximizar la eficiencia y garantizar resultados sobresalientes, 
+es crucial implementar sistemas de evaluación que capturen tanto la calidad del trabajo como la dedicación de los miembros del equipo.
+
+En este contexto, el presente documento propone fórmulas para medir el rendimiento del equipo, integrando las calificaciones por trabajo realizado y el número de 
+horas trabajadas como variables clave exceptuando el tiempo dedicado a la visualización de las píldoras teóricas.
+
+El objetivo primordial es establecer un método equitativo y transparente que refleje de manera integral las contribuciones individuales al equipo. En este sentido, 
+se presentarán fórmulas para la evaluación del rendimiento tanto colectivo como individual.
+
+
+## 2. Contenido
+
+La evaluación se enfoca en reflejar la contribución de un individuo a través de los roles desempeñados. La calificación final de una persona será la media aritmética 
+de las calificaciones obtenidas en los roles que haya desempeñado.
+
+### 2.1 Gestión
+
+Dado que las actividades de gestión involucran aspectos abstractos como planificación, asistencia y supervisión del progreso del grupo, la calificación se obtendrá 
+mediante un formulario proporcionado a los miembros del equipo. Este formulario permitirá a los miembros evaluar la efectividad y contribución del gestor en áreas clave como:
+
+| Aspecto                              | Criterio                                                                                                                                            |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Planificación                        | Evaluar la efectividad del gestor en la planificación de tareas y proyectos.                                                                        |
+| Supervisión del Progreso del Grupo   | Evaluar la habilidad del gestor para supervisar el progreso general del grupo.                                                                      |
+| Comunicación Efectiva                | Claridad de las instrucciones, la frecuencia de las actualizaciones y la capacidad para transmitir información de manera efectiva a todo el equipo. |
+| Toma de Decisiones                   | Evaluar la capacidad del gestor para tomar decisiones informadas y estratégicas.                                                                    |
+| Coordinación                         | Considerar la capacidad para manejar múltiples tareas, la eficacia en la asignación de responsabilidades y la gestión de plazos.                    |
+
+
+### 2.2 QA(Control de calidad)
+
+Dado que las responsabilidades centrales del rol de QA comprenden la revisión y la verificación del cumplimiento de las tareas, la evaluación de su desempeño se 
+llevará a cabo considerando los errores y/o defectos detectados en las tareas posteriormente a sus revisiones. Este proceso consistirá en multiplicar la cantidad 
+de errores identificados por un valor que refleja la importancia asignada a la tarea correspondiente. Este enfoque proporcionará una evaluación más precisa y equitativa, 
+tomando en cuenta no solo la capacidad de identificación de problemas por parte del QA, sino también la relevancia de dichos problemas en el contexto global del proyecto.
+
+![Estadística reloj de grupo](/img/performance/QA.png)
+
+### 2.3 Analista
+
+Considerando que las responsabilidades fundamentales del rol de Analista involucran el desarrollo de tareas tales como la redacción de documentos, presentaciones, 
+entre otras, y que dichas tareas ya cuentan con calificaciones asignadas, la evaluación de su desempeño se llevará a cabo mediante el cálculo de la media aritmética 
+de todas las calificaciones obtenidas.
+
+![Estadística reloj de grupo](/img/performance/Analista.png)
+
+### 2.4 Frontend / Backend / DevOps
+
+Considerando que las responsabilidades fundamentales de los roles de Frontend/Backend involucran la creación de la interfaz de usuario, desarrollo y mantenimiento de la 
+lógica detrás de la interfaz,etc. Para determinar el rendimiento de las personas que desempeñan este rol. Se tomará en cuenta la calificación de sus tareas desarrolladas 
+y los puntos de historia asociadas a cada tarea.
+
+![Estadística reloj de grupo](/img/performance/FB.png)
+
+### 2.5 Marketing
+
+En la actualidad, la medición del rendimiento de este rol se presenta como un desafío debido a la ausencia de tareas en curso y a la falta de información detallada 
+sobre el tipo de actividades que se llevarán a cabo. Dada esta situación, resulta difícil establecer atributos específicos para evaluar el desempeño.
+
+Somos conscientes de que cada individuo desempeña múltiples roles dentro del equipo. Por ende, para calcular el rendimiento global de una persona. Primero, se calculará 
+el rendimiento específico en cada uno de los roles que ha desempeñado. Posteriormente, se llevará a cabo la media aritmética de estas evaluaciones individuales. Este 
+método garantizará una evaluación equitativa y comprensiva, considerando las distintas responsabilidades y contribuciones de la persona en cada uno de sus roles, 
+proporcionando así una medida global de su desempeño dentro del equipo.
+
+## 3 Excel de apoyo para realizar los cálculos 
+<iframe 
+  src="https://docs.google.com/spreadsheets/d/16fQ9fQ3faYLdznxGIAnc_ldrHGaKhGlGEZLV3U58N8A/edit#gid=663744370"
+  width="100%"
+  height="700px"
+  >
+</iframe>

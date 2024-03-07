@@ -1,0 +1,8 @@
+{
+    "label": "Presentaciones",
+    "position": 5,
+    "link": {
+        "type": "generated-index",
+        "description": "Guiones de presentaciones"
+    }
+}

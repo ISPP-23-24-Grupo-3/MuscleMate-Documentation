@@ -1,0 +1,73 @@
+## Historial de versiones
+
+| Versión | Fecha      | Diferencia entre versiones                                                                                                                                                                                 |
+| ------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.0     | 2024-02-29 | Versión inicial de los apuntes que se han sacado de los vídeos de teoría                                                                                   |
+
+## 1. Gestión del ciclo de vida de las aplicaciones 
+
+| Application lifecycle management                                                               |
+| --------------------------------------------------------------------------------- |
+|<img src="/img/Theory Pills/TP_application_lifecycle.png" alt="Application lifecycle management" width="100%" height="100%"/> |
+
+Es el funcionamiento normal de cualquier proyecto que hemos realizado:
+- Se crean ramas para desarrollar tareas
+- Se suben los cambios y se usa CI. CI se debe usar en todas las ramas antes y después de mergear una PR
+- Cuando esté toda la funcionalidad se hace un pull desde develop para solucionar posibles conflictos
+- Se crea PR a develop
+- El resto comenta en la PR y la acepta
+- Se despliega automáticamente desde develop (staging o preproducción), esto se usa para que el cliente verifique que los cambios están bien, y tras esto se hace PR a master y se despliega (poner en producción)
+
+Lo importante de aquí es que todo esto es __cíclico__, en cualquier punto puede surgir un fallo que obligue a volver al principio
+
+
+
+
+## 2. Conjunto de prácticas de equipos recomendables
+
+- __como mínimo el 75% de las issues que están en progreso deben correlacionarse con una rama__, ya que pueden existir alguna issue que sea de gestión y no requiera de una rama (para todo el equipo, cada día)
+- __como mínimo el 75% de las issues que están en revisión debería correlacionarse con que se haya abierto una pull request__ (para todo el equipo, cada día)
+- __como mínimo el 75% de las issues que están en “done”  deben correlacionarse con que se haya hecho un merge__, es decir, que los cambios estén ya en la rama develop (para todo el equipo, cada día)
+- A nivel individual cada miembro debe tener controlada el número de issues que tienen activas, __solo puede haber 1 issue en progreso por cada miembro del equipo.__(cada hora)
+- __Como mínimo cada miembro debe haber puesto una issue en "done" a la semana__
+- __como mínimo el 75% de los merge de las PR deben tener al menos una aprobación__ (a nivel de equipo y para las PR aceptadas por cada miembro, por hora)
+- __Si un miembro acepta el mergeo de una PR esta debe tener mínimo una aprobación.__(por miembro, por semana)
+- Todos los miembros deben participar en las revisiones de las PRs, __cada miembro debe de poner mínimo un comentario en al menos 1/17 = 5% de las PR(no creada por el mismo)__. La operación que se realiza es 1/numeroDeMiembros (por miembro, todas las semanas)
+- __Cada miembro debe comentar en al menos una PR(no creada por el mismo)__ (por miembro, cada semana)
+
+Para monitorizar todo lo anterior se usa la herramienta “Governify”, va chequeando cada hora todas las condiciones anteriores.
+
+
+## 3. Sprint Planning
+
+- __El MVP debe de estar terminado antes del lanzamiento del producto.__
+- __Planificar las tareas que forman parte del core lo antes posible__, preferiblemente en el primer sprint. A partir de tener el core, se puede ir completando el resto del MVP con los posteriores sprints.
+
+Dividir las tareas en subtareas para las issues, se usa __planning poker__(cada miembro da una puntuación a cada tarea para estimar el esfuerzo necesario) para la asignación de tareas.
+
+Cada tarea:
+- Se asigna __únicamente a una persona__, hay casos en los que si la tarea da problemas se puede tener un plan de contingencia para que otra persona ayude o que la persona inicialmente asignada requiera de una formación, pero inicialmente solo se le asigna a una.
+- __Puntos__ (como en ZenHub)
+- __Descripción detallada__ (se pueden adjuntar imágenes, mockups)
+- __Etiquetas__ (Para priorizar. Para decir si es de tipo bug, feature, refactorización...Para clasificarlas por: frontend, backend,... )
+- __Fecha de fin estimada.__ Puede ser una fecha mínima (por ejemplo si para hacer esta tarea otra tarea que tenga otra fecha de fin debe estar finalizada antes) o una fecha máxima.
+
+Al final del sprint se hace la retrospectiva(puntos de mejora, se pueden usar distintas herramientas porque es muy interesante que sea __anónimo__ para que nadie se guarde comentarios)
+
+## 4. Análisis del rendimiento
+
+| Cosas recomendables | Cosas no recomendables      |
+| ------- | ---------- |
+|Tener un modelo de rendimiento que se centre en la evolución/velocidad    | Medir rendimiento de forma aislada |
+|Medir en base a cuantos puntos de historia completamos    | Medir respecto a las horas |
+|Métricas simples, que se puedan incluso automatizar   | Métricas complejas |
+|Enfocarlo hacia las recompensas  | Enfocarlos hacia las penalizaciones |
+
+También es recomendable medir la motivación de  los miembros con calendarios Niko-Niko.
+
+
+## 5. Definiciones
+
+- __Team building__: conjunto de dinámicas y actividades de integración en una empresa que se utilizan para que los miembros interactúen en grupo con el fin de mejorar sus capacidades de colaborar en equipo
+
+- __Killer feature__: funcionalidad que hace a tu aplicación destacar entre la competencia
