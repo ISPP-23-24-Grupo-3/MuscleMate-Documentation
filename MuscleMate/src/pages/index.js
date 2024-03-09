@@ -46,21 +46,21 @@ function HomepageHeader() {
       <section className="hero container">
         <div className="col col-6">
           <Heading as="h1">Administra fácilmente tu gimnasio</Heading>
-          <p>
-            <span className="icon">
+          <p className="list-item">
+            <span className="icon-container">
               <Icon icon="solar:chart-bold" />
             </span>
             Obtén datos sobre tus máquinas
           </p>
-          <p>
-            <span className="icon">
+          <p className="list-item">
+            <span className="icon-container">
               <Icon icon="material-symbols:event" />
             </span>
             Gestiona tus eventos
           </p>
-          <p>
-            <span className="icon">
-              <Icon icon="carbon:review" />
+          <p className="list-item">
+            <span className="icon-container">
+              <Icon icon="material-symbols:reviews-outline-rounded" />
             </span>
             Conoce las opiniones de tus usuarios
           </p>
@@ -69,6 +69,7 @@ function HomepageHeader() {
           <img src="/img/svg_data.svg" />
         </div>
       </section>
+      <section></section>
     </>
   );
 }

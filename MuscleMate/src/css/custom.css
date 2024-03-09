@@ -45,15 +45,28 @@
   font-size: 1.4rem;
 }
 
-.hero .icon {
-  display: inline-block;
+.hero .icon-container {
+  display: inline-flex;
   background-color: var(--ifm-color-primary);
   padding: 0.5rem;
   border-radius: 50%;
   aspect-ratio: 1/1;
-  height: fit-content;
+  width: 4rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.hero .icon svg {
+.list-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.hero iconify-icon {
   /* margin: 1.5rem; */
+  font-size: 2.3rem;
+}
+
+.secondary-bg {
+  background-color: #f5f5f5;
 }
