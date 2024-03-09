@@ -100,6 +100,32 @@ function HomepageHeader() {
           </div>
         </div>
       </section>
+      <section className="hero container card-list">
+        <div className="card col">
+          <div className="card__header standard-plan">
+            <Heading as="h1">Estándar</Heading>
+            <Heading as="h2">97.99€</Heading>
+          </div>
+          <div className="card__body">
+            <ul className="pricing-features">
+              <li>Item 1</li>
+              <li>Item 1</li>
+            </ul>
+          </div>
+        </div>
+        <div className="card col">
+          <div className="card__header premium-plan">
+            <Heading as="h1">Premium</Heading>
+            <Heading as="h2">109.99€</Heading>
+          </div>
+          <div className="card__body">
+            <ul className="pricing-features">
+              <li>Item 1</li>
+              <li>Item 1</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
