@@ -45,7 +45,7 @@ function HomepageHeader() {
       </header>
       <section className="hero container">
         <div className="col col-6">
-          <Heading as="h1">Administra fácilmente tu gimnasio</Heading>
+          <Heading as="h1">Para los gimnasios</Heading>
           <p className="list-item">
             <span className="icon-container">
               <Icon icon="solar:chart-bold" />
@@ -69,7 +69,37 @@ function HomepageHeader() {
           <img src="/img/svg_data.svg" />
         </div>
       </section>
-      <section></section>
+      <section className="secondary-bg">
+        <div className="hero container secondary-bg">
+          <div className="col">
+            <img
+              className="medium-img col"
+              src="/img/undraw_healthy_habit.svg"
+            />
+          </div>
+          <div className="col">
+            <Heading as="h1">Para los deportistas</Heading>
+            <p className="list-item">
+              <span className="icon-container">
+                <Icon icon="ic:round-edit-note" />
+              </span>
+              Registra tus rutinas y entrenamientos
+            </p>
+            <p className="list-item">
+              <span className="icon-container">
+                <Icon icon="ph:chart-line-up-bold" />
+              </span>
+              Observa tu evolución
+            </p>
+            <p className="list-item">
+              <span className="icon-container">
+                <Icon icon="octicon:megaphone-16" />{" "}
+              </span>
+              Hazte escuchar
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
@@ -271,9 +301,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <main>{/* <HomepageFeatures /> */}</main>
     </Layout>
   );
 }
