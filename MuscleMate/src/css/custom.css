@@ -17,26 +17,95 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }*/
 :root {
-  --ifm-color-primary: #33658a;
-  --ifm-color-primary-dark: #21b28a;
-  --ifm-color-primary-darker: #269f8a;
-  --ifm-color-primary-darkest: #2a8c8a;
-  --ifm-color-primary-light: #18D98A;
-  --ifm-color-primary-lighter: #18D98A;
-  --ifm-color-primary-lightest: #0fff8a;
+  --ifm-color-primary: #35d900;
+  --ifm-color-primary-dark: #15b920;
+  --ifm-color-primary-darker: #05a920;
+  --ifm-color-primary-darkest: #009960;
+  --ifm-color-primary-light: #35d910;
+  --ifm-color-primary-lighter: #45e900;
+  --ifm-color-primary-lightest: #55ff33;
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+[data-theme="dark"] {
+  --ifm-color-primary: #35d900;
+  --ifm-color-primary-dark: #20c320;
+  --ifm-color-primary-darker: #1db830;
+  --ifm-color-primary-darkest: #009810;
+  --ifm-color-primary-light: #3aef00;
+  --ifm-color-primary-lighter: #3dfa00;
+  --ifm-color-primary-lightest: #53ff1b;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+  font-size: 1.4rem;
+}
+
+.hero .icon-container {
+  display: inline-flex;
+  background-color: var(--ifm-color-primary);
+  padding: 0.5rem;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  width: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.hero iconify-icon {
+  /* margin: 1.5rem; */
+  font-size: 2.3rem;
+}
+
+.secondary-bg {
+  background-color: #f5fff5;
+}
+
+.medium-img {
+  height: 24rem;
+}
+
+.card {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 15px;
+  margin: 1rem;
+  padding: 0;
+}
+
+.card__header {
+  padding: 1.5rem !important;
+}
+
+.card__body {
+  text-align: left;
+  padding: 2.5rem;
+}
+
+.card-list {
+  gap: 4rem;
+}
+
+.standard-plan {
+  background: linear-gradient(10deg, #afff7e, #dbffaa);
+}
+.premium-plan {
+  background: linear-gradient(10deg, #dfbc80, #ffeb90);
+}
+
+.pricing-features {
+  list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2em' height='2em' viewBox='0 0 12 12'%3E%3Cpath fill='%23000' d='M9.765 3.205a.75.75 0 0 1 .03 1.06l-4.25 4.5a.75.75 0 0 1-1.075.015L2.22 6.53a.75.75 0 0 1 1.06-1.06l1.705 1.704l3.72-3.939a.75.75 0 0 1 1.06-.03'/%3E%3C/svg%3E");
+}
+
+.no-bg {
+  background: none;
 }
