@@ -1,3 +1,5 @@
+
+
 ## Historial de versiones
 
 | Versión | Fecha      | Diferencia entre versiones|
@@ -10,6 +12,8 @@
 | 6.0     | 2024-02-22 | Correción del documento |
 | 7.0     | 2024-03-01 | Correción del documento |
 
+# TCO Summary - MuscleMate - Entregable #S1
+
 ## 1. Introducción
 
 En este documento, se establece el coste total de la propiedad respectivo al proyecto. Para ello, se tiene en cuenta el precio de desarrollo del proyecto, y sus estimaciones de precio de mantenimiento y operación. Es decir que va más allá del precio inicial de compra y tiene más sentido si lo analizamos como un gasto a largo plazo.
@@ -18,256 +22,39 @@ En este documento, se establece el coste total de la propiedad respectivo al pro
 
 ### 2.1 Costes de personal
 
-El equipo encargado del proyecto, está formado por 17 integrantes. Cada uno de ellos, tiene la obligación de dedicar al menos 10 horas semanales a dicho proyecto, como se establece en el proyecto docente de la asignatura de Ingeniería del Software Y Práctica Profesional (ISPP). 
+El equipo encargado del proyecto, está formado por 15 integrantes. Cada uno de ellos, tiene la obligación de dedicar al menos 10 horas semanales a dicho proyecto. 
+
 Teniendo en cuenta esto y los sueldos por hora de los siguientes perfiles:
-- Manager – 20.85 €/h
-- Coordinador Software– 18.50 €/h
 - Desarrollador– 11.25 €/h
 
-Hay que tener en cuenta que a grandes rasgos, en este proyecto hay 1 jefe de proyecto y 3 coordinadores, los cuales dedicarán más tiempo a la gestión y gerencia, mientras que los 13 miembros restantes dedicaran más tiempo al desarrollo e implementación. Por lo tanto la estimación de costes de personal  para las 15 semanas que dura el proyecto es la siguiente:
-- 1 manager: 15 x 10 x 20.85 = 3127.50€
-- 3 coordinadores: 3 x 15 x 10 x 18.50 = 8325.00€
-- 13 desarrolladores: 13 x 15 x 10 x 11.25 = 21937.50€
-Coste total de personal = 33390.00€
+Por lo tanto, la estimación de costes de personal para las 4 semanas que dura el proyecto es la siguiente:
+- Desarrolladores: 15 x 10 x 11.25 = 1687.50€
 
+Coste total de personal = 1687.50€
 
 ### 2.2 Costes de material
 
-Para cada integrante del equipo, suponemos un portátil o equipo de un precio aproximado de 950€. Teniendo en cuenta que contamos con una vida útil de 4 años por equipo, el precio equivalente para las 15 semanas de uso sería lo siguiente:
-- En un año tenemos 52 semanas, si son 4 tenemos 208 semanas. Entonces el precio para las 15 semanas que dura el proyecto es 950/208 x 15 = 68.51 € por integrante
+Para cada integrante del equipo, suponemos un ordenador con un precio de 500€.
 
-Coste total de material = 68.51 x 17 = 1164.67€
+Coste total de material = 500€ x 15 = 7500€
 
+### 2.3 Costes de amortización
 
-### 2.3 Costes de adquisición total
-| Estimación de costes de desarrollo|
-| --------------------------------------------------------------------------------- |
-|<img src="/img/tco/estimacion-de-coste-de-desarrollo.png" alt="Total desarrollo" width="100%" height="100%"/> |
+Se considera la amortización del proyecto, que asciende a 57470€.
 
-El coste total de desarrollo del proyecto, teniendo en cuenta los costes de personal y de material para el desarrollo:
-- Coste total de desarrollo = 33390.00€ + 1164.67€ = **34554.67€**
+**Coste total de capital (Capex) = 64970€**
 
 ## 3. Costes de operación mensual (Opex)
-En esta sección, se muestran los distintos costes relacionados con el mantenimiento del sistema, una vez está finalizado y completado, o también llamado OpEx (Operating Expenditure).
 
-Los usuarios de la aplicación serán unos pocos voluntarios de la Tertulia Cofrade Cirio y Costal, exactamente dos personas el tesorero y el presidente, y de la Asociación Ciudadana de Ayuda al Toxicómano, donde la usarán tres personas. Por lo cual el uso y tráfico de nuestra aplicación va a ser muy limitado, por no decir insignificante. La infraestructura necesaria para mantener una aplicación con estas necesidades es mínima y más importante la carga de la aplicación no aumenta con el tiempo.
+### 3.1 Desglose de costes
 
-Por lo tanto en caso de que se duplicase o triplicase nuestro tráfico, el coste de operación no aumentaría y se mantendría constante. Esto es debido a que contaríamos como mucho con unos 12 o 18 usuarios en total de manera simultanea, y los costes que se explican a continuación suponemos que tienen límites suficientes para soportar esta carga.
-
-### 3.1 Costes de despliegue
-En nuestro caso, hay que tener en cuenta que contamos con el frontend, el backend y la base de datos. Se detalla así:
-- Para FastApi, lo más rentable es utilizar algún servicio en la nube que ofrezca sus servidores a sus clientes, en este caso a nosotros y a nuestros clientes. Puesto que desplegarlo en un servidor propio conlleva grandes gastos y no estaría al alcance de esta asignatura. Dentro de los servicios en la nube, hemos estudiado y analizado las distintas opciones que encontramos en el mercado. 
--  NextJs, para que nuestro servicio sea accesible a sus usuarios necesitamos desplegar la aplicación en la nube. Para el despliegue de una aplicación NextJs en la nube hay multitud de servicios disponibles, pero considerando la situación del proyecto y la tecnología usada hay dos sistemas de hosting claros para usar. Estos son el servicio de App Engine de Google Cloud, debido al bono recibido por la empresa para el uso de este sistema, con un crédito de 100 dólares por desarrollador, y el hosting de Vercel que son los creadores y mantenedores del framework NextJs y es la mejor plataforma para desplegar aplicaciones realizadas con este framework, dando funcionalidades adicionales para NextJs que no te ofrece otro hosting. 
-
-#### 3.1.1 App Engine de Google Cloud
-El servicio ofrece dos tipos de entornos estándar y flexible, la diferencia entre los dos tipos es que el entorno flexible es autoescalable al aumentar la carga mientras que el estándar se escala de forma manual. En nuestro caso de uso donde la carga de la aplicación es estable a lo largo del tiempo será necesario el entorno estándar. Los costes de App Engine se cargan en base al tipo de instancia que se esté desplegando, mientras más recursos tenga un tipo de instancia más caro es su uso.
-Para la poca carga que va a recibir la aplicación con el uso de las instancias más  pequeñas será suficiente para desplegar y usar la aplicación en Google Cloud. App Engine tiene preparado el tipo de instancia “F” para despliegues de aplicaciones Frontend, donde se podría usar una instancia “F1” siendo esta la de menor potencia de la clase “F”.
-| Instancia de tipo F|
-| --------------------------------------------------------------------------------- |
-|<img src="/img/tco/engine-instancia-f.png" alt="Instancia F" width="100%" height="100%"/> |
-
-Por último el precio por hora para mantener una instancia de tipo “F1” activa y funcionando correctamente es de 0.06 dólares por hora. Pero App Engine también ofrece un nivel gratuito, donde no se aplicaran estos precios si el uso no supera un límite establecido por Google Cloud. Para las instancias de tipo “F” este límite es de 28 horas por día, con lo que se puede considerar el despliegue y mantenimiento gratuito para la aplicación.
-Además, App Engine ofrece otro tipo de instancia que es la “B”, la cual es una instancia preparada para el Backend. Esta instancia presenta distintos subtipos dependiendo de la velocidad y la capacidad.
-| Instancias de tipo B|
-| --------------------------------------------------------------------------------- |
-|<img src="/img/tco/engine-instancia-b.png" alt="Instancia B" width="100%" height="100%"/> 
-
-En nuestro caso, como se comentó previamente, con la poca carga de usuarios que va a recibir la aplicación, el uso de las instancias más pequeñas será suficiente para el despliegue del backend. En este caso, la “B1” ofrece un precio de 0.0579€ por hora de funcionamiento, pero AppEngine cuenta con 9 horas gratis en esta instancia. Por lo que para mantener el sistema diariamente (24 horas), el precio ascendería a lo equivalente a las 15 horas por el precio comentado para cada día de funcionamiento.
-Por lo tanto, el coste de mantenimiento mensual con la utilización de AppEngine sería el siguiente:
-| Standard Environment|
-| --------------------------------------------------------------------------------- |
-|<img src="/img/tco/engine-environment.png" alt="Standard Environment" width="100%" height="100%"/> 
-
-Donde, “Standard Environment” representa la instancia “B”, y “Standard Environment 2” representa la instancia “F”.
-Toda esta información ha sido encontrado en la página [Precios | App Engine | Google Cloud](https://cloud.google.com/appengine/pricing?hl=es) usando como sede física de las instancias Frankfurt (europe-west3).
-
-#### 3.1.2 Vercel
-Ofrece un nivel gratuito, mientras no se supere los siguientes límites:
-
-| Vercel|
-| ------ |
-|<img src="/img/tco/vercel-table.png" alt="Vercel" width="100%" height="100%"/> 
-
-Toda esta información ha sido encontrada en la página [Limits de Vercel](https://vercel.com/docs/limits/overview).
-Mientras estos límites no sean superados el despliegue en la plataforma de Vercel es gratuito, y en caso de que se excedan estos límites conlleva una espera de 30 días hasta poder retomar el uso de la aplicación o el aumento del nivel de pago a Pro, donde se tendría que llevar a cabo un pago de 20 dólares al mes.
-
-#### 3.1.3 Base de datos
-Existen dos sistemas de BBDD para escoger, relacionales y no relacionales teniendo características muy diferentes. Para nuestra aplicación hemos elegido usar bases de datos relacionales por las ayudas monetarias que vamos a recibir para el despliegue de la aplicación. Estas ayudas son para el servicio de Google SQL en Google Cloud, también hemos encontrado otro servicio relacional de PlanetScale, donde se puede desplegar y mantener una BBDD con un coste menor para la organización que Google Cloud.
-
-- Google SQL: Google Cloud ofrece un servicio totalmente gestionado de bases de datos relacionales de MySQL, PostgreSQL y SQL Server. Este servicio ofrece varios tipos de instancias para la base de datos, teniendo cada una de ellas diferente rendimiento. Para nuestro caso de uso ya definido anteriormente la potencia y el rendimiento necesarios para nuestro sistema son muy bajos, con lo cual podemos usar la instancia “db-f1-micro” para la base de datos.
-
-El costo del servicio también depende del almacenamiento usado por la organización. Para un despliegue, donde la base de datos esté en la región de Frankfurt (europe-west3), con una instancia “db-f1-micro” y un espacio de 50 GB los costes mensuales son los siguientes:
-
-| Costo de la base de datos|
-| ------ |
-|<img src="/img/tco/databases-prices.png" alt="Base de datos" width="100%" height="100%"/> 
-
-- PlanetScale: Para una base de datos con menos de 5 GB de almacenamiento, esta solución en el servicio de PlanetScale es la más recomendable teniendo un nivel gratuito muy extenso, con la capacidad de dar servicio a las aplicaciones que lo usen.
-
-| PlanetScale|
-| ------ |
-|<img src="/img/tco/row-reads.png" alt="PlanetScale" width="100%" height="100%"/> 
-
-#### 3.1.4 Conclusión
-Teniendo en cuenta lo expuesto anteriormente, hemos visto viables dos opciones para el despliegue de la infraestructura de la aplicación teniendo en cuenta la calidad del sistema:
-
-La primera opción considerada es la de App Engine. En esta, se utilizará una instancia “F” para el frontend (NextJs) y una instancia tipo “B” para el backend (FastApi).  El precio de la instancia “F” sería gratis gracias a las 28 horas que ofrece AppEngine de manera gratuita en su plataforma, mientras que la de la instancia “B” sería un total de 25.30€ mensualmente. Respecto a la base de datos, utilizando el servicio más barato que ofrece donde tenemos un almacenamiento de 50GB, una RAM de 3.75GB y tipo SSD el coste total es de 17.28€ mensuales.
-
-Por lo tanto, el precio mensual total para el despliegue del sistema ascendería a 42.58€.
-
-| Despliegue AppEngine|
-| ------ |
-|<img src="/img/tco/engine-despliegue.png" alt="Despliegue AppEngine" width="100%" height="100%"/>
-
-Otra opción para el despliegue de la infraestructura necesaria para la aplicación, consistiendo esta en una aplicación para el frontend realizada en NextJs, otra para el backend con la tecnología FastAPI y su base de datos correspondiente. Podría ser una combinación de diferentes hosting diferentes, para aprovechar sus límites del nivel gratuito definidos anteriormente (podría ser utilizados debido al poco tráfico y carga de nuestra aplicación). En este caso se utilizarían los servicios de App Engine para el backend de la aplicación, Vercel para el despliegue del frontend y por último el servicio de PlanetScale para la base de datos relacional. 
-
-El coste mensual de esta opción de infraestructura sería el costo mensual del backend en App Engine, ya que con el nivel gratuito de Vercel y PlanetScale sería suficiente. Este coste serían 25,30€ mensuales.
-
-Esta opción de despliegue se basa en una estimación de la carga y tráfico de las organizaciones, Tertulia Cofrade Cirio y Costal y Asociación Ciudadana de Ayuda al Toxicómano, donde su requerimientos no superan los límites gratuitos de Vercel y PlanetScale. Pues los usuarios que van a utilizar el sistema son solo sus administradores. 
-
-En el siguiente gráfico, la “Opción1” representa la opción de un hosting completo en AppEngine explicada previamente, y la “Opción2” representa un hosting en Vercel, App Engine y  PlanetScale también detallada previamente. En el eje y se representa los subsistemas de los que está formado el sistema, y en el eje x el precio mensual de cada uno de ellos.
-
-| Comparativa de precios|
-| ------ |
-|<img src="/img/tco/comparativa-precios.png" alt="Comparativa de precios" width="100%" height="100%"/>
-
-Finalmente, como buscamos el menor coste posible para las ONGs, nos decidimos por elegir la opción 2, que conlleva el despliegue del frontend en Vercel, el backend en AppEngine y la base de datos en PlanetScale, con un coste total mensual de 25,30€.
-
-### 3.2 Costes de personal externo
-En nuestro caso, teniendo en cuenta que tenemos una carga de usuarios mínima porque solamente utilizan el sistema los administradores de las ONG 'S, suponemos suficiente la contratación de 2 desarrolladores externos a nosotros para el mantenimiento del sistema una vez esté en completo funcionamiento. 
-
-Como comentamos previamente, suponemos un sueldo de programador de 11.25 €/h. Suponemos también una dedicación de 5 horas semanales por desarrollador para el mantenimiento del sistema, por lo tanto el coste mensual de mantenimiento del sistema es de: 11.25 x 5 x 2 x 4 = 450.00€
-
-### 3.3 Costes de licencias externas
-En este proyecto, para la CI/CD, se utiliza GitHub Actions, pues además se utiliza GitHub para el desarrollo de este. Hay que tener en cuenta el limite de minutos para la CI/CD.
-
-| GitHub Plan|
-| ------ |
-|<img src="/img/tco/github-precios.png" alt="GitHub Plan" width="100%" height="100%"/>
-
-Utilizando la calculadora de precios de GitHub podemos ver el precio de 2 jobs diarios de 5 minutos cada uno para cada mes, lo cual suponemos suficiente, que es de 2.22€. Por lo que el coste mensual de las licencias externas es de 2.22€.
-| GitHub Actions|
-| ------ |
-|<img src="/img/tco/github-actions.png" alt="GitHub Actions" width="100%" height="100%"/>
-
-El total de minutos mensuales sería de 2 x 5 x 30 = 300 minutos.
-
-Como en la actualidad para los proyectos open source, como el nuestro, este plan es gratuito (ver plan de GitHub) pues el total se encuentra por debajo de los 2000 minutos mensuales, en nuestro TCO actual los costes de la licencia de GitHub siguen siendo de 0€. 
-
-Además, el resto de herramientas que pueden necesitar los desarrolladores externos a nosotros para la operación son de uso gratuito, como pueden ser los entornos de desarrollo integrados gratuitos como VSCode o sistemas de comunicación gratuitos como Discord.
-
-### 3.4 Costes de GDPR
-En este sistema, se tratan datos sensibles y personales sobre familiares o personas. Esto hace necesario la introducción de una serie de roles y responsabilidades para garantizar el cumplimiento de las normativas de protección de datos, Reglamento General de Protección de Datos (GDPR por sus siglas en inglés). 
-
-En nuestro caso, donde el sistema solamente va a ser utilizado por los administradores, y donde no va a haber una gran cantidad de usuarios, suponemos que es suficiente con la introducción de un Data Protection Officer (DPO). Suponemos también un sueldo medio de 22.50€ por hora, y una dedicación semanal de 10 horas. Por lo tanto, el coste mensual de GDPR es de: 22.50 x 10 x 4 = 900.00€
-
-### 3.5 Costes de SLA
-En nuestro caso, establecemos un SLA (Service Level Agreement) para el soporte al cliente que comprende la resolución de incidencias, solicitudes de usuarios y RFC (Request for Change) con los siguientes tiempos de respuesta (TTR):
-
-- **Resolución de Incidencias**: 30 minutos
-- **Solicitudes de Usuarios***: 60 minutos
-- **RFC**: 4 horas
-
-Además, se tiene en cuenta que la cantidad media de estos son:
-
-- **Resolución de Incidencias**: 50 peticiones/mes
-- **Solicitudes de Usuarios**: 20 peticiones/mes
-- **RFC**:2 petición/mes
-
-Para calcular los costes mensuales del SLA, primero calculamos el número total de horas dedicadas a cada tipo de servicio al mes:
-
-- **Resolución de Incidencias**: 25 horas/mes
-- **Solicitudes de Usuarios**: 20 horas/mes
-- **RFC**: 8 horas/mes
-
-Para el soporte al cliente se contratará a un técnico con un sueldo de 20€/hora, que se encargue de gestionarlo y dar solución a los problemas que puedan surgir.
-A continuación, calculamos los costes asociados a cada tipo de servicio:
-
-- **Resolución de Incidencias**: 25 x 20 = 500€
-- **Solicitudes de Usuarios**: 20 x 20 = 400€
-- **RFC**: 8 x 20 = 160€
-
-Por lo tanto, el coste total mensual del SLA sería:
-
-- **Coste total mensual del SLA**: 500€ + 400€ + 160€ = 1060€
-
-Este sería el costo mensual total de cumplir con el SLA para nuestro proyecto de software.
-
-## 4. Costes de contingencia
-Hay que tener en cuenta que a la hora de analizar y prever los riesgos, también es necesario desarrollar un plan de contingencia para cada uno de ellos. Esto conlleva a que se tengan que dedicar una serie de costes para estos planes.  Para este sistema, suponemos un 15% de los costes totales a dedicar a los planes de contingencia, ya que se suele recomendar una cifra entre un 10% y un 20% de manera general.
-
-Teniendo en cuenta todos los costes previos, se obtiene un coste total de 63778.27€. Por lo que el coste de contingencia sería: 0,15 x 63778.27 = 9566.75€.
-
-## 5. Coste total de la propiedad
-Para el TCO actual, aún no suponemos costes de marketing ni el ROI (Return of Investment), porque no tenemos un plan de negocio claro por lo que serían demasiadas suposiciones (por lo menos todavía).
-
-Por lo tanto, teniendo en cuenta la estimación de costes de desarrollo del proyecto, y la estimación respectiva a la operación del sistema, a los costes de GDPR y a los costes de contingencia, nos queda el siguiente Coste Total de la Propiedad (TCO) para un año:
-
-|  |     | Coste mensual| Coste anual|
-| ------- | ---------- | ------------------------ | ------------------------ |
-| CapEx  | Personal desarrollo | -  | 33390.00€ (33.4K) |
-| CapEx  | Material | -  | 1164.67€ (1.2K) |
-| OpEx   | Despliegues | 25.30€ | 303.60€ (0.4K) |
-| OpEx   | Personal externo | 450.00€  | 5400.00€ (5.5K) |
-| OpEx   | Licencias externas | 0.00€ | 0.00€ (0K) |
-| OpEx   | GDPR | 900.00€ | 10800.00€ (10.9K)|
-| OpEx   | SLA | 1060.00€  | 12720.00€ (12.8K) |
-|        | Contingencia | -  | 9566.75€ (9.6K) |
-| Total  | TCO | -  | **73345.02€ (73.4K)** |
-
-
-El coste total de la propiedad anual es de **73.4K**.
-
-
-
-
-
-
----
-title: TCO Summary - MuscleMate - Entregable #S1
----
-
-# TCO Summary
-
-## MuscleMate
-
-### Entregable - #S1
-### Grupo - 03
-
-## Miembros del Equipo
-
-- Pedro González Marcos
-- Juan Jesús Martín Hernández
-- Manuel Ortega Garcia
-- David del Hoyo Carcaboso
-- Jorge Romero Limón
-- Agustín Devós Bono
-- David Zarandieta Ortiz
-- David Dana Cabello
-- Alejandro Mateo Capilla
-- Alejandro Sosa Corral
-- Ángel Muñoz Prieto
-- Luis Garcia Parras
-- Elena Tomás Vela
-- Juan Carlos Moreno Pérez
-- Manuel Vázquez Martin
-
-## CapEx
-
-- Ordenadores: 500 €/Ordenador X 15 empleados = 7500€
-- Amortización (lo que costó hacer el proyecto): 57470€
-
-**Total: 64970€**
-
-## OpEx
-
-- AppEngine: 18 €/mes cada gimnasio
+- AppEngine: 18 €/mes por gimnasio
 - Sonarcloud (plan de 500.000 líneas de código): 160 €/mes
-- Github team: 4€/user/mes X 15 usuarios = 60 €/mes
+- Github team: 60 €/mes
 - Alquiler de oficinas: 2500 €/mes
 - Luz: 648 €/mes
 - Agua: 160 €/mes
-- Gastos de trabajadores: 1 X 1120 + 1 X 800 + 3 X 640 + 3 X 960 + 7 X 320 = 8960 €/mes
+- Gastos de trabajadores: 8960 €/mes
 
-**Total: 12506 €/mes**
+**Coste total de operación mensual = 12506 €/mes**
 

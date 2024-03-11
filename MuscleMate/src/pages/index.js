@@ -3,7 +3,8 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import { Icon } from "@iconify-icon/react";
+import { Icon } from "@iconify/react";
+
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -29,13 +30,13 @@ function HomepageHeader() {
             <div className={styles.buttons}>
               <Link
                 className="button button--primary button--lg"
-                to="/docs/intro"
+                to="/docs/Feedback/feedback%20grupo%203"
               >
                 Pruébalo ya
               </Link>
               <Link
                 className="button button--secondary button--lg"
-                to="/docs/intro"
+                to="/docs/Feedback/feedback%20grupo%203"
               >
                 Mira nuestro proceso
               </Link>

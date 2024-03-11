@@ -13,10 +13,9 @@ A continuación, mostraremos las estadísticas de la semana del martes 30 de ene
 | Reloj semanal del proyecto                                                        |
 | --------------------------------------------------------------------------------- |
 | ![Estadística reloj de grupo](/img/stats/06-02-2024/06-02-2024_relojProyecto.png) |
+|![](/img/stats/06-02-2024/06-02-2024_relojProyecto2.png)                             |
 
-| Reloj de subgrupos                                                                    |
-| ------------------------------------------------------------------------------------- |
-| ![Estadística reloj de subgrupo](/img/stats/06-02-2024/06-02-2024_relojSubgrupos.png) |
+
 
 | Horas trabajadas por día                                                                   |
 | ------------------------------------------------------------------------------------------ |
