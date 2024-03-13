@@ -140,7 +140,7 @@ Estos endpoints permiten acceder a toda la información de los dueños, una sub-
 
 ## Gym
 
-Estos endpoints permiten acceder a toda la información de los gimnasios
+Estos endpoints permiten acceder a toda la información de los gimnasios.
 
 	gyms/
 	
@@ -185,7 +185,7 @@ Estos endpoints permiten acceder a toda la información de los gimnasios
 
 ## Equipment
 
-Estos endpoints permiten acceder a toda la información de los equipamientos de cada gimnasio
+Estos endpoints permiten acceder a toda la información de los equipamientos de cada gimnasio.
 
 	equipments/
 
@@ -256,7 +256,7 @@ Estos endpoints permiten acceder a toda la información de las reviews de cada e
 
 	assesments/create/
 
-- POST [Client]: Permite la introducción de una nueva review a la base de datos. Permitirá la petición solo si el cliente logeado no ha realizado un assesment de la máquina indicada todavía  y la máquina indicada es de el gimnasio en el que el cliente está inscrito. Requiere:
+- POST [Client]: Permite la introducción de una nueva review a la base de datos. Permitirá la petición solo si el cliente logeado no ha realizado todavía un assesment de la máquina indicada y la máquina indicada es de el gimnasio en el que el cliente está inscrito. Requiere:
 	- stars
 	- equipment {Equipment}
 	- client {Client}
@@ -264,7 +264,7 @@ Estos endpoints permiten acceder a toda la información de las reviews de cada e
 
 	assesments/update/<int:pk>/
 
-- PUT [Client]: Permite la modificación de una review de la base de datos. Permitirá la petición solo si el assesment fue realizado por el cliente que realiza la petición y este está todavía suscrito a el gimnasio. Requiere:
+- PUT [Client]: Permite la modificación de una review de la base de datos. Permitirá la petición solo si el assesment fue realizado por el cliente que realiza la petición y este está todavóa suscrito a el gimnasio. Requiere:
 	- stars
 	- equipment {Equipment}
 	- client {Client}
