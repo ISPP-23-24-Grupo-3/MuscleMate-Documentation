@@ -21,7 +21,7 @@ Estos endpoints permiten acceder a toda la información de los usuarios:
 	- password
  <!-- -->
  
-	users/update/<str:username>/
+	users/update/str:username/
 
 - PUT [Admin]: Permite editar los datos de un usuario, por ejemplo, su contraseña. Requiere:
 	- username
