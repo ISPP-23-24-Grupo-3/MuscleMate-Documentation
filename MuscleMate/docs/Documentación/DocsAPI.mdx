@@ -8,53 +8,45 @@ Por cada endpoint se indicará mediante corchetes [ ] el método a través de el
 ## Users
 
 Estos endpoints permiten acceder a toda la información de los usuarios:
-
+```
 	users/
-
+```
 - GET [Admin]: Permite listar todos los usuarios registrados en la base de datos, incluyendo Owners, Clients y Gym.
-<!-- -->
-
+```
 	users/create/
-
+```
 - POST [Admin]: Permite la creación de un nuevo usuario. Requiere:
 	- username
 	- password
- <!-- -->
- 
+``` 
 	users/update/str:username/
-
+```
 - PUT [Admin]: Permite editar los datos de un usuario, por ejemplo, su contraseña. Requiere:
 	- username
 	- password
- <!-- -->
- 
-	 users/delete/<str:username>/
-	
+``` 
+	 users/delete/str:username/
+```	
 - DELETE [Admin]: Permite eliminar un usuario dado su username.
-
 ## Clients
-
 Estos endpoints permiten acceder a toda la información de los clientes, una sub-clase de usuario.
-
+```
 	clients/
-	
+```
  - GET [Gym, Owner]: Permite el listado de todos los clientes de la base de datos.
-<!-- -->
-
-	clients/<int:gymId>/
-
+```
+	clients/int:gymId>/
+```
 - GET [Gym, Owner]: Permite el listado de todos los clientes asignados a el gym indicado en la URL. En el caso de Owner, permitirá la petición si es dueño de el gimnasio indicado.
-<!-- -->
-
-	clients/detail/<int:pk>/
-
+```
+	clients/detail/int:pk>/
+```
 - GET [Gym, Owner, Client]: Permite obtener información de el cliente especificado en la URL. Aceptará la petición sí:
 	- Eres dueño o gimnasio
 	- El cliente pedido es el mismo que el que está logeado.
-<!-- -->
-
+```
 	clients/create/
-
+```
 - POST [Gym, Owner]: Permite la creación de un nuevo usuario así como un cliente asociado. Requiere:
 	- name
 	- lastName
@@ -66,14 +58,13 @@ Estos endpoints permiten acceder a toda la información de los clientes, una sub
 	- register [True, False]
 	- username
 	- password
-	- gym {Gym}
+	- gym Gym
 Con campos opcionales:
 	- birth
 	- gender [Male, Female, Other]
-<!-- -->
-
-	clients/update/<ind:pk>/
-
+```
+	clients/update/ind:pk>/
+```
 - PUT [Owner, Gym, User]: Permite la edición de los datos de un cliente en la base de datos. Aceptará la petición si:
 	- Eres dueño o gimnasio
 	- El cliente pedido es el mismo que el que está logeado
@@ -86,33 +77,29 @@ Con campos opcionales:
 	- address
 	- city
 	- register [True, False]
-	- user {User}
-	- gym {Gym}
+	- user User
+	- gym Gym
 Con campos opcionales:
 	- birth
 	- gender [Male, Female, Other]
-<!-- -->
-
-	clients/delete/<int:pk>/
-
+```
+	clients/delete/int:pk>/
+```
 - DELETE [Owner]: Permite eliminar a un usuario de la base de datos así como su usuario asociado dada su clave primaria.
 
 ## Owners
-
 Estos endpoints permiten acceder a toda la información de los dueños, una sub-clase de usuario.
-
+```
 	owners/
-
+```
 - GET: Permite obtener un listado de todos los dueños de la base de datos.
-<!-- -->
-
-	owners/detail/<int:pk>/
-
+```
+	owners/detail/int:pk>/
+```
 - GET: Permite obtener información de el dueño especificado en la URL.
-<!-- -->
-
+```
 	owners/create/
-
+```
 - POST: Permite crear un nuevo dueño así como su usuario asociado. Requiere:
 	- name
 	- lastName
@@ -121,39 +108,33 @@ Estos endpoints permiten acceder a toda la información de los dueños, una sub-
 	- address
 	- username
 	- password
-<!-- -->
-
-	owners/update/<int:pk>/
-
+```
+	owners/update/int:pk>/
+```
 - PUT: Permite actualizar los datos de un dueño en la base de datos. Requiere:
  	- name
 	- lastName
 	- email
 	- phoneNumber
 	- address
-	- userCustom {User}
-<!-- -->
-
-	owners/delete/<int:pk>/
-
+	- userCustom User
+```
+	owners/delete/int:pk>/
+```
 - DELETE: Permite eliminar un dueño de la base de datos así como su usuario asociado dada su clave privada.
-
 ## Gym
-
 Estos endpoints permiten acceder a toda la información de los gimnasios.
-
+```
 	gyms/
-	
+```
 - GET: Permite obtener un listado de todos los gimnasios de la base de datos.
-<!-- -->
-
-	gyms/detail/<int:id>/
-
+```
+	gyms/detail/int:id>/
+```
 - GET: Permite obtener información de el gimnasio especificado en la URL.
-<!-- -->
-
+```
 	gyms/create/
-
+```
 - POST [Admin, Owner]:  Permite crear un nuevo gimnasio así como su usuario asociado. Requiere:
 	- name
 	- address
@@ -161,13 +142,12 @@ Estos endpoints permiten acceder a toda la información de los gimnasios.
 	- descripcion
 	- phone_number
 	- email
-	- owner {Owner}
+	- owner Owner
 	- username
 	- password
-<!-- -->
-
-	gyms/update/<int:id>/
-
+```
+	gyms/update/int:id>/
+```
 - PUT: Permite actualizar los datos de un gimnasio en la base de datos. Requiere:
 	- name
 	- address
@@ -175,101 +155,87 @@ Estos endpoints permiten acceder a toda la información de los gimnasios.
 	- descripcion
 	- phone_number
 	- email
-	- owner {Owner}
-	- userCustom {User}
-<!-- -->
-
-	gyms/delete/<int:id>/
-
+	- owner Owner
+	- userCustom User
+```
+	gyms/delete/int:id>/
+```
 - DELETE: Permite eliminar un gimnasio de la base de datos así como su usuario asociado dado su id.
-
 ## Equipment
-
 Estos endpoints permiten acceder a toda la información de los equipamientos de cada gimnasio.
-
+```
 	equipments/
-
+```
 - GET [Owner, Client, Gym]: Permite obtener un listado de, dependiendo de la clase de usuario logeado:
 	- client: equipamientos asociados a el gimnasio en el que se encuentre inscrito.
 	- gym: equipamientos asociados a el propio gimnasio.
 	- owner: equipamientos asociados a todos los gimnasios asociados a el dueño.
-<!-- -->
-
-	equipments/detail/<int:pk>/
-
+```
+	equipments/detail/int:pk>/
+```
 - GET [Owner, Client, Gym]: Permite obtener información de el equipamiento indicado en la URL. Aceptará la petición sí:
 	- client: El equipamiento está asignado a el gimnasio en el que está inscrito.
 	- gym: El equipamiento está asignado a el propio gimnasio.
 	- owner: El equipamiento está asignado a algún gimnasio asociado a el dueño.
-<!-- -->
-
+```
 	equipments/create/
-
+```
 - POST [Owner]: Permite la introducción de un nuevo equipamiento a la base de datos. Permitirá la petición solo si el gimnasio indicado en esta es propiedad de el dueño logueado. Requiere:
 	- name
 	- brand
 	- serial_number
 	- description
 	- muscular_group [Arms, Legs, Core, Chest, Back, Shoulders, Other]
-	- gym {Gym}
-<!-- -->
-
-	equipments/update/<int:pk>/
-
+	- gym Gym
+```
+	equipments/update/int:pk>/
+```
 - PUT [Owner]: Permite la edición de los datos de un equipamiento en la base de datos. Aceptará la petición si el equipamiento está asignado a el dueño logeado. Requiere:
 	- name
 	- brand
 	- serial_number
 	- description
 	- muscular_group [Arms, Legs, Core, Chest, Back, Shoulders, Other]
-	- gym {Gym}
-<!-- -->
-
-	equipments/delete/<int:pk>/
-
+	- gym Gym
+```
+	equipments/delete/int:pk>/
+```
 - DELETE [Owner]: Permite eliminar un equipamiento de la base de datos. Aceptará la petición si el equipamiento está asignado a el dueño logeado.
-<!-- -->
-
-	equipments/time/<int:pk>/
-
+```
+	equipments/time/int:pk>/
+```
 - GET: Permite obtener el tiempo total de todas las series realizadas sobre una máquina específica indicada en la URL.
-<!-- -->
 
 ## Assesment
 
 Estos endpoints permiten acceder a toda la información de las reviews de cada equipamiento de el gimnasio.
-
+```
 	assesments/
-
+```
 - GET [Gym, Owner]: Permite obtener un listado de todas las reviews de la base de datos.
-<!-- -->
-
-	assesments/client/<int:clientId>/
-
+```
+	assesments/client/int:clientId>/
+```
 - GET: Permite obtener un listado de las reviews de el cliente indicado en la URL.
-<!-- -->
-
-	assesments/detail/<int:pk>/
-
+```
+	assesments/detail/int:pk>/
+```
 - GET: Permite obtener información de la review indicada en la URL.
-<!-- -->
-
+```
 	assesments/create/
-
+```
 - POST [Client]: Permite la introducción de una nueva review a la base de datos. Permitirá la petición solo si el cliente logeado no ha realizado todavía un assesment de la máquina indicada y la máquina indicada es de el gimnasio en el que el cliente está inscrito. Requiere:
 	- stars
-	- equipment {Equipment}
-	- client {Client}
-<!-- -->
-
-	assesments/update/<int:pk>/
-
+	- equipment Equipment
+	- client Client
+```
+	assesments/update/int:pk>/
+```
 - PUT [Client]: Permite la modificación de una review de la base de datos. Permitirá la petición solo si el assesment fue realizado por el cliente que realiza la petición y este está todavóa suscrito a el gimnasio. Requiere:
 	- stars
-	- equipment {Equipment}
-	- client {Client}
-<!-- -->
-
-	assesments/delete/<int:pk>/
-
+	- equipment Equipment
+	- client Client
+```
+	assesments/delete/int:pk/
+```
 - DELETE [Client]: Permite la eliminación de una review de la base de datos. Permitirá la petición solo si el assesment fue realizado por el cliente que realiza la petición y este está todavía suscrito a el gimnasio.
