@@ -12,38 +12,46 @@ Estos endpoints permiten acceder a toda la información de los usuarios:
 	users/
 ```
 - GET [Admin]: Permite listar todos los usuarios registrados en la base de datos, incluyendo Owners, Clients y Gym.
+
 ```
 	users/create/
 ```
 - POST [Admin]: Permite la creación de un nuevo usuario. Requiere:
 	- username
 	- password
+
 ``` 
-	users/update/str:username/
+	users/update/<str:username>/
 ```
 - PUT [Admin]: Permite editar los datos de un usuario, por ejemplo, su contraseña. Requiere:
 	- username
 	- password
+
 ``` 
-	 users/delete/str:username/
+	 users/delete/<str:username>/
 ```	
 - DELETE [Admin]: Permite eliminar un usuario dado su username.
+
 ## Clients
+
 Estos endpoints permiten acceder a toda la información de los clientes, una sub-clase de usuario.
 ```
 	clients/
 ```
  - GET [Gym, Owner]: Permite el listado de todos los clientes de la base de datos.
+
 ```
-	clients/int:gymId>/
+	clients/<int:gymId>/
 ```
 - GET [Gym, Owner]: Permite el listado de todos los clientes asignados a el gym indicado en la URL. En el caso de Owner, permitirá la petición si es dueño de el gimnasio indicado.
+
 ```
-	clients/detail/int:pk>/
+	clients/detail/<int:pk>/
 ```
 - GET [Gym, Owner, Client]: Permite obtener información de el cliente especificado en la URL. Aceptará la petición sí:
 	- Eres dueño o gimnasio
 	- El cliente pedido es el mismo que el que está logeado.
+
 ```
 	clients/create/
 ```
@@ -62,8 +70,9 @@ Estos endpoints permiten acceder a toda la información de los clientes, una sub
 Con campos opcionales:
 	- birth
 	- gender [Male, Female, Other]
+
 ```
-	clients/update/ind:pk>/
+	clients/update/<ind:pk>/
 ```
 - PUT [Owner, Gym, User]: Permite la edición de los datos de un cliente en la base de datos. Aceptará la petición si:
 	- Eres dueño o gimnasio
@@ -77,26 +86,30 @@ Con campos opcionales:
 	- address
 	- city
 	- register [True, False]
-	- user User
-	- gym Gym
+	- user (User)
+	- gym (Gym)
 Con campos opcionales:
 	- birth
 	- gender [Male, Female, Other]
+
 ```
-	clients/delete/int:pk>/
+	clients/delete/<int:pk>/
 ```
 - DELETE [Owner]: Permite eliminar a un usuario de la base de datos así como su usuario asociado dada su clave primaria.
 
 ## Owners
+
 Estos endpoints permiten acceder a toda la información de los dueños, una sub-clase de usuario.
 ```
 	owners/
 ```
 - GET: Permite obtener un listado de todos los dueños de la base de datos.
+
 ```
-	owners/detail/int:pk>/
+	owners/detail/<int:pk>/
 ```
 - GET: Permite obtener información de el dueño especificado en la URL.
+
 ```
 	owners/create/
 ```
@@ -108,8 +121,9 @@ Estos endpoints permiten acceder a toda la información de los dueños, una sub-
 	- address
 	- username
 	- password
+
 ```
-	owners/update/int:pk>/
+	owners/update/<int:pk>/
 ```
 - PUT: Permite actualizar los datos de un dueño en la base de datos. Requiere:
  	- name
@@ -117,21 +131,26 @@ Estos endpoints permiten acceder a toda la información de los dueños, una sub-
 	- email
 	- phoneNumber
 	- address
-	- userCustom User
+	- userCustom (User)
+
 ```
-	owners/delete/int:pk>/
+	owners/delete/<int:pk>/
 ```
 - DELETE: Permite eliminar un dueño de la base de datos así como su usuario asociado dada su clave privada.
+
 ## Gym
+
 Estos endpoints permiten acceder a toda la información de los gimnasios.
 ```
 	gyms/
 ```
 - GET: Permite obtener un listado de todos los gimnasios de la base de datos.
+
 ```
-	gyms/detail/int:id>/
+	gyms/detail/<int:id>/
 ```
 - GET: Permite obtener información de el gimnasio especificado en la URL.
+
 ```
 	gyms/create/
 ```
@@ -145,8 +164,9 @@ Estos endpoints permiten acceder a toda la información de los gimnasios.
 	- owner Owner
 	- username
 	- password
+
 ```
-	gyms/update/int:id>/
+	gyms/update/<int:id>/
 ```
 - PUT: Permite actualizar los datos de un gimnasio en la base de datos. Requiere:
 	- name
@@ -155,13 +175,16 @@ Estos endpoints permiten acceder a toda la información de los gimnasios.
 	- descripcion
 	- phone_number
 	- email
-	- owner Owner
-	- userCustom User
+	- owner (Owner)
+	- userCustom (User)
+
 ```
-	gyms/delete/int:id>/
+	gyms/delete/<int:id>/
 ```
 - DELETE: Permite eliminar un gimnasio de la base de datos así como su usuario asociado dado su id.
+
 ## Equipment
+
 Estos endpoints permiten acceder a toda la información de los equipamientos de cada gimnasio.
 ```
 	equipments/
@@ -170,13 +193,15 @@ Estos endpoints permiten acceder a toda la información de los equipamientos de 
 	- client: equipamientos asociados a el gimnasio en el que se encuentre inscrito.
 	- gym: equipamientos asociados a el propio gimnasio.
 	- owner: equipamientos asociados a todos los gimnasios asociados a el dueño.
+
 ```
-	equipments/detail/int:pk>/
+	equipments/detail/<int:pk>/
 ```
 - GET [Owner, Client, Gym]: Permite obtener información de el equipamiento indicado en la URL. Aceptará la petición sí:
 	- client: El equipamiento está asignado a el gimnasio en el que está inscrito.
 	- gym: El equipamiento está asignado a el propio gimnasio.
 	- owner: El equipamiento está asignado a algún gimnasio asociado a el dueño.
+
 ```
 	equipments/create/
 ```
@@ -186,9 +211,10 @@ Estos endpoints permiten acceder a toda la información de los equipamientos de 
 	- serial_number
 	- description
 	- muscular_group [Arms, Legs, Core, Chest, Back, Shoulders, Other]
-	- gym Gym
+	- gym (Gym)
+
 ```
-	equipments/update/int:pk>/
+	equipments/update/<int:pk>/
 ```
 - PUT [Owner]: Permite la edición de los datos de un equipamiento en la base de datos. Aceptará la petición si el equipamiento está asignado a el dueño logeado. Requiere:
 	- name
@@ -196,13 +222,15 @@ Estos endpoints permiten acceder a toda la información de los equipamientos de 
 	- serial_number
 	- description
 	- muscular_group [Arms, Legs, Core, Chest, Back, Shoulders, Other]
-	- gym Gym
+	- gym (Gym)
+
 ```
-	equipments/delete/int:pk>/
+	equipments/delete/<int:pk>/
 ```
 - DELETE [Owner]: Permite eliminar un equipamiento de la base de datos. Aceptará la petición si el equipamiento está asignado a el dueño logeado.
+
 ```
-	equipments/time/int:pk>/
+	equipments/time/<int:pk>/
 ```
 - GET: Permite obtener el tiempo total de todas las series realizadas sobre una máquina específica indicada en la URL.
 
@@ -213,29 +241,194 @@ Estos endpoints permiten acceder a toda la información de las reviews de cada e
 	assesments/
 ```
 - GET [Gym, Owner]: Permite obtener un listado de todas las reviews de la base de datos.
+
 ```
-	assesments/client/int:clientId>/
+	assesments/client/<int:clientId>/
 ```
 - GET: Permite obtener un listado de las reviews de el cliente indicado en la URL.
+
 ```
-	assesments/detail/int:pk>/
+	assesments/detail/<int:pk>/
 ```
 - GET: Permite obtener información de la review indicada en la URL.
+
 ```
 	assesments/create/
 ```
 - POST [Client]: Permite la introducción de una nueva review a la base de datos. Permitirá la petición solo si el cliente logeado no ha realizado todavía un assesment de la máquina indicada y la máquina indicada es de el gimnasio en el que el cliente está inscrito. Requiere:
 	- stars
 	- equipment Equipment
-	- client Client
+	- client (Client)
+
 ```
-	assesments/update/int:pk>/
+	assesments/update/<int:pk>/
 ```
 - PUT [Client]: Permite la modificación de una review de la base de datos. Permitirá la petición solo si el assesment fue realizado por el cliente que realiza la petición y este está todavóa suscrito a el gimnasio. Requiere:
 	- stars
-	- equipment Equipment
-	- client Client
+	- equipment (Equipment)
+	- client (Client)
+
 ```
-	assesments/delete/int:pk/
+	assesments/delete/<int:pk>/
 ```
 - DELETE [Client]: Permite la eliminación de una review de la base de datos. Permitirá la petición solo si el assesment fue realizado por el cliente que realiza la petición y este está todavía suscrito a el gimnasio.
+
+## Ticket
+
+Estos endpoints permiten acceder a toda la información de los tickets de cada equipamiento de el gimnasio.
+```
+	tickets/
+```
+- GET: Permite obtener un listado de todos los tickets de la base de datos
+
+```
+	tickets/detail/<int:pk>/
+```
+- GET: Permite obtener los detalles de el ticket indicado en la URL.
+
+```
+	tickets/create/
+```
+- POST [Client]: Permite la introducción de un nuevo ticket a la base de datos. Requiere:
+	- label
+	- description
+	- equipment
+
+```
+	tickets/update/<int:pk>/
+```
+- PUT: Permite la actualización un ticket de la base de datos. Requiere:
+	- label
+	- description
+	- equipment
+	- status [True, False]
+
+```
+	tickets/delete/<int:pk>/
+```
+- DELETE: Permite la eliminación de un ticket de la base de datos.
+
+## Routine
+
+Estos endpoints permiten acceder a toda la información de las rutinas de cada cliente.
+```
+	routines/
+```
+- GET [Gym, Owner]: Permite obtener un listado de las rutinas almacenadas en la base de datos.
+
+```
+	routines/client/<int:clientId>/
+```
+- GET [Client, Gym, Owner]: Permite obtener un listado de las rutinas asignadas a un cliente concreto. Se aceptará la petición sí:
+	- client: solo se aceptará si el cliente pedido es el mismo que el logeado.
+	- owner o gym: se aceptará directamente.
+
+```
+	routines/detail/<int:pk>/
+```
+- GET [Clent]: Permite obtener detalles de la rutina indicada en la URL. Solo aceptará la petición si la rutina está asignada a el cliente logeado.
+
+```
+	routines/create/
+```
+- POST [Client]: Permite introducir una nueva rutina a la base de datos. Solo aceptará la petición si el cliente asignado a la rutina es el mismo que el logeado. Requiere:
+	- name
+	- client (Client)
+
+```
+	routines/update/<int:pk>/
+```
+- PUT [Clent]: Permite la mofificación de la rutina indicada en la URL. Solo aceptará la petición si la rutina indicada está asignada a el cliente logeado. Requiere:
+	- name
+	- client (Client)
+
+```
+	routines/delete/<int:pk>/
+```
+- DELETE [Client]: Permite la eliminación de la rutina indicada en la URL. Solo aceptará la petición si la rutina indicada está asignada a el cilente logeado.
+
+## Workout
+
+Estos endpoints permiten acceder a toda la información de los ejercicios de cada rutina.
+```
+	workouts/
+```
+- GET: Permite obtener un listado de todos los ejercicios de la base de datos.
+
+```
+	workouts/detail/<int:pk>/
+```
+- GET: Permite obtener los detalles de el ejercicio indicado en la URL.
+
+```
+	workouts/create/
+```
+- POST: Permite la creación de un nuevo ejercicio en la base de datos. Requiere:
+	- name
+	- client (Client)
+	- routine (List(Routine))
+	- equipment (List(Equipment))
+
+```
+	workouts/update/<int:pk>/
+```
+- PUT: Permite la actualización de el ejercicio indicado en la URL. Requiere:
+	- name
+	- client (Client)
+	- routine (List(Routine))
+	- equipment (List(Equipment))
+
+```
+	workouts/delete/<int:pk>/
+```
+- DELETE: Permite la eliminación de el ejercicio indicado en la URL.
+
+## Serie
+Estos endpoints permiten acceder a toda la información de las series de cada ejercicio.
+```
+	series/
+```
+- GET [Gym, Owner]: Permite listar todas las series de la base de datos.
+
+```
+	series/detail/<int:pk>/
+```
+- GET [Client]: Permite obtener los detalles de la serie indicada en la URL. Solo aceptará la petición si estas logeado como el cliente asociado a el ejercicio asociado a la serie.
+
+```
+	series/create/
+```
+- POST [Client]: Permite crear una nueva serie en la base de datos. Solo aceptará la petición si el ejercicio indicado en el cuerpo está relacionado con el cliente logeado. Requiere:
+	- reps
+	- weight
+	- date
+	- duration
+	- workout (Workout)
+
+```
+	series/update/<int:pk>/
+```
+- PUT [Client]: Permite actualizar la serie indicada en la URL. Solo aceptará la petición si el ejercicio indicado en el cuerpo está relacionado con el cliente logeado. Requiere:
+	- reps
+	- weight
+	- date
+	- duration
+	- workout (Workout)
+
+```
+	series/delete/<int:pk>/
+```
+- DELETE [Client]: Permite la eliminación de la serie indicada en la URL. Solo aceptará la petición si el ejercicio de la serie indicada está relacionado con el cliente logeado.
+
+```
+	series/workout/<int:pk>/
+```
+- GET [Client]: Permite el listado de todas las series relacionadas con el ejercicio indicado en la URL. Solo aceptará la petición si el ejercicio indicado está relacionado con el cliente logeado.
+
+## Event
+
+...
+
+## Reservation
+
+...
