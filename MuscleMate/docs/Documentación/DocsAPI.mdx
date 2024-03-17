@@ -77,6 +77,7 @@ Con campos opcionales:
 - PUT [Owner, Gym, User]: Permite la edición de los datos de un cliente en la base de datos. Aceptará la petición si:
 	- Eres dueño o gimnasio
 	- El cliente pedido es el mismo que el que está logeado
+	
 	Requiere:
 	- name
 	- lastName
@@ -384,6 +385,7 @@ Estos endpoints permiten acceder a toda la información de los ejercicios de cad
 - DELETE: Permite la eliminación de el ejercicio indicado en la URL.
 
 ## Serie
+
 Estos endpoints permiten acceder a toda la información de las series de cada ejercicio.
 ```
 	series/
@@ -427,8 +429,96 @@ Estos endpoints permiten acceder a toda la información de las series de cada ej
 
 ## Event
 
-...
+Estos endpoints permiten acceder a toda la información de los eventos de cada gimnasio.
+```
+	events/
+```
+- GET [Gym, Owner]: Permite listar todos los eventos de la base de datos.
+
+```
+	events/detail/<int:pk>/
+```
+- GET [Gym, Owner, Client]: Permite obtener los detalles de el evento indicado en la URL. Solo aceptará la petición si el dueño, cliente o gimnasio logeado está relacionado con el gimnasio relacionado con el evento indicado.
+
+```
+	events/gym/<int:gymId>/
+```
+- GET [Gym, Owner, Client]: Permite obtener todos los eventos relacionados con el gimnasio indicado en la URL. Solo aceptará la petición si el gimnasio indicado está relacionado con el cliente, gimnasio o dueño logeado.
+
+```
+	events/create/
+```
+- POST [Gym, Owner]: Permite crear un nuevo evento en la base de datos. Solo aceptará la petición si el gimnasio indicado en el cuerpo está relacionado con el cliente, gimnasio o dueño logeado. Requiere:
+	- name
+	- description
+	- capacity
+	- attendees
+	- instructor
+	- date
+	- duration
+	- gym (Gym)
+
+```
+	events/update/<int:pk>/
+```
+- PUT [Gym, Owner]: Permite editar la información de el evento indicado en la URL. Solo aceptará la petición si el evento indicado está relacionado con el gimnasio o cliente indicado. Requiere:
+	- name
+	- description
+	- capacity
+	- attendees
+	- instructor
+	- date
+	- duration
+	- gym (Gym)
+
+```
+	events/delete/<int:pk>/
+```
+- DELETE [Gym, Owner]: Permite la eliminación de un evento de la base de datos. Solo aceptará la petición si el evento indicado en la URL está relacionado con el gimnasio o dueño logeado.
 
 ## Reservation
 
-...
+Estos endpoints permiten acceder a toda la información de las reservas de cada evento.
+```
+	reservations/all/
+```
+- GET: Permite listar todas las reservas de la base de datos.
+
+```
+	reservations/client/<int:clientId>/
+```
+- GET [Gym, Owner, Client]: Permite listar todas las reservas relacionadas con el cliente indicado en la URL. Solo aceptará la petición si el gimnasio relacionado con el cliente indicado está relacionado con el gimnasio, dueño o cliente logeado.
+
+```
+	reservations/event/<int:eventId>/
+```
+- GET [Gym, Owner, Client]: Permite listar todas las reservas relacionadas con el evento indicado en la URL. Solo aceptará la petición si el gimnasio relacionado con el evento indicado está relacionado con el gimnasio, dueño o cliente logeado.
+
+```
+	reservations/detail/<int:pk>/
+```
+- GET [Gym, Owner, Client]: Permite obtener los detalles de la reserva indicada en la URL. Solo aceptará la petición si el gimnasio relacionado con la reserva indicada está relacionado con el gimnasio, dueño o cliente logeado.
+
+```
+	reservations/create/
+```
+- POST [Gym, Owner, Client]: Permite introducir una nueva reserva a la base de datos. Solo aceptará la petición si:
+	- El gimnasio indicado en el cuerpo está relacionado con el gimnasio, dueño o cliente logeado.
+	- El evento no está completo todavía (capacidad > atendientes)
+	- No existe una reserva todavía para el cliente indicado en el evento indicado.
+	
+	Requiere:
+	- cliente (Client)
+	- event (Event)
+
+```
+	reservations/update/<int:pk>/
+```
+- PUT [Gym, Owner, Client]: Permite la mofificación de la reserva indicada en la URL. Solo aceptará la petición si el gimnasio relacionado con la reserva indicada está relacionado con el gimnasio, dueño o cliente logeado. Requiere:
+	- cliente (Client)
+	- event (Event)
+
+```
+	reservation/delete/<int:pk>/
+```
+- DELETE [Gym, Owner, Client]: Permite la eliminación de una reserva de la base de datos. Solo aceptará la petición si el gimnasio relacionado con la reserva indicada en la URL está relacionado con el gimnasio, dueño o cliente logeado.
