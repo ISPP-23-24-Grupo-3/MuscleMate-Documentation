@@ -446,6 +446,11 @@ Estos endpoints permiten acceder a toda la información de los eventos de cada g
 - GET [Gym, Owner, Client]: Permite obtener todos los eventos relacionados con el gimnasio indicado en la URL. Solo aceptará la petición si el gimnasio indicado está relacionado con el cliente, gimnasio o dueño logeado.
 
 ```
+	events/client/<int:clientId>/
+```
+- GET [Gym, Owner, Client]: Permite obtener todos los eventos a los que va a asistir el cliente indicado en la URL (existe una reserva a su nombre). Solo aceptará la petición si el gimnasio relacionado con el cliente indicado está relacionado con el cliente, gimnasio o dueño logeado.
+
+```
 	events/create/
 ```
 - POST [Gym, Owner]: Permite crear un nuevo evento en la base de datos. Solo aceptará la petición si el gimnasio indicado en el cuerpo está relacionado con el cliente, gimnasio o dueño logeado. Requiere:
