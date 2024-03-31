@@ -6,7 +6,7 @@ Este archivo va a servir como guia para el uso de la **API** de el backend de
 MuscleMate, indicando todos los endpoints accesibles así como los
 **campos necesarios** a incluir en la request, en caso de que sean necesarios.
 
-Por cada endpoint se indicará mediante corchetes `[ ]` el método a través de el
+Por cada endpoint se indicará mediante corchetes ` ` el método a través de el
 cual se puede acceder así como cualquier permiso que sea necesario para acceder
 a este (generalmente estar logeado como **admin** o **owner**).
 
@@ -18,13 +18,13 @@ Estos endpoints permiten acceder a toda la información de los usuarios:
 	users/
 ```
 
-- GET [Admin]: Permite listar todos los usuarios registrados en la base de datos, incluyendo Owners, Clients y Gym.
+- GET Admin : Permite listar todos los usuarios registrados en la base de datos, incluyendo Owners, Clients y Gym.
 
 ```
 	users/create/
 ```
 
-- POST [Admin]: Permite la creación de un nuevo usuario. Requiere:
+- POST Admin : Permite la creación de un nuevo usuario. Requiere:
   - username
   - password
 
@@ -32,7 +32,7 @@ Estos endpoints permiten acceder a toda la información de los usuarios:
 	users/update/<str:username>/
 ```
 
-- PUT [Admin]: Permite editar los datos de un usuario, por ejemplo, su contraseña. Requiere:
+- PUT Admin : Permite editar los datos de un usuario, por ejemplo, su contraseña. Requiere:
   - username
   - password
 
@@ -40,7 +40,7 @@ Estos endpoints permiten acceder a toda la información de los usuarios:
 	 users/delete/<str:username>/
 ```
 
-- DELETE [Admin]: Permite eliminar un usuario dado su username.
+- DELETE Admin : Permite eliminar un usuario dado su username.
 
 ## Clients
 
@@ -50,19 +50,19 @@ Estos endpoints permiten acceder a toda la información de los clientes, una sub
 	clients/
 ```
 
-- GET [Gym, Owner]: Permite el listado de todos los clientes de la base de datos.
+- GET Gym, Owner: Permite el listado de todos los clientes de la base de datos.
 
 ```
 	clients/<int:gymId>/
 ```
 
-- GET [Gym, Owner]: Permite el listado de todos los clientes asignados a el gym indicado en la URL. En el caso de Owner, permitirá la petición si es dueño de el gimnasio indicado.
+- GET Gym, Owner: Permite el listado de todos los clientes asignados a el gym indicado en la URL. En el caso de Owner, permitirá la petición si es dueño de el gimnasio indicado.
 
 ```
 	clients/detail/<int:pk>/
 ```
 
-- GET [Gym, Owner, Client]: Permite obtener información de el cliente especificado en la URL. Aceptará la petición sí:
+- GET Gym, Owner, Client: Permite obtener información de el cliente especificado en la URL. Aceptará la petición sí:
   - Eres dueño o gimnasio
   - El cliente pedido es el mismo que el que está logeado.
 
@@ -70,22 +70,22 @@ Estos endpoints permiten acceder a toda la información de los clientes, una sub
 	clients/create/
 ```
 
-- POST [Gym, Owner]: Permite la creación de un nuevo usuario así como un cliente asociado. Requiere: - name - lastName - zipCode - phoneNumber - email - address - city - register [True, False] - username - password - gym Gym
-  Con campos opcionales: - birth - gender [Male, Female, Other]
+- POST Gym, Owner: Permite la creación de un nuevo usuario así como un cliente asociado. Requiere: - name - lastName - zipCode - phoneNumber - email - address - city - register True, False - username - password - gym Gym
+  Con campos opcionales: - birth - gender Male, Female, Other
 
 ```
 	clients/update/<ind:pk>/
 ```
 
-- PUT [Owner, Gym, User]: Permite la edición de los datos de un cliente en la base de datos. Aceptará la petición si: - Eres dueño o gimnasio - El cliente pedido es el mismo que el que está logeado
-  Requiere: - name - lastName - zipCode - phoneNumber - email - address - city - register [True, False] - user (User) - gym (Gym)
-  Con campos opcionales: - birth - gender [Male, Female, Other]
+- PUT Owner, Gym, User: Permite la edición de los datos de un cliente en la base de datos. Aceptará la petición si: - Eres dueño o gimnasio - El cliente pedido es el mismo que el que está logeado
+  Requiere: - name - lastName - zipCode - phoneNumber - email - address - city - register True, False - user (User) - gym (Gym)
+  Con campos opcionales: - birth - gender Male, Female, Other
 
 ```
 	clients/delete/<int:pk>/
 ```
 
-- DELETE [Owner]: Permite eliminar a un usuario de la base de datos así como su usuario asociado dada su clave primaria.
+- DELETE Owner: Permite eliminar a un usuario de la base de datos así como su usuario asociado dada su clave primaria.
 
 ## Owners
 
@@ -154,7 +154,7 @@ Estos endpoints permiten acceder a toda la información de los gimnasios.
 	gyms/create/
 ```
 
-- POST [Admin, Owner]: Permite crear un nuevo gimnasio así como su usuario asociado. Requiere:
+- POST Admin, Owner: Permite crear un nuevo gimnasio así como su usuario asociado. Requiere:
   - name
   - address
   - zip_code
@@ -193,7 +193,7 @@ Estos endpoints permiten acceder a toda la información de los equipamientos de 
 	equipments/
 ```
 
-- GET [Owner, Client, Gym]: Permite obtener un listado de, dependiendo de la clase de usuario logeado:
+- GET Owner, Client, Gym: Permite obtener un listado de, dependiendo de la clase de usuario logeado:
   - client: equipamientos asociados a el gimnasio en el que se encuentre inscrito.
   - gym: equipamientos asociados a el propio gimnasio.
   - owner: equipamientos asociados a todos los gimnasios asociados a el dueño.
@@ -202,7 +202,7 @@ Estos endpoints permiten acceder a toda la información de los equipamientos de 
 	equipments/detail/<int:pk>/
 ```
 
-- GET [Owner, Client, Gym]: Permite obtener información de el equipamiento indicado en la URL. Aceptará la petición sí:
+- GET Owner, Client, Gym: Permite obtener información de el equipamiento indicado en la URL. Aceptará la petición sí:
   - client: El equipamiento está asignado a el gimnasio en el que está inscrito.
   - gym: El equipamiento está asignado a el propio gimnasio.
   - owner: El equipamiento está asignado a algún gimnasio asociado a el dueño.
@@ -211,31 +211,31 @@ Estos endpoints permiten acceder a toda la información de los equipamientos de 
 	equipments/create/
 ```
 
-- POST [Owner]: Permite la introducción de un nuevo equipamiento a la base de datos. Permitirá la petición solo si el gimnasio indicado en esta es propiedad de el dueño logueado. Requiere:
+- POST Owner: Permite la introducción de un nuevo equipamiento a la base de datos. Permitirá la petición solo si el gimnasio indicado en esta es propiedad de el dueño logueado. Requiere:
   - name
   - brand
   - serial_number
   - description
-  - muscular_group [Arms, Legs, Core, Chest, Back, Shoulders, Other]
+  - muscular_group Arms, Legs, Core, Chest, Back, Shoulders, Other
   - gym (Gym)
 
 ```
 	equipments/update/<int:pk>/
 ```
 
-- PUT [Owner]: Permite la edición de los datos de un equipamiento en la base de datos. Aceptará la petición si el equipamiento está asignado a el dueño logeado. Requiere:
+- PUT Owner: Permite la edición de los datos de un equipamiento en la base de datos. Aceptará la petición si el equipamiento está asignado a el dueño logeado. Requiere:
   - name
   - brand
   - serial_number
   - description
-  - muscular_group [Arms, Legs, Core, Chest, Back, Shoulders, Other]
+  - muscular_group Arms, Legs, Core, Chest, Back, Shoulders, Other
   - gym (Gym)
 
 ```
 	equipments/delete/<int:pk>/
 ```
 
-- DELETE [Owner]: Permite eliminar un equipamiento de la base de datos. Aceptará la petición si el equipamiento está asignado a el dueño logeado.
+- DELETE Owner: Permite eliminar un equipamiento de la base de datos. Aceptará la petición si el equipamiento está asignado a el dueño logeado.
 
 ```
 	equipments/time/<int:pk>/
@@ -251,7 +251,7 @@ Estos endpoints permiten acceder a toda la información de las reviews de cada e
 	assesments/
 ```
 
-- GET [Gym, Owner]: Permite obtener un listado de todas las reviews de la base de datos.
+- GET Gym, Owner: Permite obtener un listado de todas las reviews de la base de datos.
 
 ```
 	assesments/client/<int:clientId>/
@@ -269,7 +269,7 @@ Estos endpoints permiten acceder a toda la información de las reviews de cada e
 	assesments/create/
 ```
 
-- POST [Client]: Permite la introducción de una nueva review a la base de datos. Permitirá la petición solo si el cliente logeado no ha realizado todavía un assesment de la máquina indicada y la máquina indicada es de el gimnasio en el que el cliente está inscrito. Requiere:
+- POST Client: Permite la introducción de una nueva review a la base de datos. Permitirá la petición solo si el cliente logeado no ha realizado todavía un assesment de la máquina indicada y la máquina indicada es de el gimnasio en el que el cliente está inscrito. Requiere:
   - stars
   - equipment Equipment
   - client (Client)
@@ -278,7 +278,7 @@ Estos endpoints permiten acceder a toda la información de las reviews de cada e
 	assesments/update/<int:pk>/
 ```
 
-- PUT [Client]: Permite la modificación de una review de la base de datos. Permitirá la petición solo si el assesment fue realizado por el cliente que realiza la petición y este está todavóa suscrito a el gimnasio. Requiere:
+- PUT Client: Permite la modificación de una review de la base de datos. Permitirá la petición solo si el assesment fue realizado por el cliente que realiza la petición y este está todavóa suscrito a el gimnasio. Requiere:
   - stars
   - equipment (Equipment)
   - client (Client)
@@ -287,7 +287,7 @@ Estos endpoints permiten acceder a toda la información de las reviews de cada e
 	assesments/delete/<int:pk>/
 ```
 
-- DELETE [Client]: Permite la eliminación de una review de la base de datos. Permitirá la petición solo si el assesment fue realizado por el cliente que realiza la petición y este está todavía suscrito a el gimnasio.
+- DELETE Client: Permite la eliminación de una review de la base de datos. Permitirá la petición solo si el assesment fue realizado por el cliente que realiza la petición y este está todavía suscrito a el gimnasio.
 
 ## Ticket
 
@@ -297,7 +297,7 @@ Estos endpoints permiten acceder a toda la información de los tickets de cada e
 	tickets/
 ```
 
-- GET [Owner, Gym]: Permite obtener un listado de todos los tickets de la base de datos. Se devolverán:
+- GET Owner, Gym: Permite obtener un listado de todos los tickets de la base de datos. Se devolverán:
   - owner: Los tickets relacionados con todos los gimnasios asociados a el dueño.
   - gym: Los tickets relacionados con el propio gimnasio.
 
@@ -305,7 +305,7 @@ Estos endpoints permiten acceder a toda la información de los tickets de cada e
 	tickets/detail/<int:pk>/
 ```
 
-- GET [Client, Owner, Gym]: Permite obtener los detalles de el ticket indicado en la URL. Devolverá el ticket si:
+- GET Client, Owner, Gym: Permite obtener los detalles de el ticket indicado en la URL. Devolverá el ticket si:
   - client: El cliente asociado a el ticket es cliente logeado.
   - owner: El cliente asociado a el ticket está relacionado con uno de los gimnasios asociados a el dueño.
   - gym: El cliente asociado a el ticket está relacionado con el propio gimnasio.
@@ -314,7 +314,7 @@ Estos endpoints permiten acceder a toda la información de los tickets de cada e
 	tickets/byEquipment/<int:equipmentId>/
 ```
 
-- GET [Owner, Gym]: Permite obtener un listado de los tickets relacionados con el equipamiento indicado en la URL. Aceptará la petición si:
+- GET Owner, Gym: Permite obtener un listado de los tickets relacionados con el equipamiento indicado en la URL. Aceptará la petición si:
   - owner: El equipamiento indicado está relacionado con alguno de los gimnasios asociados a el dueño.
   - gym: El equipamiento indicado está relacionado con el propio gimnasio.
 
@@ -322,7 +322,7 @@ Estos endpoints permiten acceder a toda la información de los tickets de cada e
 	tickets/byClient/<int:clientId>/
 ```
 
-- GET [Client, Owner, Gym]: Permite obtener un listado de los tickets relacionados con el cliente indicado en la URL. Aceptará la petición si:
+- GET Client, Owner, Gym: Permite obtener un listado de los tickets relacionados con el cliente indicado en la URL. Aceptará la petición si:
   - client: El cliente logeado es el cliente indicado.
   - owner: El cliente indicado está relacionado con uno de los gimnasios asociados a el dueño.
   - gym: El cliente indicado está relacionado con el propio gimnasio.
@@ -331,7 +331,7 @@ Estos endpoints permiten acceder a toda la información de los tickets de cada e
 	tickets/create/
 ```
 
-- POST [Client]: Permite la introducción de un nuevo ticket a la base de datos. Requiere:
+- POST Client: Permite la introducción de un nuevo ticket a la base de datos. Requiere:
   - label
   - description
   - equipment
@@ -340,7 +340,7 @@ Estos endpoints permiten acceder a toda la información de los tickets de cada e
 	tickets/update/<int:pk>/
 ```
 
-- PUT [Client, Owner, Gym]: Permite la actualización un ticket de la base de datos. Aceptará la petición si:
+- PUT Client, Owner, Gym: Permite la actualización un ticket de la base de datos. Aceptará la petición si:
 
   - client: El cliente asociado con el ticket indicado es el cliente logeado.
   - owner: El cliente asociado con el ticket indicado está relacionado con uno de los gimnasios asociados a el dueño.
@@ -351,7 +351,7 @@ Estos endpoints permiten acceder a toda la información de los tickets de cada e
   - label
   - description
   - equipment
-  - status [True, False]
+  - status True, False
 
 ```
 	tickets/delete/<int:pk>/
@@ -370,13 +370,13 @@ Estos endpoints permiten acceder a toda la información de las rutinas de cada c
 	routines/
 ```
 
-- GET [Gym, Owner]: Permite obtener un listado de las rutinas almacenadas en la base de datos.
+- GET Gym, Owner: Permite obtener un listado de las rutinas almacenadas en la base de datos.
 
 ```
 	routines/client/<int:clientId>/
 ```
 
-- GET [Client, Gym, Owner]: Permite obtener un listado de las rutinas asignadas a un cliente concreto. Se aceptará la petición sí:
+- GET Client, Gym, Owner: Permite obtener un listado de las rutinas asignadas a un cliente concreto. Se aceptará la petición sí:
   - client: solo se aceptará si el cliente pedido es el mismo que el logeado.
   - owner o gym: se aceptará directamente.
 
@@ -384,13 +384,13 @@ Estos endpoints permiten acceder a toda la información de las rutinas de cada c
 	routines/detail/<int:pk>/
 ```
 
-- GET [Clent]: Permite obtener detalles de la rutina indicada en la URL. Solo aceptará la petición si la rutina está asignada a el cliente logeado.
+- GET Clent: Permite obtener detalles de la rutina indicada en la URL. Solo aceptará la petición si la rutina está asignada a el cliente logeado.
 
 ```
 	routines/create/
 ```
 
-- POST [Client]: Permite introducir una nueva rutina a la base de datos. Solo aceptará la petición si el cliente asignado a la rutina es el mismo que el logeado. Requiere:
+- POST Client: Permite introducir una nueva rutina a la base de datos. Solo aceptará la petición si el cliente asignado a la rutina es el mismo que el logeado. Requiere:
   - name
   - client (Client)
 
@@ -398,7 +398,7 @@ Estos endpoints permiten acceder a toda la información de las rutinas de cada c
 	routines/update/<int:pk>/
 ```
 
-- PUT [Clent]: Permite la mofificación de la rutina indicada en la URL. Solo aceptará la petición si la rutina indicada está asignada a el cliente logeado. Requiere:
+- PUT Client: Permite la mofificación de la rutina indicada en la URL. Solo aceptará la petición si la rutina indicada está asignada a el cliente logeado. Requiere:
   - name
   - client (Client)
 
@@ -406,7 +406,7 @@ Estos endpoints permiten acceder a toda la información de las rutinas de cada c
 	routines/delete/<int:pk>/
 ```
 
-- DELETE [Client]: Permite la eliminación de la rutina indicada en la URL. Solo aceptará la petición si la rutina indicada está asignada a el cilente logeado.
+- DELETE Client: Permite la eliminación de la rutina indicada en la URL. Solo aceptará la petición si la rutina indicada está asignada a el cilente logeado.
 
 ## Workout
 
@@ -416,37 +416,37 @@ Estos endpoints permiten acceder a toda la información de los ejercicios de cad
 	workouts/
 ```
 
-- GET [Client, Admin]: Permite obtener un listado de todos los ejercicios de la base de datos. Si estás logeado como cliente accederás a los ejercicios de dicho cliente. Si estás logeado como admin, a todos.
+- GET Client, Admin : Permite obtener un listado de todos los ejercicios de la base de datos. Si estás logeado como cliente accederás a los ejercicios de dicho cliente. Si estás logeado como admin, a todos.
 
 ```
 	workouts/detail/<int:pk>/
 ```
 
-- GET [Client]: Permite obtener los detalles de el ejercicio indicado en la URL. Solo aceptará la petición si estás logeado como el cliente relacionado con el ejercicio indicado.
+- GET Client: Permite obtener los detalles de el ejercicio indicado en la URL. Solo aceptará la petición si estás logeado como el cliente relacionado con el ejercicio indicado.
 
 ```
 	workouts/byEquipment/<int:equipmentId>/
 ```
 
-- GET [Client]: Permite obtener un listado de todos los ejercicios relacionados con el equipamiento indicado en la URL. Solo aceptará la petición si estás logeado como cliente.
+- GET Client: Permite obtener un listado de todos los ejercicios relacionados con el equipamiento indicado en la URL. Solo aceptará la petición si estás logeado como cliente.
 
 ```
 	workouts/byClient/<int:clientId>/
 ```
 
-- GET [Owner, Gym]: Permite obtener un listado de todos los ejercicios relacionados con el cliente indicado en la URL. Solo aceptará la petición si estás logeado como dueño o gimnasio.
+- GET Owner, Gym: Permite obtener un listado de todos los ejercicios relacionados con el cliente indicado en la URL. Solo aceptará la petición si estás logeado como dueño o gimnasio.
 
 ```
 	workouts/byRoutine/<int:routineId>/
 ```
 
-- GET [Client]: Permite obtener un listado de todos los ejercicios relacionados con la rutina indicada en la URL. Solo aceptará la petición si estás logeado como cliente.
+- GET Client: Permite obtener un listado de todos los ejercicios relacionados con la rutina indicada en la URL. Solo aceptará la petición si estás logeado como cliente.
 
 ```
 	workouts/create/
 ```
 
-- POST [Client]: Permite la creación de un nuevo ejercicio en la base de datos. Solo aceptará la petición si estás logeado como cliente. Requiere:
+- POST Client: Permite la creación de un nuevo ejercicio en la base de datos. Solo aceptará la petición si estás logeado como cliente. Requiere:
   - name
   - client (Client)
   - routine (List(Routine))
@@ -456,7 +456,7 @@ Estos endpoints permiten acceder a toda la información de los ejercicios de cad
 	workouts/update/<int:pk>/
 ```
 
-- PUT [Client]: Permite la actualización de el ejercicio indicado en la URL. Solo aceptará la petición si el cliente logeado está relacionado con el ejercicio indicado. Requiere:
+- PUT Client: Permite la actualización de el ejercicio indicado en la URL. Solo aceptará la petición si el cliente logeado está relacionado con el ejercicio indicado. Requiere:
   - name
   - client (Client)
   - routine (List(Routine))
@@ -466,7 +466,7 @@ Estos endpoints permiten acceder a toda la información de los ejercicios de cad
 	workouts/delete/<int:pk>/
 ```
 
-- DELETE [Client]: Permite la eliminación de el ejercicio indicado en la URL. Solo aceptará la petición si el cliente logeado está relacionado con el ejercicio indicado.
+- DELETE Client: Permite la eliminación de el ejercicio indicado en la URL. Solo aceptará la petición si el cliente logeado está relacionado con el ejercicio indicado.
 
 ## Serie
 
@@ -476,19 +476,19 @@ Estos endpoints permiten acceder a toda la información de las series de cada ej
 	series/
 ```
 
-- GET [Gym, Owner]: Permite listar todas las series de la base de datos.
+- GET Gym, Owner: Permite listar todas las series de la base de datos.
 
 ```
 	series/detail/<int:pk>/
 ```
 
-- GET [Client]: Permite obtener los detalles de la serie indicada en la URL. Solo aceptará la petición si estas logeado como el cliente asociado a el ejercicio asociado a la serie.
+- GET Client: Permite obtener los detalles de la serie indicada en la URL. Solo aceptará la petición si estas logeado como el cliente asociado a el ejercicio asociado a la serie.
 
 ```
 	series/create/
 ```
 
-- POST [Client]: Permite crear una nueva serie en la base de datos. Solo aceptará la petición si el ejercicio indicado en el cuerpo está relacionado con el cliente logeado. Requiere:
+- POST Client: Permite crear una nueva serie en la base de datos. Solo aceptará la petición si el ejercicio indicado en el cuerpo está relacionado con el cliente logeado. Requiere:
   - reps
   - weight
   - date
@@ -499,7 +499,7 @@ Estos endpoints permiten acceder a toda la información de las series de cada ej
 	series/update/<int:pk>/
 ```
 
-- PUT [Client]: Permite actualizar la serie indicada en la URL. Solo aceptará la petición si el ejercicio indicado en el cuerpo está relacionado con el cliente logeado. Requiere:
+- PUT Client: Permite actualizar la serie indicada en la URL. Solo aceptará la petición si el ejercicio indicado en el cuerpo está relacionado con el cliente logeado. Requiere:
   - reps
   - weight
   - date
@@ -510,13 +510,13 @@ Estos endpoints permiten acceder a toda la información de las series de cada ej
 	series/delete/<int:pk>/
 ```
 
-- DELETE [Client]: Permite la eliminación de la serie indicada en la URL. Solo aceptará la petición si el ejercicio de la serie indicada está relacionado con el cliente logeado.
+- DELETE Client: Permite la eliminación de la serie indicada en la URL. Solo aceptará la petición si el ejercicio de la serie indicada está relacionado con el cliente logeado.
 
 ```
 	series/workout/<int:pk>/
 ```
 
-- GET [Client]: Permite el listado de todas las series relacionadas con el ejercicio indicado en la URL. Solo aceptará la petición si el ejercicio indicado está relacionado con el cliente logeado.
+- GET Client: Permite el listado de todas las series relacionadas con el ejercicio indicado en la URL. Solo aceptará la petición si el ejercicio indicado está relacionado con el cliente logeado.
 
 ## Event
 
@@ -526,31 +526,31 @@ Estos endpoints permiten acceder a toda la información de los eventos de cada g
 	events/
 ```
 
-- GET [Gym, Owner]: Permite listar todos los eventos de la base de datos.
+- GET Gym, Owner: Permite listar todos los eventos de la base de datos.
 
 ```
 	events/detail/<int:pk>/
 ```
 
-- GET [Gym, Owner, Client]: Permite obtener los detalles de el evento indicado en la URL. Solo aceptará la petición si el dueño, cliente o gimnasio logeado está relacionado con el gimnasio relacionado con el evento indicado.
+- GET Gym, Owner, Client: Permite obtener los detalles de el evento indicado en la URL. Solo aceptará la petición si el dueño, cliente o gimnasio logeado está relacionado con el gimnasio relacionado con el evento indicado.
 
 ```
 	events/gym/<int:gymId>/
 ```
 
-- GET [Gym, Owner, Client]: Permite obtener todos los eventos relacionados con el gimnasio indicado en la URL. Solo aceptará la petición si el gimnasio indicado está relacionado con el cliente, gimnasio o dueño logeado.
+- GET Gym, Owner, Client: Permite obtener todos los eventos relacionados con el gimnasio indicado en la URL. Solo aceptará la petición si el gimnasio indicado está relacionado con el cliente, gimnasio o dueño logeado.
 
 ```
 	events/client/<int:clientId>/
 ```
 
-- GET [Gym, Owner, Client]: Permite obtener todos los eventos a los que va a asistir el cliente indicado en la URL (existe una reserva a su nombre). Solo aceptará la petición si el gimnasio relacionado con el cliente indicado está relacionado con el cliente, gimnasio o dueño logeado.
+- GET Gym, Owner, Client: Permite obtener todos los eventos a los que va a asistir el cliente indicado en la URL (existe una reserva a su nombre). Solo aceptará la petición si el gimnasio relacionado con el cliente indicado está relacionado con el cliente, gimnasio o dueño logeado.
 
 ```
 	events/create/
 ```
 
-- POST [Gym, Owner]: Permite crear un nuevo evento en la base de datos. Solo aceptará la petición si el gimnasio indicado en el cuerpo está relacionado con el cliente, gimnasio o dueño logeado. Requiere:
+- POST Gym, Owner: Permite crear un nuevo evento en la base de datos. Solo aceptará la petición si el gimnasio indicado en el cuerpo está relacionado con el cliente, gimnasio o dueño logeado. Requiere:
   - name
   - description
   - capacity
@@ -564,7 +564,7 @@ Estos endpoints permiten acceder a toda la información de los eventos de cada g
 	events/update/<int:pk>/
 ```
 
-- PUT [Gym, Owner]: Permite editar la información de el evento indicado en la URL. Solo aceptará la petición si el evento indicado está relacionado con el gimnasio o cliente indicado. Requiere:
+- PUT Gym, Owner: Permite editar la información de el evento indicado en la URL. Solo aceptará la petición si el evento indicado está relacionado con el gimnasio o cliente indicado. Requiere:
   - name
   - description
   - capacity
@@ -578,7 +578,7 @@ Estos endpoints permiten acceder a toda la información de los eventos de cada g
 	events/delete/<int:pk>/
 ```
 
-- DELETE [Gym, Owner]: Permite la eliminación de un evento de la base de datos. Solo aceptará la petición si el evento indicado en la URL está relacionado con el gimnasio o dueño logeado.
+- DELETE Gym, Owner: Permite la eliminación de un evento de la base de datos. Solo aceptará la petición si el evento indicado en la URL está relacionado con el gimnasio o dueño logeado.
 
 ## Reservation
 
@@ -594,25 +594,25 @@ Estos endpoints permiten acceder a toda la información de las reservas de cada 
 	reservations/client/<int:clientId>/
 ```
 
-- GET [Gym, Owner, Client]: Permite listar todas las reservas relacionadas con el cliente indicado en la URL. Solo aceptará la petición si el gimnasio relacionado con el cliente indicado está relacionado con el gimnasio, dueño o cliente logeado.
+- GET Gym, Owner, Client: Permite listar todas las reservas relacionadas con el cliente indicado en la URL. Solo aceptará la petición si el gimnasio relacionado con el cliente indicado está relacionado con el gimnasio, dueño o cliente logeado.
 
 ```
 	reservations/event/<int:eventId>/
 ```
 
-- GET [Gym, Owner, Client]: Permite listar todas las reservas relacionadas con el evento indicado en la URL. Solo aceptará la petición si el gimnasio relacionado con el evento indicado está relacionado con el gimnasio, dueño o cliente logeado.
+- GET Gym, Owner, Client: Permite listar todas las reservas relacionadas con el evento indicado en la URL. Solo aceptará la petición si el gimnasio relacionado con el evento indicado está relacionado con el gimnasio, dueño o cliente logeado.
 
 ```
 	reservations/detail/<int:pk>/
 ```
 
-- GET [Gym, Owner, Client]: Permite obtener los detalles de la reserva indicada en la URL. Solo aceptará la petición si el gimnasio relacionado con la reserva indicada está relacionado con el gimnasio, dueño o cliente logeado.
+- GET Gym, Owner, Client: Permite obtener los detalles de la reserva indicada en la URL. Solo aceptará la petición si el gimnasio relacionado con la reserva indicada está relacionado con el gimnasio, dueño o cliente logeado.
 
 ```
 	reservations/create/
 ```
 
-- POST [Gym, Owner, Client]: Permite introducir una nueva reserva a la base de datos. Solo aceptará la petición si:
+- POST Gym, Owner, Client: Permite introducir una nueva reserva a la base de datos. Solo aceptará la petición si:
 
   - El gimnasio indicado en el cuerpo está relacionado con el gimnasio, dueño o cliente logeado.
   - El evento no está completo todavía (capacidad > atendientes)
@@ -627,7 +627,7 @@ Estos endpoints permiten acceder a toda la información de las reservas de cada 
 	reservations/update/<int:pk>/
 ```
 
-- PUT [Gym, Owner, Client]: Permite la mofificación de la reserva indicada en la URL. Solo aceptará la petición si el gimnasio relacionado con la reserva indicada está relacionado con el gimnasio, dueño o cliente logeado. Requiere:
+- PUT Gym, Owner, Client: Permite la mofificación de la reserva indicada en la URL. Solo aceptará la petición si el gimnasio relacionado con la reserva indicada está relacionado con el gimnasio, dueño o cliente logeado. Requiere:
   - cliente (Client)
   - event (Event)
 
@@ -635,4 +635,4 @@ Estos endpoints permiten acceder a toda la información de las reservas de cada 
 	reservation/delete/<int:pk>/
 ```
 
-- DELETE [Gym, Owner, Client]: Permite la eliminación de una reserva de la base de datos. Solo aceptará la petición si el gimnasio relacionado con la reserva indicada en la URL está relacionado con el gimnasio, dueño o cliente logeado.
+- DELETE Gym, Owner, Client: Permite la eliminación de una reserva de la base de datos. Solo aceptará la petición si el gimnasio relacionado con la reserva indicada en la URL está relacionado con el gimnasio, dueño o cliente logeado.
