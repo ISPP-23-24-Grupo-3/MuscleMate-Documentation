@@ -1,3 +1,8 @@
+---
+title: AI Usage
+sidebar_position: 6
+---
+
 | ID  | MIEMBRO                | PROMPT   | OBJETIVO                | RESULTADO   | PAQUETE | LINK                                                               |
 | --- | ---------------------- | -------- | ----------------------- | ----------- | ------- | ------------------------------------------------------------------ |
 | 1   | González Marcos, Pedro | Ver link | Ver [Error 1](#error-1) | Error de IA |         | https://chat.openai.com/share/4cc7a386-d0ea-40ca-b977-6bb327056ba7 |

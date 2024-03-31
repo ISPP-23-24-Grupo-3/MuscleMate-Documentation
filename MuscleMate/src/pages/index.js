@@ -27,16 +27,16 @@ function HomepageHeader() {
               </Heading>
               <p className="hero__subtitle">{siteConfig.tagline}</p>
             </div>
-            <div className={styles.buttons}>
+            <div className={styles.buttons}>\
               <Link
                 className="button button--primary button--lg"
-                to="/docs/Feedback/feedback%20grupo%203"
+                to="#"
               >
                 Pruébalo ya
               </Link>
               <Link
                 className="button button--secondary button--lg"
-                to="/docs/Feedback/feedback%20grupo%203"
+                to="#"
               >
                 Mira nuestro proceso
               </Link>
