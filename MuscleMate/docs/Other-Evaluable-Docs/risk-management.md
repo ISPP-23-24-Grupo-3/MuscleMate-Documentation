@@ -5,7 +5,7 @@
 
 ## MuscleMate
 
-# <a id="_fq7jvl59qt56"></a>**Entregable - #DP Grupo - 03**
+# <a id="_fq7jvl59qt56"></a>**Entregable - #Sprint 2 Grupo - 03**
 
 | Versión | Fecha       | Autor       | Descripción                            |
 |---------|-------------|-------------|----------------------------------------|
