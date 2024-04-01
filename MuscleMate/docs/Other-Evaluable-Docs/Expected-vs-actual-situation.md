@@ -78,7 +78,7 @@ Dos reuniones por Sprint de 1 hora cada una (15 miembros)
 
 ### Puntos de Historia y Presupuesto
 
-![](estadoproyecto.png)
+![](/img/estadoproyecto.png)
 
 **579 HORAS**
 
