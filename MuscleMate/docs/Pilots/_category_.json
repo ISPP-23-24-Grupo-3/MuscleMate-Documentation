@@ -1,6 +1,6 @@
 {
-  "label": "Pilots",
-  "position": 0,
+  "label": "Report of User pilots",
+  "position": 3,
   "link": {
     "type": "generated-index",
     "description": "¿Qué apartado deseas consultar?"
