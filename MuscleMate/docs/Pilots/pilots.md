@@ -78,3 +78,50 @@ Al final del Sprint 2 se contactó de nuevo con  los usuarios pilotos que se ten
 - **Vicente** (Dueño TocaSport): Dimensiones no adaptada a algunas pantallas. Además cuando se loguea como propietario no tiene la opción de añadir un nuevo gimnasio. También ha tenido dificultades a la hora de registrarse ya que ha obtenido la respuesta : "No se ha podido registrar al propietario" echando en falta una explicación más concreta.
 El buscador de máquinas no funciona correctamente en algunos nombres. Destaca la incomodidad de la interfaz en el móvil ya que no se ajusta a la pantalla y algunas cosas salen bastante desproporcionada. No puede acceder a la información del perfil. 
 - **Almansa Vergara** (Gimnasio TocaSport): En general da un feddback positivo aunque echa en falta varias cosas como por ejemplo apunta que falta algunas máquinas, también para los usuarios menos informados tener una recomendación de ejercicios básicos según el músculo que se quiera trabajar.
+
+
+### Feedback de Usuarios Piloto del Grupo 9, Sprint 2
+
+- **Registros**: No existe confirmación del registro ni redirección a la pantalla principal por lo que no queda claro si se ha creado correctamente o no.
+Además muchos campos carecen de validación, por ejemplo el nombre que pueden ser números o la fecha que puede ser futura, exceptuando el email. El teléfono deberia
+ser un input, no algo a incrementar de 1 en 1. Mejor uso de márgenes. No se avisa de que la contraseña debe tener al menos 10 caracteres. El registro de propietario NO funciona directamente.
+
+- **Listado de Máquinas**: A veces no cargan los detalles, obteniendo un "Error al obtener detalles de Máquina" y es necesario recargar. A veces no cargan las estrellas de
+la valoración. El filtro por incidencias es recomendable. Los cambios en el editar máquina no persisten.
+
+- **Perfil**: A la hora de editar el perfil, aunque nombre y apellido son campos separados, salen en el mismo input.
+
+- **Ejercicios**: Se pueden crear ejercicios sin máquina asociada. Además al añadir uno nuevo sale arriba, mientras que lo lógico en una rutina es añadirlos abajo. Al eliminarlos se recomienda incluir una verificación
+de "¿Estás Seguro?". No tienen restricciones.
+
+- **Tickets**: Los clientes deberían poder ver sus tickets. No hay validación en los campos, por ejemplo el asunto y la descripción pueden ser numeros. El buscador entra en conflicto a veces con la paginación.
+Cuando introduces datos incorrectos no muestra que campo falla, solo dice que no es correcto. Mientras el listado de tickets carga se muestra que no hay tickets, se recomienda cambiar por un cargando.
+
+- **Rutinas**: Los errores y avisos en las rutinas se muestran mediante alertas del navegador,no de forma nativa en la pagina.
+
+- **Series**: Hay ejercicios que no dependen de repeticiones o peso como la comba y aun así son obligatorios. El contador va con tiempo real, lo que es algo tedioso de usar.
+
+- **Extras**: 
+        Muy mal rendimiento en el despliegue, consume mucha CPU.
+
+        Los buscadores son sensibles a las tildes.
+
+        Para las cargas, que son lentas, se recomienda añadir un indicador de ellas como existe en el login para evitar confusiones.
+
+        Se recomienda renombrar la entidad ticket, para aclarar su función.
+
+        Si creas un ejercicio y no seleccionas maquina funciona, pero si creas un ejercicio, abres el desplegable de maquinas y no seleccionas ninguna, falla
+
+        Se recomienda usar otro tono en la matrícula activa, el amarillo puede llevar a confusión.
+
+        Visualmente muy agradable y muy bien en general.
+
+### Feedback de Usuarios Piloto escogidos para cliente
+
+- **Manuel Morgollon**: Desde un dispositivo movil no se redimensionan bien los tamaños de la aplicación. El contador de tiempo es algo incómodo y no útil para la rutina.
+
+- **Víctor Vázquez**: A veces despues de guardar un ejercicio la maquina asociada deja de mostrarse.
+
+- **Martín Romero**: El registro de usuario no confirma cuando tiene éxito. Hay ejercicios que van sin peso como la comba y obliga a poner un peso.
+
+- **Pablo Miranda**: No puedo ver mis tickets tras crearlos. El diseño de la aplicación es cómodo y agradable a la vista.
