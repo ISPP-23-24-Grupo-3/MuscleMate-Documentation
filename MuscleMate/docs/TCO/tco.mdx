@@ -13,6 +13,7 @@ title: Total Cost Ownership (TCO)
 | 5.0     | 2024-02-16 | Correción del documento       |
 | 6.0     | 2024-02-22 | Correción del documento       |
 | 7.0     | 2024-03-01 | Correción del documento       |
+| 8.0     | 2024-04-01 | Graficas TCO y Calculos       |
 
 # TCO Summary - MuscleMate - Entregable #S1
 
@@ -26,38 +27,115 @@ En este documento, se establece el coste total de la propiedad respectivo al pro
 
 El equipo encargado del proyecto, está formado por 15 integrantes. Cada uno de ellos, tiene la obligación de dedicar al menos 10 horas semanales a dicho proyecto.
 
-Teniendo en cuenta esto y los sueldos por hora de los siguientes perfiles:
+Tomando como punto de partida un sueldo de 8€ a la hora, obtenemos que, el sueldo mensual base es:
+- 8€/h x 10h x 4 semanas = **320€/mes**
 
-- Desarrollador– 11.25 €/h
+Teniendo en cuenta esto, a cada rol se le asigna un multiplicador:
 
-Por lo tanto, la estimación de costes de personal para las 4 semanas que dura el proyecto es la siguiente:
+- Junior Developer: x1
+- Senior Developer: x3
+- QA: x2
+- Operation Engineer: x2.5
+- Project Manager: x3.5
 
-- Desarrolladores: 15 x 10 x 11.25 = 1687.50€
+Asumimos que en nuestro equipo tenemos:
+- 7 Junior Developers
+- 3 Senior Developers
+- 3 QA
+- 1 Operation Engineer
+- 1 Project Manager
 
-Coste total de personal = 1687.50€
+Al mes, los costes cada rol suman:
+- 320 x 7 x 1 = 2,240€
+- 320 x 3 x 3 = 2,880€
+- 320 x 3 x 2 = 1,920€
+- 320 * 1 * 2.5 = 800€
+- 320 * 1 * 3.5 = 1,120€
 
-### 2.2 Costes de material
+Con todo, obtenemos que el costo de personal es:
+2,240 + 2,880 + 1,920 + 800 + 1,120 = **8,960€/mes**
 
-Para cada integrante del equipo, suponemos un ordenador con un precio de 500€.
+### 2.2 Costes de infraestructura
 
-Coste total de material = 500€ x 15 = 7500€
+Asumimos los siguientes costes para facilitar el espacio de trabajo de los desarrolladores:
+- Alquiler de oficinas: 2,500€/mes
+- Luz: 648€/mes
+  - 0.18 €/Kwh
+  - 12 horas operativas
+  - 10 Kw contratados
+  - 0.18 x 12 x 10 x 30 = 648€/mes
+- Agua: 160€/mes
 
-### 2.3 Costes de amortización
+En costes de suscripciones, además, tenemos lo siguiente:
+- Sonarcloud (plan de 500.000 líneas de código): 160€/mes
+- GitHub team: 60€/mes
 
-Se considera la amortización del proyecto, que asciende a 57470€.
+Como costes no mensuales:
+- Portátiles: 7,500€
+  - 15 dispositivos
+  - 500€ por dispositivo
 
-**Coste total de capital (Capex) = 64970€**
+En total, los costes mensuales de la infraestructura durante el desarrollo son:
+- 2,500 + 648 + 160 + 160 + 60 = **3,528€/mes**
+
+### 2.3 Costes totales
+
+Los costes mensuales totales suman:
+8,960 + 3,528 = 12,488 €/mes
+
+Tenemos en cuenta que el desarrollo dura 4 meses. Con ello, obtenemos 12,488 * 4 = 49,952€
+Sumando a ello el precio de los portátiles, obtenemos 49,952 + 7,500 = 57,452€
+
+Por ello, el coste total de capital (Capex) es: **57,452**
 
 ## 3. Costes de operación mensual (Opex)
 
-### 3.1 Desglose de costes
+## 3.1 Costes de personal
 
-- AppEngine: 18 €/mes por gimnasio
-- Sonarcloud (plan de 500.000 líneas de código): 160 €/mes
-- Github team: 60 €/mes
-- Alquiler de oficinas: 2500 €/mes
-- Luz: 648 €/mes
-- Agua: 160 €/mes
-- Gastos de trabajadores: 8960 €/mes
+Como la aplicación ya está desarrollada, asumiremos que para mantenerla solo hará falta un miembro de QA y otro de Operation Engineer.
+- 320 * 1 * 2 = 640€
+- 320 * 1 * 2.5 = 800€
+Con ello, los costes de personal ascienden a 640 + 800 = **1,440€/mes**
 
-**Coste total de operación mensual = 12506 €/mes**
+## 3.2 Costes de infraestructura
+
+Además de los costes especificados durante el desarrollo, sumamos el del despliegue en AppEngine, del cual asumimos que trabajaría 12 horas al día, redondeando a unos 18€ al mes.
+![](/img/appenginecosts.png)
+
+Con PythonAnywhere, escogemos el plan Hacker, de 5€ al mes.
+
+Esto produce la nueva cantidad de **3,528 + 18 = 3,551€/mes**
+
+Sin embargo, el tamaño creciente de la aplicación influye en su despliegue en PythonAnywhere. Suponiendo que cada gimnasio hace alrededor de 150 peticiones,
+debemos de cambiar de planes al llegar a los 20 gimnasios, en cuyo caso se pasaría al plan Web Dev, de 12€/mes, y al llegar a los 30, se deberá pasar
+al plan de 99€/mes.
+
+## 3.3 Costes totales
+
+Con todo, obtenemos que el coste total de operación mensual inicialmente es:
+- 1,440 + 3,551 = **4,991 €/mes**
+
+# 4. Evolución a lo largo del tiempo
+
+Para ver los beneficios y costes de la aplicación a largo plazo, tenemos en cuenta los siguientes factores:
+
+- Asumimos de base los valores anteriormente calculados para los costes, y dependiendo del caso le añadiremos un multiplicador al coste mensual.
+  - Optimista: Los costes mensuales son un 20% más bajos que los esperados.
+  - Esperado: Los costes mensuales son los medidos inicialmente.
+  - Pesimista: Los costes mensuales son un 20% más altos que los esperados.
+  - Hay que tener en cuenta que se sumarán los costes iniciales de desarrollo del proyecto.
+- Para los beneficios, asumiremos los siguientes 3 casos:
+  - Optimista: Cada mes, se suscriben al plan estándar 10 gimnasios y 4 al plan Premium.
+  - Esperado: Cada mes, se suscriben al plan estándar 5 gimnasios y 2 al plan Premium.
+  - Pesimista: Cada mes, se suscriben al plan estándar 3 gimnasios y 1 al plan Premium.
+
+Tenemos en cuenta que el plan estándar cuesta 97.99€ y el Premium 109.99€ al mes.
+
+Realizando un estudio de 3 años, obtenemos los siguientes datos, teniendo en cuenta los beneficios y gastos en cada mes:
+![](/img/beneficiosvscostes.png)
+
+Teniendo en cuenta los totales costes y beneficios, obtenemos lo siguiente:
+![](/img/beneficioscostesexpon.png)
+
+Podemos observar que, aunque los costes no necesariamente incrementen más que los beneficios, se hace muy improbable recuperar el coste inicial del proyecto.
+
