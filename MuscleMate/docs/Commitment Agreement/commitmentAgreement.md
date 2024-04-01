@@ -50,8 +50,8 @@ Al unirme a la asignatura de Ingeniería de Software y Práctica Profesional (IS
 
 ### 2.7 Fórmula para puntutar los sprint individualmente.
 
-El cálculo de la puntuación obtenida por cada miembro en cada entrega se calculará con la siguiente fórmula, *E(t,d)*:
-Se dispondrán de puntos de historia *(d)* todas las tareas de backend, frontend y documentación, abarcando un rango del 1 al 5 según su dificultad y tiempo esperado en su realización *(t)*.
+El cálculo de la puntuación obtenida por cada miembro en cada entrega se calculará con la siguiente fórmula llamada *evaluación*, abreviado *E(t,d)*:
+Se dispondrán de puntos de historia *(d)* todas las tareas de backend, frontend y documentación, abarcando un rango del 1 al 5 según su dificultad y tiempo esperado en su realización, se tendrá en cuenta también el tiempo total en la realización de dichas tareas *(t)* en minutos.
 
 
 Se calculará la media de tiempo por punto. *tiempo_por_punto = t/d*
