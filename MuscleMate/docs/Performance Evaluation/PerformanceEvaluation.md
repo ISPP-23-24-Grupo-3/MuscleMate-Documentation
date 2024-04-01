@@ -4,35 +4,31 @@ title: Individual performance Evaluation
 sidebar_position: 4
 ---
 
-
-
-| Versión | Fecha       | Autor      | Descripción                            |
-|---------|-------------|------------|----------------------------------------|
-| v1.0    | 2024-01-01  | Manuel Ortega| Creación del documento                 |
-
+| Versión | Fecha      | Autor                 | Descripción                          |
+| ------- | ---------- | --------------------- | ------------------------------------ |
+| v1.0    | 2024-03-05 | Manuel Ortega         | Creación del documento               |
+| v2.0    | 2024-04-01 | Pedro González Marcos | Actualización performance Evaluation |
 
 ## 1. Agreed Individual Performance Evaluation
 
-| Student                       |  #DP1  | #S1 | #S2 | #S3 | #PPL | #WPL | Total | Weight |
-|-------------------------------|--------|-----|-----|-----|------|------|-------|--------|
-| González Marcos, Pedro        |   10   | 10  |     |     |      |      | 20    | 1      |
-| Del Hoyo Carboso, David       |   10   | 10  |     |     |      |      | 20    | 1      |
-| Zarandieta Ortiz, David       |   10   | 10  |     |     |      |      | 20    | 1      |
-| Sosa Corral, Alejandro        |   10   | 10  |     |     |      |      | 20    | 1      |
-| Tomás Vela, Elena             |   10   | 10  |     |     |      |      | 20    | 1      |
-| Martín Hernández, Juan Jesús  |   10   | 10  |     |     |      |      | 20    | 1      |
-| Romero Limón, Jorge           |   10   | 10  |     |     |      |      | 20    | 1      |
-| Dana Cabello, David           |   10   | 10  |     |     |      |      | 20    | 1      |
-| Muñoz Prieto, Ángel           |   10   | 10  |     |     |      |      | 20    | 1      |
-| Moreno Pérez, Juan Carlos     |   10   | 10  |     |     |      |      | 20    | 1      |
-| Ortega García, Manuel         |   10   | 10  |     |     |      |      | 20    | 1      |
-| Devós Bono, Agustín           |   10   | 10  |     |     |      |      | 20    | 1      |
-| Mateo Capilla, Alejandro      |   10   | 10  |     |     |      |      | 20    | 1      |
-| Garcia Parras, Luis           |   10   | 10  |     |     |      |      | 20    | 1      |
-| Vázquez Martín, Manuel        |   10   | 10  |     |     |      |      | 20    | 1      |
-| **Total**                     |**150**| **150**|   |     |      |      |       |        |
-
-
+| Student                      | #DP1    | #S1     | #S2       | #S3 | #PPL | #WPL | Total | Weight |
+| ---------------------------- | ------- | ------- | --------- | --- | ---- | ---- | ----- | ------ |
+| González Marcos, Pedro       | 10      | 10      | 8.84      |     |      |      | 28.84 | 1      |
+| Del Hoyo Carboso, David      | 10      | 10      | 10        |     |      |      | 30    | 1      |
+| Zarandieta Ortiz, David      | 10      | 10      | 10        |     |      |      | 30    | 1      |
+| Sosa Corral, Alejandro       | 10      | 10      | 10        |     |      |      | 30    | 1      |
+| Tomás Vela, Elena            | 10      | 10      | 10        |     |      |      | 30    | 1      |
+| Martín Hernández, Juan Jesús | 10      | 10      | 8.76      |     |      |      | 28.76 | 1      |
+| Romero Limón, Jorge          | 10      | 10      | 10        |     |      |      | 30    | 1      |
+| Dana Cabello, David          | 10      | 10      | 10        |     |      |      | 30    | 1      |
+| Muñoz Prieto, Ángel          | 10      | 10      | 10        |     |      |      | 30    | 1      |
+| Moreno Pérez, Juan Carlos    | 10      | 10      | 7         |     |      |      | 27    | 1      |
+| Ortega García, Manuel        | 10      | 10      | 10        |     |      |      | 30    | 1      |
+| Devós Bono, Agustín          | 10      | 10      | 10        |     |      |      | 30    | 1      |
+| Mateo Capilla, Alejandro     | 10      | 10      | 10        |     |      |      | 30    | 1      |
+| Garcia Parras, Luis          | 10      | 10      | 7.3       |     |      |      | 27.3  | 1      |
+| Vázquez Martín, Manuel       | 10      | 10      | 10        |     |      |      | 30    | 1      |
+| **Total**                    | **150** | **150** | **141.9** |     |      |      |       |        |
 
 ## 2. Individual Contribution Summary
 
@@ -143,7 +139,8 @@ Vázquez Martín, Manuel:
 - Creación de mockups de la pantalla de eventos.
 
 ### Sprint 1 (S1)
- González Marcos, Pedro:
+
+González Marcos, Pedro:
 
 - Despliegue de landing page con Jekyll en Github Pages
 - Añadido listado de rutinas más estilos al principio de la semana.
@@ -270,3 +267,214 @@ Vázquez Martín, Manuel:
 - Creación de los CRUD, test y poblado de la base de datos de la entidad anterior.
 - Revisión de todas las relaciones de las entidades con el UML.
 
+### Sprint 2 (S2)
+
+#### García Parras, Luis:
+
+- Interfaz clase/evento
+
+- Detalle clase/evento
+
+- Documentación: Problemas encontrados
+
+- Documentación: Expected vs Actual situation
+
+- Añadir máquina a la lista
+
+- Apoyo a Juan Carlos Moreno Pérez
+
+#### González Marcos, Pedro:
+
+- Revisar el Software Desplegado
+
+- Auditar el repositorio con Bluejay
+
+- Reestructuración del Docusaurus
+
+- Cambia el enrutado de la aplicación para que sea más intuitiva
+
+- Revisar PR de los compañeros
+
+- Ayudar a Juan Carlos y a Luis García (Add machine)
+
+#### Dana Cabello, David:
+
+- Requisitos event
+
+- Adaptar y mejorar test event
+
+- Arreglar y mejorar test de client y owner
+
+- Realizar test routine, equipment, ticket, assessment
+
+- Añadir filtro de gimnasio en la lista de máquinas
+
+- Arreglo en el urls.py de workout, routine y serie
+
+- FC terms review
+
+- Actualizar/Crear PilotUsersPerformanceEvaluation
+
+- Pilotaje Grupo 9
+
+- arreglar acceso a la vista de detalles de maquinas
+
+#### Martín Hernández, Juan Jesús :
+
+- Testing vistas frontend
+
+- Gestión de riesgos
+
+- Gestión feedback usuarios pilotos
+
+- Realización de las issues relacionadas con los test de las entidades asignadas
+
+- Reuniones recursivas con los diferentes usuarios pilotos
+
+- Revisión serializer
+
+- Revisión de test entidad serie
+
+#### Tomás Vela, Elena:
+
+- Creación, edición y visualización de workouts
+
+- Documentos legales
+
+- Documentación TCO
+
+- Documentación de estimaciones y beneficios
+
+#### Devós Bono, Agustín:
+
+- Página de Términos y Condiciones y obligatorio aceptarlas en el registro.
+
+- Tests vistas frontend.
+
+- implementar requisitos y restricciones entidad ticket.
+
+- Resolución de incidencias backend.
+
+- Corregir funcionamiento de vistas frontend.
+
+- Desplegar backend de la aplicación.
+
+- Desplegar frontend de la aplicación.
+
+- Realizar presentacion.
+
+#### Mateo Capilla, Alejandro: 
+
+- Arreglar editar equipment details
+
+- Add Ticket
+
+- Gym Listing Owner
+
+- Arreglar Ticket (Feedback)
+
+- Editar Perfil de Cliente
+
+- Create Gym
+
+- Get Ticket (Cliente)
+
+- Perfil de Usuario
+
+- Gym details
+
+- Deletes gym y equipments
+
+#### Sosa Corral, Alejandro:
+
+- Documentación completa de la API del backend
+
+- Verificación de correo electrónico (frontend y backend)
+
+- Requisitos de autenticación para equipamientos y gimnasios
+
+- Vista de clases/eventos para cliente y dueño
+
+- Grabación y edición de demostración
+
+- Bugfixes varios en el backend
+
+#### Moreno Perez, Juan Carlos:
+
+- Registro de clientes(owners) y usuarios
+
+- Añadir maquina a un gimnasio concreto
+
+- Listado de clases/eventos
+
+- Añadir clases/eventos
+
+- Apoyo a Luis García Parras
+
+#### Ortega García, Manuel:
+
+- Funciones de coordinador.
+
+- Creación de presentaciones.
+
+- Coordinación en la revisión de documentos para asegurar la calidad.
+
+- Creación de Docosaurus
+
+- Recopilación de comentarios en la base de conocimiento.
+
+- Población de la base de datos.
+
+- Preparación del elevator pitch.
+
+- Story Boards.
+
+- Coordinación de la retrospectiva del equipo (Formularios y sintetización).
+
+- Migración de Drive a Docosaurus y Creación de la documentación restante.
+
+#### Romero Limón, Jorge:
+
+- Presentador
+
+- Creador de Presentaciones
+
+- Funcionalidades CRUD de Valoración de máquinas
+
+- Visualizaciones de valoraciones e incidentes en listado
+
+- Funcionalidades CRUD de workout
+
+- Funcionalidades CRUD de serie
+
+- Replanificación Sprint
+
+- Arreglos de cliente
+
+- Arreglos de muestreo de datos
+
+#### Muñoz Prieto, Ángel:
+
+- Crear formularios y gestionar feedbacks de Usuarios Piloto
+
+- Realizar el pilotaje del grupo 9 de ISPP
+
+- Arreglar fallos en Login por feedback del pilotaje
+
+- Arreglar fallos en Ticket por feedback de pilotaje
+
+- Añadir información sobre series y entrenos para el cliente (listado)
+
+- Arreglar fallo en el registro por feedback de pilotaje
+
+#### Vázquez Martín, Manuel:
+
+- Recopilación de feedback de las clases.
+
+- Política de gestión de la Inteligencia Artificial.
+
+- Restricciones de las entidades de Owner, Workout.
+
+- Test de lasa entidades de Owner, Workout, Client.
+
+- Poblado de base de datos de Equipment.
