@@ -74,3 +74,42 @@ A continuación, mostraremos las estadísticas de la semana del martes 27 al lun
 | Horas trabajadas por día                                                                   |
 | ------------------------------------------------------------------------------------------ |
 | ![Estadística horas trabajadas por día](/img/stats/05-03-2024/05-03-2024_horasPorDias.png) |
+
+## Semana 6
+
+A continuación, mostraremos las estadísticas de la semana del martes 5 al lunes 11 de marzo.
+
+| Reloj semanal del proyecto                                                        |
+| --------------------------------------------------------------------------------- |
+| ![Estadística reloj de grupo](/img/stats/semana6relojProyecto.png) |
+| ![](/img/stats/semana6Proyecto2.png)                          |
+
+| Horas trabajadas por día                                                                   |
+| ------------------------------------------------------------------------------------------ |
+| ![Estadística horas trabajadas por día](/img/stats/semana6horasPorDias.png) |
+
+## Semana 7
+
+A continuación, mostraremos las estadísticas de la semana del martes 12 al lunes 18 de marzo.
+
+| Reloj semanal del proyecto                                                        |
+| --------------------------------------------------------------------------------- |
+| ![Estadística reloj de grupo](/img/stats/semana7relojProyecto.png) |
+| ![](/img/stats/semana7relojProyecto2.png)                          |
+
+| Horas trabajadas por día                                                                   |
+| ------------------------------------------------------------------------------------------ |
+| ![Estadística horas trabajadas por día](/img/stats/semana7horasPorDias.png) |
+
+## Semana 8
+
+A continuación, mostraremos las estadísticas de la semana del martes 19 al domingo 24 de marzo.
+
+| Reloj semanal del proyecto                                                        |
+| --------------------------------------------------------------------------------- |
+| ![Estadística reloj de grupo](/img/stats/semana8relojProyecto.png) |
+| ![](/img/stats/semana8relojProyecto2.png)                          |
+
+| Horas trabajadas por día                                                                   |
+| ------------------------------------------------------------------------------------------ |
+| ![Estadística horas trabajadas por día](/img/stats/semana8horasPorDias.png) |
