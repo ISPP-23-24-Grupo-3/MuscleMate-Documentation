@@ -11,6 +11,7 @@ sidebar_position: 7
 |v3.0| 2024-03-21|Manuel Ortega| Se mejora el commitment en cuanto a fórmula de puntuación| 
 |v4.0| 2024-04-01|David Zarandieta| Se actualiza el commitment en cuanto a fórmula de puntuación| 
 
+
 ## 1. Introducción
 
 Al unirme a la asignatura de Ingeniería de Software y Práctica Profesional (ISPP) para el curso 2023-24, me comprometo a cumplir con los siguientes requisitos y condiciones como miembro de MuscleMate.
@@ -52,25 +53,33 @@ Al unirme a la asignatura de Ingeniería de Software y Práctica Profesional (IS
 El cálculo de la puntuación obtenida por cada miembro en cada entrega se calculará con la siguiente fórmula, *E(t,d)*:
 Se dispondrán de puntos de historia *(d)* todas las tareas de backend, frontend y documentación, abarcando un rango del 1 al 5 según su dificultad y tiempo esperado en su realización *(t)*.
 
+
 Se calculará la media de tiempo por punto. *tiempo_por_punto = t/d*
 
+
 Después, se evaluará el rendimiento del tiempo por punto en los siguientes rangos:
+
 - Si *tiempo_por_punto < = 60, entonces E(t,d) = 5* 
 - Si *60 < tiempo_por_punto < = 90, entonces E(t,d) = 4.5*
 - Si *90 < tiempo_por_punto < = 120, entonces E(t,d) = max(3, 4 - ((tiempo_por_punto - 90)/30)*
 - Si *tiempo_por_punto > 120, entonces E(t,d) = max(1, 3 - ((tiempo_por_punto - 120)/30)*
 
+
+
 Por último, se le sumará los 6 puntos base que disponemos de mínimo. 
+
 
 No se tendrán en cuenta para el cálculo de la fórmula las horas dedicadas a:
 - Clases.
 - Reuniones.
 - Theroy pills.
+
 - Gestión de github (revisión de pull request).
 
 Las tareas realizadas por más de una persona solo valdrán 0.75 por cada persona extra que haya. Por ejemplo: una tarea con dos personas asignadas y valor 3, 0.75*3 = 2.25 puntos por persona. Una tarea con 3 personas asignadas y valor 3, (0.75*0.75)*3 = 1.68 puntos por persona. 
 
 Si no se ha llegado a las horas semanales se tendrá un 0 en la fórmula de *E(t,d)*. Y, en función del cumplimiento del commitment agreement se valorará si podrá optar a la puntuación base.
+
 
 En caso de que un miembro del grupo haya trabajado de manera eficiente sobrepasando los 10 puntos, se le guardará la diferencia para posteriores entregas, premiando así el buen desempeño. 
 
