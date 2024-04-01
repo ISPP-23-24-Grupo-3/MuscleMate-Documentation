@@ -83,6 +83,8 @@ Si no se ha llegado a las horas semanales se tendrá un 0 en la fórmula de *E(t
 
 En caso de que un miembro del grupo haya trabajado de manera eficiente sobrepasando los 10 puntos, se le guardará la diferencia para posteriores entregas, premiando así el buen desempeño. 
 
+Si el número de puntos de historia *(d)* es mayor que el número de tiempo total del sprint (10 horas por semana que abarque el sprint(x), *tiempo_total_sprint= x * 600* ) dividido entre 90: *d > = tiempo_total_sprint/90* , el resultado será *max(4,E(t,d))*
+
 
 
 ### 2.8 Observaciones
