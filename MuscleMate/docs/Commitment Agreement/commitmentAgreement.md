@@ -53,10 +53,10 @@ El cálculo de la puntuación obtenida por cada miembro en cada entrega se calcu
 Se dispondrán de puntos de historia *(d)* todas las tareas de backend, frontend y documentación, abarcando un rango del 1 al 5 según su dificultad y tiempo esperado en su realización *(t)*.
 Se calculará la media de tiempo por punto. *tiempo_por_punto = t/d*
 Después, se evaluará el rendimiento del tiempo por punto en los siguientes rangos:
-- Si *tiempo_por_punto <= 60, entonces E(t,d) = 5* 
-- Si *60 < tiempo_por_punto <= 90, entonces E(t,d) = 4.5*
-- Si *90 < tiempo_por_punto <= 120, entonces E(t,d) = max(3, 4 - ((tiempo_por_punto - 90)/30)*
-- Si *tiempo_por_punto > 120, entonces E(t,d) = max(1, 3 - ((tiempo_por_punto - 120)/30)*
+- Si *tiempo_por_punto < = 60, entonces E(t,d) = 5* 
+- Si *60 < tiempo_por_punto < = 90, entonces E(t,d) = 4.5*
+- Si *90 < tiempo_por_punto < = 120, entonces E(t,d) = max3, 4 - ((tiempo_por_punto - 90)/30)*
+- Si *tiempo_por_punto > 120, entonces E(t,d) = max1, 3 - ((tiempo_por_punto - 120)/30)*
 Por último, se le sumará los 6 puntos base que disponemos de mínimo. 
 No se tendrán en cuenta para el cálculo de la fórmula las horas dedicadas a:
 - Clases.
