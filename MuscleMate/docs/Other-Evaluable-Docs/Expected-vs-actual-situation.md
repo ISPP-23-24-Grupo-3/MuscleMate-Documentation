@@ -4,28 +4,30 @@
 
 <a name="_yl2aps9u5hw"></a>MuscleMate
 
-# <a name="_fq7jvl59qt56"></a>**Entregable - #S2					Grupo - 03**
+# <a name="_fq7jvl59qt56"></a>**Entregable - #S2 Grupo - 03**
 
-
-
-|Miembros del Equipo|||
-| :-: | :- | :- |
-|Pedro González Marcos|Juan Jesús Martín Hernández|Manuel Ortega Garcia|
-|David del Hoyo Carcaboso|Jorge Romero Limón|Agustín Devós Bono|
-|David Zarandieta Ortiz|David Dana Cabello|Alejandro Mateo Capilla|
-|Alejandro Sosa Corral|Ángel Muñoz Prieto|Luis Garcia Parras|
-|Elena Tomás Vela|Juan Carlos Moreno Pérez|Manuel Vázquez Martin|
-
+|   Miembros del Equipo    |                             |                         |
+| :----------------------: | :-------------------------- | :---------------------- |
+|  Pedro González Marcos   | Juan Jesús Martín Hernández | Manuel Ortega Garcia    |
+| David del Hoyo Carcaboso | Jorge Romero Limón          | Agustín Devós Bono      |
+|  David Zarandieta Ortiz  | David Dana Cabello          | Alejandro Mateo Capilla |
+|  Alejandro Sosa Corral   | Ángel Muñoz Prieto          | Luis Garcia Parras      |
+|     Elena Tomás Vela     | Juan Carlos Moreno Pérez    | Manuel Vázquez Martin   |
 
 # <a name="_86eteoxm07in"></a>I. Introducción
+
 El proyecto comienza el 29 de enero, a día de hoy 1 de abril, el proyecto ha abarcado ya la totalidad de 2 sprints, nos encontramos con 8 semanas de proyecto realizadas. La planificación meticulosa de actividades y horas destinadas a programación, análisis, y la creación de documentos, se presenta como la base de nuestras expectativas.
 
 # <a name="_8oc3j6h52m0z"></a>II. Estimaciones Iniciales (Tiempo)
+
 ## <a name="_ojigv5mwcwha"></a>Programación y Análisis:
+
 Desarrollo de código, análisis de requerimientos y diseño.
 
 **Horas planificadas según Sprint Planning a fecha de 01/04: 370 horas.**
+
 ## <a name="_uw420smgcpbl"></a>Documentación
+
 **Horas Planificadas: 28 horas (2 horas por documento)**
 
 - Report
@@ -38,7 +40,7 @@ Desarrollo de código, análisis de requerimientos y diseño.
 - TCO Summary
 - PilotsUsersPerformance Evaluation
 - Lecciones aprendidas
-- Registro de riesgos 
+- Registro de riesgos
 - Retrospectiva
 - Software Review Guidelines
 - ALN Report
@@ -46,62 +48,42 @@ Desarrollo de código, análisis de requerimientos y diseño.
 **Se estima unas 10 horas para la creación y preparación de la presentación semanal.**
 
 **Horas Planificadas : 10 horas x 8 weeks (1 presentanción semanal) = 80 horas**
+
 ## <a name="_j3hbbnug13no"></a>Reuniones
+
 Dos reuniones por Sprint de 1 hora cada una (15 miembros)
 
 **Horas Planificadas: 60 horas**
 
 ## <a name="_7vy99adrh8gw"></a>Píldoras Teóricas
+
 - Week 7: 2 píldoras teóricas (35 min y 35 min)
 - Week 8: 1 píldora teórica (10 min)
 
-**Horas planificadas: 20 horas** 
+**Horas planificadas: 20 horas**
 
 ### <a name="_u1lwqj2iwn1m"></a>**Horas Planificadas Totales: 558 horas**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # <a name="_sxw34hj0grve"></a>III. Ejecución de los Sprint
-**Sprint I (22/02-05/03):**
+
+## **Sprint I (22/02-05/03):**
 
 ![](Aspose.Words.25b11f70-79c0-4d3c-a5a2-6a56e59ffea3.002.png)
 
-
-
-
-
-
-**Sprint II ( 13/03 - 01/04 ):**
+## **Sprint II ( 13/03 - 01/04 ):**
 
 ![](Aspose.Words.25b11f70-79c0-4d3c-a5a2-6a56e59ffea3.003.png)
 
 **HORAS TOTALES REGISTRADAS DE AMBOS SPRINT SIN CONTABILIZAR CLASES:**
 
+### Puntos de Historia y Presupuesto
+
+![](/img/estadoproyecto.png)
+
 **579 HORAS**
+
 # <a name="_t9o8u34p59f1"></a>IV. Resumen de costos según TCO
+
 - **Sueldos de Trabajadores:**
 
 Junior Developer: 320 €/mes
@@ -142,9 +124,7 @@ App Engine: 18 €/mes (solo 2 meses)
 
 - **Total estimado para 4 meses (sumando los 7500€ en ordenadores): 57470 €**
 
-
-
-Nos encontramos en la semana 8 de proyecto lo que nos indica el ecuador del mismo, suponiendo que el total estimado para 4 meses sea de 57470€ nos encontraríamos con que actualmente se **espera que deberíamos de llevar “gastados” : 28735 €** 
+Nos encontramos en la semana 8 de proyecto lo que nos indica el ecuador del mismo, suponiendo que el total estimado para 4 meses sea de 57470€ nos encontraríamos con que actualmente se **espera que deberíamos de llevar “gastados” : 28735 €**
 
 **Sin contar el sueldo de trabajadores, sumando gastos de infraestructura subscripción , producción y subscripción son de 14592 €.**
 
@@ -162,9 +142,10 @@ Ahora, multiplicamos este costo por hora por el total de horas registradas hasta
 
 Por lo tanto, hasta el momento, el costo total de los salarios de los trabajadores basado en las horas registradas es de 32424 €.
 
-**TOTAL REAL GASTADO A  01/04/2024: 47016€**
+**TOTAL REAL GASTADO A 01/04/2024: 47016€**
 
 # <a name="_x8pxt0ssubkw"></a>V. Análisis de Desviaciones
+
 **En cuanto a la planificación de horas:**
 
 Desviación = Horas registradas - Horas planificadas
@@ -205,8 +186,8 @@ Desviación Negativa (Costo Menor al Estimado en Total): 14604 €
 
 Esto sugiere que, hasta la fecha actual, los salarios de los trabajadores son significativamente más altos de lo estimado para el período de dos meses, mientras que los costos de infraestructura y suscripciones están en línea con las estimaciones. Además, el costo total hasta ahora es más alto de lo estimado inicialmente para el mismo período.
 
-
 # <a name="_fwbayu3wulux"></a>VI. Implicaciones y Acciones
+
 - Implicaciones de las Desviaciones en la Planificación de Horas:
 
 La desviación positiva de 21 horas indica que el proyecto ha consumido más tiempo del planificado originalmente.
@@ -230,7 +211,9 @@ Aunque los costos de infraestructura y suscripciones están en línea con las es
 - Comunicar claramente las desviaciones identificadas y las acciones a seguir a todos los interesados relevantes para garantizar una comprensión común y el apoyo necesario para implementar las medidas correctivas.
 
 .
+
 # <a name="_h9hy4m3aihc2"></a>VI. Conclusiones
+
 El análisis de desviaciones revela que el proyecto ha experimentado un aumento significativo en los costos de los sueldos de los trabajadores, así como en el costo total del proyecto en comparación con las estimaciones iniciales.
 
 Las desviaciones en las horas planificadas indican una necesidad de una mejor gestión del tiempo y una planificación más realista para evitar futuras desviaciones.
@@ -238,4 +221,3 @@ Las desviaciones en las horas planificadas indican una necesidad de una mejor ge
 Es esencial tomar medidas correctivas oportunas para abordar las desviaciones identificadas y garantizar que el proyecto se mantenga dentro del presupuesto y el cronograma establecidos.
 
 La revisión continua del desempeño del proyecto y la implementación de medidas correctivas efectivas son fundamentales para garantizar el éxito general del proyecto y cumplir con los objetivos establecidos.
-
