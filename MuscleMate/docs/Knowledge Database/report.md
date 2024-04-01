@@ -1,13 +1,11 @@
 ---
 id: report
 title: Report of contribution to the common Knowledge Database
-sidebar_position: 2
 ---
 
-
-| Versión | Fecha       | Autor      | Descripción                            |
-|---------|-------------|------------|----------------------------------------|
-| v1.0    | 2024-01-01  | Manuel Ortega| Creación del documento                 |
+| Versión | Fecha      | Autor         | Descripción            |
+| ------- | ---------- | ------------- | ---------------------- |
+| v1.0    | 2024-01-01 | Manuel Ortega | Creación del documento |
 
 ## Semana 1
 

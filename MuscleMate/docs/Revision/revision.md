@@ -1,14 +1,8 @@
----
-title: Software Review Guidelines
-sidebar_position: 9
----
-
 # Software Review Guidelines
 
-
-| Versión | Fecha       | Autor      | Descripción                            |
-|---------|-------------|------------|----------------------------------------|
-| v1.0    | 2024-01-01  | xxx| Creación del documento                 |
+| Versión | Fecha      | Autor | Descripción            |
+| ------- | ---------- | ----- | ---------------------- |
+| v1.0    | 2024-01-01 | xxx   | Creación del documento |
 
 No matchmaking:
 
