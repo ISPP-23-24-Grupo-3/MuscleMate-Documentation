@@ -7,13 +7,15 @@ sidebar_position: 3
 | Versión | Fecha       | Autor      | Descripción                            |
 |---------|-------------|------------|----------------------------------------|
 | v1.0    | 2024-01-01  | Angel| Creación del documento                 |
+| v2.0    | 2024-04-01|  Juan Jesús| Actualización del documento|
 
 
-## Entregable S1
+## Entregable S2
 
 ### Descripción
 
 Al final del Sprint 1 se contactó con los usuarios piloto que se tenían planeados para este primer sprint. A todos se les concedió una muestra de la aplicación con las primeras funcionalidades y se les dio un día (en lugar de dos como se tenía estipulado por el retraso) para que probaran esas características. Cuando acabó este tiempo de pruebas se entregó un formulario para que calificasen su experiencia.
+Al final del Sprint 2 se contactó de nuevo con  los usuarios pilotos que se tenían planteados para el segundo sprint , cabe destacar que hemos aumentado considerablemente el número de usuarios pilotos. El tiempo que se les proporcionó fue de un día y se le entregó un formulario para recoger el feedback.
 
 ### Formulario de Feedback
 
@@ -56,9 +58,23 @@ Al final del Sprint 1 se contactó con los usuarios piloto que se tenían planea
 
 - ¿Hay alguna otra sugerencia o comentario que te gustaría compartir sobre la aplicación del gimnasio? (Pregunta abierta)
 
-### Feedback de Usuarios Piloto
+### Feedback de Usuarios Piloto Sprint 1
 
 - **Martín Romero** (Gimnasio LowFit): Feedback positivo sobre la interfaz de usuario y la creación de rutinas.
 - **Jesús Torres** (Gimnasio Dreamfit): Considera la aplicación fácil de usar y con una estética agradable, aunque sugiere mejorar la simplicidad del diseño.
 - **Manuel Morgollón** (Gimnasio Yo10 Sport): Encuentra la funcionalidad de crear rutinas tosca y lenta, sugiere agilizar el proceso.
 - **Gimnasio TocaSport**: Gusta la interfaz general, pero espera ver la valoración de las máquinas en lugar de solo los detalles.
+
+
+### Feedback de Usuarios Piloto Sprint 2
+- **Carrizosa Mateos** (Gimnasio TocaSport): Considera que cuando se pone la información de la serie la duración solo es importante si son ejercicios de cardio pero a nivel de fuerza puede ser más correcto poner tiempo de descanso. Además encuentra la terminología muy mejorable por ejemplo : denominar "comba" en lugar de "cuerda de saltar" o la redundancia de máquinas similares por ejemplo : "barra olímpica" y "press banca". También propone una mejora en el apartado de series , poder crear series cada una con sus datos ya que no siempre haces las series con el mismo peso o el mismo descanso. Por último añade que a veces cuando asignas una máquina luego aparece sin asignar.
+- **Leal Sarmiento** (Gimnasio TocaSport): Considera que falta la posibilidad de poder meter diferentes pesos y diferentes tiempo de descanso en una misma serie en lugar de tener que crear una serie por cada peso. También considera que faltan algunas imágenes que ilustren diferentes tipos de cosas que pueden hacer la app más llamativa. Añade que en las elecciones de máquinas faltan mancuernas simples. Por último detalla que echa en falta poder añadir directamente las series a la rutina.
+- **Manuel Luis** (Gimnasio Coliseum): Apunta que cuando te registras no se abre la página directamente y tienes que refrescar al igual que a la hora de añadir ejercicios a una rutina tienes que recargar para que aparezcan dichos ejercicios. También cuando editas los datos del perfil debes recargar la página para que aparezcan editados. Como mejora propone facilitar la lección de máquinas desplegando directamente el grupo de máquinas que puedo utilizaral elegir el grupo muscular que quiero trabajar. Además añade que es demasiada información diferente  la que hay que poner para llegar a la elección de máquinas.
+- **Leal Ojeda** (Gimnasio Coliseum): Encuentra la app poco intuitiva, desconoce la utilidad de los términos como por ejemplo crear tickets, además apunta que aunque cambie de pantalla hay algunos botones que siguen apareciendo y no tienen sentido. En general cuando empieza a entenderla es útil pero a la vez simple.
+- **Olivares Leal** (Gimnasio TocaSport):Una aplicación bastante útil a la hora de monitorear tu entrenamiento y ver tus avances, echa en falta alguna máquina como las mancuernas simples. Además destaca que hay muchas veces que necesitas recargar la página para que siga funcionando.
+- **Juan del Barrio** (Gimnasio Coliseum):Aplicación bastante útil aunque poco intuitiva, echa en falta algunas máquinas como por ejemplo las mancuernas simples.
+- **María del Carmen** (Gimnasio TocaSport): En general encuentra la app bastante útil e intuitiva con una interfaz bastante agradable para el usuario, el único aspecto negativo que encuentra es en los nombre de las máquinas que a veces salen en un formato incompatible con el móvil o PC.
+- **Javier Pardo** (Gimnasio Coliseum): Le parece una aplicación muy útil a la hora de llevar un seguimiento fijo y seguro de tu rutina de entrenamiento con una gran variedad de máquinas incorporadas para seleccionar cual es la mas ideal para el entrenamiento. También destaca que a la hora de añadir ejercicios a una rutina ya creada no le deja.
+- **Vicente** (Dueño TocaSport): Dimensiones no adaptada a algunas pantallas. Además cuando se loguea como propietario no tiene la opción de añadir un nuevo gimnasio. También ha tenido dificultades a la hora de registrarse ya que ha obtenido la respuesta : "No se ha podido registrar al propietario" echando en falta una explicación más concreta.
+El buscador de máquinas no funciona correctamente en algunos nombres. Destaca la incomodidad de la interfaz en el móvil ya que no se ajusta a la pantalla y algunas cosas salen bastante desproporcionada. No puede acceder a la información del perfil. 
+- **Almansa Vergara** (Gimnasio TocaSport): En general da un feddback positivo aunque echa en falta varias cosas como por ejemplo apunta que falta algunas máquinas, también para los usuarios menos informados tener una recomendación de ejercicios básicos según el músculo que se quiera trabajar.
