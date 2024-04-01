@@ -5,7 +5,8 @@ title: Report of contribution to the common Knowledge Database
 
 | Versión | Fecha      | Autor         | Descripción            |
 | ------- | ---------- | ------------- | ---------------------- |
-| v1.0    | 2024-01-01 | Manuel Ortega | Creación del documento |
+| v1.0    | 2024-02-19 | Pedro González Marcos | Creación del documento |
+| v2.0    | 2024-03-04 | Alejandro Mateo Capilla | Modificación del documento |
 
 ## Semana 1
 
