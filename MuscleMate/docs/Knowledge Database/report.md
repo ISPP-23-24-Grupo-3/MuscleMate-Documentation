@@ -3,10 +3,12 @@ id: report
 title: Report of contribution to the common Knowledge Database
 ---
 
-| Versión | Fecha      | Autor         | Descripción            |
-| ------- | ---------- | ------------- | ---------------------- |
-| v1.0    | 2024-02-19 | Pedro González Marcos | Creación del documento |
+| Versión | Fecha      | Autor                   | Descripción                |
+| ------- | ---------- | ----------------------- | -------------------------- |
+| v1.0    | 2024-02-19 | Pedro González Marcos   | Creación del documento     |
 | v2.0    | 2024-03-04 | Alejandro Mateo Capilla | Modificación del documento |
+
+[Base de datos General](https://bgcc.vercel.app/)
 
 ## Semana 1
 
