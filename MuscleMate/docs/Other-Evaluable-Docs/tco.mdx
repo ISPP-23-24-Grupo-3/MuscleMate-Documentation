@@ -14,6 +14,7 @@ title: Total Cost Ownership (TCO)
 | 6.0     | 2024-02-22 | Correción del documento       |
 | 7.0     | 2024-03-01 | Correción del documento       |
 | 8.0     | 2024-04-01 | Graficas TCO y Calculos       |
+| 9.0     | 2024-04-01 | Agregados costes de SLA       |
 
 # TCO Summary - MuscleMate - Entregable #S1
 
@@ -36,24 +37,27 @@ Teniendo en cuenta esto, a cada rol se le asigna un multiplicador:
 - Senior Developer: x3
 - QA: x2
 - Operation Engineer: x2.5
+- Systems Technician: x1.5
 - Project Manager: x3.5
 
 Asumimos que en nuestro equipo tenemos:
-- 7 Junior Developers
+- 5 Junior Developers
 - 3 Senior Developers
 - 3 QA
 - 1 Operation Engineer
+- 2 Systems Technician
 - 1 Project Manager
 
 Al mes, los costes cada rol suman:
-- 320 x 7 x 1 = 2,240€
+- 320 x 5 x 1 = 1,600€
 - 320 x 3 x 3 = 2,880€
 - 320 x 3 x 2 = 1,920€
 - 320 * 1 * 2.5 = 800€
+- 320 * 2 * 1.5 = 960€
 - 320 * 1 * 3.5 = 1,120€
 
 Con todo, obtenemos que el costo de personal es:
-2,240 + 2,880 + 1,920 + 800 + 1,120 = **8,960€/mes**
+1,600 + 2,880 + 1,920 + 800 + 960 + 1,120 = **9,280€/mes**
 
 ### 2.2 Costes de infraestructura
 
@@ -81,21 +85,22 @@ En total, los costes mensuales de la infraestructura durante el desarrollo son:
 ### 2.3 Costes totales
 
 Los costes mensuales totales suman:
-8,960 + 3,528 = 12,488 €/mes
+9,280 + 3,528 = 12,808 €/mes
 
-Tenemos en cuenta que el desarrollo dura 4 meses. Con ello, obtenemos 12,488 * 4 = 49,952€
-Sumando a ello el precio de los portátiles, obtenemos 49,952 + 7,500 = 57,452€
+Tenemos en cuenta que el desarrollo dura 4 meses. Con ello, obtenemos 12,488 * 4 = 51,232€
+Sumando a ello el precio de los portátiles, obtenemos 51,232 + 7,500 = 58,732€
 
-Por ello, el coste total de capital (Capex) es: **57,452**
+Por ello, el coste total de capital (Capex) es: **58,732**
 
 ## 3. Costes de operación mensual (Opex)
 
 ## 3.1 Costes de personal
 
-Como la aplicación ya está desarrollada, asumiremos que para mantenerla solo hará falta un miembro de QA y otro de Operation Engineer.
+Como la aplicación ya está desarrollada, asumiremos que para mantenerla solo hará falta un miembro de QA, un miembro de Operation Engineer y dos de Systems Technician.
 - 320 * 1 * 2 = 640€
 - 320 * 1 * 2.5 = 800€
-Con ello, los costes de personal ascienden a 640 + 800 = **1,440€/mes**
+- 320 * 2 * 1.5 = 960€
+Con ello, los costes de personal ascienden a 640 + 800 + 960 = **2,400€/mes**
 
 ## 3.2 Costes de infraestructura
 
@@ -113,7 +118,7 @@ al plan de 99€/mes.
 ## 3.3 Costes totales
 
 Con todo, obtenemos que el coste total de operación mensual inicialmente es:
-- 1,440 + 3,551 = **4,991 €/mes**
+- 2,400 + 3,551 = **5,951 €/mes**
 
 # 4. Evolución a lo largo del tiempo
 
