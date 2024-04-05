@@ -1,5 +1,5 @@
 ---
-title: Report of user pilots
+title: Reporte General de Usuarios Piloto
 sidebar_position: 3
 ---
 
@@ -7,8 +7,9 @@ sidebar_position: 3
 | Versión | Fecha       | Autor      | Descripción                            |
 |---------|-------------|------------|----------------------------------------|
 | v1.0    | 2024-01-01  | Angel| Creación del documento                 |
-| v2.0    | 2024-04-01|  Juan Jesús| Actualización del documento|
-| v2.1    | 2024-04-03  | Angel      |Actualización del documento con informacion inicial sobre S3|
+| v1.1    | 2024-04-01|  Juan Jesús| Actualización del documento|
+| v1.2    | 2024-04-03  | Angel      |Actualización del documento con informacion inicial sobre S3|
+| v1.3    | 2024-04-05  | Angel      |Correción y completitud de la información del S2|
 
 
 # Información sobre los Usuarios Piloto del grupo MuscleMate
@@ -64,7 +65,26 @@ Actualmente, todos los usuarios piloto mantienen contacto con MuscleMate y está
 
 ### Estado de Commitment Agreement con personas ajenas a la asignatura
 
-## Feedback de Usuarios Piloto Sprint 2
+El commitment agreement redactado para los usuarios piloto ajenos a la asignatura no ha sufrido cambios durante esta entrega, manteniendo los puntos que se podía observar en el anterior sprint.
+
+## Gestión de Usuarios Piloto Sprint 2
+
+### Plan de Usuarios Piloto
+
+El plan con los usuarios piloto se mantiene al establecido durante los anteriores Sprint. La dinámica consiste en que cuando se realiza un despliegue, que tiene lugar los domingos, se crearán 3 formularios en Excel para evaluar la aplicación. Uno destinado a usuarios piloto que hagan de clientes (usuarios de gimnasio anónimos), uno destinado a usuarios piloto que hagan de propietarios (TocasSport y Coliseum) y uno para el grupo 9 que evalúe ambos aspectos de la aplicación. 
+En el caso del grupo 9 este formulario se entrega junto con el despliegue el mismo domingo a las 15 horas, recibiendo sus respuestas 24 horas después para poder procesarlas y crear las tareas pertinentes.
+Con el resto de usuarios piloto se sigue una dinámica similar en la entrega pero se es más flexible con la recogida de datos, al ser 24 horas poco tiempo para que personas ajenas a la asignatura tengan tiempo para esta.
+
+### Proceso de Gestión del Feedback
+
+Tras recibir los formularios de vuelta, el encargado de los usuarios piloto de MuscleMate recogerá toda la información de estos en la documentación del grupo en el mismo documento donde está recogido esto. 
+Una vez finalizada la recolección de reseñas, se pasará a crear tareas para los grupos de frontend y backend con la etiqueta de github "feedback" para marcar que son tareas proporcionadas por los mismos ususarios piloto de la aplicación.
+Tras esto, las tareas serán revisadas por los coordinadores de dichos equipos para puntuarlas y asignarles una prioridad.
+
+### Feedback Recibido
+
+#### Usuarios Piloto ajenos a la asignatura
+
 - **Carrizosa Mateos** (Gimnasio TocaSport): Considera que cuando se pone la información de la serie la duración solo es importante si son ejercicios de cardio pero a nivel de fuerza puede ser más correcto poner tiempo de descanso. Además encuentra la terminología muy mejorable por ejemplo : denominar "comba" en lugar de "cuerda de saltar" o la redundancia de máquinas similares por ejemplo : "barra olímpica" y "press banca". También propone una mejora en el apartado de series , poder crear series cada una con sus datos ya que no siempre haces las series con el mismo peso o el mismo descanso. Por último añade que a veces cuando asignas una máquina luego aparece sin asignar.
 - **Leal Sarmiento** (Gimnasio TocaSport): Considera que falta la posibilidad de poder meter diferentes pesos y diferentes tiempo de descanso en una misma serie en lugar de tener que crear una serie por cada peso. También considera que faltan algunas imágenes que ilustren diferentes tipos de cosas que pueden hacer la app más llamativa. Añade que en las elecciones de máquinas faltan mancuernas simples. Por último detalla que echa en falta poder añadir directamente las series a la rutina.
 - **Manuel Luis** (Gimnasio Coliseum): Apunta que cuando te registras no se abre la página directamente y tienes que refrescar al igual que a la hora de añadir ejercicios a una rutina tienes que recargar para que aparezcan dichos ejercicios. También cuando editas los datos del perfil debes recargar la página para que aparezcan editados. Como mejora propone facilitar la lección de máquinas desplegando directamente el grupo de máquinas que puedo utilizaral elegir el grupo muscular que quiero trabajar. Además añade que es demasiada información diferente  la que hay que poner para llegar a la elección de máquinas.
@@ -84,7 +104,7 @@ El buscador de máquinas no funciona correctamente en algunos nombres. Destaca l
 - **Pablo Moreno**(Gimnasio McFit): Falta más representación de máquinas en la base de datos. La memoria de sesiones anteriores no es muy intuitiva.
 - **Carlos Liberal**(Gimnasio Dreamfit): Inicio de sesión y menú principal muy intuitivos, pero es muy lento el crear las series, rutinas y ejercicios. Muy buena ideas los tickets, que no está en ningún gimnasio apenas. Se recomienda aun así cambiar el nombre a ticket y el incluir imágenes para detallar los tickets.
 
-### Feedback de Usuarios Piloto del Grupo 9, Sprint 2
+#### Usuarios Piloto del grupo 9 
 
 - **Registros**: No existe confirmación del registro ni redirección a la pantalla principal por lo que no queda claro si se ha creado correctamente o no.
 Además muchos campos carecen de validación, por ejemplo el nombre que pueden ser números o la fecha que puede ser futura, exceptuando el email. El teléfono deberia
@@ -119,6 +139,39 @@ Cuando introduces datos incorrectos no muestra que campo falla, solo dice que no
         Se recomienda usar otro tono en la matrícula activa, el amarillo puede llevar a confusión.
 
         Visualmente muy agradable y muy bien en general.
+
+### Acciones Derivadas
+
+A raíz del feedback recogido durante el sprint 2 tenemos las siguientes issues creadas:
+
+- **Feedback Sprint 2 : Serie** : Se recogen todos los fallos y sugerencias relacionados con la entidad serie.
+- **Feedback Sprint 2 : Workout** : Se recogen todos los fallos y sugerencias relacionados con la entidad workout.
+- **Feedback Sprint 2 : Rutina** : Se recogen todos los fallos y sugerencias relacionados con la entidad rutina.
+- **Feedback Sprint 2 : Ticket** : Se recogen todos los fallos y sugerencias relacionados con la entidad ticket.
+- **Feedback Sprint 2 : Perfil** : Se recogen todos los fallos y sugerencias relacionados con los perfiles.
+- **Feedback Sprint 2 : Registros** : Se recogen todos los fallos y sugerencias relacionados con los registros.
+- **Feedback Sprint 2 : Listado de Máquinas** : Se recogen todos los fallos y sugerencias relacionados con el listado de máquinas.
+- **Mejoras de Rendimiento** : Se recogen todos los fallos y sugerencias relacionados con el rendimiento general de la aplicación.
+- **Mejora de UI/UX de la aplicación** : Se recogen todos los fallos y sugerencias relacionados con la experiencia e interfaz de ususario de la aplicación.
+
+
+### Priorización del Feedback
+
+Todas las tareas previamente mencionadas son de alta prioridad para el sprint 3, por tanto deben hacerse antes de los propios avances del sprint ya que el equipo musclemate considera muy importante solucionar los fallos encontrados por los usuarios piloto, especialmente los de funciones Core como la gestion de rutinas o de usuarios.
+
+### Estado Actual de los Usuarios Piloto
+
+Los usuarios piloto están todos en contacto frecuente con MuscleMate y a la espera de nuevas versiones de la aplicación para ser probadas y analizadas.
+
+### Estado de Commitment Agreement con usuarios piloto grupo 9
+
+Por sugerencia del profesorado se ha creado un commitment agreement con los miembros del grupo 9 aclarando y estipulando las fechas para las entregas de feedback así como para los despliegues, de manera que todo esté acordado y pactado por posibles problemas que puedan ocasionarse.
+
+### Estado de Commitment Agreement con personas ajenas a la asignatura
+
+Por sugerencia del profesorado se ha creado un commitment agreement para los usuarios piloto ajenos a la asignatura para vincular así su relación con el proyecto.
+
+
 
 ## Formulario de Feedback Sprint 1
 
