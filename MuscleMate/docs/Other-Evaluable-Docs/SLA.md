@@ -1,5 +1,5 @@
 ﻿---
-title: Acuerdo de nivel de Servicio (SLA)
+title: SLA
 ---
 
 #
