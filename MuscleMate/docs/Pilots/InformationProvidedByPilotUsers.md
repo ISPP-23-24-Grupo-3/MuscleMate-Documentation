@@ -1,5 +1,5 @@
 ---
-title: Feedback de Usuarios Piloto
+title: Information Provided by Pilot Users
 sidebar_position: 3
 ---
 

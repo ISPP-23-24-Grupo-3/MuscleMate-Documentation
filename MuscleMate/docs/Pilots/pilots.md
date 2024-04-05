@@ -1,5 +1,5 @@
 ---
-title: Reporte General de Usuarios Piloto
+title: Report of Pilot Users
 sidebar_position: 3
 ---
 
