@@ -142,13 +142,13 @@ Estos endpoints permiten acceder a toda la información de los gimnasios.
 	gyms/
 ```
 
-- GET: Permite obtener un listado de todos los gimnasios de la base de datos.
+- GET Owner: Permite obtener un listado de todos los gimnasios de la base de datos asociados a el dueño logeado.
 
 ```
 	gyms/detail/<int:id>/
 ```
 
-- GET: Permite obtener información de el gimnasio especificado en la URL.
+- GET Owner, Client: Permite obtener información de el gimnasio especificado en la URL, permitirá el acceso solo si eres el dueño de el gimnasio o cliente de este.
 
 ```
 	gyms/create/
@@ -169,7 +169,7 @@ Estos endpoints permiten acceder a toda la información de los gimnasios.
 	gyms/update/<int:id>/
 ```
 
-- PUT: Permite actualizar los datos de un gimnasio en la base de datos. Requiere:
+- PUT Owner: Permite actualizar los datos de un gimnasio en la base de datos. Aceptará la petición solo si está realizada por el dueño de el gimnasio indicado en la URL. Requiere:
   - name
   - address
   - zip_code
@@ -183,7 +183,7 @@ Estos endpoints permiten acceder a toda la información de los gimnasios.
 	gyms/delete/<int:id>/
 ```
 
-- DELETE: Permite eliminar un gimnasio de la base de datos así como su usuario asociado dado su id.
+- DELETE Owner: Permite eliminar un gimnasio de la base de datos así como su usuario asociado dado su id. Aceptará la petición solo si está realizada por el dueño de el gimnasio indicado.
 
 ## Equipment
 
@@ -211,7 +211,7 @@ Estos endpoints permiten acceder a toda la información de los equipamientos de 
 	equipments/create/
 ```
 
-- POST Owner: Permite la introducción de un nuevo equipamiento a la base de datos. Permitirá la petición solo si el gimnasio indicado en esta es propiedad de el dueño logueado. Requiere:
+- POST Owner: Permite la introducción de un nuevo equipamiento a la base de datos. Permitirá la petición solo si el gimnasio indicado en esta es propiedad de el dueño logeado. Requiere:
   - name
   - brand
   - serial_number
