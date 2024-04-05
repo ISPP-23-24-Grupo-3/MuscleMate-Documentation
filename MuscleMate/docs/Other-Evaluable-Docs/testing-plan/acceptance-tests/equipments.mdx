@@ -1,0 +1,79 @@
+---
+title: Equipo
+---
+
+<center>
+  <h1>Equipo del gimnasio</h1>
+</center>
+
+<center>![](/img/MuscleMateLogo.svg)</center>
+
+<center>**Grupo 3 - MuscleMate; Sprint 3**</center>
+
+---
+
+## Contribuidores
+
+- González Marcos, Pedro:
+  - Redactar; #76 Realizar un plan de pruebas hasta el World Project Launch
+
+## Historial de versiones
+
+| Versión | Fecha      | Autor                  | Descripción            |
+| ------- | ---------- | ---------------------- | ---------------------- |
+| v1.0    | 2024-04-05 | González Marcos, Pedro | Creación del documento |
+
+## Contenido
+
+## Requisitos previos
+
+- Toda la interfaz del caso de uso tiene que estar en español
+- Los mensajes de error tienen que estar en español
+
+### Crear máquina
+
+Siendo un propietario podrá registrar una máquina del gimnasio en la plataforma pulsando
+en el botón `Añadir máquina` al hacer click en la `Mis maquinas`
+dentro de la barra de navegación.
+
+| ID  | Nombre de la maquina        | Marca                       | Número de referencia        | Descripción                                                          | Grupo muscular | Gimnasio                |
+| --- | --------------------------- | --------------------------- | --------------------------- | -------------------------------------------------------------------- | -------------- | ----------------------- |
+| N1  | Vacio                       | Vacio                       | Vacio                       | Vacio                                                                | Vacio          | Vacio                   |
+| N2  | Vacio                       | LifeFitness                 | 2565                        | Los 7 grados de la barra permiten un movimiento natural de las pesas | Espalda        | Synegym Sevilla Nervión |
+| N3  | Máquina Smith               | Vacio                       | 2565                        | Los 7 grados de la barra permiten un movimiento natural de las pesas | Espalda        | Synegym Sevilla Nervión |
+| N4  | Máquina Smith               | LifeFitness                 | Vacio                       | Los 7 grados de la barra permiten un movimiento natural de las pesas | Espalda        | Synegym Sevilla Nervión |
+| N5  | Máquina Smith               | LifeFitness                 | 2565                        | Vacio                                                                | Espalda        | Synegym Sevilla Nervión |
+| N6  | Máquina Smith               | LifeFitness                 | 2565                        | Los 7 grados de la barra permiten un movimiento natural de las pesas | Vacio          | Synegym Sevilla Nervión |
+| N7  | Máquina Smith               | LifeFitness                 | 2565                        | Los 7 grados de la barra permiten un movimiento natural de las pesas | Espalda        | Vacio                   |
+| N8  | Supera el limite de la BBDD | LifeFitness                 | 2565                        | Los 7 grados de la barra permiten un movimiento natural de las pesas | Espalda        | Synegym Sevilla Nervión |
+| N9  | Máquina Smith               | Supera el limite de la BBDD | 2565                        | Los 7 grados de la barra permiten un movimiento natural de las pesas | Espalda        | Synegym Sevilla Nervión |
+| N10 | Máquina Smith               | LifeFitness                 | Supera el limite de la BBDD | Los 7 grados de la barra permiten un movimiento natural de las pesas | Espalda        | Synegym Sevilla Nervión |
+| N11 | Máquina Smith               | LifeFitness                 | 2565                        | Supera el limite de la BBDD                                          | Espalda        | Synegym Sevilla Nervión |
+
+- Haz una peticion al backend para crear una máquina nueva, y en vez de mandar una grupo muscular válido. Manda la cadena `Prueba`
+- Haz una peticion al backend para crear una máquina nueva, y en vez de mandar el id de uno de tus gimnasios, manda el id del gimnasio de otro propietario
+- Prueba que el codigo postal solo pueda tener 5 digitos numericos
+- Prueba que se valida correctamente el correo electrónico en el formulario
+
+### Visualizar máquinas
+
+Se mostrará un listado de máquinas agrupadas por gimansios
+
+En cada entrada de la lista de máquinas el propietario podrá ver
+
+- El nombre de la máquina
+- La valoración de la máquina
+- El número de reseñas de la máquina
+- Las incidencias de las máquinas
+
+### Eliminar máquina
+
+- Si el propietario decide borrar la máquina se eliminarán sus datos, las incidencias, las valoraciones
+  y las reseñas asociadas.
+
+Al ser una acción muy destructiva, se mostrará un diálogo de confirmación de
+borrado de la máquina.
+
+- Se le mostrará un mensaje al propietario confirmando el borrado de la máquina
+
+- Un propietario no puede borrar la máquina de otro propietario.
