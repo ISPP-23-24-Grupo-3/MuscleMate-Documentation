@@ -65,7 +65,7 @@ Este acuerdo se regirá e interpretará de acuerdo con las leyes del lugar donde
 
 11. **Contacto:**
 
-Si tienes alguna pregunta sobre este acuerdo o sobre el uso de MuscleMate, no dudes en contactarnos. Puedes encontrarnos en nuestro apartado de contactos dentro de la aplicación o enviarnos un correo electrónico a través de [Dirección de correo electrónico de contacto].
+Si tienes alguna pregunta sobre este acuerdo o sobre el uso de MuscleMate, no dudes en contactarnos. Puedes encontrarnos en nuestro apartado de contactos dentro de la aplicación o enviarnos un correo electrónico a través de [musclemate33@gmail.com].
 
 ---
 
@@ -77,7 +77,7 @@ Si tienes alguna pregunta sobre este acuerdo o sobre el uso de MuscleMate, no du
 | Estándar       | 97.99 €    | 1 mes    | - Feedback de los usuarios a través de tickets y valoración de máquinas - Gráficas sobre el uso de máquinas - QR de cada máquina para un rápido escaneo de los usuarios - Posibilidad de que cada usuario establezca sus rutinas de entrenamiento - Gráficas para los usuarios de su evolución - Usuarios máximos 50 |
 | Premium        | 109.99 €   | 1 mes    | - Feedback de los usuarios a través de tickets y valoración de máquinas - Gráficas sobre el uso de máquinas - QR de cada máquina para un rápido escaneo de los usuarios - Posibilidad de que cada usuario establezca sus rutinas de entrenamiento - Gráficas para los usuarios de su evolución - Usuarios ilimitados - Información sobre el uso de máquinas en otros gimnasios - Gestión de clases por parte del cliente y reserva de plazas por parte de los usuarios |
 
-#SLA
+# SLA
 [Link a nuestro apartado SLA](/docs/Other-Evaluable-Docs/SLA)
 
 
@@ -137,6 +137,6 @@ This agreement shall be governed and construed in accordance with the laws of th
 
 11. **Contact:**
 
-If you have any questions about this agreement or the use of MuscleMate, feel free to contact us. You can find us in our contact section within the application or send us an email at [Contact Email Address].
+If you have any questions about this agreement or the use of MuscleMate, feel free to contact us. You can find us in our contact section within the application or send us an email at [musclemate33@gmail.com].
 
 ---
