@@ -52,11 +52,12 @@ Cualquiera de las partes puede dar por terminado este acuerdo mediante notificac
 
 8. **Limitación de Responsabilidad:**
 
-Ni MuscleMate ni sus afiliados serán responsables de ningún daño directo, indirecto, incidental, especial, consecuente o punitivo que surja de tu uso o tu incapacidad para utilizar la aplicación. Esto incluye, entre otros, pérdida de datos, interrupción del negocio o cualquier otro daño comercial.
+Ni MuscleMate ni sus afiliados serán responsables por ningún daño directo, indirecto, incidental, especial, consecuente o punitivo que surja de tu mal uso de la aplicación. Si se hace responsable de los daños causados después de un uso adecuado.
+
 
 9. **Cambios en el Acuerdo:**
 
-Nos reservamos el derecho de modificar este acuerdo en cualquier momento. Te notificaremos sobre cualquier cambio significativo mediante un aviso visible en la aplicación o por otros medios de comunicación. El uso continuado de MuscleMate después de la notificación de los cambios constituirá tu aceptación de dichos cambios. En caso de cambios significativos, se te pedirá que aceptes nuevamente el acuerdo. Si no aceptas los cambios, no podrás continuar utilizando la aplicación.
+Nos reservamos el derecho de modificar este acuerdo en cualquier momento. Te notificaremos sobre cualquier cambio significativo mediante un aviso visible en la aplicación o por otros medios de comunicación. Se te pedirá que aceptes nuevamente el acuerdo. Si no aceptas los cambios, no podrás continuar utilizando la aplicación.
 
 10. **Ley Aplicable:**
 
@@ -76,7 +77,8 @@ Si tienes alguna pregunta sobre este acuerdo o sobre el uso de MuscleMate, no du
 | Estándar       | 97.99 €    | 1 mes    | - Feedback de los usuarios a través de tickets y valoración de máquinas - Gráficas sobre el uso de máquinas - QR de cada máquina para un rápido escaneo de los usuarios - Posibilidad de que cada usuario establezca sus rutinas de entrenamiento - Gráficas para los usuarios de su evolución - Usuarios máximos 50 |
 | Premium        | 109.99 €   | 1 mes    | - Feedback de los usuarios a través de tickets y valoración de máquinas - Gráficas sobre el uso de máquinas - QR de cada máquina para un rápido escaneo de los usuarios - Posibilidad de que cada usuario establezca sus rutinas de entrenamiento - Gráficas para los usuarios de su evolución - Usuarios ilimitados - Información sobre el uso de máquinas en otros gimnasios - Gestión de clases por parte del cliente y reserva de plazas por parte de los usuarios |
 
-
+#SLA
+[Link a nuestro apartado SLA](/docs/Other-Evaluable-Docs/SLA)
 
 
 ## MuscleMate User Agreement
@@ -123,11 +125,11 @@ Either party may terminate this agreement by providing written notice to the oth
 
 8. **Limitation of Liability:**
 
-Neither MuscleMate nor its affiliates shall be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from your use or inability to use the application. This includes, among other things, loss of data, business interruption, or any other commercial damages.
+Neither MuscleMate nor its affiliates will be liable for any direct, indirect, incidental, special, consequential or punitive damages arising from your misuse of the application. if you are responsible for damage caused after good use.
 
 9. **Changes to the Agreement:**
 
-We reserve the right to modify this agreement at any time. We will notify you of any significant changes through a visible notice in the application or through other means of communication. Your continued use of MuscleMate after notification of the changes constitutes your acceptance of such changes. In case of significant changes, you will be asked to accept the agreement again. If you do not accept the changes, you will not be able to continue using the application.
+We reserve the right to modify this agreement at any time with prior notice. We will notify you of any significant changes by means of a visible notice in the application or by other means of communication. After this, you will be asked to sign the agreement again.
 
 10. **Applicable Law:**
 
