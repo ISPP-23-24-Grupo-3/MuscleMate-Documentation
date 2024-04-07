@@ -2,10 +2,7 @@
 title: SLA
 ---
 
-#
-<center><h1>SLA</h1></center>
-<center>![](/img/MuscleMateLogo.svg)</center>
-<center>**Grupo 3 - MuscleMate**</center>
+
 
 #
 
