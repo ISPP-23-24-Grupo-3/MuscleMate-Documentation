@@ -10,6 +10,7 @@ sidebar_position: 3
 | v1.1    | 2024-04-01|  Juan Jesús| Actualización del documento|
 | v1.2    | 2024-04-03  | Angel      |Actualización del documento con informacion inicial sobre S3|
 | v1.3    | 2024-04-05  | Angel      |Correción y completitud de la información del S2|
+|v1.4|2024-04-06|Juan Jesús| Actualización del documento hasta la fecha|
 
 
 # Información sobre los Usuarios Piloto del grupo MuscleMate
@@ -44,6 +45,11 @@ Tras esto, las tareas serán revisadas por los coordinadores de dichos equipos p
 
 ##### Usuarios Piloto del Grupo 9
 ##### Usuarios Piloto ajenos a la Asignatura
+- **Leal Sarmiento** (Gimnasio TocaSport):Aplicación muy útil pero en varias secciones los tiempos de espera son muy largos. Además la interfaz da sensación de poca profesionalidad. En cuanto a funcionalidad bastante eficaz y varias cosas mejoradas respecto a la última versión.
+- **Javier Pardo** (Gimnasio Coliseum): Mantiene que la app es muy útil a la hora de ayudarte a llevar un control de tus rutinas y el progreso del entrenamiento aunque añade que la interfaz para el móvil deja mucho que desear. Además dice que "ticket" es un nombre que no se entiende en cuanto a la funcionalidad que tiene, propone buscar un nombre más explicativo.
+- **Vicente** (Dueño TocaSport): Dimensiones no adaptada a algunas pantallas. Interfaz muy simple, en algunas funcionalidades tiene que recargar para que funcione. Echa en falta una confirmación de registro. También añade que le faltan máquinas como mancuernas o hay nombres que no son muy explicativos como "barra olímpica". También hace referencia al nombre poco acertado de ticket. Además dice que cuando puede ver los "tickets" de los clientes no tiene la opción de responder o cambiar el estado del "ticket". A la hora de ver las máquinas del gym , cuando pulsa en una siempre tiene que recargar para ver los detalles.Ve muy simple que aprezcan los botones al iniciar sesión . Le gusta mucho más el desplegable de las "tres rayitas".Error al crear gimnasio. No entiende muy bien porque pide un usuario y una contraseña en crear gimnasio cuando ya está logueado como propietario. Invita a pensar a implementar algún tipo de rutinas por defecto o recomendadas para usuario que no tienen conocimiento o baja formación. También invita a que cuando añada una máquina tenga la opción de adjuntar una imagen. Ha probado el perfil de usuario y me dice que no le deja apuntarse a un evento.
+- **Leal Ojeda** (Gimnasio Coliseum): Encuentra la app poco intuitiva, desconoce la utilidad de los términos como por ejemplo crear tickets, además apunta que aunque cambie de pantalla hay algunos botones que siguen apareciendo y no tienen sentido. En general cuando empieza a entenderla es útil pero a la vez simple.
+- **Carrizosa Mateos** (Gimnasio TocaSport): Continúa diciendo que la duración en ejercicios de fuerza no tiene sentido y además se queda bastante pillado el reloj. También encuentra fallos de navegabilidad como por ejemplo ha creado una serie en una rutina y le ha desaparecido tanto la serie como la rutina.
 
 ### Acciones Derivadas
 
