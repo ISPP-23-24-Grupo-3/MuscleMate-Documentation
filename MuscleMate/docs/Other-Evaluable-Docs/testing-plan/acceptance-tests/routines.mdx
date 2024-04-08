@@ -1,0 +1,75 @@
+---
+title: Clases
+---
+
+<center>
+  <h1>Clases</h1>
+</center>
+
+<center>![](/img/MuscleMateLogo.svg)</center>
+
+<center>**Grupo 3 - MuscleMate; Sprint 3**</center>
+
+---
+
+## Contribuidores
+
+- González Marcos, Pedro:
+  - Redactar; #76 Realizar un plan de pruebas hasta el World Project Launch
+
+## Historial de versiones
+
+| Versión | Fecha      | Autor                  | Descripción            |
+| ------- | ---------- | ---------------------- | ---------------------- |
+| v1.0    | 2024-04-05 | González Marcos, Pedro | Creación del documento |
+
+## Contenido
+
+## Requisitos previos
+
+- Toda la interfaz del caso de uso tiene que estar en español
+- Los mensajes de error tienen que estar en español
+
+## Crear rutina
+
+Dado un cliente de gimnasio logueado en la plataforma
+
+Al pinchar en `Rutinas` el cliente debería ver un botón para `Añadir sus rutinas`.
+
+El formulario debe tener los siguientes campos:
+
+- El formulario debe contener un campo `Nombre de la rutina` para que el usuario
+  pueda identificarla.
+
+- Un usuario no puede crear una rutina y asociarla a otro usuario
+
+## Casos de prueba positivos
+
+| ID  | Titulo del evento |
+| --- | ----------------- |
+| P1  | 胸部常规          |
+
+### Casos de prueba negativos
+
+| ID  | Titulo del evento           |
+| --- | --------------------------- |
+| N1  | Vacio                       |
+| N2  | Supera el limite de la BBDD |
+
+## Listar rutinas
+
+Al pulsar en `Rutinas` dentro de la barra de navegación debe aparecer un listado de rutinas,
+pudiendo hacer varias acciones como:
+
+- Ver los detalles de una rutina
+- Eliminar una rutina
+- Editar una rutina
+
+## Eliminar rutina
+
+- Si un propietario elimina una rutina, se mostrará un mensaje de confimación
+  si tiene exito
+- Si se elimina una rutina se eliminaran todas los ejercicios asociados a la rutina
+- Si el propietario intenta eliminar una rutina de otro propietario, se le
+  mostrará una pantalla de error diciendo que no está autorizado para realizar
+  esa acción

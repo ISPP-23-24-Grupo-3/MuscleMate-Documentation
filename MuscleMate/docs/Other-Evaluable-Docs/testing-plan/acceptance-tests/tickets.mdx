@@ -1,0 +1,82 @@
+---
+title: Tickets
+---
+
+<center>
+  <h1>Tickets</h1>
+</center>
+
+<center>![](/img/MuscleMateLogo.svg)</center>
+
+<center>**Grupo 3 - MuscleMate; Sprint 3**</center>
+
+---
+
+## Contribuidores
+
+- González Marcos, Pedro:
+  - Redactar; #76 Realizar un plan de pruebas hasta el World Project Launch
+
+## Historial de versiones
+
+| Versión | Fecha      | Autor                  | Descripción            |
+| ------- | ---------- | ---------------------- | ---------------------- |
+| v1.0    | 2024-04-05 | González Marcos, Pedro | Creación del documento |
+
+## Requisitos previos
+
+Nuestros usuarios pilotos son españoles por lo que toda la interfaz tiene que
+estar en español.
+
+### Tickets (Incidencias de maquinas)
+
+### Crear ticket
+
+Dado un cliente de gimnasio logueado en la plataforma
+
+Al pinchar en `Crear Ticket` el cliente debería ver un formulario donde pueda
+poner incidencias en las máquinas de su gimnasio.
+
+El formulario debe tener los siguientes campos:
+
+- Un campo llamado `Asunto` en donde el usuario escriba un resumen de su
+  incidencia
+- Un campo llamado `Equipo` donde pueda seleccionar el equipo que tiene la
+  incidencia
+- Un campo `Descripción` donde el usuario pueda escribir en detalle la incidencia
+  que está teniendo con la máquina
+
+:::warning UX
+
+`Equipo` es un nombre que nosotros utilizamos internamente, el usuario no sabe
+que es equipo. Se podría otro nombre más representativo o un bocadillo con
+una descripción de lo consideramos nosotros por equipo
+
+En vez `Descripción` podríamos poner una pregunata `Describa su problema`
+
+Se podría dividir el selector de `Equipo` por tipos:
+
+- Listar los equipos que no son maquinas
+- Maquinas de pecho
+- Maquinas de pierna
+  :::
+
+Al pulsar el botón de `Agregar Ticket` el usuario debería recibir una notificación
+visual en la interfaz que dure poco segundos que le confirme al usuario la recepción
+de su incidencia.
+
+Una vez que el usuario ha colgado la incidencia, el propietario debería verla en su
+bandeja de entrada todavía sin resolver.
+
+Una vez que el propietario haya resuelto la incidencia del usuario la incidencia debería
+desaparecer.
+
+### Crear ticket desde una máquina
+
+Dado que un usuario quiere colgar una incidencia en la plataforma, también debería
+añadir un ticket desde la página para visualizar las máquinas del gimnasio.
+
+Si el usuario pincha en `Añadir ticket` el campo de `Equipo` se rellenará automáticamente
+al acceder al formulario para crear el ticket.
+Por ejemplo si el usuario accede a la máquina `Banco Ajustable` y pincha en el botón
+de `Añadir ticket` el campo `Equipo` tendrá `Banco Ajustable`.

@@ -1,0 +1,79 @@
+---
+title: Gimnasios
+---
+
+<center>
+  <h1>Gimnasios</h1>
+</center>
+
+<center>![](/img/MuscleMateLogo.svg)</center>
+
+<center>**Grupo 3 - MuscleMate; Sprint 3**</center>
+
+---
+
+## Contribuidores
+
+- González Marcos, Pedro:
+  - Redactar; #76 Realizar un plan de pruebas hasta el World Project Launch
+
+## Historial de versiones
+
+| Versión | Fecha      | Autor                  | Descripción            |
+| ------- | ---------- | ---------------------- | ---------------------- |
+| v1.0    | 2024-04-05 | González Marcos, Pedro | Creación del documento |
+
+## Contenido
+
+## Requisitos previos
+
+- Toda la interfaz del caso de uso tiene que estar en español
+- Los mensajes de error tienen que estar en español
+
+### Crear gimnasio
+
+Siendo un propietario podrá registrar un gimnasio en la plataforma pulsando
+en el botón `Crear Nuevo Gimnasio` al hacer click en la `Mis maquinas`
+dentro de la barra de navegación.
+
+| ID  | Nombre                      | Dirección                   | Código Postal               | Descripción                                                             | Número de Teléfono          | Correo Electrónico          | Nombre de usuario | Contraseña                  |
+| --- | --------------------------- | --------------------------- | --------------------------- | ----------------------------------------------------------------------- | --------------------------- | --------------------------- | ----------------- | --------------------------- |
+| N1  | Vacio                       | Vacio                       | Vacio                       | Vacio                                                                   | Vacio                       | Vacio                       | Vacio             | Vacio                       |
+| N2  | Vacío                       | C. la Pañoleta              | 41900                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | 919490000                   | vega@basicfit.es            | basicFitCamas     | Secreto                     |
+| N3  | Basic Fit (Camas)           | Vacio                       | 41900                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | 919490000                   | vega@basicfit.es            | basicFitCamas     | Secreto                     |
+| N4  | Basic Fit (Camas)           | C. la Pañoleta              | Vacio                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | 919490000                   | vega@basicfit.es            | basicFitCamas     | Secreto                     |
+| N5  | Basic Fit (Camas)           | C. la Pañoleta              | 41900                       | Vacio                                                                   | 919490000                   | vega@basicfit.es            | basicFitCamas     | Secreto                     |
+| N6  | Basic Fit (Camas)           | C. la Pañoleta              | 41900                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | Vacio                       | vega@basicfit.es            | basicFitCamas     | Secreto                     |
+| N7  | Basic Fit (Camas)           | C. la Pañoleta              | 41900                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | 919490000                   | Vacio                       | basicFitCamas     | Secreto                     |
+| N8  | Basic Fit (Camas)           | C. la Pañoleta              | 41900                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | 919490000                   | vega@basicfit.es            | Vacio             | Secreto                     |
+| N9  | Basic Fit (Camas)           | C. la Pañoleta              | 41900                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | 919490000                   | vega@basicfit.es            | basicFitCamas     | Vacio                       |
+| N10 | Supera el limite de la BBDD | C. la Pañoleta              | 41900                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | 919490000                   | vega@basicfit.es            | basicFitCamas     | Secreto                     |
+| N11 | Basic Fit (Camas)           | Supera el limite de la BBDD | 41900                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | 919490000                   | vega@basicfit.es            | basicFitCamas     | Secreto                     |
+| N12 | Basic Fit (Camas)           | C. la Pañoleta              | Supera el limite de la BBDD | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | 919490000                   | vega@basicfit.es            | basicFitCamas     | Secreto                     |
+| N13 | Basic Fit (Camas)           | C. la Pañoleta              | 41900                       | Supera el limite de la BBDD                                             | 919490000                   | vega@basicfit.es            | basicFitCamas     | Secreto                     |
+| N14 | Basic Fit (Camas)           | C. la Pañoleta              | 41900                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | Supera el limite de la BBDD | vega@basicfit.es            | basicFitCamas     | Secreto                     |
+| N15 | Basic Fit (Camas)           | C. la Pañoleta              | 41900                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | 919490000                   | Supera el limite de la BBDD | basicFitCamas     | Secreto                     |
+| N16 | Basic Fit (Camas)           | C. la Pañoleta              | 41900                       | Abrimos un nuevo centro para que puedas cuidarte por fuera y por dentro | 919490000                   | vega@basicfit.es            | basicFitCamas     | Supera el limite de la BBDD |
+
+- Prueba que el codigo postal solo pueda tener 5 digitos numericos
+- Prueba que se valida correctamente el correo electrónico en el formulario
+
+### Visualizar gimnasios
+
+Se monstrará una lista de los gimnasios que el propietario tiene registrado
+
+- Si el propietario no tiene gimnasios registrados, se tendrá que ve un mensaje
+  incitando al usuario a utiliza las característica de Crear Nuevo Gimnasio
+
+### Eliminar gimnasio
+
+- Si el propietario hace click en `Eliminar gimnasio` se eliminarán todos los
+  datos relacionados con el gimansio (las máquinas del gimnasio, los usuarios del
+  gimnasio, las valoraciones de las máquinas del gimnasio).
+
+Al ser una acción muy destructiva, se mostrará un diálogo de confirmación de
+borrado de gimnasio.
+
+- Se le mostrará un mensaje al propietario confirmando el borrado del gimnasio
+
+- Un propietario no puede borrar el gimnasio de otro propietario.

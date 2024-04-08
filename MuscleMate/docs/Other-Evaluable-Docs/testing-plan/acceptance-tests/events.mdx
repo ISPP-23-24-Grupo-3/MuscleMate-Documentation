@@ -1,0 +1,111 @@
+---
+title: Clases
+---
+
+<center>
+  <h1>Clases</h1>
+</center>
+
+<center>![](/img/MuscleMateLogo.svg)</center>
+
+<center>**Grupo 3 - MuscleMate; Sprint 3**</center>
+
+---
+
+## Contribuidores
+
+- González Marcos, Pedro:
+  - Redactar; #76 Realizar un plan de pruebas hasta el World Project Launch
+
+## Historial de versiones
+
+| Versión | Fecha      | Autor                  | Descripción            |
+| ------- | ---------- | ---------------------- | ---------------------- |
+| v1.0    | 2024-04-05 | González Marcos, Pedro | Creación del documento |
+
+## Contenido
+
+## Requisitos previos
+
+- Toda la interfaz del caso de uso tiene que estar en español
+- Los mensajes de error tienen que estar en español
+
+## Crear evento
+
+Dado un propietario de gimnasio logueado en la plataforma
+
+Al pinchar en `Eventos` el cliente debería ver un formulario donde pueda
+crear clases para sus gimnasios.
+
+El formulario debe tener los siguientes campos:
+
+- Un campo llamado `Titulo del evento` (CAMBIAME Nos quedamos con eventos o clases?) informando de la clase brevemente
+- Un campo llamado `Descripcion` donde pueda describir la clase en profundidad
+- Un campo `Aforo` (--ref) donde pueda indicar las personas que van a asistir a la clase
+- Un campo `Asistentes` (CAMBIAME esto porque hace falta especificarlo si los clientes se apuntan)
+- Un campo `Monitor` donde pueda escribir la persona que va a impartir la clase
+- Un campo `Fecha del evento` (CAMBIAME Es una fecha falta la hora de comienzo) donde el usuario pueda especificar el dia y la hora
+  de la clase
+- Duracion (minutos) (CAMBIAME No es mejor fecha y hora de fin, la duracion es un atributo calculado)
+- Intensidad del evento donde el usuario pueda especificar el grado de intensidad de la
+  clase
+- Por ultimo un campo `Gimnasio` donde el usuario pueda especificar en que gimansio
+  se va a impartir la clase
+
+### Casos de prueba negativos
+
+| ID  | Titulo del evento                                      | Descripcion                                            | Aforo                                                  | Asistentes                                             | Monitor                                                | Fecha del evento                                       | Duracion                                               | Intensidad  | Gimnasio                |
+| --- | ------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------ | ----------- | ----------------------- |
+| N1  | Vacio                                                  | Vacio                                                  | Vacio                                                  | Vacio                                                  | Vacio                                                  | Vacio                                                  | Vacio                                                  | Vacio       | Vacio                   |
+| N2  | Vacio                                                  | Perfecto para hacer cardio y perder unos kilos de mas! | -1                                                     | 17                                                     | Manuel Gonzalez                                        | Hoy                                                    | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N3  | Clase de Spinning                                      | Vacio                                                  | 25                                                     | -1                                                     | Manuel Gonzalez                                        | Hoy                                                    | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N4  | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | Vacio                                                  | 17                                                     | Manuel Gonzalez                                        | Hoy                                                    | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N5  | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | Vacio                                                  | Manuel Gonzalez                                        | Hoy                                                    | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N6  | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | 17                                                     | Vacio                                                  | Hoy                                                    | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N7  | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | 17                                                     | Manuel Gonzalez                                        | Vacio                                                  | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N8  | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | 17                                                     | Manuel Gonzalez                                        | Hoy                                                    | Vacio                                                  | Alta (High) | Synegym Sevilla Nervion |
+| N9  | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | 17                                                     | Manuel Gonzalez                                        | Hoy                                                    | 60 min                                                 | Vacio       | Synegym Sevilla Nervion |
+| N10 | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | 17                                                     | Manuel Gonzalez                                        | Hoy                                                    | 60 min                                                 | Alta (High) | Vacio                   |
+| N11 | Supera el maximo de lo que permite el campo en la BBDD | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | 17                                                     | Manuel Gonzalez                                        | Hoy                                                    | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N12 | Clase de Spinning                                      | Supera el maximo de lo que permite el campo en la BBDD | 25                                                     | 17                                                     | Manuel Gonzalez                                        | Hoy                                                    | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N13 | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | Supera el maximo de lo que permite el campo en la BBDD | 17                                                     | Manuel Gonzalez                                        | Hoy                                                    | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N14 | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | Supera el maximo de lo que permite el campo en la BBDD | Manuel Gonzalez                                        | Hoy                                                    | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N15 | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | 17                                                     | Supera el maximo de lo que permite el campo en la BBDD | Hoy                                                    | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N16 | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | 17                                                     | Manuel Gonzalez                                        | Supera el maximo de lo que permite el campo en la BBDD | 60 min                                                 | Alta (High) | Synegym Sevilla Nervion |
+| N17 | Clase de Spinning                                      | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | 17                                                     | Manuel Gonzalez                                        | Hoy                                                    | Supera el maximo de lo que permite el campo en la BBDD | Alta (High) | Synegym Sevilla Nervion |
+| N18 | 证明                                                   | Perfecto para hacer cardio y perder unos kilos de mas! | 25                                                     | 17                                                     | Manuel Gonzalez                                        | Hoy                                                    | Supera el maximo de lo que permite el campo en la BBDD | Alta (High) | Synegym Sevilla Nervion |
+
+- Haz una peticion al backend y en vez de enviar el enumeredo que espera de Instensidad (low, medium, high) envia por http: normal
+
+- Haz una peticion al backend y en vez de enviar el id del gimnasio envia una cadena 'Synergym Sevilla Nervion'
+
+- Haz una peticion al backend y en vez de enviar el id de tu gimnasio envia el id del gimansio de otro usuario
+
+## Listar eventos
+
+Al pulsar los `Eventos` debe aparecer un listado de clases agrupadas por gimnasio:
+
+Por ejemplo
+
+BasicFit Camas:
+
+- Clase de pilates
+- Clase de yoga
+
+NewFitnes Tomares:
+
+- Clases de Spinning
+- Clases de bodypump
+
+Si el propietario no tiene gimnasios registrados se le sugerirá al
+propietario crear uno mediante un enlace.
+
+## Eliminar eventos
+
+- Si un propietario elimina una clase, se mostrará un mensaje de confimación
+  si tiene exito
+- Si se elimina una clase se eliminaran todas las personas que se han inscrito
+  a esa clase
+- Si el propietario intenta eliminar una clase de otro propietario, se le
+  mostrará una pantalla de error diciendo que no está autorizado para realizar
+  esa acción
