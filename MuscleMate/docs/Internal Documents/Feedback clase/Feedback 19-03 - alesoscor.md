@@ -1,4 +1,4 @@
-# Feedback WEEK 6
+# Feedback WEEK 7
 ## Grupo 4: Cohabify
 - Alumnos:
     - A pesar de existir un número de horas mínimo para cada semana no está mal dedicar más de las 10 horas semanales si uno desea. Eso sí, debe ser algo opcional.
