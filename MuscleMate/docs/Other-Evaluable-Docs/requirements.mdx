@@ -1,0 +1,455 @@
+﻿---
+title: Requisitos
+---
+
+<center>
+  <h1>Requisitos</h1>
+</center>
+
+<center>[](/img/MuscleMateLogo.svg)</center>
+
+<center>**Grupo 3 - MuscleMate; Sprint 3**</center>
+
+---
+
+## Contribuidores
+
+- González Marcos, Pedro:
+  - Redactar; #125 Actualizar Registro de Requisitos
+
+## Historial de versiones
+
+| Versión | Fecha      | Autor                   | Descripción                       |
+| ------- | ---------- | ----------------------- | --------------------------------- |
+| v1.0    | 2024-02-14 | Analistas de requisitos | Creación del documento            |
+| v2.0    | 2024-04-14 | González Marcos, Pedro  | Replanificación de los requisitos |
+
+## Contenido
+
+## Datos de la empresa
+
+Id: 1
+
+**Descripción**:
+
+Como empresa quiero que mis datos se muestren en la aplicación para que los
+clientes puedan contactarme.
+
+**Categoría**: Funcional
+
+**Prioridad**: Media
+
+**Criterio de aceptación**:
+
+- Los datos de la empresa se muestran en el pie de página de la aplicación.
+
+## Planes de precio
+
+Id: 2
+
+**Descripción**:
+
+Como empresa quiero que los propietarios inscriban alguno de sus gimnasios en alguno
+de nuestros planes de precios (Estándar, Premium). Dependiendo del plan al que estén
+suscritos la aplicación ofrecerá características únicas.
+
+Plan Estándar:
+
+- Feedback de los usuarios a través de tickets y valoración de máquinas.
+- Gráficas sobre el uso de máquinas.
+- Posibilidad de que cada usuario establezca sus rutinas de entrenamiento.
+- Gráficas para los usuarios de su evolución.
+- Usuarios máximos: 50
+
+Plan Prémium:
+
+- Feedback de los usuarios a través de tickets y valoración de máquinas
+- Gráficas sobre el uso de máquinas
+- Posibilidad de que cada usuario establezca sus rutinas de entrenamiento
+- Gráficas para los usuarios de su evolución
+- Usuarios ilimitados
+- Información sobre el uso de máquinas en otros gimnasios
+- Gestión de clases y eventos
+
+**Prioridad**: MVP
+
+**Categoría**: Funcional
+
+**Criterio de aceptación**:
+
+- Dependiendo del plan al que esté suscrito el gimnasio la interfaz de usuario cambia
+  acorde a las características del plan ofrecido
+
+## Gestión del perfil de un usuario
+
+Id: 3
+
+**Descripción**:
+
+Como usuario de la aplicación quiero un perfil con mis datos personales que pueda modificar a mi discreción.
+
+**Categoría**: Funcional
+
+**Prioridad**: MVP
+
+**Criterio de aceptación**:
+
+- El usuario puede a su perfil y modificar los datos a su discreción
+
+## Inicio de sesión de un usuario
+
+Id: 4
+
+**Descripción**:
+
+Como usuario quiero registrarme y después acceder a la plataforma proporcionando
+mis credenciales para disfrutar las funcionalidades que ofrece MuscleMate.
+
+**Categoría**: Funcional
+
+**Prioridad**: MVP
+
+**Criterio de aceptación**:
+
+- El usuario después de crearse un perfil puede entrar introduciendo sus
+  credenciales
+
+## Cliente de gimnasio
+
+### Gestión de rutinas de ejercicios
+
+Id: 5
+
+**Descripción**:
+
+Como **cliente de gimnasio** quiero registrar nuevas rutinas de ejercicios para poder consultarlos en día de entrenamiento.
+
+**Categoría**: Funcional
+
+**Prioridad**: **MVP**
+
+**Criterio de aceptación**:
+
+- Los clientes pueden crear nuevas rutinas y asociar ejercicios a ellas.
+- Los clientes pueden modificar los datos de las rutinas y se actualizan correctamente
+- Los clientes pueden eliminar las rutinas sus datos asociados.
+
+### Realizar rutinas
+
+Id: 6
+
+**Descripción**:
+
+Como cliente de gimnasio quiero realizar los ejercicios que he registrado en una rutina para controlar el tiempo que invierto en las series y
+en descansar.
+
+**Categoría**: Funcional
+
+**Prioridad**: Baja
+
+**Criterio de aceptación**:
+
+- La aplicación marca en tiempo real la situación actual de la rutina.
+
+### Gestión de series de los ejercicios
+
+Id: 7
+
+**Descripción**:
+
+Como cliente de gimnasio quiero registrar las series, las repeticiones y el peso que realizo en cada ejercicio para poder consultar la información
+posteriormente.
+
+**Categoría**: Funcional
+
+**Prioridad**: MVP
+
+**Criterio de aceptación**:
+
+- El cliente puede personalizar una rutina con los ejercicios que especifique.
+
+### Valoración de máquinas
+
+Id: 8
+
+**Descripción**:
+
+Como **cliente de gimnasio** quiero puntuar las máquinas de gimnasio para informar al propietario las máquinas que más me gustan.
+
+**Regla de negocio**:
+Los clientes podrán valorar las máquinas con un sistema de puntuación de estrellas. El usuario puede dar una o varias estrellas completas o media estrella siendo 1 el mínimo
+de estrellas y 5 el máximo de estrellas.
+
+**Categoría**: Funcional
+
+**Prioridad**: **MVP**
+
+**Criterio de aceptación**:
+La máquina se puede valorar numéricamente con el sistema de estrellas y es posible utilizar la _media estrella_.
+
+### Quejas o sugerencias del cliente
+
+Id: 9
+
+**Descripción**:
+
+Como cliente de gimnasio quiero enviar al propietario quejas o sugerencias para mejorar su experiencia en mi/s gimnasio/s
+
+**Categoría**: Funcional
+
+**Prioridad**: **MVP**
+
+**Criterio de aceptación**:
+
+- El usuario puede publicar quejas y sugerencias mediante la interfaz.
+- El propietario de gimnasio puede ver la queja o sugerencia del cliente en la aplicación.
+
+### QR en las evolución cliente y datos máquina (Recortado del alcance)
+
+Este requisito no se va a realizar porque estimamos que esta tarea
+va a suponer mucho esfuerzo al equipo de desarrollo. Queremos invertir
+más tiempo en otro tipo de tareas más prioritarias.
+
+Id: 10
+
+**Descripción**:
+
+Como cliente de gimnasio quiero escanear un QR de una máquina y acceder a un historial con información y mi evolución histórica para
+saber que progreso estoy teniendo
+
+**Categoría**: Funcional
+
+**Prioridad**: MVP
+
+**Criterio de aceptación**:
+
+- El usuario puede consultar las marcas de la máquina escaneando el QR.
+
+### QR para añadir ejercicios de una máquina (Recortado del alcance)
+
+Este requisito no se va a realizar porque estimamos que esta tarea
+va a suponer mucho esfuerzo al equipo de desarrollo. Queremos invertir
+más tiempo en otro tipo de tareas más prioritarias
+
+Id: 11
+
+**Descripción**:
+
+Como cliente de gimnasio quiero escanear un QR de una máquina y registrar un
+ejercicio que haga en ella para no tener que registrarlo manualmente.
+
+**Categoría**: Funcional
+
+**Prioridad**: MVP
+
+**Criterio de aceptación**:
+
+- Al escanear el QR se rellena los datos de la máquina automáticamente y
+  el usuario solo especifica el ejercicio que está haciendo.
+
+### Gráficas de progreso del cliente
+
+Id: 12
+
+**Descripción**:
+
+Como cliente de gimnasio quiero poder ver mi evolución histórica en los ejercicios mediante gráficas para saber en qué estado me encuentro.
+
+**Categoría**: Funcional
+
+**Prioridad**: Media
+
+**Criterio de aceptación**:
+
+- El cliente pueda acceder a la evolución histórica y se representan con gráficas
+
+### Inscripción a clases
+
+Id: 13
+
+**Descripción**:
+
+Como cliente de gimnasio quiero apuntarme a las clases que ofrece mi gimnasio.
+
+**Categoría**: Funcional
+
+**Prioridad**: Media
+
+**Criterio de aceptación**:
+
+- El usuario puede inscribirse a las clases y le aparece en sus inscripciones
+
+### Ver inscripciones de clases
+
+Id: 14
+
+**Descripción**:
+
+Como cliente de gimnasio quiero ver a que clases me he apuntado para asistir más tarde.
+
+**Categoría**: **Funcional**
+
+**Prioridad**: **Baja**
+
+**Criterio de aceptación**:
+
+- Puedo ver las clases en la que me he inscrito.
+- Si me inscribo a una nueva clase la puedo ver en la misma página.
+
+## Propietario de gimnasio
+
+### Gestión de incidencias
+
+Id: 15
+
+**Descripción**:
+
+Como propietario de gimnasio quiero atender las quejas o sugerencias que tengan de mis gimnasios para así saber como se siente mis clientes
+y mejorar su experiencia
+
+**Categoría**: Funcional
+
+**Prioridad**: **MVP**
+
+**Criterio de aceptación**:
+
+- El propietario de gimnasio puede gestionar las quejas y sugerencias de sus clientes
+
+### Gráficas de frecuencia de uso de máquinas
+
+Id: 16
+
+**Descripción**:
+
+Como propietario de gimnasio quiero ver el uso de las máquinas de gimnasio mediante una gráfica para poder tomar decisiones informadas
+de mi negocio.
+
+**Categoria**: Funcional
+
+**Prioridad**: **MVP**
+
+**Criterio de aceptación**:
+
+- En la página principal del cliente se ven las gráficas más utilizadas por los clientes
+
+### Gestión de clases
+
+Id: 17
+
+**Descripción**:
+
+Como propietario de gimnasio quiero ver las clases que doy en mi gimnasio y
+publicar nuevas clases para que mis clientes puedan apuntarse y
+disfrutar.
+
+**Categoría**: Funcional
+
+**Prioridad**: MVP
+
+**Criterio de aceptación**:
+
+- Puedo acceder a las clases que ofrezco en mi gimnasio
+- Mis clientes pueden ver la clase que he publicado y pueden inscribirse si hay aforo disponible
+
+### Listado de clientes
+
+Id: 18
+
+**Descripción**:
+
+Como propietario de gimnasio quiero ver los usuarios que estén registrados en mis gimnasios para conocer el estado de mi negocio.
+
+**Categoría**: Funcional
+
+**Prioridad**: MVP
+
+**Criterio de aceptación**:
+
+- El propietario puede acceder a un listado con todos sus clientes
+
+### Registrar clientes
+
+Id: 19
+
+**Descripción**:
+
+Como propietario de gimnasio quiero registrar a nuevos clientes para poder
+llevar un control de mis usuarios. También quiero editar los perfiles de mis
+clientes si no pueden hacerlo ellos mismos.
+
+**Categoría**: Funcional
+
+**Prioridad**: MVP
+
+**Criterio de aceptación**:
+
+- El propietario puede registrar nuevos clientes y aparece en el listado de clientes
+
+### Gestión de máquinas
+
+Id: 20
+
+**Descripción**:
+
+Como propietario de gimnasio quiero gestionar las máquinas de mi/s gimnasio/s (cinta de correr, bicicleta estática...) así como también incorporar
+nuevas máquinas.
+
+**Categoría**: Funcional
+
+**Prioridad**: MVP
+
+**Criterio de aceptación**:
+
+- El propietario puede ver las máquinas de sus gimnasios.
+- El propietario puede registrar máquinas nuevas en la aplicación.
+
+### Gestión de gimnasios
+
+Id: 21
+
+**Descripción**:
+
+Como propietario de gimnasio quiero registrar los gimnasios que tengo y gestionar sus datos para saber el estado de mi negocio
+
+**Categoría**: Funcional
+
+**Prioridad**: MVP
+
+**Criterio de aceptación**:
+
+- Los propietarios pueden ver sus gimnasios
+- Los propietarios pueden registrar gimansios y le aparece en la página correspondiente
+
+## Preservar estética
+
+Id: 22
+
+**Descripción**:
+
+Como la empresa MuscleMate quiero que la aplicación tenga una estética profesional y minimalista para destacar sobre la competencia.
+
+**Categoría**: No funcional
+
+**Prioridad**: Alta
+
+**Criterio de aceptación**:
+
+- La aplicación mantiene la misma estética y color de acuerdo al estilo de nuestra marca
+
+## Protección de los datos
+
+Id: 23
+
+**Descripción**:
+
+Como usuario de la aplicación quiero mis datos estén seguros y que se utilicen exclusivamente
+en la aplicación
+
+**Categoría**: No funcional, Seguridad
+
+**Prioridad**: MVP
+
+**Criterio de aceptación**:
+
+- Los datos de los usuarios se utilizan al menos en una funcionalidad
+- Los datos personales del usuario no se exponen al público
