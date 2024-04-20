@@ -2,7 +2,7 @@
 title: Privacy policy
 ---
 
-<h1>Privacy policy</h1>
+##  Historial de Versiones
 
 
 | Versión | Fecha       | Autor      | Descripción                            |
@@ -11,10 +11,8 @@ title: Privacy policy
 
 import TOCInline from '@theme/TOCInline';
 
-Última actualización: 18 de marzo de 2024
 
-Generado por [termly.io](https://termly.io/).
-Traducido mayoritariamente con [DeepL](https://www.deepl.com/translator).
+
 
 # Política de Privacidad
 

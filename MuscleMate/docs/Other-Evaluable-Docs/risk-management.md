@@ -1,36 +1,15 @@
-<a id="_22ziwr951apm"></a>
-
-## Risk Report
-
-
-## MuscleMate
-
-# <a id="_fq7jvl59qt56"></a>**Entregable - #Sprint 2 Grupo - 03**
+---
+title: Risk Management
+---
+## Historial de Versiones
 
 | Versión | Fecha       | Autor       | Descripción                            |
 |---------|-------------|-------------|----------------------------------------|
-| v1.0    | 2024-02-19  | Alex        | Creación del documento                 |
+| v1.0    | 2024-02-19  | Alejandro Sosa       | Creación del documento                 |
 | v2.0    | 2024-03-18  | Luis García | Actualización del documento           |
 | v3.0    | 2024-04-21  | Juan Jesús  | Añadido a Docusaurus                  |
 
 
-## Miembros del Equipo
-
-- Pedro González Marcos
-- Juan Jesús Martín Hernández
-- Manuel Ortega Garcia
-- David del Hoyo Carcaboso
-- Jorge Romero Limón
-- Agustín Devós Bono
-- David Zarandieta Ortiz
-- David Dana Cabello
-- Alejandro Mateo Capilla
-- Alejandro Sosa Corral
-- Ángel Muñoz Prieto
-- Luis Garcia Parras
-- Elena Tomás Vela
-- Juan Carlos Moreno Pérez
-- Manuel Vázquez Martin
 
 ## Riesgos
 

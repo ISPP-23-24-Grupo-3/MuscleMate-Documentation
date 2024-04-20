@@ -3,6 +3,7 @@ id: report
 title: Report of contribution to the common Knowledge Database
 ---
 
+##  Historial de Versiones
 | Versión | Fecha      | Autor                   | Descripción                |
 | ------- | ---------- | ----------------------- | -------------------------- |
 | v1.0    | 2024-02-19 | Pedro González Marcos   | Creación del documento     |

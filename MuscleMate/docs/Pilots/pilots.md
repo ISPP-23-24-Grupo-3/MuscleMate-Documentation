@@ -3,15 +3,15 @@ title: Report of Pilot Users
 sidebar_position: 3
 ---
 
-
+##  Historial de Versiones
 | Versión | Fecha       | Autor      | Descripción                            |
 |---------|-------------|------------|----------------------------------------|
-| v1.0    | 2024-01-01  | Angel| Creación del documento                 |
-| v1.1    | 2024-04-01|  Juan Jesús| Actualización del documento|
-| v1.2    | 2024-04-03  | Angel      |Actualización del documento con informacion inicial sobre S3|
-| v1.3    | 2024-04-05  | Angel      |Correción y completitud de la información del S2|
+| v1.0    | 2024-01-01  | Angel Muñoz Prieto| Creación del documento                 |
+| v1.1    | 2024-04-01|  Juan Jesús | Actualización del documento|
+| v1.2    | 2024-04-03  | Angel Muñoz Prieto     |Actualización del documento con informacion inicial sobre S3|
+| v1.3    | 2024-04-05  | Angel Muñoz Prieto     |Correción y completitud de la información del S2|
 |v1.4|2024-04-06|Juan Jesús| Actualización del documento hasta la fecha|
-| v1.5    | 2024-04-10  | Angel      |Adición del feedback del primer despliegue del S3|
+| v1.5    | 2024-04-10  | Angel Muñoz Prieto     |Adición del feedback del primer despliegue del S3|
 
 
 # Información sobre los Usuarios Piloto del grupo MuscleMate
