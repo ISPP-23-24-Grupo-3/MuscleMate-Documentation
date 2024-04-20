@@ -1,7 +1,9 @@
 ---
 title: Customer Agreement
 ---
+![MUSCLEMATE](logo.png)
 
+## Musclemate, Grupo 3
 
 ##  Historial de Versiones
 

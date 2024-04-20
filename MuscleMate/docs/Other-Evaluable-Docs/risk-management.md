@@ -1,6 +1,9 @@
 ---
 title: Risk Management
 ---
+![MUSCLEMATE](logo.png)
+
+## Musclemate, Grupo 3
 ## Historial de Versiones
 
 | Versión | Fecha       | Autor       | Descripción                            |

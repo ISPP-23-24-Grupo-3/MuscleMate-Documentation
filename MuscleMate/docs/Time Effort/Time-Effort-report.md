@@ -3,7 +3,9 @@ id: time-effort-report
 title: Time Effort Report
 sidebar_position: 5
 ---
+![MUSCLEMATE](logo.png)
 
+## Musclemate, Grupo 3
 ##  Historial de Versiones
 
 | Versión | Fecha       | Autor      | Descripción                            |

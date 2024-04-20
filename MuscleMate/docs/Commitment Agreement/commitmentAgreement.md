@@ -3,6 +3,9 @@ id: commitment-agreement
 title: Commitment Agreement
 sidebar_position: 7
 ---
+![MUSCLEMATE](logo.png)
+
+## Musclemate, Grupo 3
 ##  Historial de Versiones
 
 | Versión | Fecha       | Autor      | Descripción                            |

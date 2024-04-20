@@ -2,7 +2,9 @@
 title: Information Provided by Pilot Users
 sidebar_position: 3
 ---
+![MUSCLEMATE](logo.png)
 
+## Musclemate, Grupo 3
 ##  Historial de Versiones
 
 | Versión | Fecha      | Autor      | Descripción                 |
