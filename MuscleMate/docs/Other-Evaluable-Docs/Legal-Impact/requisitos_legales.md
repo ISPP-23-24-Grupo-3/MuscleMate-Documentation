@@ -2,8 +2,9 @@
 title: Legal requirements
 ---
 
-<h1>Legal requirements</h1>
 
+
+##  Historial de Versiones
 
 | Versión | Fecha       | Autor      | Descripción                            |
 |---------|-------------|------------|----------------------------------------|

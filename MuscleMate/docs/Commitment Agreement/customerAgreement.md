@@ -2,9 +2,12 @@
 title: Customer Agreement
 ---
 
+
+##  Historial de Versiones
+
 | Versión | Fecha       | Autor      | Descripción                            |
 |---------|-------------|------------|----------------------------------------|
-| v1.0    | 2024-04/04/2024  | Manuel Ortega|Creación del documento|
+| v1.0    | 2024-04-04  | Manuel Ortega|Creación del documento|
 
 ![alt text](image-1.png)
 

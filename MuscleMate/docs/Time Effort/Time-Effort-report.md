@@ -4,10 +4,15 @@ title: Time Effort Report
 sidebar_position: 5
 ---
 
+##  Historial de Versiones
 
 | Versión | Fecha       | Autor      | Descripción                            |
 |---------|-------------|------------|----------------------------------------|
 | v1.0    | 2024-01-01  | Manuel Ortega| Creación del documento                 |
+| v1.1    | 2024-03-12  | Manuel Ortega| Actulización del documento                 |
+| v1.2    | 2024-03-19  | Manuel Ortega| Actulización del documento                 |
+| v1.3    | 2024-01-01  | Manuel Ortega| Actulización del documento                 |
+| v1.4    | 2024-03-25  | Manuel Ortega| Actualización del documento                 |
 
 
 ## Semana 1

@@ -3,10 +3,9 @@ title: Terms and Conditions (Customer Agreement)
 ---
 
 
-<h1>Terms and Conditions (Customer Agreement)</h1>
 
 
-
+##  Historial de Versiones
 
 | Versión | Fecha       | Autor      | Descripción                            |
 |---------|-------------|------------|----------------------------------------|

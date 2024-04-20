@@ -3,11 +3,13 @@ title: Information Provided by Pilot Users
 sidebar_position: 3
 ---
 
+##  Historial de Versiones
+
 | Versión | Fecha      | Autor      | Descripción                 |
 | ------- | ---------- | ---------- | --------------------------- |
-| v1.0    | 2024-01-01 | Angel      | Creación del documento      |
+| v1.0    | 2024-01-01 | Angel Muñoz Prieto      | Creación del documento      |
 | v1.1    | 2024-04-01 | Juan Jesús | Actualización del documento |
-| v1.2    | 2024-04-05 | Angel      | Actualización del documento |
+| v1.2    | 2024-04-05 | Angel Muñoz Prieto    | Actualización del documento |
 
 ## Información Proporcionada por los Ususarios Piloto
 
