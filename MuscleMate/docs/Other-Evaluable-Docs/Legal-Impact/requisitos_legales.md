@@ -2,7 +2,9 @@
 title: Legal requirements
 ---
 
+![MUSCLEMATE](../logo.png)
 
+## Musclemate, Grupo 3
 
 ##  Historial de Versiones
 

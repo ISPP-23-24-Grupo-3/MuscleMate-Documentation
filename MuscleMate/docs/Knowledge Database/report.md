@@ -2,6 +2,10 @@
 id: report
 title: Report of contribution to the common Knowledge Database
 ---
+![MUSCLEMATE](logo.png)
+
+## Musclemate, Grupo 3
+
 
 ##  Historial de Versiones
 | Versión | Fecha      | Autor                   | Descripción                |
