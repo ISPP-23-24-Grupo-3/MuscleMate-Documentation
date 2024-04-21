@@ -1,38 +1,51 @@
 ---
 title: Total Cost Ownership (TCO)
 ---
+
 ![MUSCLEMATE](logo.png)
 
 ## Musclemate, Grupo 3
 
 ## Historial de versiones
 
-| Versión | Fecha      | Diferencia entre versiones    |
-| ------- | ---------- | ----------------------------- |
-| 1.0     | 2024-02-08 | Versión inicial del documento |
-| 2.0     | 2024-02-09 | Finalización del documento    |
-| 3.0     | 2024-02-10 | Corrección del documento      |
-| 4.0     | 2024-02-15 | Correción del documento       |
-| 5.0     | 2024-02-16 | Correción del documento       |
-| 6.0     | 2024-02-22 | Correción del documento       |
-| 7.0     | 2024-03-01 | Correción del documento       |
-| 8.0     | 2024-04-01 | Graficas TCO y Calculos       |
-| 9.0     | 2024-04-01 | Agregados costes de SLA       |
-
-# TCO Summary - MuscleMate - Entregable #S1
+| Versión | Fecha      | Diferencia entre versiones                       |
+| ------- | ---------- | ------------------------------------------------ |
+| 1.0     | 2024-02-08 | Versión inicial del documento                    |
+| 2.0     | 2024-02-09 | Finalización del documento                       |
+| 3.0     | 2024-02-10 | Corrección del documento                         |
+| 4.0     | 2024-02-15 | Correción del documento                          |
+| 5.0     | 2024-02-16 | Correción del documento                          |
+| 6.0     | 2024-02-22 | Correción del documento                          |
+| 7.0     | 2024-03-01 | Correción del documento                          |
+| 8.0     | 2024-04-01 | Graficas TCO y Calculos                          |
+| 9.0     | 2024-04-01 | Agregados costes de SLA                          |
+| 10.0    | 2024-04-21 | Reestructuración documento y añadir roles nuevos |
 
 ## 1. Introducción
 
-En este documento, se establece el coste total de la propiedad respectivo al proyecto. Para ello, se tiene en cuenta el precio de desarrollo del proyecto, y sus estimaciones de precio de mantenimiento y operación. Es decir que va más allá del precio inicial de compra y tiene más sentido si lo analizamos como un gasto a largo plazo.
+En este documento, se establece el coste total de la propiedad respectivo al proyecto.
+Para ello, se tiene en cuenta el precio de desarrollo del proyecto, y sus estimaciones
+de precio de mantenimiento y operación. Es decir que va más allá del precio inicial de
+compra y tiene más sentido si lo analizamos como un gasto a largo plazo.
 
-## 2. Costes de capital (Capex)
+## Costes de desarrollo
 
-### 2.1 Costes de personal
+### Activos de la empresa (Capex)
 
-El equipo encargado del proyecto, está formado por 15 integrantes. Cada uno de ellos, tiene la obligación de dedicar al menos 10 horas semanales a dicho proyecto.
+Asumiendo que cada portatil cuesta 500 €:
+
+- 500 €/portatil x 1 portatil/persona x 15 personas = 7,500€
+
+Amortizacion a 24 meses: 7500€/24meses = 312.5€/mes
+
+### Costes de personal (Opex)
+
+El equipo encargado del proyecto, está formado por 15 integrantes. Cada uno de
+ellos, tiene la obligación de dedicar al menos 10 horas semanales a dicho proyecto.
 
 Tomando como punto de partida un sueldo de 8€ a la hora, obtenemos que, el sueldo mensual base es:
-- 8€/h x 10h x 4 semanas = **320€/mes**
+
+- 8€/h x 10h/semana x 4 semanas/1mes = Sueldo base **320€/mes**
 
 Teniendo en cuenta esto, a cada rol se le asigna un multiplicador:
 
@@ -42,88 +55,131 @@ Teniendo en cuenta esto, a cada rol se le asigna un multiplicador:
 - Operation Engineer: x2.5
 - Systems Technician: x1.5
 - Project Manager: x3.5
+- GDPR Compliance Officer: x2
+- Community manager: x2.5
 
 Asumimos que en nuestro equipo tenemos:
+
 - 5 Junior Developers
 - 3 Senior Developers
 - 3 QA
 - 1 Operation Engineer
 - 2 Systems Technician
 - 1 Project Manager
+- 1 GDPR Compliance Officer
+- 2 Community Managers
 
 Al mes, los costes cada rol suman:
-- 320 x 5 x 1 = 1,600€
-- 320 x 3 x 3 = 2,880€
-- 320 x 3 x 2 = 1,920€
-- 320 * 1 * 2.5 = 800€
-- 320 * 2 * 1.5 = 960€
-- 320 * 1 * 3.5 = 1,120€
 
-Con todo, obtenemos que el costo de personal es:
-1,600 + 2,880 + 1,920 + 800 + 960 + 1,120 = **9,280€/mes**
+- 320 x 5 x 1 = 1.600€
+- 320 x 3 x 3 = 2.880€
+- 320 x 3 x 2 = 1.920€
+- 320 x 1 x 2.5 = 800€
+- 320 x 2 x 1.5 = 960€
+- 320 x 1 x 3.5 = 1.120€
+- 320 x 1 x 2 = 640€
+- 320 x 2 x 2.5 = 1.600€
 
-### 2.2 Costes de infraestructura
+Total **11520€/mes**
 
-Asumimos los siguientes costes para facilitar el espacio de trabajo de los desarrolladores:
-- Alquiler de oficinas: 2,500€/mes
-- Luz: 648€/mes
-  - 0.18 €/Kwh
-  - 12 horas operativas
-  - 10 Kw contratados
-  - 0.18 x 12 x 10 x 30 = 648€/mes
-- Agua: 160€/mes
+### Licencias de software (Opex)
 
 En costes de suscripciones, además, tenemos lo siguiente:
+
 - Sonarcloud (plan de 500.000 líneas de código): 160€/mes
-- GitHub team: 60€/mes
+- GitHub Team: 4 € (por persona al mes) x 15 personas: 60 €/mes
+- PythonAnywhere: 5€ Plan Hacker
 
-Como costes no mensuales:
-- Portátiles: 7,500€
-  - 15 dispositivos
-  - 500€ por dispositivo
+Total: **225€/mes**
 
-En total, los costes mensuales de la infraestructura durante el desarrollo son:
-- 2,500 + 648 + 160 + 160 + 60 = **3,528€/mes**
+### Costes de infraestructura (Opex)
 
-### 2.3 Costes totales
+Asumimos los siguientes costes para facilitar el espacio de trabajo de los
+desarrolladores:
 
-Los costes mensuales totales suman:
-9,280 + 3,528 = 12,808 €/mes
+- Alquiler de oficinas: 2.500€/mes
+- Luz: 648€/mes
+  - 0.18 €/Kwh x 10 Kw x 12 h/dia x 30 dias/1 mes = 648€/mes
+- Agua: 160€/mes
 
-Tenemos en cuenta que el desarrollo dura 4 meses. Con ello, obtenemos 12,488 * 4 = 51,232€
-Sumando a ello el precio de los portátiles, obtenemos 51,232 + 7,500 = 58,732€
+Total: **3.308€**
 
-Por ello, el coste total de capital (Capex) es: **58,732**
+### Costes mensual (Opex)
 
-## 3. Costes de operación mensual (Opex)
+En total, los costes mensuales durante el desarrollo son:
 
-## 3.1 Costes de personal
+- 11.520€/mes Coste del personal
+- 3.308€/mes Costes de infraestructura
+- 225€/mes Licencias y subscripciones software
 
-Como la aplicación ya está desarrollada, asumiremos que para mantenerla solo hará falta un miembro de QA, un miembro de Operation Engineer y dos de Systems Technician.
-- 320 * 1 * 2 = 640€
-- 320 * 1 * 2.5 = 800€
-- 320 * 2 * 1.5 = 960€
-Con ello, los costes de personal ascienden a 640 + 800 + 960 = **2,400€/mes**
+Total: **15.053€/mes**
 
-## 3.2 Costes de infraestructura
+### Costes totales del desarrollo
 
-Además de los costes especificados durante el desarrollo, sumamos el del despliegue en AppEngine, del cual asumimos que trabajaría 12 horas al día, redondeando a unos 18€ al mes.
+Tenemos en cuenta que el desarrollo dura 4 meses:
+
+- 15.053€/mes x 4 meses = 60.212 €
+
+Sumando el precio de los portátiles:
+
+- 7.500€ Capex
+- 60.212€ Opex
+
+Total: **67.712€**
+
+## Costes de operación del producto
+
+### Costes de personal (Opex)
+
+Como la aplicación ya está desarrollada, asumiremos que para mantenerla solo
+hará falta:
+
+- 1 miembro de QA
+- 1 Operation Engineer
+- 2 Systems Technician
+- 2 Community Manager
+
+- 320€ x 1 persona x 2 = 640€
+- 320€ x 1 persona x 2.5 = 800€
+- 320€ x 2 personas x 1.5 = 960€
+- 320€ x 2 personas x 2.5 = 1.600€
+
+Total: **4.000€/mes**
+
+### Licencias de software (Opex)
+
+En costes de suscripciones, además, tenemos lo siguiente:
+
+- Sonarcloud (plan de 500.000 líneas de código): 160€/mes
+- GitHub Team: 4 € (por persona al mes) x 4 personas: 16 €/mes
+
+Total: **176€/mes**
+
+### Costes de infraestructura (Opex)
+
+Además de los costes especificados durante el desarrollo, sumamos el del
+despliegue en AppEngine, del cual asumimos que trabajaría 12 horas al día,
+redondeando a unos 18€ al mes.
+
 ![](/img/appenginecosts.png)
 
-Con PythonAnywhere, escogemos el plan Hacker, de 5€ al mes.
+**PythonAnywhere**
 
-Esto produce la nueva cantidad de **3,528 + 18 = 3,551€/mes**
+En los 4 meses de desarrollo escogemos el plan Hacker de 5€ al mes.
+Sin embargo, el tamaño creciente de la aplicación influye en su despliegue en PythonAnywhere.
+Suponiendo que cada gimnasio hace alrededor de 150 peticiones, debemos de cambiar
+de planes al llegar a los 20 gimnasios, en cuyo caso se pasaría al plan Web Dev,
+de 12€/mes. Al llegar a los 30, se deberá pasar al plan de 99€/mes.
 
-Sin embargo, el tamaño creciente de la aplicación influye en su despliegue en PythonAnywhere. Suponiendo que cada gimnasio hace alrededor de 150 peticiones,
-debemos de cambiar de planes al llegar a los 20 gimnasios, en cuyo caso se pasaría al plan Web Dev, de 12€/mes, y al llegar a los 30, se deberá pasar
-al plan de 99€/mes.
-
-## 3.3 Costes totales
+### Costes totales
 
 Con todo, obtenemos que el coste total de operación mensual inicialmente es:
-- 2,400 + 3,551 = **5,951 €/mes**
 
-# 4. Evolución a lo largo del tiempo
+- 4.000 €/mes Costes de personal
+- 176 €/mes Licencias software
+- Coste de infraestructura varia segun el mes y los usuarios de la aplicación
+
+# Evolución a lo largo del tiempo
 
 Para ver los beneficios y costes de la aplicación a largo plazo, tenemos en cuenta los siguientes factores:
 
@@ -137,13 +193,13 @@ Para ver los beneficios y costes de la aplicación a largo plazo, tenemos en cue
   - Esperado: Cada mes, se suscriben al plan estándar 5 gimnasios y 2 al plan Premium.
   - Pesimista: Cada mes, se suscriben al plan estándar 3 gimnasios y 1 al plan Premium.
 
-Tenemos en cuenta que el plan estándar cuesta 97.99€ y el Premium 109.99€ al mes.
+El plan Estándar cuesta 97.99€ y el Premium 109.99€ al mes.
 
-Realizando un estudio de 3 años, obtenemos los siguientes datos, teniendo en cuenta los beneficios y gastos en cada mes:
-![](/img/beneficiosvscostes.png)
+Realizando un estudio de 24 meses, obtenemos los siguientes datos, teniendo en
+cuenta los beneficios y gastos en cada mes:
+![](/img/beneficios-vs-costes-corto.png)
+![](/img/beneficios-vs-costes-medio.png)
+![](/img/beneficios-vs-costes-largo.png)
 
-Teniendo en cuenta los totales costes y beneficios, obtenemos lo siguiente:
-![](/img/beneficioscostesexpon.png)
-
-Podemos observar que, aunque los costes no necesariamente incrementen más que los beneficios, se hace muy improbable recuperar el coste inicial del proyecto.
-
+Podemos observar que, aunque los costes no necesariamente incrementen más que
+los beneficios, se hace muy improbable recuperar el coste inicial del proyecto.

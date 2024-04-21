@@ -91,6 +91,11 @@ const config = {
             label: "Despliegue Sprint 2",
           },
           {
+            href: "https://musclemates3.oa.r.appspot.com/",
+            position: "left",
+            label: "Despliegue Sprint 3",
+          },
+          {
             href: "https://github.com/ISPP-23-24-Grupo-3",
             label: "GitHub",
             position: "right",
