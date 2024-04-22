@@ -23,29 +23,17 @@ title: Total Cost Ownership (TCO)
 
 ## 1. Introducción
 
-En este documento, se establece el coste total de la propiedad respectivo al proyecto.
-Para ello, se tiene en cuenta el precio de desarrollo del proyecto, y sus estimaciones
-de precio de mantenimiento y operación. Es decir que va más allá del precio inicial de
-compra y tiene más sentido si lo analizamos como un gasto a largo plazo.
+En este documento, se establece el coste total de la propiedad respectivo al proyecto. Para ello, se tiene en cuenta el precio de desarrollo del proyecto, y sus estimaciones de precio de mantenimiento y operación. Es decir que va más allá del precio inicial de compra y tiene más sentido si lo analizamos como un gasto a largo plazo.
 
-## Costes de desarrollo
+## 2. Costes de capital (Capex)
 
-### Activos de la empresa (Capex)
+### 2.1 Costes de personal
 
-Asumiendo que cada portatil cuesta 500 €:
-
-- 500 €/portatil x 1 portatil/persona x 15 personas = 7,500€
-
-Amortizacion a 24 meses: 7500€/24meses = 312.5€/mes
-
-### Costes de personal (Opex)
-
-El equipo encargado del proyecto, está formado por 15 integrantes. Cada uno de
-ellos, tiene la obligación de dedicar al menos 10 horas semanales a dicho proyecto.
+El equipo encargado del proyecto, está formado por 15 integrantes. Cada uno de ellos, tiene la obligación de dedicar al menos 10 horas semanales a dicho proyecto.
 
 Tomando como punto de partida un sueldo de 8€ a la hora, obtenemos que, el sueldo mensual base es:
 
-- 8€/h x 10h/semana x 4 semanas/1mes = Sueldo base **320€/mes**
+- 8€/h x 10h x 4 semanas = **320€/mes**
 
 Teniendo en cuenta esto, a cada rol se le asigna un multiplicador:
 
@@ -71,115 +59,89 @@ Asumimos que en nuestro equipo tenemos:
 
 Al mes, los costes cada rol suman:
 
-- 320 x 5 x 1 = 1.600€
-- 320 x 3 x 3 = 2.880€
-- 320 x 3 x 2 = 1.920€
-- 320 x 1 x 2.5 = 800€
-- 320 x 2 x 1.5 = 960€
-- 320 x 1 x 3.5 = 1.120€
+- 320 x 5 x 1 = 1,600€
+- 320 x 3 x 3 = 2,880€
+- 320 x 3 x 2 = 1,920€
+- 320 _ 1 _ 2.5 = 800€
+- 320 _ 2 _ 1.5 = 960€
+- 320 _ 1 _ 3.5 = 1,120€
 - 320 x 1 x 2 = 640€
 - 320 x 2 x 2.5 = 1.600€
 
-Total **11520€/mes**
+Con todo, obtenemos que el costo de personal es:
+1,600 + 2,880 + 1,920 + 800 + 960 + 1,120 + 640 + 1600 = **11,520€/mes**
 
-### Licencias de software (Opex)
+### 2.2 Costes de infraestructura
 
-En costes de suscripciones, además, tenemos lo siguiente:
+Asumimos los siguientes costes para facilitar el espacio de trabajo de los desarrolladores:
 
-- Sonarcloud (plan de 500.000 líneas de código): 160€/mes
-- GitHub Team: 4 € (por persona al mes) x 15 personas: 60 €/mes
-- PythonAnywhere: 5€ Plan Hacker
-
-Total: **225€/mes**
-
-### Costes de infraestructura (Opex)
-
-Asumimos los siguientes costes para facilitar el espacio de trabajo de los
-desarrolladores:
-
-- Alquiler de oficinas: 2.500€/mes
+- Alquiler de oficinas: 2,500€/mes
 - Luz: 648€/mes
-  - 0.18 €/Kwh x 10 Kw x 12 h/dia x 30 dias/1 mes = 648€/mes
+  - 0.18 €/Kwh
+  - 12 horas operativas
+  - 10 Kw contratados
+  - 0.18 x 12 x 10 x 30 = 648€/mes
 - Agua: 160€/mes
 
-Total: **3.308€**
-
-### Costes mensual (Opex)
-
-En total, los costes mensuales durante el desarrollo son:
-
-- 11.520€/mes Coste del personal
-- 3.308€/mes Costes de infraestructura
-- 225€/mes Licencias y subscripciones software
-
-Total: **15.053€/mes**
-
-### Costes totales del desarrollo
-
-Tenemos en cuenta que el desarrollo dura 4 meses:
-
-- 15.053€/mes x 4 meses = 60.212 €
-
-Sumando el precio de los portátiles:
-
-- 7.500€ Capex
-- 60.212€ Opex
-
-Total: **67.712€**
-
-## Costes de operación del producto
-
-### Costes de personal (Opex)
-
-Como la aplicación ya está desarrollada, asumiremos que para mantenerla solo
-hará falta:
-
-- 1 miembro de QA
-- 1 Operation Engineer
-- 2 Systems Technician
-- 2 Community Manager
-
-- 320€ x 1 persona x 2 = 640€
-- 320€ x 1 persona x 2.5 = 800€
-- 320€ x 2 personas x 1.5 = 960€
-- 320€ x 2 personas x 2.5 = 1.600€
-
-Total: **4.000€/mes**
-
-### Licencias de software (Opex)
-
 En costes de suscripciones, además, tenemos lo siguiente:
 
 - Sonarcloud (plan de 500.000 líneas de código): 160€/mes
-- GitHub Team: 4 € (por persona al mes) x 4 personas: 16 €/mes
+- GitHub team: 60€/mes
 
-Total: **176€/mes**
+Como costes no mensuales:
 
-### Costes de infraestructura (Opex)
+- Portátiles: 7,500€
+  - 15 dispositivos
+  - 500€ por dispositivo
 
-Además de los costes especificados durante el desarrollo, sumamos el del
-despliegue en AppEngine, del cual asumimos que trabajaría 12 horas al día,
-redondeando a unos 18€ al mes.
+En total, los costes mensuales de la infraestructura durante el desarrollo son:
 
+- 2,500 + 648 + 160 + 160 + 60 = **3,528€/mes**
+
+### 2.3 Costes totales
+
+Los costes mensuales totales suman:
+11,520 + 3,528 = 15,048 €/mes
+
+Tenemos en cuenta que el desarrollo dura 4 meses. Con ello, obtenemos 15,048 x 4 = 60,192€
+Sumando a ello el precio de los portátiles, obtenemos 60,192 + 7,500 = 67,692€
+
+Por ello, el coste total de capital (Capex) es: **67,692**
+
+## 3. Costes de operación mensual (Opex)
+
+## 3.1 Costes de personal
+
+Como la aplicación ya está desarrollada, asumiremos que para mantenerla solo hará falta un miembro de QA, un miembro de Operation Engineer, dos de Systems Technician y
+2 Community Managers.
+
+- 320 x 1 x 2 = 640€
+- 320 x 1 x 2.5 = 800€
+- 320 x 2 x 1.5 = 960€
+- 320 x 2 x 2.5 = 1600€
+
+Con ello, los costes de personal ascienden a 640 + 800 + 960 = **4,000€/mes**
+
+## 3.2 Costes de infraestructura
+
+Además de los costes especificados durante el desarrollo, sumamos el del despliegue en AppEngine, del cual asumimos que trabajaría 12 horas al día, redondeando a unos 18€ al mes.
 ![](/img/appenginecosts.png)
 
-**PythonAnywhere**
+Con PythonAnywhere, escogemos el plan Hacker, de 5€ al mes.
 
-En los 4 meses de desarrollo escogemos el plan Hacker de 5€ al mes.
-Sin embargo, el tamaño creciente de la aplicación influye en su despliegue en PythonAnywhere.
-Suponiendo que cada gimnasio hace alrededor de 150 peticiones, debemos de cambiar
-de planes al llegar a los 20 gimnasios, en cuyo caso se pasaría al plan Web Dev,
-de 12€/mes. Al llegar a los 30, se deberá pasar al plan de 99€/mes.
+Esto produce la nueva cantidad de **3,528 + 18 = 3,546€/mes**
 
-### Costes totales
+Sin embargo, el tamaño creciente de la aplicación influye en su despliegue en PythonAnywhere. Suponiendo que cada gimnasio hace alrededor de 150 peticiones,
+debemos de cambiar de planes al llegar a los 20 gimnasios, en cuyo caso se pasaría al plan Web Dev, de 12€/mes, y al llegar a los 30, se deberá pasar
+al plan de 99€/mes.
+
+## 3.3 Costes totales
 
 Con todo, obtenemos que el coste total de operación mensual inicialmente es:
 
-- 4.000 €/mes Costes de personal
-- 176 €/mes Licencias software
-- Coste de infraestructura varia segun el mes y los usuarios de la aplicación
+- 4,000 + 3,546 = **7,546 €/mes**
 
-# Evolución a lo largo del tiempo
+# 4. Evolución a lo largo del tiempo
 
 Para ver los beneficios y costes de la aplicación a largo plazo, tenemos en cuenta los siguientes factores:
 
@@ -193,13 +155,12 @@ Para ver los beneficios y costes de la aplicación a largo plazo, tenemos en cue
   - Esperado: Cada mes, se suscriben al plan estándar 5 gimnasios y 2 al plan Premium.
   - Pesimista: Cada mes, se suscriben al plan estándar 3 gimnasios y 1 al plan Premium.
 
-El plan Estándar cuesta 97.99€ y el Premium 109.99€ al mes.
+Tenemos en cuenta que el plan estándar cuesta 97.99€ y el Premium 109.99€ al mes.
 
-Realizando un estudio de 24 meses, obtenemos los siguientes datos, teniendo en
-cuenta los beneficios y gastos en cada mes:
+Realizando un estudio de 24 meses, obtenemos los siguientes datos, teniendo en cuenta los beneficios y gastos en cada mes:
+
 ![](/img/beneficios-vs-costes-corto.png)
-![](/img/beneficios-vs-costes-medio.png)
-![](/img/beneficios-vs-costes-largo.png)
 
-Podemos observar que, aunque los costes no necesariamente incrementen más que
-los beneficios, se hace muy improbable recuperar el coste inicial del proyecto.
+![](/img/beneficios-vs-costes-medio.png)
+
+![](/img/beneficios-vs-costes-largo.png)
