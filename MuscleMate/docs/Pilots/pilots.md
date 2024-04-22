@@ -53,7 +53,7 @@ Tras esto, las tareas serán revisadas por los coordinadores de dichos equipos p
 - **Vicente Martínez** : tocasport@gmail.com
 - **José Manuel Almansa Vergara** : chemaaav4@gmail.com
 - **Manuel Morgollón**: manmormor9@alum.us.es
-- **Victor Vázquez**: vvazquezvazquez@gmail.com
+- **Victor Vázquez**: vazquezvazquezvictor21@gmail.com
 - **Martín Romero**: martinromero33@gmail.com
 - **Pablo Moreno**: pablomorenorromanos17@gmail.com
 - **Carlos Liberal**: cliberalbejarano@gmail.com
