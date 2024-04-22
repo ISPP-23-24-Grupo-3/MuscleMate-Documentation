@@ -13,7 +13,7 @@ title: Customer Agreement Owner
 
 | Versión | Fecha       | Autor      | Descripción                            |
 |---------|-------------|------------|----------------------------------------|
-| v1.0    | 2024-01-01  | Elena Tomás| Creación del documento                 |
+| v1.0    | 2024-04-01  | Elena Tomás| Creación del documento                 |
 
 
 
