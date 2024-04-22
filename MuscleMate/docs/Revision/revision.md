@@ -1,4 +1,10 @@
-# Software Review Guidelines
+---
+title: Software Review Guidelines
+sidebar_position: 3
+---
+![MUSCLEMATE](logo.png)
+
+## Musclemate, Grupo 3
 
 | Versión | Fecha      | Autor | Descripción            |
 | ------- | ---------- | ----- | ---------------------- |
@@ -116,3 +122,5 @@ Pulsando sobre un evento se accede a los detalles de este, pudiendo editarlos de
 Mediante el menú de la cabecera se puede acceder a "Planes" para seleccionar un plan y pagarlo para un gimnasio en concreto o a "Suscripciones" para ver el estado de las suscripciones de tus gimnasios.
 
 En "Planes" tras seleccionar un plan se le redijirá a una pantalla donde seleccionamos para que gimnasio es y luego a la plataforma Stripe. Ahí se completa con los datos proporcionados al principio y con ello se llevaría a cabo la suscripción.
+
+En "Suscripciones" puede listarlas todas y cancelar alguna si se estimase necesario.
