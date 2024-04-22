@@ -2,92 +2,117 @@
 
 | Versión | Fecha      | Autor | Descripción            |
 | ------- | ---------- | ----- | ---------------------- |
-| v1.0    | 2024-01-01 | xxx   | Creación del documento |
+| v1.0    | 2024-22-04 | Angel Muñoz   | Creación del documento |
+| v1.1    | 2024-22-04 | Alejandro Sosa   | Adición de datos pedidos en la Software Review Guidelines  |
 
-No matchmaking:
+# Credenciales de Uso
 
-# Iniciar sesión en la aplicación
+Para probar la aplicación se tienen los siguientes enlaces al despliegue:
+- Frontend (aplicación principal): https://musclemates3.oa.r.appspot.com/
+- Backend (administración): https://desplieguebackendmuscle.pythonanywhere.com/admin/
 
-Ingrese su nombre de usuario y su contraseña para poder acceder a las funcionalidades
-de la plataforma
+Respecto a la tracking tool, la usada es Clockify y ya se proporcionó al profesorado las credenciales para acceder y se le invitó para ver el estado. Respecto a la demo se encuentra en la misma carpeta que este documento.
 
-# Registro de un propietario de un gimansio (Owner)
+Aunque se puede registrar como se verá más adelante; se recomienda probar las funcionalidades con las siguientes credenciales para ver datos ya creados y comprobar de manera más cómoda:
+- Credenciales de Cliente:
+  - pabmoreno, musclemate123
+  - carliberal, musclemate123
+- Credenciales de Dueño:
+  - aaromo, musclemate123
+  - raquitori, musclemate123
+- Credenciales de Administrador (backend):
+  - ... (Indicadas de manera separada en la entrega por motivos de seguridad)
 
-Registro como propietario de un gimnasio
+Cuando trate de suscribirse como dueño de gimnasio a un plan, en la pasarela de pago introduzca de numero de tarjeta "4242 4242 4242 4242", pudiendo inventarse el resto de datos.
 
-Para poder registrase en el sistema usted tiene que rellenar todos los campos
-y aceptar nuestros terminos y condiciones.
+# Inicio de Sesión
 
-Una vez que se haya registrado en la plataforma:
+En la esquina superior derecha se encuentran los botones para iniciar sesión y para registrarse. Puede o bien pulsar el botón de entrar o el que pone 'Iniciar Sesion' para acceder a la pantalla que procesa esto. 
+Una vez en la pantalla rellene el formulario con los datos proporcionados para iniciar sesión correctamente como cliente o propietario.
 
-- Inicia sesión con su cuenta
-- Le habrá llegado a su correo un código para verificar su correo electrónico
-- Verifique su correo accediendo a la ruta `/verify` en su navegador, introduzque
-  el token en el formulario de verificación de correo
+# Perfil
 
-# Gestión de gimnasios de un propietario
+Sea cliente o propietario se puede acceder en todo momento a su perfil pulsando sobre su nombre en la esquina derecha.
 
-Como propietario de gimnasio puede ver los gimnasios que tiene en la plataforma
-de dos formas:
+# Funcionalidades de Cliente
 
-- Haga click en la pestaña `Mis gimnasios` en la barra de navegación superior
-- Visite la página principal de un propietario `/owner/home` y pulse en el botón
-  Mis Gimnasios
+Una vez inicia sesión sale una pantalla principal desde que la que podrá acceder rapidamente a las 3 funcionalidades principales de cliente; rutinas, eventos y evolución.
 
-## (WIP) Añadir nuevos gimnasios en el sistema
+### Rutinas
 
-Como propietario puede añadir más gimnasios asociado a su perfil pulsando en el
-botón `Crear Nuevo Gimnasio`
+Si inicia sesión como pabmoreno, podrá ver una ya. Para crear una nueva una pulse sobre "Tus Rutinas" y en "Añadir Rutina". Con esto podra incluir un nombre y crear una rutina de momento vacía.
 
-# Gestión de máquinas de gimnasio
+A estas rutinas se les puede añadir ejercicios pulsando sobre el icono del lápiz. Ahí llegamos a la pantalla de ejercicios donde se pueden añadir ejercicios pulsado en "Añadir Ejercicio" e introduciendo un nombre y ninguna, una o más máquinas de el gimnasio al que esté apuntado. Luego confirma la creación con el tick. Estos ejercicios se pueden editar o borrar con los iconos del lápiz y de la X roja. En esta pantalla también se puede editar el nombre de la rutina con el lápiz que sale al lado del nombre.
 
-Para ver las máquinas de su gimnasio (/owner/equipments):
+Mediante el boton de "entrenar" en esta pantalla o el símnolo de mancuerna (pesa) en la anterior se entra en la pantalla de entrenamiento. En esta pantalla pulsando en cualquiera de los ejercicios se puede acceder a un cronómetro para marcar los descansos, que se reinicia solo cada vez que se para y se pueden crear series sobre el ejercicio añadiendo un peso, unas repeticiones y un tiempo, que luego servirán para crear las gráficas de evolución de repeticiones y peso.
 
-- Haga click en la pestaña de `Mis máquinas` dentro de la barra de navegación o
-  pulse el botón de `Mis máquinas` en la página principal del propietario (/owner/home).
+Pulsando en "estadisticas" en esta misma pantalla o pulsando en "tu evolución" en el menu principal podemos acceder a gráficas sobre el peso o las repeticiones según una máquina en particular.
 
-Dentro de esta pestaña puede:
+### Eventos
 
-- Ver y editar los detalles de las máquinas de gimnasio (/owner/equipments/:id)
-- Añadir máquinas a tus gimnasios (owner/equipments/add)
+Desde el menú principal podemos acceder a "Tus eventos" que es un listado de eventos disponibles para el gimnasio al que estemos apuntados, en el que se puede buscar por nombre. Pulsando sobre uno podemos ver los detalles y hacer una reserva de uno o eliminar una reserva si ya la tenemos (aunque es necesario recargar para esto).
 
-# Gestión de usuarios
+### Incidencias
 
-Para visualizar los usuarios de su gimnasio:
+Mediante el menu desplegable de la esquina tenemos la pantalla de "Crear una incidencia" donde completando los datos y la máquina afectada abrimos una incidencia que podra ver el dueño del gimnasio en su listado.
 
-Haga click en `Usuarios` situado en la barra de navegación o bien
-pulse el botón `Usuarios` en la página principal del propietario
-pulsando en el botón `Usuarios` (/owner/users)
+Al crear una se redirige a la pantalla de "Tus Incidencias" tambien accesible desde el menú desplegable, donde se listan todas las incidencias creadas y su estado actual.
 
-En esta página puede registrar un nuevo usuario pulsando el botón de `Añadir nuevo usuario`.
-También puede visualizar los datos de sus usuarios pulsando en algún perfil dentro de la
-lista.
+### Máquinas
 
-Para editar la información de un usuario pulse en algún perfil de la lista.
-Dentro del perfil de la persona pulse el botón `Editar` y podrá modificar
-la información de su perfil.
+Entrando desde el menú desplegable en "Máquinas del Gimnasio" podemos acceder a un listado de las máquinas del gimnasio al que se pertenece y un buscador y varios filtros para esto (el panel a la derecha del buscador)
 
-Cuando haya terminado de actualizar la información pulse el botón de `Guardar`.
-Si quiere dar de baja o de alta a un usuario pulse el botón debajo de `Guardar`.
+Pulsando sobre una máquina accedemos a los detalles de una máquina dónde podemos añadir una incidencia directamente unida a ella o valorarla pulsando sobre las estrellas en la cantidad seleccionada y luego en "enviar".
 
-# Gestión de rutinas de los usuarios
+### Cerrar Sesión
 
-Estando logueado como usuario puede crear rutinas dentro de la aplicación pulsando en
-`Rutinas`
+Por último pulsamos sobre salir en el menú y cerramos sesión.
 
-# Matchmaking
+# Funcionalidades de Propietario
 
-# Gestión de incidencias de los usuarios
+### Registro
 
-Para consultar las incidencias que los usuarios registren en la aplicación
-pulse en `Tickets` dentro de la barra de navegación o bien pulse `Tickes`
-en la página principal del propietario.
+Según el modelo de Musclemate solo los propietarios se podrán registran ellos mismos; para ello sin una sesión iniciada pulse en el registro en lugar de iniciar sesión en la esquina y rellene el formulario con datos correctos. Una vez registrado podrá iniciar sesión con estos datos.
 
-Dentro de esta pestaña podrá ver las incidencias y marcarlas como resueltas
-haciendo click en el checkbox de la incidencia correspondiente.
+### Máquinas
 
-# Informar de una incidencia de una máquina
+Una vez iniciada sesión se puede acceder a el listado de las máquinas de los gimnasios que pertenecen al propietario desde el botón "Mis Máquinas".
+Ahí se puede añadir una máquina desde el botón para añadirlas completando correctamente el formulario, buscar una máquina por nombre y aplicar diversos filtros (funcionan igual que los vistos para cliente)
 
-Para informar de una incidencia tiene que iniciar sesión como cliente de gimnasio
-y pulsar en `Crear ticket` dentro de la barra de navegación o bien en la página
-principal de su perfil (/user/home) pulsando en el botón `Crear ticket`
+Pulsando sobre una máquina podemos ver los detalles de esta (que son editables) y las incidencias relacionadas (en caso de existir), que se pueden marcar como resueltas o no resueltas mediante el checkbox que poseen.
+
+### Registrar Cliente
+
+Pulsando ese botón se accede al registro de cliente. Como se ha explicado antes, por si mismo solo se registra el propietario. Esto es porque el propietario (o el perfil de gimnasio) es quien registra a los clientes de su propio gimnasio y luego les cede su usuario y contraseña para que usen la app.
+
+Rellenando este formulario se crea un usuario en el gimnasio que el dueño seleccione (de los que son de su propiedad).
+
+### Usuarios
+
+Pulsando sobre ese menú se accede al listado de usuarios en los gimnasios que dispone el propietario. También se dispone de un buscador y filtros como en listados anteriores.
+
+Pulsando sobre un cliente se accede al perfil de este, desde donde se puede editar su información.
+
+### Ver Incidencias
+
+Pulsando sobre ese botón en el menú se accede al listado de incidencias, que se pueden buscar por máquina o gimnasio y marcar como resuelto o no resuelto según sea necesario.
+
+### Mis Gimnasios
+
+Pulsando sobre ese botón en el menú se puede acceder al listado de gimnasios del propietario. Se pueden filtrar por nombre o crear mediante el botón "Crear Nuevo Gimnasio", que redirige a un formulario que los crea. Al crear un nuevo gimnasio se creará también un usuario propio de el gimnasio similar a el de dueño pero con funcionalidades limitadas a dicho gimnasio (usable por empleados u otras entidades relacionadas con el gimnasio).
+
+Pulsando sobre un gimnasio podremos ver sus detalles y desde ahi se puede eliminar un gimnasio o ver sus estadísticas. Estas estadísticas consisten en un gráfico del uso de las máquinas en el tiempo.
+
+### Mis Eventos
+
+Pulsando sobre ese botón en el menú se accede a un listado de los eventos de tus gimnasios con su debido buscador y filtros.
+
+Mediante el botón "Añadir Evento" se puede crear uno mediante un formulario al que se redirige.
+
+Pulsando sobre un evento se accede a los detalles de este, pudiendo editarlos desde este menú. Así como a un botón para eliminarlo si se considerase necesario.
+
+### Pagos y Suscripciones
+
+Mediante el menú de la cabecera se puede acceder a "Planes" para seleccionar un plan y pagarlo para un gimnasio en concreto o a "Suscripciones" para ver el estado de las suscripciones de tus gimnasios.
+
+En "Planes" tras seleccionar un plan se le redijirá a una pantalla donde seleccionamos para que gimnasio es y luego a la plataforma Stripe. Ahí se completa con los datos proporcionados al principio y con ello se llevaría a cabo la suscripción.

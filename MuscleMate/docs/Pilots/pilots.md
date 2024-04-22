@@ -14,6 +14,7 @@ sidebar_position: 3
 | v1.3    | 2024-04-05  | Angel Muñoz Prieto     |Correción y completitud de la información del S2|
 |v1.4|2024-04-06|Juan Jesús| Actualización del documento hasta la fecha|
 | v1.5    | 2024-04-10  | Angel Muñoz Prieto     |Adición del feedback del primer despliegue del S3|
+| v1.6    | 2024-04-22 | Juan Jesús Martín      |Actualización del documento hasta la fecha|
 
 
 # Información sobre los Usuarios Piloto del grupo MuscleMate
@@ -38,6 +39,32 @@ Una vez finalizada la recolección de reseñas, se pasará a crear tareas para l
 Tras esto, las tareas serán revisadas por los coordinadores de dichos equipos para puntuarlas y asignarles una prioridad.
 
 ### Feedback Recibido
+
+#### Usuarios Piloto ajenos a la asignatura
+
+
+- **Carrizosa Mateos** (Gimnasio TocaSport): En general da un feedback bastante positivo destacando la gran mejora en cuanto a semanas anteriores y destaca la implementación de las gráficas ya que es algo muy inusual en este tipo de apps. A modo de feedback constructivo bajo su punto de vista encuentra la terminología muy mejorable por ejemplo : denominar "comba" en lugar de "cuerda de saltar" o la redundancia de máquinas similares por ejemplo : "barra olímpica" y "press banca". También que cuando accede a "mis inicidencias" no le deja poder editarla o poder cambiar la descripción ya que si por error le da a validar con una descripción no deseada no se podrá describir dicha incidencia como se desea.
+- **Leal Sarmiento** (Gimnasio TocaSport): Feedback muy positivo, argumenta la mejora notable respecto a versiones anteriores . También considera que faltan algunas imágenes que ilustren diferentes tipos de cosas que pueden hacer la app más llamativa.
+- **Manuel Luis** (Gimnasio Coliseum):Destaca como muy positivo las gráficas de evolución, también destaca la mejora en rendimiento, así como la corrección de errores que encontró en versiones anteriores. Como mejora propone facilitar la lección de máquinas desplegando directamente el grupo de máquinas que puedo utilizaral elegir el grupo muscular que quiero trabajar.
+- **Leal Ojeda** (Gimnasio Coliseum): Destaca la corrección de todos los errores que encontró en versiones anteriores, también añade que es mucho más fácil de entender ahora el aprtado que anteriormente se llamaba "tickets" y se ha sustituido por incidencia, además valora muy positivamente la implementación de las gráficas de progreso.
+- **Olivares Leal** (Gimnasio TocaSport):No encuentra fallo alguno además de destacar que es una app muy intutiva y muy útil para conseguir llevar un control en tus entrenamientos. Destaca la facilidad para poder reservar para los eventos así como la aclaración del término ticket.
+- **María del Carmen** (Gimnasio TocaSport): Una app bastante sencilla de utilizar y muy útil, no encuentra fallos y cubre todas las necesidades para el monitoreo de un entrenamiento en el gimnasio.
+- **Javier Pardo** (Gimnasio Coliseum):En general destaca el avance de profesionalidad de la app, así como la gran utilidad de las gráficas de progreso. Interfaz bastante agradable e intuitiva para los usuaurios familiarizados con las tecnologías como para los que no lo están.
+- **Vicente** (Dueño TocaSport):Agradece mucho la corrección de los errores encontrados en la versión anterior , le fascina la implementación de las gráficas para las estadísticas del gym así como las gráficas individuales para cada usuario del gimnasio par valorar el progreso. Encuentra bastante eficaz el poder cambiar el estado de la incidencia registrada por cualquier usuario,como también agradece el cambio de terminiología de "ticket" a "incidencia". Añade que el rendimiento es mucho mejor y que ya no es necesario recargar en acciones que antertiormente sí. Agradece también la facilidad de cancelar, cambiar o adquirir cierta subscripción así como ofrecer sensación de seguridad durante el pago. También a modo de crítica constructiva añade :  Dimensiones no adaptada a algunas pantallas. Echa en falta una confirmación de registro. También añade que  hay nombres que no son muy explicativos como "barra olímpica". Invita a pensar a implementar algún tipo de rutinas por defecto o recomendadas para usuario que no tienen conocimiento o baja formación. También invita a que cuando añada una máquina tenga la opción de adjuntar una imagen.  
+- **Almansa Vergara** (Gimnasio TocaSport): En general da un feddback positivo aunque mantiene que  para los usuarios menos informados tener una recomendación de ejercicios básicos según el músculo que se quiera trabajar.
+
+#### Contacto Usuarios Pilotos ajenos a la asignatura
+
+- **David Carrizosa Mateos** : david220399@gmail.com
+- **Jose María Leal Sarmiento** : jmlealsarm03@gmail.com
+- **Manuel Luis Torres** : manuelu1878@gmail.com
+- **Francisco Javier Leal Ojeda** : lealfj1@gmail.com
+- **José Miguel Olivares Leal** : josemiol10@gmail.com
+- **María del Carmen Fernández González** : marifernandez110899@gmail.com
+- **Javier Pardo** : javipardo2001@gmail.com
+- **Vicente Martínez** : tocasport@gmail.com
+- **José Manuel Almansa Vergara** : chemaaav4@gmail.com
+
 
 #### Semana 9
 

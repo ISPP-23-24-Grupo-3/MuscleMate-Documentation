@@ -11,6 +11,7 @@ title: Plan de pruebas
 | Versión | Fecha      | Autor                  | Descripción            |
 | ------- | ---------- | ---------------------- | ---------------------- |
 | v1.0    | 2024-04-05 | González Marcos, Pedro | Creación del documento |
+| v1.1    | 2024-04-20 | Devós Bono, Agustín | Corrección pruebas de integración y de carga |
 
 ## Pruebas unitarias
 
@@ -19,9 +20,8 @@ negocio que es vital para el funcionamiento del sistema.
 
 ## Pruebas de integración
 
-Se hará una prueba de integración para comprobar si las entidades
-se insertan en la BBDD así como para comprobar el contrato que devuelve
-la API.
+Se realizarán pruebas de integración para comprobar el correcto funcionamiento entre la plataforma de pagos Stripe y nuestra aplicación.
+De esta forma queremos comprobar que al pagar se actualicen correctamente los planes de suscripción contratados.
 
 ## Pruebas End to End
 
@@ -44,9 +44,11 @@ Nuestras pruebas de aceptación siguen el siguiente formato.
 
 Se realizarán con locust siguientes pruebas de carga y estrés:
 
-- Inicio de sesión el la plataforma con cualquier usuario
-- Lectura y creación de rutinas siendo cliente
-- Lectura de incidencias siendo propietario
+- Carga de estadísticas por parte de los dueños.
+- Iniciar cronómetros de serie por parte del cliente.
+- Visualizar estadísticas de avance de ejercicios por parte del cliente.
+
+De esta forma probamos las funcionalidades de la aplicación que más recursos consumen, para ver su rendimiento mientras son solicitadas por muchos usuarios a la vez.
 
 ### Guía del desarrollador
 

@@ -15,6 +15,7 @@ sidebar_position: 5
 | v1.2    | 2024-03-19  | Manuel Ortega| Actulización del documento                 |
 | v1.3    | 2024-01-01  | Manuel Ortega| Actulización del documento                 |
 | v1.4    | 2024-03-25  | Manuel Ortega| Actualización del documento                 |
+| v1.4    | 2024-04-22  | Manuel Ortega| Actualización del documento              |
 
 
 ## Semana 1
@@ -120,3 +121,26 @@ A continuación, mostraremos las estadísticas de la semana del martes 19 al dom
 | Horas trabajadas por día                                                                   |
 | ------------------------------------------------------------------------------------------ |
 | ![Estadística horas trabajadas por día](/img/stats/semana8horasPorDias.png) |
+
+
+## Semana 9
+A continuación, mostraremos las estadísticas de la semana del martes 02 al martes 9 de abril.
+| Reloj semanal del proyecto                                                        |
+| --------------------------------------------------------------------------------- |
+| ![Estadística reloj de grupo](/img/stats/semana9relojProyecto.png) |
+| ![](/img/stats/semana9relojProyecto2.png)                          |
+
+| Horas trabajadas por día                                                                   |
+| ------------------------------------------------------------------------------------------ |
+| ![Estadística horas trabajadas por día](/img/stats/semana9horasPorDias.png) |
+
+## Semana 10
+A continuación, mostraremos las estadísticas de la semana del miercoles 10 al lunes 22 de abril (Por la feria).
+| Reloj semanal del proyecto                                                        |
+| --------------------------------------------------------------------------------- |
+| ![Estadística reloj de grupo](/img/stats/semana10relojProyecto.png) |
+| ![](/img/stats/semana10relojProyecto2.png)                          |
+
+| Horas trabajadas por día                                                                   |
+| ------------------------------------------------------------------------------------------ |
+| ![Estadística horas trabajadas por día](/img/stats/semana10horasPorDias.png) |
