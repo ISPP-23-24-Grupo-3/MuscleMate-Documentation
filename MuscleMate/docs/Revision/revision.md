@@ -2,24 +2,27 @@
 title: Software Review Guidelines
 sidebar_position: 3
 ---
+
 ![MUSCLEMATE](logo.png)
 
 ## Musclemate, Grupo 3, Sprint 3
 
-| Versión | Fecha      | Autor | Descripción            |
-| ------- | ---------- | ----- | ---------------------- |
-| v1.0    | 2024-04-22 | Angel Muñoz   | Creación del documento |
-| v1.1    | 2024-04-22 | Alejandro Sosa   | Adición de datos pedidos en la Software Review Guidelines  |
+| Versión | Fecha      | Autor          | Descripción                                               |
+| ------- | ---------- | -------------- | --------------------------------------------------------- |
+| v1.0    | 2024-04-22 | Angel Muñoz    | Creación del documento                                    |
+| v1.1    | 2024-04-22 | Alejandro Sosa | Adición de datos pedidos en la Software Review Guidelines |
 
 # Credenciales de Uso
 
 Para probar la aplicación se tienen los siguientes enlaces al despliegue:
+
 - Frontend (aplicación principal): https://musclemates3.oa.r.appspot.com/
 - Backend (administración): https://desplieguebackendmuscle.pythonanywhere.com/admin/
 
-Respecto a la tracking tool, la usada es Clockify y ya se proporcionó al profesorado las credenciales para acceder y se le invitó para ver el estado. Respecto a la demo se encuentra en la misma carpeta que este documento.
+Respecto a la tracking tool, la usada es Clockify y ya se proporcionó al profesorado las credenciales para acceder y se le invitó para ver el estado. Respecto a la demo se encuentra en la carpeta Demos en Other Evaluable Docs
 
 Aunque se puede registrar como se verá más adelante; se recomienda probar las funcionalidades con las siguientes credenciales para ver datos ya creados y comprobar de manera más cómoda:
+
 - Credenciales de Cliente:
   - pabmoreno, musclemate123
   - carliberal, musclemate123
@@ -33,7 +36,7 @@ Cuando trate de suscribirse como dueño de gimnasio a un plan, en la pasarela de
 
 # Inicio de Sesión
 
-En la esquina superior derecha se encuentran los botones para iniciar sesión y para registrarse. Puede o bien pulsar el botón de entrar o el que pone 'Iniciar Sesion' para acceder a la pantalla que procesa esto. 
+En la esquina superior derecha se encuentran los botones para iniciar sesión y para registrarse. Puede o bien pulsar el botón de entrar o el que pone 'Iniciar Sesion' para acceder a la pantalla que procesa esto.
 Una vez en la pantalla rellene el formulario con los datos proporcionados para iniciar sesión correctamente como cliente o propietario.
 
 # Perfil
