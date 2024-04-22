@@ -4,13 +4,13 @@ title: Legal requirements
 
 ![MUSCLEMATE](../logo.png)
 
-## Musclemate, Grupo 3
+## Musclemate, Grupo 3, Sprint 2
 
 ##  Historial de Versiones
 
 | Versión | Fecha       | Autor      | Descripción                            |
 |---------|-------------|------------|----------------------------------------|
-| v1.0    | 2024-01-01  | Elena Tomás| Creación del documento                 |
+| v1.0    | 2024-04-01  | Elena Tomás| Creación del documento                 |
 
 # RGPD
 

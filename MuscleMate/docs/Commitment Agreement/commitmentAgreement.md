@@ -6,9 +6,22 @@ sidebar_position: 7
 
 ![MUSCLEMATE](logo.png)
 
+<<<<<<< HEAD
 ## Musclemate, Grupo 3
 
 ## Historial de Versiones
+=======
+## Musclemate, Grupo 3, Sprint 2
+##  Historial de Versiones
+
+| Versión | Fecha       | Autor      | Descripción                            |
+|---------|-------------|------------|----------------------------------------|
+| v1.0    | 2024-02-01  | Manuel Ortega| Versión inicial del documento sin firmar, incluye apartados de disponbilidad, dedicación del tiempo y política de avisos                      |
+| v2.0     | 2024-02-18 | Manuel Ortega| Se ha añadido un apartado de condiciones del acuerdo y se ha firmado el documento |
+|v3.0| 2024-03-21|Manuel Ortega| Se mejora el commitment en cuanto a fórmula de puntuación| 
+|v4.0| 2024-04-01|David Zarandieta| Se actualiza el commitment en cuanto a fórmula de puntuación| 
+|v5.0| 2024-04-04|Manuel Ortega| Nuevo agreement en cuanto a fallar en la entrega| 
+>>>>>>> 18fb0c7e82ba1fc30d66de74ebe538bc8eaf7365
 
 | Versión | Fecha      | Autor            | Descripción                                                                                                              |
 | ------- | ---------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------ |
