@@ -3,19 +3,20 @@ id: commitment-agreement
 title: Commitment Agreement
 sidebar_position: 7
 ---
+
 ![MUSCLEMATE](logo.png)
 
 ## Musclemate, Grupo 3
-##  Historial de Versiones
 
-| Versión | Fecha       | Autor      | Descripción                            |
-|---------|-------------|------------|----------------------------------------|
-| v1.0    | 2024-01-01  | Manuel Ortega| Versión inicial del documento sin firmar, incluye apartados de disponbilidad, dedicación del tiempo y política de avisos                      |
-| v2.0     | 2024-02-18 | Manuel Ortega| Se ha añadido un apartado de condiciones del acuerdo y se ha firmado el documento |
-|v3.0| 2024-03-21|Manuel Ortega| Se mejora el commitment en cuanto a fórmula de puntuación| 
-|v4.0| 2024-04-01|David Zarandieta| Se actualiza el commitment en cuanto a fórmula de puntuación| 
-|v5.0| 2024-04-04|Manuel Ortega| Nuevo agreement en cuanto a fallar en la entrega| 
+## Historial de Versiones
 
+| Versión | Fecha      | Autor            | Descripción                                                                                                              |
+| ------- | ---------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| v1.0    | 2024-01-01 | Manuel Ortega    | Versión inicial del documento sin firmar, incluye apartados de disponbilidad, dedicación del tiempo y política de avisos |
+| v2.0    | 2024-02-18 | Manuel Ortega    | Se ha añadido un apartado de condiciones del acuerdo y se ha firmado el documento                                        |
+| v3.0    | 2024-03-21 | Manuel Ortega    | Se mejora el commitment en cuanto a fórmula de puntuación                                                                |
+| v4.0    | 2024-04-01 | David Zarandieta | Se actualiza el commitment en cuanto a fórmula de puntuación                                                             |
+| v5.0    | 2024-04-04 | Manuel Ortega    | Nuevo agreement en cuanto a fallar en la entrega                                                                         |
 
 ## 1. Introducción
 
@@ -55,40 +56,35 @@ Al unirme a la asignatura de Ingeniería de Software y Práctica Profesional (IS
 
 ### 2.7 Fórmula para puntutar los sprint individualmente.
 
-El cálculo de la puntuación obtenida por cada miembro en cada entrega se calculará con la siguiente fórmula llamada *evaluación*, abreviado *E(t,d)*:
-Se dispondrán de puntos de historia *(d)* todas las tareas de backend, frontend y documentación, abarcando un rango del 1 al 5 según su dificultad y tiempo esperado en su realización, se tendrá en cuenta también el tiempo total en la realización de dichas tareas *(t)* en minutos.
+El cálculo de la puntuación obtenida por cada miembro en cada entrega se calculará con la siguiente fórmula llamada _evaluación_, abreviado _E(t,d)_:
+Se dispondrán de puntos de historia _(d)_ todas las tareas de backend, frontend y documentación, abarcando un rango del 1 al 5 según su dificultad y tiempo esperado en su realización, se tendrá en cuenta también el tiempo total en la realización de dichas tareas _(t)_ en minutos.
 
-
-Se calculará la media de tiempo por punto. *tiempo_por_punto = t/d*
-
+Se calculará la media de tiempo por punto. _tiempo_por_punto = t/d_
 
 Después, se evaluará el rendimiento del tiempo por punto en los siguientes rangos:
 
-- Si *tiempo_por_punto < = 60, entonces E(t,d) = 5* 
-- Si *60 < tiempo_por_punto < = 90, entonces E(t,d) = 4.5*
-- Si *90 < tiempo_por_punto < = 120, entonces E(t,d) = max(3, 4 - ((tiempo_por_punto - 90)/30)*
-- Si *tiempo_por_punto > 120, entonces E(t,d) = max(1, 3 - ((tiempo_por_punto - 120)/30)*
+- Si _tiempo_por_punto < = 60, entonces E(t,d) = 5_
+- Si _60 < tiempo_por_punto < = 90, entonces E(t,d) = 4.5_
+- Si _90 < tiempo_por_punto < = 120, entonces E(t,d) = max(3, 4 - ((tiempo_por_punto - 90)/30)_
+- Si _tiempo_por_punto > 120, entonces E(t,d) = max(1, 3 - ((tiempo_por_punto - 120)/30)_
 
-
-
-Por último, se le sumará los 6 puntos base que disponemos de mínimo. 
-
+Por último, se le sumará los 6 puntos base que disponemos de mínimo.
 
 No se tendrán en cuenta para el cálculo de la fórmula las horas dedicadas a:
+
 - Clases.
 - Reuniones.
 - Theroy pills.
 
 - Gestión de github (revisión de pull request).
 
-Las tareas realizadas por más de una persona solo valdrán 0.75 por cada persona extra que haya. Por ejemplo: una tarea con dos personas asignadas y valor 3, 0.75*3 = 2.25 puntos por persona. Una tarea con 3 personas asignadas y valor 3, (0.75*0.75)*3 = 1.68 puntos por persona. 
+Las tareas realizadas por más de una persona solo valdrán 0.75 por cada persona extra que haya. Por ejemplo: una tarea con dos personas asignadas y valor 3, 0.75*3 = 2.25 puntos por persona. Una tarea con 3 personas asignadas y valor 3, (0.75*0.75)\*3 = 1.68 puntos por persona.
 
-Si no se ha llegado a las horas semanales se tendrá un 0 en la fórmula de *E(t,d)*. Y, en función del cumplimiento del commitment agreement se valorará si podrá optar a la puntuación base.
+Si no se ha llegado a las horas semanales se tendrá un 0 en la fórmula de _E(t,d)_. Y, en función del cumplimiento del commitment agreement se valorará si podrá optar a la puntuación base.
 
+En caso de que un miembro del grupo haya trabajado de manera eficiente sobrepasando los 10 puntos, se le guardará la diferencia para posteriores entregas, premiando así el buen desempeño.
 
-En caso de que un miembro del grupo haya trabajado de manera eficiente sobrepasando los 10 puntos, se le guardará la diferencia para posteriores entregas, premiando así el buen desempeño. 
-
-Si el número de puntos de historia *(d)* es mayor que el número de tiempo total del sprint (10 horas por *x* semanas que abarque el sprint, *tiempo_total_sprint= x * 600* ) dividido entre 90: *d > = tiempo_total_sprint/90* , el resultado será *max(4,E(t,d))*.
+Si el número de puntos de historia _(d)_ es mayor que el número de tiempo total del sprint (10 horas por _x_ semanas que abarque el sprint, _tiempo_total_sprint= x _ 600* ) dividido entre 90: *d > = tiempo_total_sprint/90* , el resultado será *max(4,E(t,d))\*.
 
 ### 2.8 Observaciones
 
@@ -98,25 +94,23 @@ Si el número de puntos de historia *(d)* es mayor que el número de tiempo tota
 
 ### Recuento de cumplimiento
 
-| Nombre                   | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 | S11 | S12 | S13 | S14 | S15 |
-|--------------------------|----|----|----|----|----|----|----|----|----|-----|-----|-----|-----|-----|-----|
-| Pedro González Marcos    | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| David Del Hoyo Carboso   | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| David Zarandieta Ortiz   | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| Alejandro Sosa Corral    | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| Elena Tomás Vela         | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| Juan Jesús Martín Herndz | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| Jorge Romero Limón       | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| David Dana Cabello       | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| Ángel Muñoz Prieto       | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| Juan Carlos Moreno Pérez | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| Manuel Ortega García     | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| Agustín Devós Bono       | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| Alejandro Mateo Capilla  | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| Luis Garcia Parras       | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-| Manuel Vázquez Martín    | 4/4| 4/4| /4|/4 |/4 |/4 |/4 |/4 |/4 |     |     |     |     |     |     |
-
-
+| Nombre                   | S1  | S2  | S3  | S4  | S5  | S6  | S7  | S8  | S9  | S10 | S11 | S12 | S13 | S14 | S15 |
+| ------------------------ | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Pedro González Marcos    | 4/4 | 4/4 | 4/4 | 4/4 | 3/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 |     |     |     |     |     |
+| David Del Hoyo Carboso   | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 3/4 | 4/4 | 4/4 |     |     |     |     |     |
+| David Zarandieta Ortiz   | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 3/4 | 4/4 | 4/4 | 3/4 |     |     |     |     |     |
+| Alejandro Sosa Corral    | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 |     |     |     |     |     |
+| Elena Tomás Vela         | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 |     |     |     |     |     |
+| Juan Jesús Martín Herndz | 4/4 | 4/4 | 3/4 | 4/4 | 4/4 | 4/4 | 3/4 | 3/4 | 4/4 | 4/4 |     |     |     |     |     |
+| Jorge Romero Limón       | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 |     |     |     |     |     |
+| David Dana Cabello       | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 3/4 | 3/4 | 4/4 | 4/4 |     |     |     |     |     |
+| Ángel Muñoz Prieto       | 4/4 | 4/4 | 4/4 | 3/4 | 4/4 | 4/4 | 3/4 | 4/4 | 4/4 | 4/4 |     |     |     |     |     |
+| Juan Carlos Moreno Pérez | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 3/4 | 3/4 | 3/4 | 3/4 | 4/4 |     |     |     |     |     |
+| Manuel Ortega García     | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 |     |     |     |     |     |
+| Agustín Devós Bono       | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 3/4 | 3/4 | 4/4 | 4/4 |     |     |     |     |     |
+| Alejandro Mateo Capilla  | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 4/4 | 3/4 | 3/4 | 4/4 | 4/4 |     |     |     |     |     |
+| Luis Garcia Parras       | 4/4 | 4/4 | 3/4 | 4/4 | 3/4 | 3/4 | 3/4 | 4/4 | 4/4 | 4/4 |     |     |     |     |     |
+| Manuel Vázquez Martín    | 4/4 | 4/4 | 3/4 | 3/4 | 4/4 | 4/4 | 3/4 | 3/4 | 4/4 | 4/4 |     |     |     |     |     |
 
 ### Firmas
 
