@@ -1,4 +1,11 @@
-# Marketing Management
+---
+title: Marketing Management
+sidebar_position: 3
+---
+![MUSCLEMATE](logo.png)
+
+## Musclemate, Grupo 3
+
 
 | Versión | Fecha      | Autor | Descripción            |
 | ------- | ---------- | ----- | ---------------------- |

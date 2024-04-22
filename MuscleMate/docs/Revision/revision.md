@@ -1,10 +1,10 @@
 ---
 title: Software Review Guidelines
+sidebar_position: 3
 ---
-
 ![MUSCLEMATE](logo.png)
 
-# Software Review Guidelines
+## Musclemate, Grupo 3
 
 | Versión | Fecha      | Autor | Descripción            |
 | ------- | ---------- | ----- | ---------------------- |

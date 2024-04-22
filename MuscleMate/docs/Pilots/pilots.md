@@ -101,8 +101,8 @@ Tras esto, las tareas serán revisadas por los coordinadores de dichos equipos p
 
 ##### Usuarios Piloto del Grupo 9
 
-- **Registros**: La confirmación del registro no queda del todo clara. Se sugiere que en la dirección obligue a poner algo como "Calle" o "Avenida". Se pueden introducir numeros en nombre y apellidos.
-- **Maquinas**: No queda claro que se pueda filtrar por varios músculos.
+- **Registros**: La confirmación del registro no queda del todo clara. Se sugiere que en la dirección obligue a poner algo como "Calle" o "Avenida". Se pueden introducir numeros en nombre y apellidos. podría pedir confirmación de contraseña.
+- **Maquinas**: No queda claro que se pueda filtrar por varios músculos. Confirmación al crear máquinas.
 - **Perfiles**: No permite modificar los apellidos.
 - **Incidencias**: No se pueden buscar incidencias de páginas anteriores; por ejemplo estando en la página 3 buscar una de la página 1. Se sugiere que el cliente tras crearla le lleve a la página de la propia máquina. Se podría añadir un botón en "Mis Incidencias" para crear una. A veces no queda clara la actualización del estado del ticket.
 - **Usuarios**: El buscador falla ocasionalmente, no mostrando nada.
@@ -114,6 +114,7 @@ Tras esto, las tareas serán revisadas por los coordinadores de dichos equipos p
         - El rendimiento ha mejorado considerablemente.
         - Los filtros de los listados hay que cerrarlos a voluntad tras seleccionar uno.
         - Incluir Recargas de página para confirmar ciertas cosas (ticket, suscripción)
+        - Añadir Claridad
 
 ##### Usuarios Piloto ajenos a la Asignatura
 
