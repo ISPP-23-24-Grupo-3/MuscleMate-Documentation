@@ -3,18 +3,27 @@
 | Versión | Fecha      | Autor | Descripción            |
 | ------- | ---------- | ----- | ---------------------- |
 | v1.0    | 2024-22-04 | Angel Muñoz   | Creación del documento |
+| v1.1    | 2024-22-04 | Alejandro Sosa   | Adición de datos pedidos en la Software Review Guidelines  |
 
 # Credenciales de Uso
 
-Para probar la aplicación se tiene el siguiente enlace al despliegue: https://musclemates3.oa.r.appspot.com/
+Para probar la aplicación se tienen los siguientes enlaces al despliegue:
+- Frontend (aplicación principal): https://musclemates3.oa.r.appspot.com/
+- Backend (administración): https://desplieguebackendmuscle.pythonanywhere.com/admin/
 
 Respecto a la tracking tool, la usada es Clockify y ya se proporcionó al profesorado las credenciales para acceder y se le invitó para ver el estado. Respecto a la demo se encuentra en la misma carpeta que este documento.
 
-Aunque se puede registrar como se verá más adelante; se recomienda probar las funcionalidades con las siguientes credenciales para ver datos ya creados y comprobar de manera más cómoda
-- Credenciales de Cliente: pabmoreno, musclemate123
-- Credenciales de Owner: aaromo, musclemate123
+Aunque se puede registrar como se verá más adelante; se recomienda probar las funcionalidades con las siguientes credenciales para ver datos ya creados y comprobar de manera más cómoda:
+- Credenciales de Cliente:
+  - pabmoreno, musclemate123
+  - carliberal, musclemate123
+- Credenciales de Dueño:
+  - aaromo, musclemate123
+  - raquitori, musclemate123
+- Credenciales de Administrador (backend):
+  - ... (Indicadas de manera separada en la entrega por motivos de seguridad)
 
-Cuando trate con el propietario los planes de pago introduzca de numero de tarjeta "4242424242424242" y el resto inventado.
+Cuando trate de suscribirse como dueño de gimnasio a un plan, en la pasarela de pago introduzca de numero de tarjeta "4242 4242 4242 4242", pudiendo inventarse el resto de datos.
 
 # Inicio de Sesión
 
@@ -27,21 +36,21 @@ Sea cliente o propietario se puede acceder en todo momento a su perfil pulsando 
 
 # Funcionalidades de Cliente
 
-Una vez inicia sesión sale una pantalla principal para acceder rapidamente a las 3 funcionalidades principales de cliente; rutinas, eventos y evolución.
+Una vez inicia sesión sale una pantalla principal desde que la que podrá acceder rapidamente a las 3 funcionalidades principales de cliente; rutinas, eventos y evolución.
 
 ### Rutinas
 
-Podrá ver una creada, pero para crear una pulse sobre "Tus Rutinas" y en "Añadir Rutina". Con esto podra incluir un nombre y crear una rutina de momento vacía.
+Si inicia sesión como pabmoreno, podrá ver una ya. Para crear una nueva una pulse sobre "Tus Rutinas" y en "Añadir Rutina". Con esto podra incluir un nombre y crear una rutina de momento vacía.
 
-A estas rutinas se les puede añadir ejercicios pulsando sobre el icono del lápiz. Ahí llegamos a la pantalla de ejercicios donde se pueden añadir ejercicios pulsado en "Añadir Ejercicio" e introduciendo un nombre y ninguna,una o más máquinas.Luego confirma la creación con el tick. Estos ejercicios se pueden editar o borrar con los iconos del lápiz y de la X roja. En esta pantalla también se puede editar el nombre de la rutina con el lápiz que sale al lado del nombre.
+A estas rutinas se les puede añadir ejercicios pulsando sobre el icono del lápiz. Ahí llegamos a la pantalla de ejercicios donde se pueden añadir ejercicios pulsado en "Añadir Ejercicio" e introduciendo un nombre y ninguna, una o más máquinas de el gimnasio al que esté apuntado. Luego confirma la creación con el tick. Estos ejercicios se pueden editar o borrar con los iconos del lápiz y de la X roja. En esta pantalla también se puede editar el nombre de la rutina con el lápiz que sale al lado del nombre.
 
-Mediante el boton de "entrenar" en esta pantalla o el símnolo de mancuerna en la anterior se entra en la pantalla de entrenamiento. En esta pantalla pulsando en cualquiera de los ejercicios se puede acceder a un cronómetro para marcar los descansos, que se reinicia solo cada vez que se para y se pueden crear series sobre el ejercicio añadiendo un peso, unas repeticiones y un tiempo, que luego servirán para crear las gráficas de evolución de repeticiones y peso.
+Mediante el boton de "entrenar" en esta pantalla o el símnolo de mancuerna (pesa) en la anterior se entra en la pantalla de entrenamiento. En esta pantalla pulsando en cualquiera de los ejercicios se puede acceder a un cronómetro para marcar los descansos, que se reinicia solo cada vez que se para y se pueden crear series sobre el ejercicio añadiendo un peso, unas repeticiones y un tiempo, que luego servirán para crear las gráficas de evolución de repeticiones y peso.
 
-Pulsando en "estadisticas" en esta misma pantalla o pulsando en "tu evolucion" en el menu principal podemos acceder a gráficas sobre el peso o las repeticiones según una máquina en particular.
+Pulsando en "estadisticas" en esta misma pantalla o pulsando en "tu evolución" en el menu principal podemos acceder a gráficas sobre el peso o las repeticiones según una máquina en particular.
 
 ### Eventos
 
-Desde el menú principal podemos acceder a "Tus eventos" que es un listado de eventos disponibles para nuestro gimnasio, que se pueden buscar por nombre. Pulsando sobre uno podemos ver los detalles y hacer una reserva de uno o eliminar una reserva si ya la tenemos.(Aunque es necesario recargar para esto)
+Desde el menú principal podemos acceder a "Tus eventos" que es un listado de eventos disponibles para el gimnasio al que estemos apuntados, en el que se puede buscar por nombre. Pulsando sobre uno podemos ver los detalles y hacer una reserva de uno o eliminar una reserva si ya la tenemos (aunque es necesario recargar para esto).
 
 ### Incidencias
 
@@ -63,7 +72,7 @@ Por último pulsamos sobre salir en el menú y cerramos sesión.
 
 ### Registro
 
-Según el modelo de musclemate solo los propietarios se registran ellos mismos; para ello sin una sesión iniciada pulse en el registro en lugar de iniciar sesión en la esquina y rellene el formulario con datos correctos. Una vez registrado podrá iniciar sesión con estos datos.
+Según el modelo de Musclemate solo los propietarios se podrán registran ellos mismos; para ello sin una sesión iniciada pulse en el registro en lugar de iniciar sesión en la esquina y rellene el formulario con datos correctos. Una vez registrado podrá iniciar sesión con estos datos.
 
 ### Máquinas
 
@@ -74,7 +83,7 @@ Pulsando sobre una máquina podemos ver los detalles de esta (que son editables)
 
 ### Registrar Cliente
 
-Pulsando ese botón se accede al registro de cliente. Como se ha explicado antes, por si mismo solo se registra el propietario. Esto es porque el propietario es quien registra a los clientes de su propio gimnasio y luego les cede su usuario y contraseña para que usen la app.
+Pulsando ese botón se accede al registro de cliente. Como se ha explicado antes, por si mismo solo se registra el propietario. Esto es porque el propietario (o el perfil de gimnasio) es quien registra a los clientes de su propio gimnasio y luego les cede su usuario y contraseña para que usen la app.
 
 Rellenando este formulario se crea un usuario en el gimnasio que el dueño seleccione (de los que son de su propiedad).
 
@@ -90,7 +99,7 @@ Pulsando sobre ese botón en el menú se accede al listado de incidencias, que s
 
 ### Mis Gimnasios
 
-Pulsando sobre ese botón en el menú se puede acceder al listado de gimnasios del propietario. Se pueden filtrar por nombre o crear mediante el botón "Crear nuevo gimnasio", que redirige a un formulario que los crea.
+Pulsando sobre ese botón en el menú se puede acceder al listado de gimnasios del propietario. Se pueden filtrar por nombre o crear mediante el botón "Crear Nuevo Gimnasio", que redirige a un formulario que los crea. Al crear un nuevo gimnasio se creará también un usuario propio de el gimnasio similar a el de dueño pero con funcionalidades limitadas a dicho gimnasio (usable por empleados u otras entidades relacionadas con el gimnasio).
 
 Pulsando sobre un gimnasio podremos ver sus detalles y desde ahi se puede eliminar un gimnasio o ver sus estadísticas. Estas estadísticas consisten en un gráfico del uso de las máquinas en el tiempo.
 
@@ -98,15 +107,12 @@ Pulsando sobre un gimnasio podremos ver sus detalles y desde ahi se puede elimin
 
 Pulsando sobre ese botón en el menú se accede a un listado de los eventos de tus gimnasios con su debido buscador y filtros.
 
-Mediante el botón "añadir evento" se puede crear uno mediante un formulario al que se redirige.
+Mediante el botón "Añadir Evento" se puede crear uno mediante un formulario al que se redirige.
 
-Pulsando sobre un evento se accede a los detalles de este, que son editables. Así como a un botón para eliminarlo si se considerase necesario.
+Pulsando sobre un evento se accede a los detalles de este, pudiendo editarlos desde este menú. Así como a un botón para eliminarlo si se considerase necesario.
 
 ### Pagos y Suscripciones
 
-Mediante el menú de la cabecera se puede acceder a "Planes" para seleccionar un plan y pagarlo para un gimnasio en concreto o a "Suscripciones" para ver el estado de tus gimnasios.
+Mediante el menú de la cabecera se puede acceder a "Planes" para seleccionar un plan y pagarlo para un gimnasio en concreto o a "Suscripciones" para ver el estado de las suscripciones de tus gimnasios.
 
-En "Planes" tras seleccionar un plan redirige a una pantalla donde seleccionamos para que gimnasio es y luego a la plataforma Stripe. Ahí se completa con los datos proporcionados al principio y con ello se llevaría a cabo la suscripción.
-
-
-
+En "Planes" tras seleccionar un plan se le redijirá a una pantalla donde seleccionamos para que gimnasio es y luego a la plataforma Stripe. Ahí se completa con los datos proporcionados al principio y con ello se llevaría a cabo la suscripción.
