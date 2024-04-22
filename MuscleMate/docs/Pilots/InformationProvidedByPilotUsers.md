@@ -12,12 +12,90 @@ sidebar_position: 3
 | v1.0    | 2024-01-01 | Angel Muñoz Prieto      | Creación del documento      |
 | v1.1    | 2024-04-01 | Juan Jesús | Actualización del documento |
 | v1.2    | 2024-04-05 | Angel Muñoz Prieto    | Actualización del documento |
+| v1.3    | 2024-04-22 | Angel Muñoz Prieto    | Actualización del documento |
 
 ## Información Proporcionada por los Ususarios Piloto
 
 ### Descripción
 
 En este docuemento se detalla la información proporcionada por los usuarios pilotos durante los distintos Sprints del proyecto, pese a que esto sea visible también desde el reporte general enfocado en estos.
+
+### Feedback Usuarios Piloto Sprint 3
+
+#### Semana 9
+
+##### Usuarios Piloto del Grupo 9
+
+- **Listado de Máquinas**: Buscador sensible a tildes. A veces da fallos ocasionales el detalles de máquina (o bien al cargar o bien pasado un tiempo). Al crear una máquina el nº de referencia no tiene formato predeterminado. Al cargar los detalles de una máquina no queda muy claro para que son los botones de anterior/siguiente.
+
+- **Ejercicios**: No se puede crear ejercicios sin repeticiones, algo no lógico con cierto equipo como combas. Además no se permite añadir repeticiones o peso en decimales. Se pueden crear ejercicios sin máquina asociada. Se recomienda pedir confirmación al eliminar un ejercicio.
+
+- **Gimnasios**: Los campos carecen de validación (por ejemplo el tamaño del número de teléfono) y cuando se crea se informa pero mantiene la página, lo que incita al usuario a pulsar de nuevo el botón si no vio el mensaje de éxito y lleva a errores. Indicar errores por campos, si no hay usuarios que no pueden crear el gimnasio. Los errores que salen, que son pocos, salen en inglés. A veces directamente no permite crear los gimnasios.
+
+- **Tickets**: No funciona el checkbox de estado del ticket. Añadir feedback a la creación. A veces los tickets no se muestran en las máquinas asociadas. Debería rellenarse automáticamente la máquina si lo creo desde el listado.
+
+- **Rutinas**: A veces la máquina carga en blanco. Cuando se crea una rutina no se puede acceder a máquinas recien creadas.
+
+- **Series**: El tiempo de la serie no tiene restricciones, por ejemplo se puede crear una de 0 segundos. Además el tiempo no es editable.
+
+- **Extras**: 
+        
+        El rendimiento del despliegue es exageradamente lento para owner.
+
+        Se nota mucho más pulida la aplicación.
+        
+##### Usuarios Piloto ajenos a la Asignatura
+
+- **Leal Sarmiento** (Gimnasio TocaSport):Aplicación muy útil pero en varias secciones los tiempos de espera son muy largos. Además la interfaz da sensación de poca profesionalidad. En cuanto a funcionalidad bastante eficaz y varias cosas mejoradas respecto a la última versión.
+- **Javier Pardo** (Gimnasio Coliseum): Mantiene que la app es muy útil a la hora de ayudarte a llevar un control de tus rutinas y el progreso del entrenamiento aunque añade que la interfaz para el móvil deja mucho que desear. Además dice que "ticket" es un nombre que no se entiende en cuanto a la funcionalidad que tiene, propone buscar un nombre más explicativo.
+- **Vicente** (Dueño TocaSport): Dimensiones no adaptada a algunas pantallas. Interfaz muy simple, en algunas funcionalidades tiene que recargar para que funcione. Echa en falta una confirmación de registro. También añade que le faltan máquinas como mancuernas o hay nombres que no son muy explicativos como "barra olímpica". También hace referencia al nombre poco acertado de ticket. Además dice que cuando puede ver los "tickets" de los clientes no tiene la opción de responder o cambiar el estado del "ticket". A la hora de ver las máquinas del gym , cuando pulsa en una siempre tiene que recargar para ver los detalles.Ve muy simple que aprezcan los botones al iniciar sesión . Le gusta mucho más el desplegable de las "tres rayitas".Error al crear gimnasio. No entiende muy bien porque pide un usuario y una contraseña en crear gimnasio cuando ya está logueado como propietario. Invita a pensar a implementar algún tipo de rutinas por defecto o recomendadas para usuario que no tienen conocimiento o baja formación. También invita a que cuando añada una máquina tenga la opción de adjuntar una imagen. Ha probado el perfil de usuario y me dice que no le deja apuntarse a un evento.
+- **Leal Ojeda** (Gimnasio Coliseum): Encuentra la app poco intuitiva, desconoce la utilidad de los términos como por ejemplo crear tickets, además apunta que aunque cambie de pantalla hay algunos botones que siguen apareciendo y no tienen sentido. En general cuando empieza a entenderla es útil pero a la vez simple.
+- **Carrizosa Mateos** (Gimnasio TocaSport): Continúa diciendo que la duración en ejercicios de fuerza no tiene sentido y además se queda bastante pillado el reloj. También encuentra fallos de navegabilidad como por ejemplo ha creado una serie en una rutina y le ha desaparecido tanto la serie como la rutina.
+
+- **Manuel Morgollon**(Gimnasio Yo10SportClub): Gusta la pantalla de los tickets y que ahora se puedan listar las máquinas, aun así el nombre de ticket sigue pareciendo algo confuso.
+- **Víctor Vázquez**(Gimnasio Dreamfit): No destaca ningun cambio notorio en la aplicación fuera de los eventos.
+- **Martín Romero**(Gimnasio LowFit): Sigue sin mostrarse la sobrecarga progresiva en las series y el rendimiento de la aplicación a veces es algo lento.
+- **Pablo Miranda**(Gimnasio BasicFit): Sigue observando muy lento el proceso de crear rutina/ejercicio/serie. Los eventos gustan pero aún no se puede apuntar a uno.
+- **Pablo Moreno**(Gimnasio McFit): No destaca ningun cambio notorio en la aplicación fuera de los eventos.
+- **Carlos Liberal**(Gimnasio Dreamfit): La función de eventos que es la novedad es muy interesante pero aún se encuentra en pañales.
+
+#### Semana 10
+
+##### Usuarios Piloto del Grupo 9
+
+- **Registros**: La confirmación del registro no queda del todo clara. Se sugiere que en la dirección obligue a poner algo como "Calle" o "Avenida". Se pueden introducir numeros en nombre y apellidos.
+- **Maquinas**: No queda claro que se pueda filtrar por varios músculos.
+- **Perfiles**: No permite modificar los apellidos.
+- **Incidencias**: No se pueden buscar incidencias de páginas anteriores; por ejemplo estando en la página 3 buscar una de la página 1. Se sugiere que el cliente tras crearla le lleve a la página de la propia máquina. Se podría añadir un botón en "Mis Incidencias" para crear una. A veces no queda clara la actualización del estado del ticket.
+- **Usuarios**: El buscador falla ocasionalmente, no mostrando nada.
+- **Series**: La forma de añadir tiempo es algo confusa. 
+- **Suscripciones**: No hay confirmación al anular una suscripción. Tras suscribirse podría redirigir a estas.
+- **Gimnasios**: A veces no cargan los gimnasios (puede ser por rendimiento). A veces no funciona el crear gimnasio, salta error pero no dice que falla. La entidad gimnasio no queda muy clara. Los datos que se piden para crearlo son algo confuso.
+
+- **Extras**:
+        - El rendimiento ha mejorado considerablemente.
+        - Los filtros de los listados hay que cerrarlos a voluntad tras seleccionar uno.
+        - Incluir Recargas de página para confirmar ciertas cosas (ticket, suscripción)
+
+##### Usuarios Piloto ajenos a la Asignatura
+
+- **Carrizosa Mateos** (Gimnasio TocaSport): En general da un feedback bastante positivo destacando la gran mejora en cuanto a semanas anteriores y destaca la implementación de las gráficas ya que es algo muy inusual en este tipo de apps. A modo de feedback constructivo bajo su punto de vista encuentra la terminología muy mejorable por ejemplo : denominar "comba" en lugar de "cuerda de saltar" o la redundancia de máquinas similares por ejemplo : "barra olímpica" y "press banca". También que cuando accede a "mis inicidencias" no le deja poder editarla o poder cambiar la descripción ya que si por error le da a validar con una descripción no deseada no se podrá describir dicha incidencia como se desea.
+- **Leal Sarmiento** (Gimnasio TocaSport): Feedback muy positivo, argumenta la mejora notable respecto a versiones anteriores . También considera que faltan algunas imágenes que ilustren diferentes tipos de cosas que pueden hacer la app más llamativa.
+- **Manuel Luis** (Gimnasio Coliseum):Destaca como muy positivo las gráficas de evolución, también destaca la mejora en rendimiento, así como la corrección de errores que encontró en versiones anteriores. Como mejora propone facilitar la lección de máquinas desplegando directamente el grupo de máquinas que puedo utilizaral elegir el grupo muscular que quiero trabajar.
+- **Leal Ojeda** (Gimnasio Coliseum): Destaca la corrección de todos los errores que encontró en versiones anteriores, también añade que es mucho más fácil de entender ahora el aprtado que anteriormente se llamaba "tickets" y se ha sustituido por incidencia, además valora muy positivamente la implementación de las gráficas de progreso.
+- **Olivares Leal** (Gimnasio TocaSport):No encuentra fallo alguno además de destacar que es una app muy intutiva y muy útil para conseguir llevar un control en tus entrenamientos. Destaca la facilidad para poder reservar para los eventos así como la aclaración del término ticket.
+- **María del Carmen** (Gimnasio TocaSport): Una app bastante sencilla de utilizar y muy útil, no encuentra fallos y cubre todas las necesidades para el monitoreo de un entrenamiento en el gimnasio.
+- **Javier Pardo** (Gimnasio Coliseum):En general destaca el avance de profesionalidad de la app, así como la gran utilidad de las gráficas de progreso. Interfaz bastante agradable e intuitiva para los usuaurios familiarizados con las tecnologías como para los que no lo están.
+- **Vicente** (Dueño TocaSport):Agradece mucho la corrección de los errores encontrados en la versión anterior , le fascina la implementación de las gráficas para las estadísticas del gym así como las gráficas individuales para cada usuario del gimnasio par valorar el progreso. Encuentra bastante eficaz el poder cambiar el estado de la incidencia registrada por cualquier usuario,como también agradece el cambio de terminiología de "ticket" a "incidencia". Añade que el rendimiento es mucho mejor y que ya no es necesario recargar en acciones que antertiormente sí. Agradece también la facilidad de cancelar, cambiar o adquirir cierta subscripción así como ofrecer sensación de seguridad durante el pago. También a modo de crítica constructiva añade :  Dimensiones no adaptada a algunas pantallas. Echa en falta una confirmación de registro. También añade que  hay nombres que no son muy explicativos como "barra olímpica". Invita a pensar a implementar algún tipo de rutinas por defecto o recomendadas para usuario que no tienen conocimiento o baja formación. También invita a que cuando añada una máquina tenga la opción de adjuntar una imagen.  
+- **Almansa Vergara** (Gimnasio TocaSport): En general da un feddback positivo aunque mantiene que  para los usuarios menos informados tener una recomendación de ejercicios básicos según el músculo que se quiera trabajar.
+
+- **Manuel Morgollon**(Gimnasio Yo10SportClub): Bastante mejor pero algo soso la pantalla de inicio ya que solo salen los titulos y algun cuadro.
+- **Víctor Vázquez**(Gimnasio Dreamfit): Faltan máquinas para algunos grupos musculares como pierna o abdominales.
+- **Martín Romero**(Gimnasio LowFit): La aplicación ha mejorado considerablemente y se ha prestado atención a la petición del cronómetro. Aun asi siguen cargando algunas partes lento y las estadísticas no son demasiado útiles.
+- **Pablo Miranda**(Gimnasio BasicFit): Se ha mejorado mucho la aplicación para móviles y ya toma un aspecto más profesional. Sugiere que se incluyan imágenes en las incidencias y máquinas.
+- **Pablo Moreno**(Gimnasio McFit): Se agradece la memoria de series y repeticiones. Es algo molesto que tenga que iniciarse sesión cada vez que se entra a la aplicación. Se sugiere tener en cuenta accesorios para ejercicios como anillas o agarres.
+- **Carlos Liberal**(Gimnasio Dreamfit): Las incidencias han mejorado bastante pero gustaba más el menú anterior que el nuevo.
+
 
 ### Feedback de Usuarios Piloto Sprint 2
 
