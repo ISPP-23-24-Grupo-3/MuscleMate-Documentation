@@ -10,8 +10,8 @@ title: Customer Agreement User Gym
 | Versión | Fecha       | Autor      | Descripción                            |
 |---------|-------------|------------|----------------------------------------|
 | v1.0    | 2024-04-04 | Manuel Ortega|Creación del documento|
+| v1.1    | 2024-04-04 | Manuel Ortega|Actualización del documento|
 
-![alt text](image-1.png)
 
 ## Acuerdo del Usuario de MuscleMate
 
@@ -58,11 +58,12 @@ Cualquiera de las partes puede dar por terminado este acuerdo mediante notificac
 8. **Limitación de Responsabilidad:**
 
 Ni MuscleMate ni sus afiliados serán responsables por ningún daño directo, indirecto, incidental, especial, consecuente o punitivo que surja de tu mal uso de la aplicación. Si se hace responsable de los daños causados después de un uso adecuado.
-
+<span style={{ color: 'red' }}>La clausula 8 es abusiva según claudette por no ser responsable de daños causados a través de un **mal uso de la app**, lo cual no puede ser aceptado por nuestra empresa, daños causados por un uso negligente de la app.</span>
 
 9. **Cambios en el Acuerdo:**
 
 Nos reservamos el derecho de modificar este acuerdo en cualquier momento. Te notificaremos sobre cualquier cambio significativo mediante un aviso visible en la aplicación o por otros medios de comunicación. Se te pedirá que aceptes nuevamente el acuerdo. Si no aceptas los cambios, no podrás continuar utilizando la aplicación.
+<span style={{ color: 'red' }}>La clausula 9 es abusiva según claudette por reservarnos el derecho solo y exclusivamente a los dueños de la empresa de modificar el acuerdo, ya que un cliente de la app puede hacer sugerencias en cuanto a cambios y serán tramitadas por nuestro departamento, pero no cambiado directamente a gusto de **un solo consumidor** ya que eso si seria totalmente abusivo.</span>
 
 10. **Ley Aplicable:**
 
