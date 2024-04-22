@@ -4,12 +4,12 @@ sidebar_position: 3
 ---
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3
+## Musclemate, Grupo 3, Sprint 3
 
 | Versión | Fecha      | Autor | Descripción            |
 | ------- | ---------- | ----- | ---------------------- |
-| v1.0    | 2024-22-04 | Angel Muñoz   | Creación del documento |
-| v1.1    | 2024-22-04 | Alejandro Sosa   | Adición de datos pedidos en la Software Review Guidelines  |
+| v1.0    | 2024-04-22 | Angel Muñoz   | Creación del documento |
+| v1.1    | 2024-04-22 | Alejandro Sosa   | Adición de datos pedidos en la Software Review Guidelines  |
 
 # Credenciales de Uso
 

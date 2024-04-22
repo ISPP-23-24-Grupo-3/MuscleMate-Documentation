@@ -4,7 +4,7 @@ title: SLA
 
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3
+## Musclemate, Grupo 3, Sprint 2
 
 ##  Historial de Versiones
 
