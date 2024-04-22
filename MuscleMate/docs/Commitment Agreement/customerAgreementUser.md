@@ -127,10 +127,12 @@ Either party may terminate this agreement by providing written notice to the oth
 8. **Limitation of Liability:**
 
 Neither MuscleMate nor its affiliates will be liable for any direct, indirect, incidental, special, consequential or punitive damages arising from your misuse of the application. if you are responsible for damage caused after good use.
+<span style={{ color: 'red' }}>Clause 8 is abusive according to Claudette for not being responsible for damages caused through **misuse of the app**, which cannot be accepted by our company, damages caused by negligent use of the app.</span>
 
 9. **Changes to the Agreement:**
 
 We reserve the right to modify this agreement at any time with prior notice. We will notify you of any significant changes by means of a visible notice in the application or by other means of communication. After this, you will be asked to sign the agreement again.
+<span style={{ color: 'red' }}>Clause 9 is abusive according to Claudette for reserving the right only and exclusively to the owners of the company to modify the agreement, since a client of the app can make suggestions regarding changes and they will be processed by our department, but not changed directly to the taste of **a single consumer** since that would be totally abusive.</span>
 
 10. **Applicable Law:**
 
