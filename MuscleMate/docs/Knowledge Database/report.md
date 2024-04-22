@@ -13,6 +13,7 @@ title: Report of contribution to the common Knowledge Database
 | v1.0    | 2024-02-19 | Pedro González Marcos   | Creación del documento     |
 | v2.0    | 2024-03-04 | Alejandro Mateo Capilla | Modificación del documento |
 |v3.0|2024-04-06|Juan Jesús Martín |Modificación del documento|
+|v4.0|2024-04-22|Juan Jesús Martín |Modificación del documento|
 
 [Base de datos General](https://bgcc.vercel.app/)
 
@@ -241,3 +242,26 @@ title: Report of contribution to the common Knowledge Database
 
 7. **Destacar la mejoría del producto:**
     - Es importante destacar el incremento de funcionalidades respecto a semanas anteriores, mostrando la mejoría de el producto.
+
+
+## Semana 9
+
+1. **Código único por gimnasio:** 
+   - Puede ser buena idea que cada gimnasio tenga un código único que los clientes puedan utilizar para registrarse en el gimnasio sin necesidad de que el propio dueño o gimnasio les registre.
+
+2. **Mejoras en la demo:**
+   - Debería haber algún indicador para que la audiencia sepa quien actúa en cada momento durante la demo, esto ayudará a que los miembros de la audiencia entiendan mejor las funcionalidades de la aplicación dentro de su contexto.
+
+3. **Diapositivas con menos información:** 
+   - Algunas diapositivas tienen demasiada información, complicando que la audiencia se vea forzada a tanto leer la diapositiva como escuchar lo que dice el presentador. Si tenemos mucha información que mostrar es mejor o bien decirla toda con ayuda gráfica o plasmarla directamente en la diapositiva y leerla para no dividir la atención.
+
+4. **Mejoras en el anuncio:** 
+   - En el anuncio, podríamos superponer una grabación de el dueño/cliente usando la aplicación sobre el vídeo de la persona usando el ordenador/móvil para que así quede claro que están haciendo en cada momento de el anuncio.
+
+5. **Ritmo de la presentación inconsistente:** 
+   - El ritmo de la presentación ha sido algo inconsistente, corriendo mucho en las secciones de las gráficas de costes y IA para recuperar el tiempo gastado en la larga demostración.
+
+6. **Mecionar dificultades encontradas anteriormente:**
+   - Podríamos mencionar las dificultades encontradas en los primeros sprints como un problema a resolver en la retrospectiva, así como cómo hemos solucionado el problema y si la solución aplicada ha sido efectiva.
+
+
