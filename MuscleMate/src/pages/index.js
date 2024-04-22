@@ -5,7 +5,6 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import { Icon } from "@iconify/react";
 
-
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
 
@@ -27,17 +26,12 @@ function HomepageHeader() {
               </Heading>
               <p className="hero__subtitle">{siteConfig.tagline}</p>
             </div>
-            <div className={styles.buttons}>\
-              <Link
-                className="button button--primary button--lg"
-                to="#"
-              >
+            <div className={styles.buttons}>
+              \
+              <Link className="button button--primary button--lg" to="#">
                 Pruébalo ya
               </Link>
-              <Link
-                className="button button--secondary button--lg"
-                to="#"
-              >
+              <Link className="button button--secondary button--lg" to="#">
                 Mira nuestro proceso
               </Link>
             </div>
@@ -105,24 +99,96 @@ function HomepageHeader() {
         <div className="card col">
           <div className="card__header standard-plan">
             <Heading as="h1">Estándar</Heading>
-            <Heading as="h2">97.99€</Heading>
+            <Heading as="h2">97.99€/mes</Heading>
           </div>
           <div className="card__body">
             <ul className="pricing-features">
-              <li>Item 1</li>
-              <li>Item 1</li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>
+                  Feedback de usuarios a través de tickets y valoración de
+                  máquinas
+                </span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>Gráficas sobre el uso de máquinas</span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>
+                  Posibilidad de que cada usuario establezca sus rutinas de
+                  entrenamiento
+                </span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>Gráficas para los usuarios de su evolución</span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>
+                  Posibilidad de que cada usuario establezca sus rutinas de
+                  entrenamiento
+                </span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>Usuarios máximos: 50</span>
+              </li>
             </ul>
           </div>
         </div>
         <div className="card col">
           <div className="card__header premium-plan">
             <Heading as="h1">Premium</Heading>
-            <Heading as="h2">109.99€</Heading>
+            <Heading as="h2">109.99€/mes</Heading>
           </div>
           <div className="card__body">
             <ul className="pricing-features">
-              <li>Item 1</li>
-              <li>Item 1</li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>
+                  Feedback de usuarios a través de tickets y valoración de
+                  máquinas
+                </span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>Gráficas sobre el uso de máquinas</span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>
+                  Posibilidad de que cada usuario establezca sus rutinas de
+                  entrenamiento
+                </span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>Gráficas para los usuarios de su evolución</span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>
+                  Posibilidad de que cada usuario establezca sus rutinas de
+                  entrenamiento
+                </span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>Usuarios ilimitados</span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>
+                  Información sobre el uso de máquinas en otros gimnasios
+                </span>
+              </li>
+              <li className="list-item">
+                <Icon icon="charm:circle-tick" className="icon" />
+                <span>Gestión de clases y eventos</span>
+              </li>
             </ul>
           </div>
         </div>
