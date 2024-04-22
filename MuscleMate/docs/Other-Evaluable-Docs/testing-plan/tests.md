@@ -11,6 +11,7 @@ title: Plan de pruebas
 | Versión | Fecha      | Autor                  | Descripción            |
 | ------- | ---------- | ---------------------- | ---------------------- |
 | v1.0    | 2024-04-05 | González Marcos, Pedro | Creación del documento |
+| v1.1    | 2024-04-20 | Devós Bono, Agustín | Corrección pruebas de integración y de carga |
 
 ## Pruebas unitarias
 
