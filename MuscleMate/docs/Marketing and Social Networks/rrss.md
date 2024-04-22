@@ -1,4 +1,11 @@
-# Social Network Management
+
+---
+title: Social Network Management
+sidebar_position: 3
+---
+![MUSCLEMATE](logo.png)
+
+## Musclemate, Grupo 3
 
 | Versión | Fecha      | Autor | Descripción            |
 | ------- | ---------- | ----- | ---------------------- |
