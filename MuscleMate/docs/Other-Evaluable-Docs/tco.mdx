@@ -8,32 +8,37 @@ title: Total Cost Ownership (TCO)
 
 ## Historial de versiones
 
-| Versión | Fecha      | Autor                  | Diferencia entre versiones                       |
-| ------- | ---------- | ---------------------- | ------------------------------------------------ |
+| Versión | Fecha      | Autor                                        | Diferencia entre versiones                       |
+| ------- | ---------- | -------------------------------------------- | ------------------------------------------------ |
 | 1.0     | 2024-02-08 | González Marcos, Pedro y Dana Cabello, David | Versión inicial del documento                    |
 | 2.0     | 2024-02-09 | González Marcos, Pedro y Dana Cabello, David | Finalización del documento                       |
-| 3.0     | 2024-02-10 | González Marcos, Pedro | Corrección del documento                         |
-| 4.0     | 2024-02-15 | González Marcos, Pedro | Correción del documento                          |
-| 5.0     | 2024-02-16 | González Marcos, Pedro | Correción del documento                          |
-| 6.0     | 2024-02-22 | González Marcos, Pedro | Correción del documento                          |
-| 7.0     | 2024-03-01 | González Marcos, Pedro | Correción del documento                          |
-| 8.0     | 2024-04-01 | González Marcos, Pedro | Graficas TCO y Calculos                          |
-| 9.0     | 2024-04-01 | Juan Carlos Moreno Pérez  | Agregados costes de SLA                          |
-| 10.0    | 2024-04-21 | González Marcos, Pedro | Reestructuración documento y añadir roles nuevos |
+| 3.0     | 2024-02-10 | González Marcos, Pedro                       | Corrección del documento                         |
+| 4.0     | 2024-02-15 | González Marcos, Pedro                       | Corrección del documento                         |
+| 5.0     | 2024-02-16 | González Marcos, Pedro                       | Corrección del documento                         |
+| 6.0     | 2024-02-22 | González Marcos, Pedro                       | Corrección del documento                         |
+| 7.0     | 2024-03-01 | González Marcos, Pedro                       | Corrección del documento                         |
+| 8.0     | 2024-04-01 | González Marcos, Pedro                       | Gráficas TCO y Cálculos                          |
+| 9.0     | 2024-04-01 | Juan Carlos Moreno Pérez                     | Agregados costes de SLA                          |
+| 10.0    | 2024-04-21 | González Marcos, Pedro                       | Reestructuración documento y añadir roles nuevos |
 
-## 1. Introducción
+## Introducción
 
-En este documento, se establece el coste total de la propiedad respectivo al proyecto. Para ello, se tiene en cuenta el precio de desarrollo del proyecto, y sus estimaciones de precio de mantenimiento y operación. Es decir que va más allá del precio inicial de compra y tiene más sentido si lo analizamos como un gasto a largo plazo.
+En este documento, se establece el coste total de la propiedad respectivo al proyecto.
+Para ello, se tiene en cuenta el precio de desarrollo del proyecto, y sus estimaciones
+de precio de mantenimiento y operación. Es decir que va más allá del precio inicial de
+compra y tiene más sentido si lo analizamos como un gasto a largo plazo.
 
-## 2. Costes de capital (Capex)
+## Costes de capital (Capex)
 
-### 2.1 Costes de personal
+### Costes de personal
 
-El equipo encargado del proyecto, está formado por 15 integrantes. Cada uno de ellos, tiene la obligación de dedicar al menos 10 horas semanales a dicho proyecto.
+El equipo encargado del proyecto, está formado por 15 integrantes. Cada uno de ellos,
+tiene la obligación de dedicar al menos 10 horas semanales a dicho proyecto.
 
-Tomando como punto de partida un sueldo de 8€ a la hora, obtenemos que, el sueldo mensual base es:
+Tomando como punto de partida un sueldo de 8€ a la hora, obtenemos que, el
+sueldo mensual base es:
 
-- 8€/h x 10h x 4 semanas = **320€/mes**
+- 8€/hora x 10 horas x 4 semanas / 1 mes = **320€/mes**
 
 Teniendo en cuenta esto, a cada rol se le asigna un multiplicador:
 
@@ -59,58 +64,74 @@ Asumimos que en nuestro equipo tenemos:
 
 Al mes, los costes cada rol suman:
 
-- 320 x 5 x 1 = 1,600€
-- 320 x 3 x 3 = 2,880€
-- 320 x 3 x 2 = 1,920€
-- 320 _ 1 _ 2.5 = 800€
-- 320 _ 2 _ 1.5 = 960€
-- 320 _ 1 _ 3.5 = 1,120€
-- 320 x 1 x 2 = 640€
-- 320 x 2 x 2.5 = 1.600€
+- 320€ x 5 Junior Developers x 1 (Multiplicador) = 1,600€
+- 320€ x 3 Senior Developers x 3 (Multiplicador) = 2,880€
+- 320€ x 3 QAs x 2 (Multiplicador) = 1,920€
+- 320€ x 1 Operation Engineer x 2.5 (Multiplicador) = 800€
+- 320€ x 2 System Technicians x 1.5 (Multiplicador) = 960€
+- 320€ x 1 Project Manager x 3.5 (Multiplicador) = 1,120€
+- 320€ x 1 GDPR Compliance Officer x 2 (Multiplicador) = 640€
+- 320€ x 2 Community Managers x 2.5 (Multiplicador) = 1.600€
 
-Con todo, obtenemos que el costo de personal es:
-1,600 + 2,880 + 1,920 + 800 + 960 + 1,120 + 640 + 1600 = **11,520€/mes**
+Con todo, obtenemos que el costo de personal
 
-### 2.2 Costes de infraestructura
+Total: **11,520€/mes**
+
+### Costes de infraestructura
 
 Asumimos los siguientes costes para facilitar el espacio de trabajo de los desarrolladores:
 
 - Alquiler de oficinas: 2,500€/mes
 - Luz: 648€/mes
-  - 0.18 €/Kwh
+  - 0.18 €/kWh
   - 12 horas operativas
-  - 10 Kw contratados
+  - 10 kW contratados
   - 0.18 x 12 x 10 x 30 = 648€/mes
 - Agua: 160€/mes
+
+Total: **3,316€/mes**
+
+### Costes de licencias y subscripciones
 
 En costes de suscripciones, además, tenemos lo siguiente:
 
 - Sonarcloud (plan de 500.000 líneas de código): 160€/mes
-- GitHub team: 60€/mes
+- GitHub Team: 60€/mes
 
-Como costes no mensuales:
+Total: **220€/mes**
+
+### Activos de la empresa
+
+Para el equipo de desarrollo vamos a comprar 15 portátiles que se amortizarán
+en 24 meses.
 
 - Portátiles: 7,500€
-  - 15 dispositivos
-  - 500€ por dispositivo
 
-En total, los costes mensuales de la infraestructura durante el desarrollo son:
+Amortización lineal a 24 meses.
 
-- 2,500 + 648 + 160 + 160 + 60 = **3,528€/mes**
+7500€ / 24 meses = 312.5€
 
-### 2.3 Costes totales
+Total: **312.5€/mes**
 
-Los costes mensuales totales suman:
-11,520 + 3,528 = 15,048 €/mes
+### Costes totales
 
-Tenemos en cuenta que el desarrollo dura 4 meses. Con ello, obtenemos 15,048 x 4 = 60,192€
-Sumando a ello el precio de los portátiles, obtenemos 60,192 + 7,500 = 67,692€
+En total, los costes mensuales son:
 
-Por ello, el coste total de capital (Capex) es: **67,692**
+- 11,520€ Costes de personal
+- 3,316€ Costes de infraestructura
+- 220€ Costes de licencias y subscripciones
+- 312.5€ Activos de la empresa
 
-## 3. Costes de operación mensual (Opex)
+Total: **15,368.5€/mes**
 
-## 3.1 Costes de personal
+Teniendo en cuenta que el desarrollo dura 4 meses. Con ello, obtenemos
+15,368.5 x 4 = 61,474€
+
+El coste total de capital (Capex) es: **61,474€**
+
+## Costes de operación mensual (Opex)
+
+### Costes de personal
 
 Como la aplicación ya está desarrollada, asumiremos que para mantenerla solo hará falta un miembro de QA, un miembro de Operation Engineer, dos de Systems Technician y
 2 Community Managers.
@@ -120,28 +141,51 @@ Como la aplicación ya está desarrollada, asumiremos que para mantenerla solo h
 - 320 x 2 x 1.5 = 960€
 - 320 x 2 x 2.5 = 1600€
 
-Con ello, los costes de personal ascienden a 640 + 800 + 960 = **4,000€/mes**
+Con ello, los costes de personal ascienden a
+Total: **4,000€/mes**
 
-## 3.2 Costes de infraestructura
+### Costes de infraestructura
 
-Además de los costes especificados durante el desarrollo, sumamos el del despliegue en AppEngine, del cual asumimos que trabajaría 12 horas al día, redondeando a unos 18€ al mes.
+Al terminar el desarrollo la empresa va a mudarse de
+[oficina](https://www.idealista.com/inmueble/104723007/) para recortar gastos:
+
+Incurriendo en 400€ al mes
+
+- Alquiler de oficinas: 400€/mes
+- Luz: 648€/mes
+  - 0.18 €/Kwh
+  - 12 horas operativas
+  - 10 Kw contratados
+  - 0.18 x 12 x 10 x 30 = 648€/mes
+- Agua: 160€/mes
+
+Subtotal: **1208€/mes**
+
+Además de los costes de la oficina, sumamos el del despliegue en AppEngine, del
+cual asumimos que trabajaría 12 horas al día, redondeando a unos 18€ al mes.
 ![](/img/appenginecosts.png)
 
 Con PythonAnywhere, escogemos el plan Hacker, de 5€ al mes.
 
-Esto produce la nueva cantidad de **3,528 + 18 = 3,546€/mes**
+1208 Costes de oficinas
+18 Costes de AppEngine
+
+Total: **1,226€/mes**
 
 Sin embargo, el tamaño creciente de la aplicación influye en su despliegue en PythonAnywhere. Suponiendo que cada gimnasio hace alrededor de 150 peticiones,
 debemos de cambiar de planes al llegar a los 20 gimnasios, en cuyo caso se pasaría al plan Web Dev, de 12€/mes, y al llegar a los 30, se deberá pasar
 al plan de 99€/mes.
 
-## 3.3 Costes totales
+### Costes totales
 
 Con todo, obtenemos que el coste total de operación mensual inicialmente es:
 
-- 4,000 + 3,546 = **7,546 €/mes**
+- 4000€ Costes de personal
+- 1,226€ Costes de infraestructura
 
-# 4. Evolución a lo largo del tiempo
+Total: **5,226 €/mes**
+
+## Evolución a lo largo del tiempo
 
 Para ver los beneficios y costes de la aplicación a largo plazo, tenemos en cuenta los siguientes factores:
 
@@ -151,11 +195,11 @@ Para ver los beneficios y costes de la aplicación a largo plazo, tenemos en cue
   - Pesimista: Los costes mensuales son un 20% más altos que los esperados.
   - Hay que tener en cuenta que se sumarán los costes iniciales de desarrollo del proyecto.
 - Para los beneficios, asumiremos los siguientes 3 casos:
-  - Optimista: Cada mes, se suscriben al plan estándar 10 gimnasios y 4 al plan Premium.
-  - Esperado: Cada mes, se suscriben al plan estándar 5 gimnasios y 2 al plan Premium.
-  - Pesimista: Cada mes, se suscriben al plan estándar 3 gimnasios y 1 al plan Premium.
+  - Optimista: Cada mes, se suscriben al plan estándar 10 gimnasios y 4 al plan Prémium.
+  - Esperado: Cada mes, se suscriben al plan estándar 5 gimnasios y 2 al plan Prémium.
+  - Pesimista: Cada mes, se suscriben al plan estándar 3 gimnasios y 1 al plan Prémium.
 
-Tenemos en cuenta que el plan estándar cuesta 97.99€ y el Premium 109.99€ al mes.
+Tenemos en cuenta que el plan estándar cuesta 97.99€ y el Prémium 109.99€ al mes.
 
 Realizando un estudio de 24 meses, obtenemos los siguientes datos, teniendo en cuenta los beneficios y gastos en cada mes:
 
