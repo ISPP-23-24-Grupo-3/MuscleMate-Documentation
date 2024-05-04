@@ -194,7 +194,7 @@ Analizando los datos extraídos de los casos de éxito tenemos:
 
 De estos datos podemos concluir que los gimnasios tradicionales y los más prémium
 todavía no utilizan software de gestión para llevar su negocio. Siendo un segmento
-de mercado bastante potente en el que podemos incidir al principio.
+de mercado bastante potente en el que incidiremos al principio.
 
 También de los datos podemos identificar que el mercado de gimnasios boutique dado el
 servicio personalizado al cliente que ofrecen, están obligados a optar por soluciones
