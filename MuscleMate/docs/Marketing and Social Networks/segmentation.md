@@ -182,6 +182,8 @@ le sirven para distinguirse de otros gimnasios con aplicaciones más mediocres)
 
 Analizando los datos extraídos de los casos de éxito tenemos:
 
+![Intereses](intereses.png)
+
 10 de 17 gimnasios quieren automatizar procesos un 58,82 %
 
 9 de 17 gimnasios quieren conectar con el cliente un 52,94 %
