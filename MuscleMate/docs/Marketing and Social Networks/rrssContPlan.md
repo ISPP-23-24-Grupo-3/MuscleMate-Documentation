@@ -22,17 +22,17 @@ Sin embargo, para las redes sociales el equipo estima mucho mas importante el ll
 
 Las plataformas escogidas para la creación de contenido de MuscleMate son las mencionadas en el plan de Marketing, Twitter e Instagram. Estas dos se seleccionaron por ser las dos redes sociales más utilizadas entre el público joven y las que se consideraban mejores para dar a conocer la app.
 
-En caso de tener un buen éxito, se plantea el ampliar a la plataforma de TikTok ya que esta permite también ganar mucha visibilidad; aun así, de momento el equipo prefiere mantenerse centrado en un máximo de dos plataformas para la creación de contenido.
+En caso de tener un buen éxito, se plantea el ampliar a la plataforma de TikTok ya que esta permite también ganar mucha visibilidad y abrir un blog donde se hablara del mundo deportivo,consejos sobre entrenamientos,etc; aun así, de momento el equipo prefiere mantenerse centrado en un máximo de dos plataformas para la creación de contenido.
 
 ### Tabla de Contenidos
 
 | Día/Fecha | Cliente | Etapa de la Venta |   Objetivo  |   Título   | Temas, Palabras Clave, Hashtags | Formato/Tipo | Responsable | Canales | Resultados |
 | ----- | ----- | -----| ----- | ----- | ----- | -----| ----- | -----| ----- |
-| LUNES (6/5) | Propietario del gimnasio | Concienciación | Introducir los beneficios de la aplicación para gimnasios | "Optimiza la gestión de tu gimnasio con nuestra aplicación" | #GestiónDeGimnasios #Eficiencia #SoftwareGimnasio | Video explicativo | Ángel Muñoz | Instagram, TikTok | Alcance |
-| MARTES (7/5) | Usuarios del Gimnasio | Consideración | Compartir consejos de entrenamiento | "Mejora tus entrenamientos con nuestras rutinas personalizadas" | #Entrenamiento #RutinasGimnasio #Salud | Infografía| Jorge | Instagram, Twitter, TikTok | Alcance, Interacciones, Me gusta, Compartidos|
-| MIÉRCOLES (8/5) | Propietarios del Gimnasio | Consideración | Destacar las características clave de la aplicación | "¿Conoces todas las funciones de nuestra aplicación?" | #GestiónDeGimnasios #Funcionalidades #Eficiencia | Publicación de texto/Video | Jorge | Instagram, Twitter, TikTok| Alcance, Comentarios, Compartidos|
-| JUEVES (9/5) | Usuarios del Gimnasio | Consideración | Ofrecer consejos, historias de deportistas, artículos de interes, recomendacion de suplementos |"Los 10 mejores ejercicios para ejercitar el pecho con mancuernas caseras"| #RutinaPecho #EquipamientoCasero #Disciplina | Entrada de Blog | Ángel Muñoz | Blog web | Visitas, Comentarios|
-| VIERNES (10/5) | Usuarios del Gimnasio | Engagement | Entretener a la audiencia | "Típico viernes de los trabajadores de MuscleMate: ¡Cuando el teclado se convierte en tu único ejercicio del día! | #Gimnasio #Humor #Fitness | Video Meme, Foto Edit | Jorge | Instagram, TikTok, Twitter | Me gusta, Compartidos, Alcance|
+| LUNES (6/5) | Propietario del gimnasio | Necesidad de reconocimiento | Introducir los beneficios de la aplicación para gimnasios | "Optimiza la gestión de tu gimnasio con nuestra aplicación" | #GestiónDeGimnasios #Eficiencia #SoftwareGimnasio | Video explicativo | Ángel Muñoz | Instagram, TikTok | 1000 visualizaciones |
+| MARTES (7/5) | Propietario del gimnasio | Búsqueda de opciones | Compartir consejos de entrenamiento | "Mejora tus entrenamientos con nuestras rutinas personalizadas" | #Entrenamiento #RutinasGimnasio #Salud | Infografía| Jorge | Instagram, Twitter, TikTok | 2500 visualizaciones|
+| MIÉRCOLES (8/5) | Propietarios del Gimnasio | Búsqueda de opciones | Destacar las características clave de la aplicación | "¿Conoces todas las funciones de nuestra aplicación?" | #GestiónDeGimnasios #Funcionalidades #Eficiencia | Publicación de texto/Video | Jorge | Instagram, Twitter, TikTok| 2500 visualizaciones |
+| JUEVES (9/5) | Propietario del gimnasio | Pre-Compra | Ofrecer consejos, historias de deportistas, artículos de interes, recomendacion de suplementos |"Los 10 mejores ejercicios para ejercitar el pecho con mancuernas caseras"| #RutinaPecho #EquipamientoCasero #Disciplina | Entrada de Blog | Ángel Muñoz | Blog web | 3000 visualizaciones |
+| VIERNES (10/5) | Propietario del gimnasio | Compra | Entretener a la audiencia | "Office Tour: Donde se crea la magia de MuscleMate" | #Gimnasio #Humor #Fitness | Video Meme, Foto Edit | Jorge | Instagram, TikTok, Twitter | 4000 visualizaciones|
 
 ### Voz de Marca 
 
