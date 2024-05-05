@@ -29,9 +29,9 @@ En caso de tener un buen éxito, se plantea el ampliar a la plataforma de TikTok
 | Día/Fecha | Cliente | Etapa de la Venta |   Objetivo  |   Título   | Temas, Palabras Clave, Hashtags | Formato/Tipo | Responsable | Canales | Resultados |
 | ----- | ----- | -----| ----- | ----- | ----- | -----| ----- | -----| ----- |
 | LUNES (6/5) | Propietario del gimnasio | Concienciación | Introducir los beneficios de la aplicación para gimnasios | "Optimiza la gestión de tu gimnasio con nuestra aplicación" | #GestiónDeGimnasios #Eficiencia #SoftwareGimnasio | Video explicativo | Ángel Muñoz | Instagram, TikTok | Alcance |
-| MARTES (7/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
-| MIÉRCOLES (8/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
-| JUEVES (9/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| MARTES (7/5) | Usuarios del Gimnasio | Consideración | Compartir consejos de entrenamiento | "Mejora tus entrenamientos con nuestras rutinas personalizadas" | #Entrenamiento #RutinasGimnasio #Salud | Infografía| Jorge | Instagram, Twitter, TikTok | Alcance, Interacciones, Me gusta, Compartidos|
+| MIÉRCOLES (8/5) | Propietarios del Gimnasio | Consideración | Destacar las características clave de la aplicación | "¿Conoces todas las funciones de nuestra aplicación?" | #GestiónDeGimnasios #Funcionalidades #Eficiencia | Publicación de texto/Video | Jorge | Instagram, Twitter, TikTok| Alcance, Comentarios, Compartidos|
+| JUEVES (9/5) | Usuarios del Gimnasio | Consideración | Ofrecer consejos, historias de deportistas, artículos de interes, recomendacion de suplementos |"Los 10 mejores ejercicios para ejercitar el pecho con mancuernas caseras"| #RutinaPecho #EquipamientoCasero #Disciplina | Entrada de Blog | Ángel Muñoz | Blog web | Visitas, Comentarios|
 | VIERNES (10/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
 
 ### Voz de Marca 
