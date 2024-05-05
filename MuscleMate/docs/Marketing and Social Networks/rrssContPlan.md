@@ -28,7 +28,7 @@ En caso de tener un buen éxito, se plantea el ampliar a la plataforma de TikTok
 
 | Día/Fecha | Cliente| Etapa de la Venta| Objetivo| Título| Temas, Palabras Clave, Hashtags | Formato/Tipo | Responsable | Canales | Resultados |
 | --- | --- | ---| --- | --- | --- | ---| --- | ---| --- |
-| LUNES (6/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| LUNES (6/5) | Propietario del gimnasio | Concienciación | Introducir los beneficios de la aplicación para gimnasios | "Optimiza la gestión de tu gimnasio con nuestra aplicación" | #GestiónDeGimnasios #Eficiencia #SoftwareGimnasio | Video explicativo | Ángel Muñoz | Instagram, TikTok | Alcance |
 | MARTES (7/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
 | MIÉRCOLES (8/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
 | JUEVES (9/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
