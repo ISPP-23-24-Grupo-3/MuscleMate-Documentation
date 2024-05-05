@@ -29,6 +29,10 @@ En caso de tener un buen éxito, se plantea el ampliar a la plataforma de TikTok
 | Día/Fecha | Cliente| Etapa de la Venta| Objetivo| Título| Temas, Palabras Clave, Hashtags | Formato/Tipo | Responsable | Canales | Resultados |
 | --- | --- | ---| --- | --- | --- | ---| --- | ---| --- |
 | *ejemplo* | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| *ejemplo* | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| *ejemplo* | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| *ejemplo* | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| *ejemplo* | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
 
 ### Voz de Marca 
 
