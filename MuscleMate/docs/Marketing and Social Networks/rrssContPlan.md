@@ -32,7 +32,7 @@ En caso de tener un buen éxito, se plantea el ampliar a la plataforma de TikTok
 | MARTES (7/5) | Usuarios del Gimnasio | Consideración | Compartir consejos de entrenamiento | "Mejora tus entrenamientos con nuestras rutinas personalizadas" | #Entrenamiento #RutinasGimnasio #Salud | Infografía| Jorge | Instagram, Twitter, TikTok | Alcance, Interacciones, Me gusta, Compartidos|
 | MIÉRCOLES (8/5) | Propietarios del Gimnasio | Consideración | Destacar las características clave de la aplicación | "¿Conoces todas las funciones de nuestra aplicación?" | #GestiónDeGimnasios #Funcionalidades #Eficiencia | Publicación de texto/Video | Jorge | Instagram, Twitter, TikTok| Alcance, Comentarios, Compartidos|
 | JUEVES (9/5) | Usuarios del Gimnasio | Consideración | Ofrecer consejos, historias de deportistas, artículos de interes, recomendacion de suplementos |"Los 10 mejores ejercicios para ejercitar el pecho con mancuernas caseras"| #RutinaPecho #EquipamientoCasero #Disciplina | Entrada de Blog | Ángel Muñoz | Blog web | Visitas, Comentarios|
-| VIERNES (10/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| VIERNES (10/5) | Usuarios del Gimnasio | Engagement | Entretener a la audiencia | "Típico viernes de los trabajadores de MuscleMate: ¡Cuando el teclado se convierte en tu único ejercicio del día! | #Gimnasio #Humor #Fitness | Video Meme, Foto Edit | Jorge | Instagram, TikTok, Twitter | Me gusta, Compartidos, Alcance|
 
 ### Voz de Marca 
 
