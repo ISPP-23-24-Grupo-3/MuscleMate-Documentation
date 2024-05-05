@@ -28,11 +28,11 @@ En caso de tener un buen éxito, se plantea el ampliar a la plataforma de TikTok
 
 | Día/Fecha | Cliente| Etapa de la Venta| Objetivo| Título| Temas, Palabras Clave, Hashtags | Formato/Tipo | Responsable | Canales | Resultados |
 | --- | --- | ---| --- | --- | --- | ---| --- | ---| --- |
-| *ejemplo* | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
-| *ejemplo* | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
-| *ejemplo* | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
-| *ejemplo* | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
-| *ejemplo* | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| LUNES (6/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| MARTES (7/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| MIÉRCOLES (8/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| JUEVES (9/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
+| VIERNES (10/5) | *ejemplo* | *ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* |*ejemplo*| *ejemplo* | *ejemplo*| *ejemplo*|
 
 ### Voz de Marca 
 
