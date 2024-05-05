@@ -2,6 +2,14 @@
 title: Segmentation Analysis
 ---
 
+![MUSCLEMATE](logo.png)
+
+### Musclemate, Grupo 3, Sprint 3
+
+| Versión | Fecha      | Autor                 | Descripción            |
+| ------- | ---------- | --------------------- | ---------------------- |
+| v1.0    | 2024-05-03 | Pedro González Marcos | Creación del documento |
+
 ## Tipo de mercado
 
 Como ofrecemos software de gestión de gimnasios vamos a vender nuestra aplicación
