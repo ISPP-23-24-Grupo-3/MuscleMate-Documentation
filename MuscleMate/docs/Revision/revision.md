@@ -38,13 +38,13 @@ Respecto a la tracking tool, la usada es Clockify y ya se proporcionó al profes
 Aunque se puede registrar como se verá más adelante; se recomienda probar las funcionalidades con los siguientes usuarios para ver datos ya creados y comprobar de manera más cómoda:
 
 - Usuarios Cliente:
-  - pabmoreno  (inscrito en el gimnasio MasMusculoFit Sevilla MMFit Gym el cual tiene suscripción estándar)
-  - carliberal (inscrito en el gimnasio McFIT Sevilla Palacio de Congresos el cual tiene suscripción premium)
+  - pabmoreno (inscrito en el gimnasio MasMusculoFit Sevilla MMFit Gym el cual tiene suscripción premium)
+  - vicvazvaz (inscrito en el gimnasio Synergym Sevilla Palacio de Congresos el cual tiene suscripción estándar)
 
 - Uusuarios Dueño:
-  - aaromo     (dueño del gimnasio McFIT Sevilla Palacio de Congresos el cual tiene suscripción premium
-                              y del gimnasio MasMusculoFit Sevilla MMFit Gym el cual tiene suscripción estándar)
-  - raquitori  (dueño del gimnasio Synergym Sevilla Nervión el cual tiene suscripción estándar)
+  - aaromo (dueño del gimnasio McFIT Sevilla Palacio de Congresos el cual tiene suscripción premium
+                              y del gimnasio MasMusculoFit Sevilla MMFit Gym el cual tiene suscripción premium)
+  - raquitori (dueño del gimnasio Synergym Sevilla Nervión el cual tiene suscripción estándar)
 
 Todas las credenciales serán enviadas por mensaje a el profesor por motivos de seguridad.
 
