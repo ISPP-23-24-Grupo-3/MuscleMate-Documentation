@@ -4,7 +4,7 @@ title: Report of contribution to the common Knowledge Database
 ---
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3, Sprint 3
+## Musclemate, Grupo 3, PPL
 
 
 ##  Historial de Versiones
@@ -15,6 +15,7 @@ title: Report of contribution to the common Knowledge Database
 |v3.0|2024-04-06|Juan Jesús Martín |Modificación del documento|
 |v4.0|2024-04-22|Juan Jesús Martín |Modificación del documento|
 |v5.0|2024-05-06|Juan Jesús Martín|Actualización del documento|
+|v5.1|2024-05-06|Alejandro Sosa Corral|Cambiado "Sprint 3" por "PPL"|
 
 [Base de datos General](https://bgcc.vercel.app/)
 
