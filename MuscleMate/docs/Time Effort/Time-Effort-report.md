@@ -144,3 +144,25 @@ A continuación, mostraremos las estadísticas de la semana del miercoles 10 al 
 | Horas trabajadas por día                                                                   |
 | ------------------------------------------------------------------------------------------ |
 | ![Estadística horas trabajadas por día](/img/stats/semana10horasPorDias.png) |
+
+## Semana 11
+A continuación, mostraremos las estadísticas de la semana del martes 23 al martes 30.
+| Reloj semanal del proyecto                                                        |
+| --------------------------------------------------------------------------------- |
+| ![Estadística reloj de grupo](/img/stats/semana11relojProyecto.png) |
+| ![](/img/stats/semana11relojProyecto2.png)                          |
+
+| Horas trabajadas por día                                                                   |
+| ------------------------------------------------------------------------------------------ |
+| ![Estadística horas trabajadas por día](/img/stats/semana11horasPorDias.png) |
+
+## Semana 12
+A continuación, mostraremos las estadísticas de la semana del martes 30 al lunes 6.
+| Reloj semanal del proyecto                                                        |
+| --------------------------------------------------------------------------------- |
+| ![Estadística reloj de grupo](/img/stats/semana12relojProyecto.png) |
+| ![](/img/stats/semana12relojProyecto2.png)                          |
+
+| Horas trabajadas por día                                                                   |
+| ------------------------------------------------------------------------------------------ |
+| ![Estadística horas trabajadas por día](/img/stats/semana12horasPorDias.png) |
