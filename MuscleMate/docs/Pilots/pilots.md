@@ -17,6 +17,7 @@ sidebar_position: 3
 | v1.6    | 2024-04-22 | Juan Jesús Martín      |Actualización del documento hasta la fecha|
 | v1.7    | 2024-04-22 | Ángel Muñoz Prieto    |Actualización del documento para el S3|
 | v1.8    | 2024-05-05 | Ángel Muñoz Prieto    |Actualización del documento para el PPL|
+| v1.9    | 2024-05-06 | Ángel Muñoz Prieto    |Actualización del documento para el PPL|
 
 
 # Información sobre los Usuarios Piloto del grupo MuscleMate
@@ -29,13 +30,15 @@ Al final del Sprint 2 se contactó de nuevo con  los usuarios pilotos que se ten
 
 Durante el Sprint 3 se mantuvo el número de usuarios piloto y se obtuvo feedback en dos tandas, una por cada semana del Sprint, pudiendo asi mejorar mucho la aplicación.
 
-En la fase de preparación para el lanzamiento del proyecto no se ha realizado ninguna entrega a los usuarios piloto ya que el equipo se ha centrado en el marketing, las redes sociales y en el feedback proporcionado mediante estas.
+En la fase de preparación para el lanzamiento del proyecto no se ha realizado ninguna entrega a los usuarios piloto ya que el equipo se ha centrado en el marketing, las redes sociales y en el feedback proporcionado mediante estas, prefiriendo dejar todo listo para en la siguiente entrega, el WPL, tener ya una versión de la aplicación definitiva a entregar a los pilotos.
 
 ## Gestión de Usuarios Piloto Preparing Project Launch
 
 ### Plan de Usuarios Piloto
 
-La forma de recabar feedback por parte de los usuarios pilotos se mantiene durante esta entrega. Sin embargo, dado que el caracter de esta entrega es principalmente orientado al marketing y a la gestión de las redes sociales de la empresa, no se ha realizado ningún nuevo despliegue ya que las funcionalidades a implementar son en su mayoría mejoras.Sin embargo para la siguiente entrega, ya con un marketing bien establecido durante esta entrega se haran distintos despliegues preparando la salida del producto permitiendo así pulir este lo máximo posible.
+Durante esta entrega no se ha recibido ningún tipo de feedback ya que el equipo tomó la decisión de no desplegar antes del último día. Esto es porque se ha centrado todo el esfuerzo en el marketing y la gestión de redes sociales, principales focos de esta entrega.
+
+También se realizó un acuerdo con el grupo 9 de manera que ambos equipos decidieron retrasar el pilotaje a después de la entrega para centrar sus esfuerzos en el desarrollo de los otros campos, mientras se trataba de crear una aplicación más pulida y definitiva a entregar en el pilotaje de la siguiente entrega.
 
 ### Proceso de Gestión del Feedback
 
@@ -79,6 +82,8 @@ Pese a no haber ninguna entrega de la aplicación, los usuarios piloto mantienen
 
 El commitment agreement no ha recibido ningún cambio durante el PPL, por tanto mantiene todas las claúsulas anteriores tal y como estaban.
 El acuerdo se está cumpliendo y por tanto no es necesario tomar medidas.
+
+Se acordó además no enviar una nueva versión esta entrega junto al grupo 9; esto es por los motivos descritos previamente, sin embargo se quería acordar con el otro grupo en lugar de simplemente no hacerlo.
 
 ### Estado de Commitment Agreement con personas ajenas a la asignatura
 
