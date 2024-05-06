@@ -9,7 +9,7 @@ sidebar_position: 3
 | Versión | Fecha      | Autor         | Descripción            |
 | ------- | ---------- | -----         | ---------------------- |
 | v1.0    | 2024-03-05 | Angel Muñoz   | Creación del documento |
-| v2.0    | 2024-03-05 | Juan Carlos Moreno   | Diseño Tabla de contenidos |
+| v2.0    | 2024-05-05 | Juan Carlos Moreno   | Diseño Tabla de contenidos |
 
 # Plan de Contenido de Redes Sociales
 
