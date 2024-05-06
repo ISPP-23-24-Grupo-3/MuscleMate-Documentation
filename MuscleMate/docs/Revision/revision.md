@@ -11,26 +11,27 @@ sidebar_position: 3
 | ------- | ---------- | -------------- | --------------------------------------------------------- |
 | v1.0    | 2024-04-22 | Angel Muñoz    | Creación del documento                                    |
 | v1.1    | 2024-04-22 | Alejandro Sosa | Adición de datos pedidos en la Software Review Guidelines |
+| v1.2    | 2024-04-22 | Alejandro Sosa | Eliminación completa de contraseñas (se enviarán aparte)  |
 
 # Credenciales de Uso
 
 Para probar la aplicación se tienen los siguientes enlaces al despliegue:
 
 - Frontend (aplicación principal): https://musclemates3.oa.r.appspot.com/
-- Backend (administración): https://desplieguebackendmuscle.pythonanywhere.com/admin/
+- Backend (administración): https://musclemateppl.pythonanywhere.com/admin/
 
 Respecto a la tracking tool, la usada es Clockify y ya se proporcionó al profesorado las credenciales para acceder y se le invitó para ver el estado. Respecto a la demo se encuentra en la carpeta Demos en Other Evaluable Docs.
 
-Aunque se puede registrar como se verá más adelante; se recomienda probar las funcionalidades con las siguientes credenciales para ver datos ya creados y comprobar de manera más cómoda:
+Aunque se puede registrar como se verá más adelante; se recomienda probar las funcionalidades con los siguientes usuarios para ver datos ya creados y comprobar de manera más cómoda:
 
-- Credenciales de Cliente:
-  - pabmoreno, musclemate123
-  - carliberal, musclemate123
-- Credenciales de Dueño:
-  - aaromo, musclemate123
-  - raquitori, musclemate123
-- Credenciales de Administrador (backend):
-  - ... (Indicadas de manera separada en la entrega por motivos de seguridad)
+- Usuarios tipo Cliente:
+  - pabmoreno
+  - vicvazvaz
+- Usuarios tipo Dueño:
+  - aaromo
+  - raquitori
+
+Todas las credenciales serán enviadas por mensaje a el profesor por motivos de seguridad.
 
 Cuando trate de suscribirse como dueño de gimnasio a un plan, en la pasarela de pago introduzca de numero de tarjeta "4242 4242 4242 4242", pudiendo inventarse el resto de datos.
 
