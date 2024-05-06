@@ -8,8 +8,8 @@ sidebar_position: 3
 
 | Versión | Fecha      | Autor         | Descripción            |
 | ------- | ---------- | -----         | ---------------------- |
-| v1.0    | 2024-03-05 | Angel Muñoz   | Creación del documento |
-| v2.0    | 2024-05-05 | Juan Carlos Moreno   | Diseño Tabla de contenidos |
+| v1.0    | 2024-03-05 | Ángel Muñoz Prieto  | Creación del documento |
+| v2.0    | 2024-05-06 | Jorge Romero Limón  | Diseño Tabla de contenidos |
 
 # Plan de Contenido de Redes Sociales
 
@@ -23,17 +23,19 @@ Sin embargo, para las redes sociales el equipo estima mucho mas importante el ll
 
 Las plataformas escogidas para la creación de contenido de MuscleMate son las mencionadas en el plan de Marketing, Twitter e Instagram. Estas dos se seleccionaron por ser las dos redes sociales más utilizadas entre el público joven y las que se consideraban mejores para dar a conocer la app.
 
-En caso de tener un buen éxito, se plantea el ampliar a la plataforma de TikTok ya que esta permite también ganar mucha visibilidad y abrir un blog donde se hablara del mundo deportivo,consejos sobre entrenamientos,etc; aun así, de momento el equipo prefiere mantenerse centrado en un máximo de dos plataformas para la creación de contenido.
+En caso de tener un buen éxito, se plantea el ampliar a la plataforma de TikTok ya que esta permite también ganar mucha visibilidad y abrir un blog donde se hablara del mundo deportivo, consejos sobre entrenamientos; aun así, de momento el equipo prefiere mantenerse centrado en un máximo de dos plataformas para la creación de contenido.
 
 ### Tabla de Contenidos
 
 | Día/Fecha | Cliente | Etapa de la Venta |   Objetivo  |   Título   | Temas, Palabras Clave, Hashtags | Formato/Tipo | Responsable | Canales | Resultados |
 | ----- | ----- | -----| ----- | ----- | ----- | -----| ----- | -----| ----- |
-| LUNES (6/5) | Propietario del gimnasio | Necesidad de reconocimiento | Introducir los beneficios de la aplicación para gimnasios | "Optimiza la gestión de tu gimnasio con nuestra aplicación" | #GestiónDeGimnasios #Eficiencia #SoftwareGimnasio | Video explicativo | Ángel Muñoz | Twitter,Instagram | 1000 visualizaciones |
-| MARTES (7/5) | Propietario del gimnasio | Búsqueda de opciones | Compartir consejos de entrenamiento | "Mejora tus entrenamientos con nuestras rutinas personalizadas" | #Entrenamiento #RutinasGimnasio #Salud | Infografía| Jorge | Instagram, Twitter| 2500 visualizaciones|
-| MIÉRCOLES (8/5) | Propietarios del Gimnasio | Búsqueda de opciones | Destacar las características clave de la aplicación | "¿Conoces todas las funciones de nuestra aplicación?" | #GestiónDeGimnasios #Funcionalidades #Eficiencia | Publicación de texto/Video | Jorge | Instagram, Twitter, TikTok| 2500 visualizaciones |
-| JUEVES (9/5) | Propietario del gimnasio | Pre-Compra | Ofrecer consejos, historias de deportistas, artículos de interes, recomendacion de suplementos |"Como aumentar la rentabilidad de gimnasios y generar mas altas"| #RutinaPecho #EquipamientoCasero #Disciplina | Entrada de Blog | Ángel Muñoz | Blog web | 3000 visualizaciones |
-| VIERNES (10/5) | Propietario del gimnasio | Compra | Entretener a la audiencia | "Office Tour: Donde se crea la magia de MuscleMate" | #Gimnasio #Humor #Fitness | Video Meme, Foto Edit | Jorge | Instagram, TikTok, Twitter | 4000 visualizaciones|
+| LUNES (06/05) | Propietarios del Gimnasio | Atracción de Clientes | Entretener y llamar la atención de la audiencia | "Tus usuario son más felices usando MuscleMate" | #GestiónDeGimnasios #Gym #GymStyle #Lentejas | Publicación meme | Ángel Muñoz | Instagram, Twitter | 100 visualizaciones |
+| MARTES (07/05) | Propietarios del Gimnasio | Atracción de Clientes |  Entretener y llamar la atención de la audiencia | "Yo antes vs después de usar MuscleMate" | #GestiónDeGimnasios #Gym #GymStyle #Lentejas | Publicación meme | Jorge Romero | Instagram | 100 visualizaciones|
+| MIÉRCOLES (08/05) | Propietarios del Gimnasio | Atracción de Clientes | Destacar las características clave de la aplicación | "Parece chiste pero es anécdota" | #GestiónDeGimnasios #Gym #GymStyle #Lentejas | Publicación meme | Jorge Romero | Instagram, Twitter | 150 visualizaciones |
+| JUEVES (09/05) | Propietarios del Gimnasio | Atracción de Clientes |  Entretener y llamar la atención de la audiencia | "Deportistas contentos, propietario contento" | #GestiónDeGimnasios #Gym #GymStyle #Lentejas | Publicación meme | Ángel Muñoz | Instagram | 150 visualizaciones |
+| VIERNES (10/05) | Propietarios del Gimnasio | Muestreo de App | Mostrar funcionalidades y estado del proyecto | "Presentando Funcionalidades: User" | #GestiónDeGimnasios #Gym #GymStyle #Lentejas | Anuncio, Foto Edit | Jorge y Ángel | Instagram | 220 visualizaciones|
+| SÁBADO (11/05) | Propietarios del Gimnasio | Muestreo de App | Mostrar funcionalidades y estado del proyecto | "Presentando Funcionalidades: Gym" | #GestiónDeGimnasios #Gym #GymStyle #Lentejas | Anuncio, Foto Edit | Jorge y Ángel | Instagram | 220 visualizaciones|
+| DOMINGO (12/05) | Propietarios del Gimnasio | Muestreo de App | Mostrar funcionalidades y estado del proyecto | "Presentando Funcionalidades: Owner" | #GestiónDeGimnasios #Gym #GymStyle #Lentejas | Anuncio, Foto Edit | Jorge y Ángel | Instagram, Twitter | 250 visualizaciones|
 
 ### Voz de Marca 
 
