@@ -4,7 +4,7 @@ title: SEO Analysis
 
 ![MUSCLEMATE](/img/MuscleMateLogo.svg)
 
-## Musclemate, Grupo 3
+## Musclemate, Grupo 3, PPL
 
 | Versión | Fecha      | Autor            | Descripción            |
 | ------- | ---------- | ---------------- | ---------------------- |
