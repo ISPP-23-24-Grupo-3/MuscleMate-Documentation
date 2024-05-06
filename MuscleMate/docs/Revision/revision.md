@@ -11,7 +11,7 @@ sidebar_position: 3
 | ------- | ---------- | -------------- | --------------------------------------------------------- |
 | v1.0    | 2024-04-22 | Angel Muñoz    | Creación del documento                                    |
 | v1.1    | 2024-04-22 | Alejandro Sosa | Adición de datos pedidos en la Software Review Guidelines |
-| v1.2    | 2024-04-22 | Alejandro Sosa | Eliminación completa de contraseñas (se enviarán aparte)  |
+| v1.2    | 2024-05-06 | Alejandro Sosa | Eliminación completa de contraseñas (se enviarán aparte)  |
 
 # Credenciales de Uso
 
