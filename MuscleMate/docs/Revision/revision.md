@@ -5,31 +5,46 @@ sidebar_position: 3
 
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3, Sprint 3
+## Musclemate, Grupo 3, PPL
 
 | Versión | Fecha      | Autor          | Descripción                                               |
 | ------- | ---------- | -------------- | --------------------------------------------------------- |
 | v1.0    | 2024-04-22 | Angel Muñoz    | Creación del documento                                    |
 | v1.1    | 2024-04-22 | Alejandro Sosa | Adición de datos pedidos en la Software Review Guidelines |
 | v1.2    | 2024-05-06 | Alejandro Sosa | Eliminación completa de contraseñas (se enviarán aparte)  |
+| v1.3    | 2024-05-06 | David Dana     | Mejora del documento                                      |
+
+# Despliegue del Docusaurus para el acceso a la documentación
+
+Para poder desplegar docusaurus en su equipo debe seguir los siguientes pasos:
+
+- Primero debe asegurarse de tener instalado Node.js y npm en su equipo.
+- Después clonar el repositorio, "git clone https://github.com/ISPP-23-24-Grupo-3/MuscleMate-Documentation.git"
+- A continuación entrar al repo con "cd MuscleMate-Documentation" y una vez dentro del repositorio ejecutar el siguiente comando: "cd .\MuscleMate\" para entrar a la carpeta MuscleMate
+- Ahora hacer "npm install"
+- Por ultimo hacer "npm run start"
+
+Tenga en consideración que una vez hecho el "npm run start" se abrirá automáticamente la página web en local pero el proceso se puede demorar varios minutos, aunque le salga la url por consola puede que aún tenga que compilar asi que si la página le sale en blanco puede que deba esperar unos minutos más. Otra consideración importante es que siempre debe estar hacer el start desde la carpeta MuscleMate.
 
 # Credenciales de Uso
 
 Para probar la aplicación se tienen los siguientes enlaces al despliegue:
 
-- Frontend (aplicación principal): https://musclemates3.oa.r.appspot.com/
+- Frontend (aplicación principal): https://musclemateppl.oa.r.appspot.com/
 - Backend (administración): https://musclemateppl.pythonanywhere.com/admin/
 
 Respecto a la tracking tool, la usada es Clockify y ya se proporcionó al profesorado las credenciales para acceder y se le invitó para ver el estado. Respecto a la demo se encuentra en la carpeta Demos en Other Evaluable Docs.
 
 Aunque se puede registrar como se verá más adelante; se recomienda probar las funcionalidades con los siguientes usuarios para ver datos ya creados y comprobar de manera más cómoda:
 
-- Usuarios tipo Cliente:
-  - pabmoreno
-  - vicvazvaz
-- Usuarios tipo Dueño:
-  - aaromo
-  - raquitori
+- Usuarios Cliente:
+  - pabmoreno  (inscrito en el gimnasio MasMusculoFit Sevilla MMFit Gym el cual tiene suscripción estándar)
+  - carliberal (inscrito en el gimnasio McFIT Sevilla Palacio de Congresos el cual tiene suscripción premium)
+
+- Uusuarios Dueño:
+  - aaromo     (dueño del gimnasio McFIT Sevilla Palacio de Congresos el cual tiene suscripción premium
+                              y del gimnasio MasMusculoFit Sevilla MMFit Gym el cual tiene suscripción estándar)
+  - raquitori  (dueño del gimnasio Synergym Sevilla Nervión el cual tiene suscripción estándar)
 
 Todas las credenciales serán enviadas por mensaje a el profesor por motivos de seguridad.
 
@@ -52,9 +67,9 @@ Una vez inicia sesión sale una pantalla principal desde que la que podrá acced
 
 Si inicia sesión como pabmoreno, podrá ver una ya. Para crear una nueva una pulse sobre "Tus Rutinas" y en "Añadir Rutina". Con esto podra incluir un nombre y crear una rutina de momento vacía.
 
-A estas rutinas se les puede añadir ejercicios pulsando sobre el icono del lápiz. Ahí llegamos a la pantalla de ejercicios donde se pueden añadir ejercicios pulsado en "Añadir Ejercicio" e introduciendo un nombre y ninguna, una o más máquinas de el gimnasio al que esté apuntado. Luego confirma la creación con el tick. Estos ejercicios se pueden editar o borrar con los iconos del lápiz y de la X roja. En esta pantalla también se puede editar el nombre de la rutina con el lápiz que sale al lado del nombre.
+A estas rutinas se les puede añadir ejercicios pulsando sobre el icono del lápiz. Ahí llegamos a la pantalla de ejercicios donde se pueden añadir ejercicios pulsado en "Añadir Ejercicio" e introduciendo un nombre y ninguna, una o más de una máquinas del gimnasio al que esté apuntado. Luego confirma la creación con el check verde. Estos ejercicios se pueden editar o borrar con los iconos del lápiz y de la X roja. En esta pantalla también se puede editar el nombre de la rutina con el lápiz que sale al lado del nombre.
 
-Mediante el boton de "entrenar" en esta pantalla o el símnolo de mancuerna (pesa) en la anterior se entra en la pantalla de entrenamiento. En esta pantalla pulsando en cualquiera de los ejercicios se puede acceder a un cronómetro para marcar los descansos, que se reinicia solo cada vez que se para y se pueden crear series sobre el ejercicio añadiendo un peso, unas repeticiones y un tiempo, que luego servirán para crear las gráficas de evolución de repeticiones y peso.
+Mediante el boton de "entrenar" en esta pantalla o el símnolo de mancuerna (pesa) en la anterior se entra en la pantalla de entrenamiento. En esta pantalla pulsando en cualquiera de los ejercicios se puede acceder a un cronómetro para marcar los descansos, que se reinicia solo cada vez que se para y se pueden crear series sobre el ejercicio añadiendo un peso, unas repeticiones y un tiempo (ningun campo es obligatorio ya que puede querer hacer ejercicios que solo dependan del tiempo por ejemplo), que luego servirán para crear las gráficas de evolución de repeticiones y peso.
 
 Pulsando en "estadisticas" en esta misma pantalla o pulsando en "tu evolución" en el menu principal podemos acceder a gráficas sobre el peso o las repeticiones según una máquina en particular.
 
@@ -128,3 +143,5 @@ Mediante el menú de la cabecera se puede acceder a "Planes" para seleccionar un
 En "Planes" tras seleccionar un plan se le redijirá a una pantalla donde seleccionamos para que gimnasio es y luego a la plataforma Stripe. Ahí se completa con los datos proporcionados al principio y con ello se llevaría a cabo la suscripción.
 
 En "Suscripciones" puede listarlas todas y cancelar alguna si se estimase necesario.
+
+Para el pago emplear el siguiente numero de tarjeta "4242 4242 4242 4242", el resto de datos se pueden inventar.
