@@ -4,7 +4,7 @@ title: Total Cost Ownership (TCO)
 
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3, Sprint 3
+## Musclemate, Grupo 3, PPL
 
 ## Historial de versiones
 
@@ -22,6 +22,7 @@ title: Total Cost Ownership (TCO)
 | 10.0    | 2024-04-21 | González Marcos, Pedro                       | Reestructuración documento y añadir roles nuevos  |
 | 11.0    | 2024-04-29 | González Marcos, Pedro                       | Correción feedback recibido y gastos de marketing |
 | 12.0    | 2024-04-29 | Zarandieta Ortiz, David                      | Reinterpretación del TCO                          |
+| 13.0    | 2024-05-06 | Dana Cabello, David                          | Correcciones y mejoras                            |
 
 ## Introducción
 
@@ -98,7 +99,7 @@ Total: **3.308€/mes**
 En costes de suscripciones, además, tenemos lo siguiente:
 
 - Sonarcloud (plan de 500.000 líneas de código): 160€/mes
-- GitHub Team: 60€/mes
+- GitHub Team: 4€/miembro/mes x 15 miembros: 60€/mes
 
 Total: **220€/mes**
 
@@ -111,7 +112,7 @@ en 24 meses.
 
 Amortización lineal a 24 meses.
 
-7500€ / 24 meses = 312,5€
+7.500€ / 24 meses = 312,5€
 
 Total: **312,5€/mes**
 
@@ -122,7 +123,6 @@ En total, los costes mensuales son:
 - 11.520€ Costes de personal
 - 3.308€ Costes de infraestructura
 - 220€ Costes de licencias y subscripciones
-- 312,5€ Activos de la empresa
 
 Total excepto los activos de la empresa: **15.048€/mes**
 
@@ -169,7 +169,7 @@ Total: **1.208€/mes**
 
 ### Licencias de software
 
-- GitHub Team: 4 miembros x 4€ = 16€/mes
+- GitHub Team: 4 miembros x 4€/miembro/mes = 16€/mes
 
 Además del coste de GitHub Team, sumamos el del despliegue en AppEngine, del
 cual asumimos que trabajaría 12 horas al día, redondeando a unos 18€ al mes.
@@ -184,18 +184,12 @@ al plan de 99€/mes.
 
 Total: **39€/mes**
 
-Con PythonAnywhere, escogemos el plan Hacker, de 5€ al mes.
-
-Sin embargo, el tamaño creciente de la aplicación influye en su despliegue en PythonAnywhere. Suponiendo que cada gimnasio hace alrededor de 150 peticiones,
-debemos de cambiar de planes al llegar a los 20 gimnasios, en cuyo caso se pasaría al plan Web Dev, de 12€/mes, y al llegar a los 30, se deberá pasar
-al plan de 99€/mes.
-
 
 ### Costes de marketing
 
 Vamos a contar con unos 20.000€ para realizar la campaña de marketing.
 
-Para los primeros 2 meses vamos a destinar 5000€ en anuncios en instagram
+Para los primeros 2 meses vamos a destinar 5.000€ en anuncios en instagram
 para generar interés entre el público joven y los empresarios.
 Asumniendo que el CPM (Coste por mil impresiones) es de
 [5€](https://www.adrenalina.es/precio-publicidad-instagram-ads/) podemos generar
@@ -214,7 +208,7 @@ la estética y el prestigio de la marca.
 
 La amortización mensual de los costes de marketing es:
 
-Total: 20.000€ / (24 - 4 meses de desarrollo) = 1.000€/mes
+Total: 20.000€ / 20 = 1.000€/mes
 
 ### Costes totales
 
@@ -222,9 +216,10 @@ Con todo, obtenemos que el coste total de operación mensual inicialmente es:
 
 - 4.000€ Costes de personal
 - 1.000€ Costes de marketing
-- 1.226€ Costes de infraestructura
+- 1.208€ Costes de infraestructura
+- 39€ Licencias Software
 
-Total: **6.226 €/mes**
+Total: **6.247€/mes**
 
 ## Evolución a lo largo del tiempo
 
@@ -250,5 +245,5 @@ Realizando un estudio de 24 meses, obtenemos los siguientes datos, teniendo en c
 
 ![](/img/beneficios-vs-costes-largo.png)
 
-* Se estima que el número de gimnasios que ingresarían y el número de gimnasios que abandonarían la suscripción se equilibraría a los 98 meses (unos 8 años) y el crecimiento ya no sería creciente y se estancaría en 301 suscripciones, siendo un 71,42% de ellas "Estándar" (215 suscripciones)y el 28,58% "Premium" (86 suscripciones).
+* Se estima que el número de gimnasios que ingresarían y el número de gimnasios que abandonarían la suscripción se equilibraría a los 98 meses (unos 8 años) y el crecimiento ya no sería creciente y se estancaría en 301 suscripciones, siendo un 71,42% de ellas "Estándar" (215 suscripciones)y el 28,58% "Prémium" (86 suscripciones).
 Obteniendo así unas ganancias estables de 30.527€ al mes en bruto (sin tener en cuenta los costes). Todo esto está calculado para los beneficios esperados.
