@@ -16,6 +16,8 @@ sidebar_position: 3
 | v1.5    | 2024-04-10  | Angel Muñoz Prieto     |Adición del feedback del primer despliegue del S3|
 | v1.6    | 2024-04-22 | Juan Jesús Martín      |Actualización del documento hasta la fecha|
 | v1.7    | 2024-04-22 | Ángel Muñoz Prieto    |Actualización del documento para el S3|
+| v1.8    | 2024-05-05 | Ángel Muñoz Prieto    |Actualización del documento para el PPL|
+| v1.9    | 2024-05-06 | Ángel Muñoz Prieto    |Actualización del documento para el PPL|
 
 
 # Información sobre los Usuarios Piloto del grupo MuscleMate
@@ -23,7 +25,70 @@ sidebar_position: 3
 ## Descripción
 
 Al final del Sprint 1 se contactó con los usuarios piloto que se tenían planeados para este primer sprint. A todos se les concedió una muestra de la aplicación con las primeras funcionalidades y se les dio un día (en lugar de dos como se tenía estipulado por el retraso) para que probaran esas características. Cuando acabó este tiempo de pruebas se entregó un formulario para que calificasen su experiencia.
+
 Al final del Sprint 2 se contactó de nuevo con  los usuarios pilotos que se tenían planteados para el segundo sprint , cabe destacar que hemos aumentado considerablemente el número de usuarios pilotos. El tiempo que se les proporcionó fue de un día y se le entregó un formulario para recoger el feedback.
+
+Durante el Sprint 3 se mantuvo el número de usuarios piloto y se obtuvo feedback en dos tandas, una por cada semana del Sprint, pudiendo asi mejorar mucho la aplicación.
+
+En la fase de preparación para el lanzamiento del proyecto no se ha realizado ninguna entrega a los usuarios piloto ya que el equipo se ha centrado en el marketing, las redes sociales y en el feedback proporcionado mediante estas, prefiriendo dejar todo listo para en la siguiente entrega, el WPL, tener ya una versión de la aplicación definitiva a entregar a los pilotos.
+
+## Gestión de Usuarios Piloto Preparing Project Launch
+
+### Plan de Usuarios Piloto
+
+Durante esta entrega no se ha recibido ningún tipo de feedback ya que el equipo tomó la decisión de no desplegar antes del último día. Esto es porque se ha centrado todo el esfuerzo en el marketing y la gestión de redes sociales, principales focos de esta entrega.
+
+También se realizó un acuerdo con el grupo 9 de manera que ambos equipos decidieron retrasar el pilotaje a después de la entrega para centrar sus esfuerzos en el desarrollo de los otros campos, mientras se trataba de crear una aplicación más pulida y definitiva a entregar en el pilotaje de la siguiente entrega.
+
+### Proceso de Gestión del Feedback
+
+Dado que no se ha entregado nada a los Usuarios Piloto, no ha tenido que gestionarse ningún tipo de feedback durante esta entrega. A pesar de esto, se continuará con la metodología seguida en anteriores sprints en la siguiente y última entrega para terminar de poner a punto la aplicación para su lanzamiento.
+
+### Feedback Recibido
+
+#### Contacto Usuarios Pilotos ajenos a la asignatura
+
+- **David Carrizosa Mateos** : david220399@gmail.com
+- **Jose María Leal Sarmiento** : jmlealsarm03@gmail.com
+- **Manuel Luis Torres** : manuelu1878@gmail.com
+- **Francisco Javier Leal Ojeda** : lealfj1@gmail.com
+- **José Miguel Olivares Leal** : josemiol10@gmail.com
+- **María del Carmen Fernández González** : marifernandez110899@gmail.com
+- **Javier Pardo** : javipardo2001@gmail.com
+- **Vicente Martínez** : tocasport@gmail.com
+- **José Manuel Almansa Vergara** : chemaaav4@gmail.com
+- **Manuel Morgollón**: manmormor9@alum.us.es
+- **Victor Vázquez**: vazquezvazquezvictor21@gmail.com
+- **Martín Romero**: martinromero33@gmail.com
+- **Pablo Moreno**: pablomorenorromanos17@gmail.com
+- **Carlos Liberal**: cliberalbejarano@gmail.com
+- **Pablo Miranda**: pabmirgar@alum.us.es
+
+No se ha realizado ninguna entrega, por tanto no se ha recibido ningun feedback.
+
+### Acciones Derivadas
+
+No se ha realizado ninguna entrega, por tanto no se ha tomado ninguna acción.
+
+### Priorización del Feedback
+
+No se ha realizado ninguna entrega, por tanto no se ha tomado ninguna acción.
+
+### Estado Actual de los Usuarios Piloto
+
+Pese a no haber ninguna entrega de la aplicación, los usuarios piloto mantienen todos contacto con el equipo MuscleMate y estan preparados para futuras entregas.
+
+### Estado de Commitment Agreement con usuarios piloto grupo 9
+
+El commitment agreement no ha recibido ningún cambio durante el PPL, por tanto mantiene todas las claúsulas anteriores tal y como estaban.
+El acuerdo se está cumpliendo y por tanto no es necesario tomar medidas.
+
+Se acordó además no enviar una nueva versión esta entrega junto al grupo 9; esto es por los motivos descritos previamente, sin embargo se quería acordar con el otro grupo en lugar de simplemente no hacerlo.
+
+### Estado de Commitment Agreement con personas ajenas a la asignatura
+
+El commitment agreement redactado para los usuarios piloto ajenos a la asignatura no ha sufrido cambios durante esta entrega, manteniendo los puntos que se podía observar en el anterior sprint.
+El acuerdo se está cumpliendo y por tanto no es necesario tomar medidas.
 
 ## Gestión de Usuarios Piloto Sprint 3
 

@@ -9,6 +9,7 @@ sidebar_position: 3
 | Versión | Fecha      | Autor | Descripción            |
 | ------- | ---------- | ----- | ---------------------- |
 | v1.0    | 2024-22-04 | Angel Muñoz   | Creación del documento |
+| v2.0    | 2024-05-05 | Angel Muñoz   | Actualización del documento |
 
 # Planificación de Redes Sociales de Musclemate
 
@@ -40,6 +41,10 @@ Publicar contenido relevante y variado regularmente.
 Incluir publicaciones sobre consejos de entrenamiento, nutrición, motivación, y novedades de la aplicación.
 
 Programar publicaciones para días y horas óptimas de acuerdo a la actividad de la audiencia.
+
+Las publicaciones se basaran en contenido de humor con tono alegre durante la semana, y una muestra de las funcionalidades explicadas durante los fines de semana.
+
+Además, tras cada presentación se subirá el anuncio de esa semana a redes sociales.
 
 ## Paso 4: Desarrollar contenido de calidad
 
@@ -88,3 +93,14 @@ Revisar regularmente el rendimiento de la estrategia en redes sociales.
 Realizar ajustes según las tendencias del mercado y el feedback de la audiencia para mejorar los resultados.
 
 Llegado el caso se podría plantear el aumentar el número de redes sociales añadiendo por ejemplo, TikTok.
+
+
+## Responsables de Publicaciones en Redes Sociales
+
+Los miembros del equipo con cargo de Community Manager son aquellos encargados de publicar el contenido de acuerdo al plan sobre esto en las redes.
+
+## Objetivos de Impresiones
+
+MuscleMate no tiene un número fijo de impresiones que considere objetivo. 
+La meta siempre es llegar al máximo número de personas posibles mediante distintas funciones de las redes (como hilos en Twitter o reels en Instagram), y tratar de con cada publicación alcanzar más público que con la anterior.
+Sin embargo, dado el creciente número de seguidores en MuscleMate de una entrega a la otra (de 46 a 102) se espera continuar aumentando en una medida similar para el entregable final.

@@ -13,12 +13,19 @@ sidebar_position: 3
 | v1.1    | 2024-04-01 | Juan Jesús | Actualización del documento |
 | v1.2    | 2024-04-05 | Angel Muñoz Prieto    | Actualización del documento |
 | v1.3    | 2024-04-22 | Angel Muñoz Prieto    | Actualización del documento |
+| v1.4    | 2024-05-06 | Ángel Muñoz Prieto    |Actualización del documento para el PPL|
 
 ## Información Proporcionada por los Ususarios Piloto
 
 ### Descripción
 
 En este docuemento se detalla la información proporcionada por los usuarios pilotos durante los distintos Sprints del proyecto, pese a que esto sea visible también desde el reporte general enfocado en estos.
+
+### Feedback Usuarios Piloto Preparing Project Launch
+
+Durante esta entrega no se ha recibido ningún tipo de feedback ya que el equipo tomó la decisión de no desplegar antes del último día. Esto es porque se ha centrado todo el esfuerzo en el marketing y la gestión de redes sociales, principales focos de esta entrega.
+
+También se realizó un acuerdo con el grupo 9 de manera que ambos equipos decidieron retrasar el pilotaje a después de la entrega para centrar sus esfuerzos en el desarrollo de los otros campos, mientras se trataba de crear una aplicación más pulida y definitiva a entregar en el pilotaje de la siguiente entrega.
 
 ### Feedback Usuarios Piloto Sprint 3
 

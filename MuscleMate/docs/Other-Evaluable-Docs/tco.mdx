@@ -4,7 +4,7 @@ title: Total Cost Ownership (TCO)
 
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3, Sprint 3
+## Musclemate, Grupo 3, PPL
 
 ## Historial de versiones
 
@@ -21,6 +21,8 @@ title: Total Cost Ownership (TCO)
 | 9.0     | 2024-04-01 | Juan Carlos Moreno Pérez                     | Agregados costes de SLA                           |
 | 10.0    | 2024-04-21 | González Marcos, Pedro                       | Reestructuración documento y añadir roles nuevos  |
 | 11.0    | 2024-04-29 | González Marcos, Pedro                       | Correción feedback recibido y gastos de marketing |
+| 12.0    | 2024-04-29 | Zarandieta Ortiz, David                      | Reinterpretación del TCO                          |
+| 13.0    | 2024-05-06 | Dana Cabello, David                          | Correcciones y mejoras                            |
 
 ## Introducción
 
@@ -65,39 +67,39 @@ Asumimos que en nuestro equipo tenemos:
 
 Al mes, los costes cada rol suman:
 
-- 320€ x 5 Junior Developers x 1 (Multiplicador) = 1,600€
-- 320€ x 3 Senior Developers x 3 (Multiplicador) = 2,880€
-- 320€ x 3 QAs x 2 (Multiplicador) = 1,920€
+- 320€ x 5 Junior Developers x 1 (Multiplicador) = 1.600€
+- 320€ x 3 Senior Developers x 3 (Multiplicador) = 2.880€
+- 320€ x 3 QAs x 2 (Multiplicador) = 1.920€
 - 320€ x 1 Operation Engineer x 2.5 (Multiplicador) = 800€
 - 320€ x 2 System Technicians x 1.5 (Multiplicador) = 960€
-- 320€ x 1 Project Manager x 3.5 (Multiplicador) = 1,120€
+- 320€ x 1 Project Manager x 3.5 (Multiplicador) = 1.120€
 - 320€ x 1 GDPR Compliance Officer x 2 (Multiplicador) = 640€
 - 320€ x 2 Community Managers x 2.5 (Multiplicador) = 1.600€
 
 Con todo, obtenemos que el costo de personal
 
-Total: **11,520€/mes**
+Total: **11.520€/mes**
 
 ### Costes de infraestructura
 
 Asumimos los siguientes costes para facilitar el espacio de trabajo de los desarrolladores:
 
-- Alquiler de oficinas: 2,500€/mes
+- Alquiler de oficinas: 2.500€/mes
 - Luz: 648€/mes
-  - 0.18 €/kWh
+  - 0,18 €/kWh
   - 12 horas operativas
   - 10 kW contratados
-  - 0.18 x 12 x 10 x 30 = 648€/mes
+  - 0,18 x 12 x 10 x 30 = 648€/mes
 - Agua: 160€/mes
 
-Total: **3,308€/mes**
+Total: **3.308€/mes**
 
 ### Costes de licencias y subscripciones
 
 En costes de suscripciones, además, tenemos lo siguiente:
 
 - Sonarcloud (plan de 500.000 líneas de código): 160€/mes
-- GitHub Team: 60€/mes
+- GitHub Team: 4€/miembro/mes x 15 miembros: 60€/mes
 
 Total: **220€/mes**
 
@@ -106,29 +108,31 @@ Total: **220€/mes**
 Para el equipo de desarrollo vamos a comprar 15 portátiles que se amortizarán
 en 24 meses.
 
-- Portátiles: 7,500€
+- Portátiles: 7.500€
 
 Amortización lineal a 24 meses.
 
-7500€ / 24 meses = 312.5€
+7.500€ / 24 meses = 312,5€
 
-Total: **312.5€/mes**
+Total: **312,5€/mes**
 
 ### Costes totales
 
 En total, los costes mensuales son:
 
-- 11,520€ Costes de personal
-- 3,308€ Costes de infraestructura
+- 11.520€ Costes de personal
+- 3.308€ Costes de infraestructura
 - 220€ Costes de licencias y subscripciones
-- 312.5€ Activos de la empresa
 
-Total: **15,360.5€/mes**
+Total excepto los activos de la empresa: **15.048€/mes**
 
 Teniendo en cuenta que el desarrollo dura 4 meses. Con ello, obtenemos
-15,360.5 x 4 = 61,442€
+15.048 x 4 = 60.192€ a esto debemos sumarle los activos de la empresa que se pagan en 24 meses,
+312,5 x 24 = 7.500€,
 
-El coste total de capital (Capex) es: **61,442€**
+Total con los activos de la empresa: 60.192€ + 7.500€ = 67.692€
+
+El coste total de capital (Capex) es: **67.692€**
 
 ## Costes de operación mensual (Opex)
 
@@ -140,10 +144,10 @@ Como la aplicación ya está desarrollada, asumiremos que para mantenerla solo h
 - 320 x 1 x 2 = 640€
 - 320 x 1 x 2.5 = 800€
 - 320 x 2 x 1.5 = 960€
-- 320 x 2 x 2.5 = 1600€
+- 320 x 2 x 2.5 = 1.600€
 
 Con ello, los costes de personal ascienden a
-Total: **4,000€/mes**
+Total: **4.000€/mes**
 
 ### Costes de infraestructura
 
@@ -154,63 +158,68 @@ Incurriendo en 400€ al mes
 
 - Alquiler de oficinas: 400€/mes
 - Luz: 648€/mes
-  - 0.18 €/Kwh
+  - 0,18 €/Kwh
   - 12 horas operativas
   - 10 Kw contratados
-  - 0.18 x 12 x 10 x 30 = 648€/mes
+  - 0,18 x 12 x 10 x 30 = 648€/mes
 - Agua: 160€/mes
 
-Subtotal: **1208€/mes**
+Total: **1.208€/mes**
 
-Además de los costes de la oficina, sumamos el del despliegue en AppEngine, del
+
+### Licencias de software
+
+- GitHub Team: 4 miembros x 4€/miembro/mes = 16€/mes
+
+Además del coste de GitHub Team, sumamos el del despliegue en AppEngine, del
 cual asumimos que trabajaría 12 horas al día, redondeando a unos 18€ al mes.
 ![](/img/appenginecosts.png)
+- AppEngine: 18€/mes
 
-Con PythonAnywhere, escogemos el plan Hacker, de 5€ al mes.
-
-1208 Costes de oficinas
-18 Costes de AppEngine
-
-Total: **1,226€/mes**
+- Con PythonAnywhere, escogemos el plan Hacker, de 5€ al mes.
 
 Sin embargo, el tamaño creciente de la aplicación influye en su despliegue en PythonAnywhere. Suponiendo que cada gimnasio hace alrededor de 150 peticiones,
 debemos de cambiar de planes al llegar a los 20 gimnasios, en cuyo caso se pasaría al plan Web Dev, de 12€/mes, y al llegar a los 30, se deberá pasar
 al plan de 99€/mes.
 
+Total: **39€/mes**
+
+
 ### Costes de marketing
 
-Vamos a contar con unos 20,000€ para realizar la campaña de marketing.
+Vamos a contar con unos 20.000€ para realizar la campaña de marketing.
 
-Para los primeros 2 meses vamos a destinar 5000€ en anuncios en instagram
+Para los primeros 2 meses vamos a destinar 5.000€ en anuncios en instagram
 para generar interés entre el público joven y los empresarios.
 Asumniendo que el CPM (Coste por mil impresiones) es de
 [5€](https://www.adrenalina.es/precio-publicidad-instagram-ads/) podemos generar
-1,000,000 de impresiones.
+1.000.000 de impresiones.
 
-A medio plazo y largo plazo vamos a invertir 10,000€ en crear contenido en nuestras
+A medio plazo y largo plazo vamos a invertir 10.000€ en crear contenido en nuestras
 redes sociales (X, Instagram y Youtube), por lo que reservamos un dinero para el coste de materiales
 licencias y editores de video. Queremos generar marca personal y que el usuario
 no solo se identifique con el producto, sino que tambien con el equipo detrás de
 MuscleMate.
 
-Con los 5000€ restantes vamos a contratar una empresa que se encarge de la dirección
+Con los 5.000€ restantes vamos a contratar una empresa que se encarge de la dirección
 del arte, el logotipo y el sistema de diseño de la empresa. Para que nuestros clientes
 se sientan cómodos con la marca y retengamos a la mayor parte de nuestros usuarios por
 la estética y el prestigio de la marca.
 
 La amortización mensual de los costes de marketing es:
 
-Total: 20,000€ / (24 - 4 meses de desarrollo) = 1,000€/mes
+Total: 20.000€ / 20 = 1.000€/mes
 
 ### Costes totales
 
 Con todo, obtenemos que el coste total de operación mensual inicialmente es:
 
-- 4000€ Costes de personal
-- 1000€ Costes de marketing
-- 1,226€ Costes de infraestructura
+- 4.000€ Costes de personal
+- 1.000€ Costes de marketing
+- 1.208€ Costes de infraestructura
+- 39€ Licencias Software
 
-Total: **6,226 €/mes**
+Total: **6.247€/mes**
 
 ## Evolución a lo largo del tiempo
 
@@ -222,11 +231,11 @@ Para ver los beneficios y costes de la aplicación a largo plazo, tenemos en cue
   - Pesimista: Los costes mensuales son un 20% más altos que los esperados.
   - Hay que tener en cuenta que se sumarán los costes iniciales de desarrollo del proyecto.
 - Para los beneficios, asumiremos los siguientes 3 casos:
-  - Optimista: Cada mes, se suscriben al plan estándar 10 gimnasios y 4 al plan Prémium.
-  - Esperado: Cada mes, se suscriben al plan estándar 5 gimnasios y 2 al plan Prémium.
-  - Pesimista: Cada mes, se suscriben al plan estándar 3 gimnasios y 1 al plan Prémium.
+  - Optimista: Cada mes, se suscriben al plan estándar 10 gimnasios y 4 al plan Prémium y abandonan la suscripción un 1% de los gimnasios suscritos.
+  - Esperado: Cada mes, se suscriben al plan estándar 5 gimnasios y 2 al plan Prémium y abandonan la suscripción un 2% de los gimnasios suscritos.
+  - Pesimista: Cada mes, se suscriben al plan estándar 3 gimnasios y 1 al plan Prémium y y abandonan la suscripción un 4% de los gimnasios suscritos.
 
-Tenemos en cuenta que el plan estándar cuesta 97.99€ y el Prémium 109.99€ al mes.
+Tenemos en cuenta que el plan estándar cuesta 97,99€ y el Prémium 109,99€ al mes.
 
 Realizando un estudio de 24 meses, obtenemos los siguientes datos, teniendo en cuenta los beneficios y gastos en cada mes:
 
@@ -235,3 +244,6 @@ Realizando un estudio de 24 meses, obtenemos los siguientes datos, teniendo en c
 ![](/img/beneficios-vs-costes-medio.png)
 
 ![](/img/beneficios-vs-costes-largo.png)
+
+* Se estima que el número de gimnasios que ingresarían y el número de gimnasios que abandonarían la suscripción se equilibraría a los 98 meses (unos 8 años) y el crecimiento ya no sería creciente y se estancaría en 301 suscripciones, siendo un 71,42% de ellas "Estándar" (215 suscripciones)y el 28,58% "Prémium" (86 suscripciones).
+Obteniendo así unas ganancias estables de 30.527€ al mes en bruto (sin tener en cuenta los costes). Todo esto está calculado para los beneficios esperados.

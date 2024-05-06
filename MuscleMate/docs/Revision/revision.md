@@ -11,7 +11,8 @@ sidebar_position: 3
 | ------- | ---------- | -------------- | --------------------------------------------------------- |
 | v1.0    | 2024-04-22 | Angel Muñoz    | Creación del documento                                    |
 | v1.1    | 2024-04-22 | Alejandro Sosa | Adición de datos pedidos en la Software Review Guidelines |
-| v1.2    | 2024-05-05 | David Dana     | Mejora del documento                                      |
+| v1.2    | 2024-05-06 | Alejandro Sosa | Eliminación completa de contraseñas (se enviarán aparte)  |
+| v1.3    | 2024-05-06 | David Dana     | Mejora del documento                                      |
 
 # Despliegue del Docusaurus para el acceso a la documentación
 
@@ -34,19 +35,18 @@ Para probar la aplicación se tienen los siguientes enlaces al despliegue:
 
 Respecto a la tracking tool, la usada es Clockify y ya se proporcionó al profesorado las credenciales para acceder y se le invitó para ver el estado. Respecto a la demo se encuentra en la carpeta Demos en Other Evaluable Docs.
 
-Aunque se puede registrar como se verá más adelante; se recomienda probar las funcionalidades con las siguientes credenciales para ver datos ya creados y comprobar de manera más cómoda:
+Aunque se puede registrar como se verá más adelante; se recomienda probar las funcionalidades con los siguientes usuarios para ver datos ya creados y comprobar de manera más cómoda:
 
-- Credenciales de Cliente:
-  - pabmoreno, musclemate123  (inscrito en el gimnasio MasMusculoFit Sevilla MMFit Gym el cual tiene suscripción estándar)
-  - carliberal, musclemate123 (inscrito en el gimnasio McFIT Sevilla Palacio de Congresos el cual tiene suscripción premium)
+- Usuarios Cliente:
+  - pabmoreno  (inscrito en el gimnasio MasMusculoFit Sevilla MMFit Gym el cual tiene suscripción estándar)
+  - carliberal (inscrito en el gimnasio McFIT Sevilla Palacio de Congresos el cual tiene suscripción premium)
 
-- Credenciales de Dueño:
-  - aaromo, musclemate123     (dueño del gimnasio McFIT Sevilla Palacio de Congresos el cual tiene suscripción premium
+- Uusuarios Dueño:
+  - aaromo     (dueño del gimnasio McFIT Sevilla Palacio de Congresos el cual tiene suscripción premium
                               y del gimnasio MasMusculoFit Sevilla MMFit Gym el cual tiene suscripción estándar)
-  - raquitori, musclemate123  (dueño del gimnasio Synergym Sevilla Nervión el cual tiene suscripción estándar)
+  - raquitori  (dueño del gimnasio Synergym Sevilla Nervión el cual tiene suscripción estándar)
 
-- Credenciales de Administrador (backend):
-  - ... (Indicadas de manera separada en la entrega por motivos de seguridad)
+Todas las credenciales serán enviadas por mensaje a el profesor por motivos de seguridad.
 
 Cuando trate de suscribirse como dueño de gimnasio a un plan, en la pasarela de pago introduzca de numero de tarjeta "4242 4242 4242 4242", pudiendo inventarse el resto de datos.
 
