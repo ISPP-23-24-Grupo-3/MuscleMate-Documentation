@@ -7,8 +7,8 @@ sidebar_position: 4
 ![MUSCLEMATE](logo.png)
 
 ## Musclemate, Grupo 3, Sprint 3
-##  Historial de Versiones
 
+## Historial de Versiones
 
 | Versión | Fecha      | Autor                 | Descripción                          |
 | ------- | ---------- | --------------------- | ------------------------------------ |
@@ -18,24 +18,24 @@ sidebar_position: 4
 
 ## 1. Agreed Individual Performance Evaluation
 
-| Student                      | #DP1    | #S1     | #S2       | #S3       | #PPL | #WPL | Total | Weight |
-| ---------------------------- | ------- | ------- | --------- | --------- | ---- | ---- | ----- | ------ |
-| González Marcos, Pedro       | 10      | 10      | 8.84      |  8.1      |      |      | 36.94 | 1      |
-| Del Hoyo Carboso, David      | 10      | 10      | 10        |  10       |      |      | 40    | 1      |
-| Zarandieta Ortiz, David      | 10      | 10      | 10        |  10       |      |      | 40    | 1      |
-| Sosa Corral, Alejandro       | 10      | 10      | 10        |  10       |      |      | 40    | 1      |
-| Tomás Vela, Elena            | 10      | 10      | 10        |  10       |      |      | 40    | 1      |
-| Martín Hernández, Juan Jesús | 10      | 10      | 8.76      |  10       |      |      | 38.76 | 1      |
-| Romero Limón, Jorge          | 10      | 10      | 10        |  10       |      |      | 40    | 1      |
-| Dana Cabello, David          | 10      | 10      | 10        |  10       |      |      | 40    | 1      |
-| Muñoz Prieto, Ángel          | 10      | 10      | 10        |  10       |      |      | 40    | 1      |
-| Moreno Pérez, Juan Carlos    | 10      | 10      | 7         |  8        |      |      | 35    | 1      |
-| Ortega García, Manuel        | 10      | 10      | 10        |  10       |      |      | 40    | 1      |
-| Devós Bono, Agustín          | 10      | 10      | 10        |  10       |      |      | 40    | 1      |
-| Mateo Capilla, Alejandro     | 10      | 10      | 10        |  10       |      |      | 40    | 1      |
-| Garcia Parras, Luis          | 10      | 10      | 7.3       |  10       |      |      | 37.3  | 1      |
-| Vázquez Martín, Manuel       | 10      | 10      | 10        |  10       |      |      | 40    | 1      |
-| **Total**                    | **150** | **150** | **141.9** | **146.1** |      |      |       |        |
+| Student                      | #DP1    | #S1     | #S2       | #S3       | #PPL    | #WPL | Total | Weight |
+| ---------------------------- | ------- | ------- | --------- | --------- | ------- | ---- | ----- | ------ |
+| González Marcos, Pedro       | 10      | 10      | 8.84      | 8.1       | 10      |      | 46.94 | 1      |
+| Del Hoyo Carboso, David      | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
+| Zarandieta Ortiz, David      | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
+| Sosa Corral, Alejandro       | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
+| Tomás Vela, Elena            | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
+| Martín Hernández, Juan Jesús | 10      | 10      | 8.76      | 10        | 10      |      | 48.76 | 1      |
+| Romero Limón, Jorge          | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
+| Dana Cabello, David          | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
+| Muñoz Prieto, Ángel          | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
+| Moreno Pérez, Juan Carlos    | 10      | 10      | 7         | 8         | 10      |      | 45    | 1      |
+| Ortega García, Manuel        | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
+| Devós Bono, Agustín          | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
+| Mateo Capilla, Alejandro     | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
+| Garcia Parras, Luis          | 10      | 10      | 7.3       | 10        | 10      |      | 47.3  | 1      |
+| Vázquez Martín, Manuel       | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
+| **Total**                    | **150** | **150** | **141.9** | **146.1** | **150** |      |       |        |
 
 ## 2. Individual Contribution Summary
 
@@ -489,6 +489,7 @@ Vázquez Martín, Manuel:
 ### Sprint 3 (S3)
 
 #### Martín Hernández, Juan Jesús
+
 - Añadir feedback a la base de conocimiento general
 - Actualizar retrospectiva
 - Gestión feedback usuarios pilotos
@@ -497,6 +498,7 @@ Vázquez Martín, Manuel:
 - Calcular rendimiento de los miembros del equipo
 
 #### Dana Cabello, David
+
 - Pilotaje Grupo 9
 - Implementado feedback sprint 2 de Rutinas
 - Implementado feedback sprint 2 de Workout
@@ -508,14 +510,16 @@ Vázquez Martín, Manuel:
 - Despliegue del frontend
 
 #### García Parras, Luis
+
 - Realizacion de la documentación de problemas encontrados
-- Revision de la estructura de todos los documentos 
+- Revision de la estructura de todos los documentos
 - Realizacion de la situacion del proyecto
 - Asignar puntos de historias a las issues
 - Realizacion del pilotaje al grupo 9
 - Calcular rendimiento de los miembros del equipo
 
 #### Muñoz Prieto, Ángel
+
 - Pilotaje Grupo 9 #180
 - Actualizar Plan de Gestión de Usuarios Piloto #90
 - Report of User Pilots #132
@@ -524,11 +528,13 @@ Vázquez Martín, Manuel:
 - Crear Formularios de Usuarios Pilotos Semana 9 #103
 
 #### Moreno Perez, Juan Carlos
+
 - Definir y redactar acuerdo SLA
 - Actualizar costes en el TCO
 - Probar la aplicación y reportar errores
 
 #### Ortega García, Manuel
+
 - Funciones de coordinador
 - Creación de presentaciones
 - Creación de Anuncios
@@ -538,6 +544,7 @@ Vázquez Martín, Manuel:
 - Creación de documentación
 
 #### Mateo Capilla, Alejandro
+
 - Feedback Sprint 2: Ticket #156
 - Feedback Sprint 2: Perfil #157
 - Feedback Sprint 2: Registros #163
@@ -554,12 +561,14 @@ Vázquez Martín, Manuel:
 - Pilotaje Grupo 9 #140
 
 #### Elena Tomás Vela
+
 - Adaptación de la interfaz para móvil
 - Arreglos de validación en formularios
 - Arreglos en filtrados en la interfaz
 - Rediseño de componentes en la interfaz
 
 #### Vázquez Martín, Manuel
+
 - Recopilación feedback en clase
 - Pilotaje Grupo 9
 - Implementación de las gráficas en el backend
@@ -567,12 +576,14 @@ Vázquez Martín, Manuel:
 - Arreglo de bugs en backend
 
 #### Del Hoyo Carcaboso, David
+
 - Mejoras de rendimiento y componetización
 - Actualizar interfaz de planes de suscripción
 - Conseguir el tipo de plan contratado por el owner
 - Arreglo de errores de autentificación
 
 #### Romero Limón, Jorge
+
 - Implementación Gráficas de progreso de usuario
 - Implementación gráficas de uso de máquinas para propietarios
 - Replanificación Sprint 3 y PPL
@@ -583,6 +594,7 @@ Vázquez Martín, Manuel:
 - Pilotaje Grupo 9
 
 #### Sosa Corral, Alejandro
+
 - Implementación de todas las vistas para el usuario tipo gimnasio
 - Aplicación de restricciones según plan de suscripción de el gimnasio
 - Revisión y complementado de las Software Review Guidelines
@@ -590,6 +602,7 @@ Vázquez Martín, Manuel:
 - Mantenimiento de la documentación de la API
 
 #### Devós Bono, Agustín
+
 - Funcionalidad reserva de clases
 - Crud clases para usuario Owner
 - Pilotaje grupo 9
@@ -601,6 +614,7 @@ Vázquez Martín, Manuel:
 - Realizar presentación
 
 #### Zarandieta Ortiz, David
+
 - Tareas de backend feedback
 - Coordinación de Backend
 - Cálculo de rendimiento
@@ -610,8 +624,140 @@ Vázquez Martín, Manuel:
 - Puntuación tareas backend
 
 #### González Marcos, Pedro
+
 - Plan de pruebas para el final del WPL
 - Funciones de coordinación
 - Actualizar el TCO
 - Formulario de olvido cumpliendo la GDPR
 - Replanificación de los requisitos
+
+### PPL
+
+#### Martín Hernández, Juan Jesús
+
+- Añadir feedback a la base de conocimiento general
+- Añadir feedback al documento de Musclemate
+- Gestión feedback usuarios pilotos
+- Asignar puntos de historias a las issues
+- Reuniones recursivas con los diferentes usuarios pilotos
+- Caracterización de audiencia
+
+#### Moreno Perez, Juan Carlos
+
+- Reorganización de equipos en la presentación. Apartados 2,3,4 de la presentación.
+- Revisión y reporte de mejoras de la documentación con los comentarios del Sprint 2.
+- Planning de contenido One Week Social Media Plan
+- Encargado de revisar las Failure Conditions y revisión de documentos a entregar.
+
+#### García Parras, Luis
+
+- Realización de anuncio semana 11
+- Realización de anuncio semana 12
+- Realización de la caracterización de audiencia
+- Asignación de puntos de historia
+- Realización PPT
+
+#### Muñoz Prieto, Ángel
+
+- Actualización de pilots.md
+- Actualización de InformationProvidedByPilotUsers.md y PilotUserEvaluationPerformance.mdx
+- Crear contenido para RRSS de MuscleMate (Instagram)
+- Crear plan de contenido rrss de MuscleMate
+- Planificar campaña de lanzamiento de MuscleMate
+- Redactar objetivos de Community Management
+
+#### Vázquez Martín, Manuel
+
+- Poblado de imágenes en base de datos.
+- Tareas del backend del feedback de los usuarios pilotos.
+- Reporte de la IA, actualizando ia-usage.md.
+- Ayuda con la presentación.
+- Recopilación de feedback en las clases.
+
+#### Mateo Capilla, Alejandro:
+
+- Planificar campaña de lanzamiento de MuscleMate #167
+- Mejorar el anuncio, con usos core
+- Ayuda en las tareas de frontend de feedback de sugerencias de usuarios pilotos
+- Ayuda con la presentación
+
+#### Tomás Vela, Elena:
+
+- Añadir imágenes a máquinas en front-end y back-end
+- Creación de diapositivas de promoción
+- Optimización de SEO
+
+#### González Marcos, Pedro
+
+- Realizar tareas de gestión (asignar tareas, actualizar clockify)
+- Realizar guión del anuncio de inversores
+- Actualizar TCO
+- Realizar segmentación de usuarios
+
+#### Devós Bono, Agustín
+
+- Mejorar home page.
+- Implementar edición de las incidencias.
+- Integrar imágenes en el Frontend.
+- Implementar cambios requeridos por usuarios pilotos Frontend.
+- Arreglo de fallos Full-Stack.
+- Desplegar backend de la aplicación.
+- Desplegar frontend de la aplicación.
+- Realizar presentación.
+
+#### Sosa Corral, Alejandro
+
+- Creación y edición de anuncio de inversores
+- Grabación y edición de demostración
+- Gestión de credenciales
+- Actualización de report.md
+- Revisión de documentos
+
+#### Romero Limón, Jorge
+
+- Presentador
+- Creador de Presentaciones
+- Gestión de Redes Sociales
+- Elaboración plan de contenido de redes sociales
+- Elaborar objetivos de community management
+- Arreglo de interfaz de usuario (cliente)
+- Arreglos de feedback
+
+#### Dana Cabello, David
+
+- Actualizar y mejorar documento de revisión
+- Preparar y realizar despliegue en frontend
+- Corrección y revisión de diversos documentos
+- Revisar y ayudar en la presentación
+- Zarandieta Ortiz, David:
+- Actualización del TCO.
+- Información y documentación de anuncio de inversores.
+- Puntuación de tareas.
+- Crear tag release.
+
+#### Zarandieta Ortiz, David
+
+- Actualización del TCO.
+- Información y documentación de anuncio de inversores.
+- Puntuación de tareas.
+- Crear tag release
+
+### Del Hoyo Carcaboso, David
+
+- Desarrollo de oferta para inversores.
+- Arreglo de fallos de suscripciones
+- Implementación de prueba gratuita para los planes
+- Arreglo de UI en formato móvil.
+- Ayuda al implementar imágenes en tickets y estilos
+- Puntuación de tareas.
+
+#### Ortega García, Manuel:
+
+- Funciones de coordinador.
+- Creación de presentaciones.
+- Creación de Anuncios.
+- Creación de Demos.
+- Preparación del elevator pitch.
+- Creación de killer openers
+- Confirmación de contraseña en dos módulos.
+- Creación de documentación.
