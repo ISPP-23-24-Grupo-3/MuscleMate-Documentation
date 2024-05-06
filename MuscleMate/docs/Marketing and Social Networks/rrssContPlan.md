@@ -4,7 +4,7 @@ sidebar_position: 3
 ---
 ![MUSCLEMATE](logo.png)
 
-### Musclemate, Grupo 3, Sprint 3
+### Musclemate, Grupo 3, PPL
 
 | Versión | Fecha      | Autor         | Descripción            |
 | ------- | ---------- | -----         | ---------------------- |
