@@ -742,7 +742,7 @@ Vázquez Martín, Manuel:
 - Puntuación de tareas.
 - Crear tag release
 
-### Del Hoyo Carcaboso, David
+#### Del Hoyo Carcaboso, David
 
 - Desarrollo de oferta para inversores.
 - Arreglo de fallos de suscripciones
