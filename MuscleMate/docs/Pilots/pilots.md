@@ -4,7 +4,7 @@ sidebar_position: 3
 ---
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3, Sprint 3
+## Musclemate, Grupo 3, PPL
 ##  Historial de Versiones
 | Versión | Fecha       | Autor      | Descripción                            |
 |---------|-------------|------------|----------------------------------------|
@@ -18,6 +18,7 @@ sidebar_position: 3
 | v1.7    | 2024-04-22 | Ángel Muñoz Prieto    |Actualización del documento para el S3|
 | v1.8    | 2024-05-05 | Ángel Muñoz Prieto    |Actualización del documento para el PPL|
 | v1.9    | 2024-05-06 | Ángel Muñoz Prieto    |Actualización del documento para el PPL|
+| v1.10    | 2024-05-06 | Alejandro Sosa Corral    |Cambiado "Sprint 3" por "PPL"|
 
 
 # Información sobre los Usuarios Piloto del grupo MuscleMate

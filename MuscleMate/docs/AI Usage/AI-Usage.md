@@ -5,7 +5,7 @@ title: AI Usage
 
 ![](Aspose.Words.94545702-886f-425f-bc92-64f408f5ea6d.001.png)
 
-## Musclemate, Grupo 3, Sprint 3
+## Musclemate, Grupo 3, PPL
 ##  Historial de Versiones
 | Versión | Fecha      | Autor                   | Descripción                |
 | ------- | ---------- | ----------------------- | -------------------------- |
@@ -15,7 +15,7 @@ title: AI Usage
 |v4.0|2024-04-22|Manuel Vázquez Martínn |Modificación del documento|
 |v5.0|2024-05-04|Manuel Vázquez Martínn |Modificación del documento|
 |v5.1|2024-05-06|Manuel Vázquez Martínn |Modificación del documento|
-
+|v5.2|2024-05-06|Alejandro Sosa Corral |Cambiado "Sprint 3" por "PPL"|
 
 
  # 1. Introducción
