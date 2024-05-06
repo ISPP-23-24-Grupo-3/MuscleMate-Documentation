@@ -2,18 +2,19 @@
 title: Social Network Management
 sidebar_position: 3
 ---
+
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3, Sprint 3
+## Musclemate, Grupo 3, PPL
 
-| Versión | Fecha      | Autor | Descripción            |
-| ------- | ---------- | ----- | ---------------------- |
-| v1.0    | 2024-22-04 | Angel Muñoz   | Creación del documento |
-| v2.0    | 2024-05-05 | Angel Muñoz   | Actualización del documento |
+| Versión | Fecha      | Autor       | Descripción                 |
+| ------- | ---------- | ----------- | --------------------------- |
+| v1.0    | 2024-22-04 | Angel Muñoz | Creación del documento      |
+| v2.0    | 2024-05-05 | Angel Muñoz | Actualización del documento |
 
 # Planificación de Redes Sociales de Musclemate
 
-A continuación se detalla la planificación para redes sociales desarrollada por el equipo de MuscleMate. 
+A continuación se detalla la planificación para redes sociales desarrollada por el equipo de MuscleMate.
 Para impulsar el proyecto se han seleccionado las redes de Twitter e Instagram, ya que son las que tiene un mayor impacto en el rango de edades que predomina en los gimnasios.
 
 ## Paso 1: Establecer objetivos claros
@@ -94,13 +95,12 @@ Realizar ajustes según las tendencias del mercado y el feedback de la audiencia
 
 Llegado el caso se podría plantear el aumentar el número de redes sociales añadiendo por ejemplo, TikTok.
 
-
 ## Responsables de Publicaciones en Redes Sociales
 
 Los miembros del equipo con cargo de Community Manager son aquellos encargados de publicar el contenido de acuerdo al plan sobre esto en las redes.
 
 ## Objetivos de Impresiones
 
-MuscleMate no tiene un número fijo de impresiones que considere objetivo. 
+MuscleMate no tiene un número fijo de impresiones que considere objetivo.
 La meta siempre es llegar al máximo número de personas posibles mediante distintas funciones de las redes (como hilos en Twitter o reels en Instagram), y tratar de con cada publicación alcanzar más público que con la anterior.
 Sin embargo, dado el creciente número de seguidores en MuscleMate de una entrega a la otra (de 46 a 102) se espera continuar aumentando en una medida similar para el entregable final.

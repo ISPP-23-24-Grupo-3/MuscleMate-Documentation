@@ -88,6 +88,11 @@ En esta imagen podemos ver un ranking de franquicias de gimnasios según el núm
 
 ![Ranking de abonados](ranking-franquiciados-abonados-2022.png)
 
+## Segmentación geográfica
+
+Vamos a empezar con los gimnasios de la provincia de Sevilla. Si llegamos a tener una buena
+tracción en el mercado consideraremos una expansión nacional en otras provincias.
+
 ## Segmentación psicográfica
 
 Viendo los testimonios de los casos de éxito de VirtuaGym se ha hecho un análisis de los intereses
