@@ -13,6 +13,7 @@ title: AI Usage
 | v2.0    | 2024-03-04 | Manuel Vázquez Martín | Modificación del documento |
 |v3.0|2024-04-06|Manuel Vázquez Martín |Modificación del documento|
 |v4.0|2024-04-22|Manuel Vázquez Martínn |Modificación del documento|
+|v5.0|2024-05-04|Manuel Vázquez Martínn |Modificación del documento|
 
 
  # 1. Introducción
@@ -21,12 +22,13 @@ En este documento se encuentran las normas, gestión y procedimientos relacionad
  # 2. Gestión de los Prompt
 En primer lugar, vamos a definir el concepto de *Prompt*, que es una instrucción o texto inicial que se le proporciona a una herramienta de inteligencia artificial generativa para guiar su generación de respuestas.
 
-En segundo lugar, para llevar a cabo el proceso de almacenamiento de los prompt, textos generados, etc., se han creado 4 categorías en la sección de *Discussions* en el repositorio de GitHub de *MuscleMate-Documentation*. Estas categorías son las siguientes:
+En segundo lugar, para llevar a cabo el proceso de almacenamiento de los prompt, textos generados, etc., se han creado 5 categorías en la sección de *Discussions* en el repositorio de GitHub de *MuscleMate-Documentation*. Estas categorías son las siguientes:
 
 - Prompt Backend.
 - Prompt Documentación.
 - Prompt Frontend.
 - Prompt Presentación.
+- Prompt Marketing.
 
 Donde el registro del prompt se realizará en una de estas categorías correspondientes, por el miembro que haya utilizado IA, añadiendo el objetivo que se quería llegar con el prompt, la respuesta generada y el tiempo que se ha tardado en conseguir la respuesta y el tiempo que se hubiera tardado sin usar inteligencia artificial.
 
