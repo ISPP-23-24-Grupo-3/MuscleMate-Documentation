@@ -4,7 +4,7 @@ title: Market Analysis
 
 ![MUSCLEMATE](logo.png)
 
-### Musclemate, Grupo 3, PPL
+### Musclemate, Grupo 3, P  WPL
 
 | Versión | Fecha      | Autor                 | Descripción            |
 | ------- | ---------- | --------------------- | ---------------------- |
