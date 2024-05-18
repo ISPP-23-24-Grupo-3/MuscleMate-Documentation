@@ -7,9 +7,10 @@ sidebar_position: 3
 
 ## Musclemate, Grupo 3, PPL
 
-| Versión | Fecha      | Autor       | Descripción            |
-| ------- | ---------- | ----------- | ---------------------- |
-| v1.0    | 2024-22-04 | Angel Muñoz | Creación del documento |
+| Versión | Fecha      | Autor            | Descripción                  |
+| ------- | ---------- | -----------      | ----------------------       |
+| v1.0    | 2024-22-04 | Angel Muñoz      | Creación del documento       |
+| v2.0    | 2024-18-05 | David Zarandieta | Adición Gimnasios Fundadores |
 
 A continuación se detalla el plan de marketing para MuscleMate
 
@@ -200,12 +201,23 @@ con el objetivo de que se viralice y nos dé a conocer, crearemos una comunidad 
 de los usuarios de nuestra app a través de la cual enviaremos recomendaciones sobre el
 fitness y la salud, realizaremos diferentes colaboraciones con gimnasios, sorteos…
 
+**5.Prelanzamiento con incentivos.** realizaremos una campaña de prelanzamiento, la cual centraremos 
+en nuestro concepto **Founder Gym**. Los gimnasios obtendrán este estatus si acceden a la lista 
+pre-release antes de que finalice la campaña de lanzamiento. La lista pre-release es una lista donde los 
+gimnasios podrán inscribirse para acceder los primeros a nuestros servicios una vez se inicie la fase de lanzamiento.
+¿Qué ventajas tendrá un **Founder Gym**? Todo gimnasio que obtenga este estatus podrá gozar de un 15% de descuento
+mensual de por vida en cualquiera de los dos planes que ofrecemos, además obtendrá acceso a nuevas funcionalidades 
+beta antes que el resto de gimnasios.Serán considerados parte de la familia MuscleMate y es por eso que podrán tener 
+un papel en el desarrollo de la aplicación, al tener acceso a funcionalidades beta podrá proporcionarnos un feedback 
+personal sobre la nueva funcionalidad.
+
+
 ## Plan de acción y evaluación y control de resutados
 
 La idea es realizar una fase de pre lanzamiento (la cual podría durar 1/2 meses).
-Durante esta fase, el objetivo principal será dar a conocer nuestra app, e introducirnos
-en RRSS. Además, semanalmente desvelaríamos detalles sobre nuestra app con el objetivo de
-crear “hype” entre nuestros futuros usuarios.
+Durante esta fase, el objetivo principal será dar a conocer nuestra app, introducirnos
+en RRSS y promover las ventajas de los **Founder Gym**. Además, semanalmente desvelaríamos detalles sobre nuestra app con el objetivo de
+crear “hype” entre nuestros futuros usuarios. La segunda semana se anunciará la existencia y ventajas del estatus **Founder Gym** contribuyendo al aumento del “hype”. Tras dos semanas de promoción, en la semana 4 se lanzará la lista pre-release con una capacidad para 25 gimansios, nuestros 25 gimansios fundadores. En caso de que las solicitudes por entrar en la lista pre-release sea superior a la esperada se planteará una segunda lista con el estatus **Starter Gym** con menores descuentos y ventajas a los del **Founder Gym**.
 
 Una vez finalizada la fase de pre lanzamiento, entraríamos en la fase de lanzamiento.
 En esta fase, la app estaría disponible en las plataformas de descarga (app store y Google play)
