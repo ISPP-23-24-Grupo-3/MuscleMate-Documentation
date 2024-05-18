@@ -45,3 +45,10 @@ En este documento vamos a exponer varios datos claves que hemos obtenido a la ho
 ## Oportunidades de Inversión
 - Crecimiento de la demanda de personalización y servicios online: La adopción de modelos híbridos y personalizados está en aumento, con una fuerte demanda de aplicaciones y plataformas de fitness digital
 - Segmentos emergentes: Los millennials y Gen Z representan segmentos clave con una alta disposición a invertir en bienestar y fitness, tanto en estudios boutique como en soluciones digitales
+
+
+## Referencias a la información
+https://contentbase.com/blog/fitness-market
+https://www.mordorintelligence.com/industry-reports/health-and-fitness-club-market
+https://upmetrics.co/blog/fitness-industry-statistics
+https://www.wellnesscreatives.com/fitness-industry-statistics-growth/
