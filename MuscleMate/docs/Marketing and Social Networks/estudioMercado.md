@@ -48,7 +48,10 @@ En este documento vamos a exponer varios datos claves que hemos obtenido a la ho
 
 
 ## Referencias a la información
-https://contentbase.com/blog/fitness-market
-https://www.mordorintelligence.com/industry-reports/health-and-fitness-club-market
-https://upmetrics.co/blog/fitness-industry-statistics
-https://www.wellnesscreatives.com/fitness-industry-statistics-growth/
+- https://contentbase.com/blog/fitness-market
+- https://www.mordorintelligence.com/industry-reports/health-and-fitness-club-market
+- https://upmetrics.co/blog/fitness-industry-statistics
+- https://www.wellnesscreatives.com/fitness-industry-statistics-growth/
+- https://runrepeat.com/fitness-industry
+- https://www.exercise.com/grow/gym-membership-statistics/#top-gym-membership-statistics
+- https://runrepeat.com/gym-industry-statistics
