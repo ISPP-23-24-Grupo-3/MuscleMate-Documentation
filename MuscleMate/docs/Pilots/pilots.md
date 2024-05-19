@@ -19,6 +19,7 @@ sidebar_position: 3
 | v1.8    | 2024-05-05 | Ángel Muñoz Prieto    |Actualización del documento para el PPL|
 | v1.9    | 2024-05-06 | Ángel Muñoz Prieto    |Actualización del documento para el PPL|
 | v1.10    | 2024-05-06 | Alejandro Sosa Corral    |Cambiado "Sprint 3" por "PPL"|
+| v2.0    | 2024-05-20 | Angel Muñoz Prieto   |Adición de Información Relacionada con el WPL|
 
 
 # Información sobre los Usuarios Piloto del grupo MuscleMate
@@ -37,11 +38,12 @@ En la fase de preparación para el lanzamiento del proyecto no se ha realizado n
 
 ### Plan de Usuarios Piloto
 
-
+En esta última entrega de la asignatura se ha realizado un despliegue final a los usuarios piloto, con todo el avance hasta ahora y una aplicación ya terminada. El objetivo de esta entrega era terminar de solucionar últimos detalles y perfeccionar al máximo la aplicación de cara al lanzamiento de esta.
 
 ### Proceso de Gestión del Feedback
 
-
+Al igual que siempre, el proceso de la gestión del feedback partía de entregar a los usuarios piloto la URL del despliegue y un formulario en Excel con los casos de prueba a probar.
+Más tarde estos resultados se recogerían en este documento y a partir de el se crearían las issues pertinentes en GitHub.
 
 ### Feedback Recibido
 
@@ -97,19 +99,44 @@ En la fase de preparación para el lanzamiento del proyecto no se ha realizado n
 
 ### Acciones Derivadas
 
+* **Feedback WPL : Eventos**
+* **Feedback WPL : Registro**
+* **Feedback WPL : Máquinas**
+* **Feedback WPL : Extras**
+* **Feedback WPL : Usuario**
+*  **Feedback WPL : Suscripciones**
+* **Feedback WPL : Incidencias**
 
 ### Priorización del Feedback
 
+Para priorizar este feedback se ha dividido las tareas en 3 categorías:
+
+**Primera Necesidad**: Actividades relacionadas directamente con la sesión del usuario y sus funciones:
+        - Feedback WPL : Registro
+        - Feedback WPL : Suscripciones
+
+
+**Arreglos Menores**: Actividades relacionadas con las funcionalidades que no estan actuando como deberían:
+        - Feedback WPL : Máquinas
+        - Feedback WPL : Eventos
+        - Feedback WPL : Usuario
+        - Feedback WPL : Incidencias
+
+        
+**Sugerencias**: No son fallos realmente de la aplicaciones, sino sugerencias por parte de los pilotos para mejorar la experiencia:
+        - Feedback WPL : Extras
 
 ### Estado Actual de los Usuarios Piloto
 
-
+Se mantiene contacto con ellos y con gusto han participado en esta última entrega de la asignatura y probado la versión definitiva de MuscleMate
 
 ### Estado de Commitment Agreement con usuarios piloto grupo 9
 
-
+El acuerdo con los usuarios piloto del grupo 9 no ha sufrido ningun cambio durante esta entrega.
 
 ### Estado de Commitment Agreement con personas ajenas a la asignatura
+
+El acuerdo con los usuarios piloto ajenos a la asignatura no ha sufrido ningun cambio durante esta entrega.
 
 ## Gestión de Usuarios Piloto Preparing Project Launch
 
