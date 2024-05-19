@@ -33,6 +33,84 @@ Durante el Sprint 3 se mantuvo el número de usuarios piloto y se obtuvo feedbac
 
 En la fase de preparación para el lanzamiento del proyecto no se ha realizado ninguna entrega a los usuarios piloto ya que el equipo se ha centrado en el marketing, las redes sociales y en el feedback proporcionado mediante estas, prefiriendo dejar todo listo para en la siguiente entrega, el WPL, tener ya una versión de la aplicación definitiva a entregar a los pilotos.
 
+## Gestión de Usuarios Piloto World Project Launch
+
+### Plan de Usuarios Piloto
+
+
+
+### Proceso de Gestión del Feedback
+
+
+
+### Feedback Recibido
+
+#### Contacto Usuarios Pilotos ajenos a la asignatura
+
+- **David Carrizosa Mateos** : david220399@gmail.com
+- **Jose María Leal Sarmiento** : jmlealsarm03@gmail.com
+- **Manuel Luis Torres** : manuelu1878@gmail.com
+- **Francisco Javier Leal Ojeda** : lealfj1@gmail.com
+- **José Miguel Olivares Leal** : josemiol10@gmail.com
+- **María del Carmen Fernández González** : marifernandez110899@gmail.com
+- **Javier Pardo** : javipardo2001@gmail.com
+- **Vicente Martínez** : tocasport@gmail.com
+- **José Manuel Almansa Vergara** : chemaaav4@gmail.com
+- **Manuel Morgollón**: manmormor9@alum.us.es
+- **Victor Vázquez**: vazquezvazquezvictor21@gmail.com
+- **Martín Romero**: martinromero33@gmail.com
+- **Pablo Moreno**: pablomorenorromanos17@gmail.com
+- **Carlos Liberal**: cliberalbejarano@gmail.com
+- **Pablo Miranda**: pabmirgar@alum.us.es
+
+#### Usuarios Piloto del Grupo 9
+
+**Registro**: Puedes meter en nombre y apellidos números. La contraseña muy poco segura, añadir más restricciones. Añadir un ojo para ver la contraseña introducida.
+
+**Eventos**: Si se ponen más asistentes que aforo falla, pero no muestra ningun error. Faltan errores. Al eliminarlo se recomienda meter una carga o redirección a la lista. Estaría bien poder buscar un evento por fecha. Se puede crear eventos en el pasado.
+
+**Incidencias**: Al añadir una imagen alguna vez se añaden a otras en lugar de a la correcta. No son editables. Al cambiar el estado se borra la respuesta.
+
+**Gimnasio**: No son editables.
+
+**Suscripciones**: Esta mal escrito en la página. No deja acceder a veces a la pantalla de suscripción. Un historial de suscripciones sería util.
+
+**Usuario**: Se piden demasiados datos para crearlo, puede afectar al gdpr (Género). Se puede solicitar infinitas veces el borrado de la cuenta. No se puede buscar usuario por apellido. No hay restricciones de edad. Si dejas campos vacios no funciona pero no muestra errores.
+
+**Series**: Se puede crear una serie con todo a 0.
+
+**Ejercicio**: Falta un mensaje de confirmación.
+
+**Maquinas**: Aparece un mensaje de error al guardar los cambios que no desaparece hasta recargar. No se crea correctamente la máquina hasta añadir una imagen, aunque no informa del error.
+
+**Extras**:
+        - Estaría bien que al registrarte inicie sesión solo
+        - Faltan botones de volver atrás en practicamente toda las vistas
+        - Un botón de limpiar filtros para no eliminar 1 a 1. Los filtros están en inglés.
+        -Formato de movil no comprobado
+        -React Router caught the following error during render TypeError: Cannot read properties of null (reading 'control') - Perfil de Cliente
+
+
+        
+#### Usuarios Piloto ajenos a la Asignatura
+
+
+### Acciones Derivadas
+
+
+### Priorización del Feedback
+
+
+### Estado Actual de los Usuarios Piloto
+
+
+
+### Estado de Commitment Agreement con usuarios piloto grupo 9
+
+
+
+### Estado de Commitment Agreement con personas ajenas a la asignatura
+
 ## Gestión de Usuarios Piloto Preparing Project Launch
 
 ### Plan de Usuarios Piloto
