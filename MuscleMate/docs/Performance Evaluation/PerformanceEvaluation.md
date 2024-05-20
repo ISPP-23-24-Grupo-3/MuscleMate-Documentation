@@ -6,7 +6,7 @@ sidebar_position: 4
 
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3, Sprint 3
+## Musclemate, Grupo 3, WPL
 
 ## Historial de Versiones
 

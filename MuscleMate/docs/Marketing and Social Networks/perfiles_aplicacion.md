@@ -4,7 +4,7 @@ title: Potential Users of Musclemate
 
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3, PPL
+## Musclemate, Grupo 3, WPL
 
 ## Historial de Versiones
 
