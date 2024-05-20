@@ -144,6 +144,15 @@ Para priorizar este feedback se ha dividido las tareas en 3 categorías:
 **Sugerencias**: No son fallos realmente de la aplicaciones, sino sugerencias por parte de los pilotos para mejorar la experiencia:
         - Feedback WPL : Extras
 
+Debido a que excede el alcance del proyecto, se han desestimado las siguientes subtareas dentro de las issues:
+
+* **Extras**: Botón de limpiar filtros.
+* **Suscripciones**: Añadir un historial de suscripciones.
+
+Además, las siguientes tareas se han desestimado también debido a que la mayoría de pilotos estaban conformes con ellas y no suponen fallos en la aplicación:
+
+* **Extras**: Inicio de sesión automático post-registro, botones de volver atrás nativos.
+
 ### Estado Actual de los Usuarios Piloto
 
 Se mantiene contacto con ellos y con gusto han participado en esta última entrega de la asignatura y probado la versión definitiva de MuscleMate
