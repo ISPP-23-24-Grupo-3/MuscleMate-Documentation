@@ -35,8 +35,8 @@ En los siguientes apartados se harán referencias a la barra de navegación de l
 
 Para probar la aplicación se tienen los siguientes enlaces al despliegue:
 
-- Frontend (aplicación principal): https://musclemateppl.oa.r.appspot.com/
-- Backend (administración): https://musclemateppl.pythonanywhere.com/admin/
+- Frontend (aplicación principal): https://musclematewpl.oa.r.appspot.com/
+- Backend (administración): https://musclematewpl.pythonanywhere.com/admin/
 
 Respecto a la tracking tool, la usada es Clockify y ya se proporcionó al profesorado las credenciales para acceder y se le invitó para ver el estado. Respecto a la demo se encuentra en la carpeta Demos en Other Evaluable Docs.
 
