@@ -18,24 +18,24 @@ sidebar_position: 4
 
 ## 1. Agreed Individual Performance Evaluation
 
-| Student                      | #DP1    | #S1     | #S2       | #S3       | #PPL    | #WPL | Total | Weight |
-| ---------------------------- | ------- | ------- | --------- | --------- | ------- | ---- | ----- | ------ |
-| González Marcos, Pedro       | 10      | 10      | 8.84      | 8.1       | 10      |      | 46.94 | 1      |
-| Del Hoyo Carboso, David      | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
-| Zarandieta Ortiz, David      | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
-| Sosa Corral, Alejandro       | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
-| Tomás Vela, Elena            | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
-| Martín Hernández, Juan Jesús | 10      | 10      | 8.76      | 10        | 10      |      | 48.76 | 1      |
-| Romero Limón, Jorge          | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
-| Dana Cabello, David          | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
-| Muñoz Prieto, Ángel          | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
-| Moreno Pérez, Juan Carlos    | 10      | 10      | 7         | 8         | 10      |      | 45    | 1      |
-| Ortega García, Manuel        | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
-| Devós Bono, Agustín          | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
-| Mateo Capilla, Alejandro     | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
-| Garcia Parras, Luis          | 10      | 10      | 7.3       | 10        | 10      |      | 47.3  | 1      |
-| Vázquez Martín, Manuel       | 10      | 10      | 10        | 10        | 10      |      | 50    | 1      |
-| **Total**                    | **150** | **150** | **141.9** | **146.1** | **150** |      |       |        |
+| Student                      | #DP1    | #S1     | #S2       | #S3       | #PPL    | #WPL    | Total | Weight |
+| ---------------------------- | ------- | ------- | --------- | --------- | ------- | ------- | ----- | ------ |
+| González Marcos, Pedro       | 10      | 10      | 8.84      | 8.1       | 10      | 10      | 56.94 | 0.95   |
+| Del Hoyo Carboso, David      | 10      | 10      | 10        | 10        | 10      | 10      | 60    | 1      |
+| Zarandieta Ortiz, David      | 10      | 10      | 10        | 10        | 10      | 10      | 60    | 1      |
+| Sosa Corral, Alejandro       | 10      | 10      | 10        | 10        | 10      | 10      | 60    | 1      |
+| Tomás Vela, Elena            | 10      | 10      | 10        | 10        | 10      | 10      | 60    | 1      |
+| Martín Hernández, Juan Jesús | 10      | 10      | 8.76      | 10        | 10      | 10      | 58.76 | 0.98   |
+| Romero Limón, Jorge          | 10      | 10      | 10        | 10        | 10      | 10      | 60    | 1      |
+| Dana Cabello, David          | 10      | 10      | 10        | 10        | 10      | 10      | 60    | 1      |
+| Muñoz Prieto, Ángel          | 10      | 10      | 10        | 10        | 10      | 10      | 60    | 1      |
+| Moreno Pérez, Juan Carlos    | 10      | 10      | 7         | 8         | 10      | 10      | 55    | 0.92   |
+| Ortega García, Manuel        | 10      | 10      | 10        | 10        | 10      | 10      | 60    | 1      |
+| Devós Bono, Agustín          | 10      | 10      | 10        | 10        | 10      | 10      | 60    | 1      |
+| Mateo Capilla, Alejandro     | 10      | 10      | 10        | 10        | 10      | 10      | 60    | 1      |
+| Garcia Parras, Luis          | 10      | 10      | 7.3       | 10        | 10      | 10      | 57.3  | 0.96   |
+| Vázquez Martín, Manuel       | 10      | 10      | 10        | 10        | 10      | 10      | 60    | 1      |
+| **Total**                    | **150** | **150** | **141.9** | **146.1** | **150** | **150** |       |        |
 
 ## 2. Individual Contribution Summary
 
@@ -751,7 +751,7 @@ Vázquez Martín, Manuel:
 - Ayuda al implementar imágenes en tickets y estilos
 - Puntuación de tareas.
 
-#### Ortega García, Manuel:
+#### Ortega García, Manuel
 
 - Funciones de coordinador.
 - Creación de presentaciones.
@@ -761,3 +761,113 @@ Vázquez Martín, Manuel:
 - Creación de killer openers
 - Confirmación de contraseña en dos módulos.
 - Creación de documentación.
+
+### WPL
+
+#### Vázquez Martín, Manuel
+
+- Tareas del backend del feedback de los usuarios pilotos.
+- Reporte de la IA, actualizando ia-usage.md.
+- Ayuda con la presentación.
+- Recopilación de feedback en las clases.
+- Ayuda a los demás miembros.
+- Revisión de entrega.
+
+#### Mateo Capilla, Alejandro
+
+- Funcionalidades del cliente - Perfil (Caso 2 Comentarios PPL) #258
+- Funcionalidades del propietario - Máquinas (Caso 9 Comentarios PPL) #261
+- Revisión de entrega
+- Feedback WPL: Máquinas #277
+- Ayuda a los demás miembros
+
+#### Muñoz Prieto, Ángel
+
+- Actualización de pilots.md
+- Actualización de InformationProvidedByPilotUsers.md
+- Actualización PilotUserEvaluationPerformance.mdx
+- Encargado de Redes Sociales
+- Revisión de Entrega
+
+#### Devós Bono, Agustín
+
+- Implementar cambios requeridos por usuarios pilotos y profesorado en Frontend.
+- Pilotaje Grupo 9.
+- Desplegar backend de la aplicación.
+- Desplegar frontend de la aplicación.
+- Realizar presentación.
+
+#### Garcia Parras, Luis
+
+- Realizacion del caso 13 de Revision PPL
+- Realizacion del caso 14 de Revision PPL
+- Revision documentacion.
+- Ayuda a los demás miembros.
+- Revisión de FC.
+
+#### González Marcos, Pedro
+
+- Asignar tareas a los miembros del equipo
+- Revisar PR de los compañeros
+- Rehacer guión del anuncio de inversores
+- Feedback WPL : Registro
+
+#### Moreno Perez, Juan Carlos
+
+- Encargado de revisar las Failure Conditions y revisión de documentos a entregar.
+- Recopilar información para hacer el video de inversores y redactar el documento de análisis de mercado.
+
+#### Ortega García, Manuel
+
+- Funciones de coordinador.
+- Creación de Anuncios.
+- Creación de Demos.
+- Creación de killer openers.
+- Creación documentación.
+
+#### Martín Hernández, Juan Jesús
+
+- Añadir feedback a la base de conocimiento general
+- Añadir feedback al documento de Musclemate
+- Gestión feedback usuarios pilotos
+- Reuniones recursivas con los diferentes usuarios pilotos
+
+#### Tomás Vela, Elena
+
+- Arreglar visualizado de imágenes en front-end
+- Arreglar spanglish de la aplicación
+
+#### Romero Limón, Jorge
+
+- Arreglos de gráficas
+- Presentador
+- Creador de Presentaciones
+- Encargado de Redes Sociales
+
+#### Del Hoyo Carcaboso, David
+
+- Arreglos de suscripciones
+- Mejora de suscripciones a premium
+
+#### Sosa Corral, Alejandro
+
+- Edición de nuevo anuncio de inversores
+- Grabación para nueva demo
+- Arreglo de eventos según feedback
+- Arreglo de registro según feedback
+- Revisión de documentos
+
+#### Dana Cabello, David
+
+- Feedback WPL : Usuario
+- Feedback WPL : Incidencias
+- Actualizar revision.md
+- Caso 11 del feedback de bedilia
+- Despliegue de frontend
+
+#### Zarandieta Ortiz, David
+
+- Tareas del backend del feedback de los usuarios pilotos.
+- Anuncio Inversores
+- Estrategias de marketing (Founder Gym)
+- Ayuda con la presentación.
