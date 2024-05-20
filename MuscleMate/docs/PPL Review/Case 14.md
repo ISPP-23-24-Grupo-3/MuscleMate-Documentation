@@ -9,13 +9,14 @@ title: Case 14 - My events
 | Versión | Fecha      | Autor          | Descripción                  |
 | ------- | ---------- | -------------- | ---------------------------- |
 | v1.0    | 2024-05-20 | Luis García Parras | Creación del documento   |
+| v1.1    | 2024-05-20 | Alejandro Sosa Corral | Ligero error de formato   |
 
 
-- ` `Crear evento: ¿Cuál es la diferencia entre Aforo y asistentes?
+- Crear evento: ¿Cuál es la diferencia entre Aforo y asistentes?
 
 Aforo es la capacidad máxima del evento, y asistentes el número de personas que asiste con seguridad a la clase.
 
-- ` `¿Cómo se registran los asistentes al evento? No deberían registrarse los clientes de forma individual?
+- ¿Cómo se registran los asistentes al evento? No deberían registrarse los clientes de forma individual?
 
 El cliente desde su vista , en su sección de eventos puede ver su listado de eventos disponible según su gimnasio e inscribirse al mismo.
 
