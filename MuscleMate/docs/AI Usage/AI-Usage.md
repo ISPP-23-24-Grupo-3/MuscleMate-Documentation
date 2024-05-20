@@ -16,6 +16,7 @@ title: AI Usage
 |v5.0|2024-05-04|Manuel Vázquez Martínn |Modificación del documento|
 |v5.1|2024-05-06|Manuel Vázquez Martínn |Modificación del documento|
 |v5.2|2024-05-06|Alejandro Sosa Corral |Cambiado "Sprint 3" por "PPL"|
+|v6.0|2024-05-20|Manuel Vázquez Martín |Modificación del documento|
 
 
  # 1. Introducción
@@ -88,6 +89,7 @@ Por lo tanto, tenemos un total de *Tiempo usando IA* de 88 minutos (1h 28min) y 
 Como conclusión, vemos que gracias al empleo de estas herramientas en nuestro proyecto hemos logrado un ahorro de tiempo en varias tareas, que implementadas únicamente por la mano del hombre se hubiera tardado más del cuádruple. 
 
 **PPL**:
+
 Tras esta entrega, el equipo de trabajo ha realizado únicamente un registro de prompt, en la categoría de presentación, donde podremos observarla en la sección de [Discusions](https://github.com/ISPP-23-24-Grupo-3/MuscleMate-Documentation/discussions) del repositorio.
 
 - Remove bg [#212](https://github.com/ISPP-23-24-Grupo-3/MuscleMate-Documentation/discussions/212):
@@ -95,6 +97,10 @@ Tras esta entrega, el equipo de trabajo ha realizado únicamente un registro de 
   - Timepo sin IA: 1h.
 
 Por lo tanto, tenemos un total de *Tiempo usando IA* de 10 minutos y de *Tiempo sin IA* de 60 minutos. Al no haber muchos reportes de IA en esta entrega no se aprecia la diferencia, sin embargo, el empleo de esta herramienta ha hecho que se reduzca el tiempo de esta tarea en un 83,33%. 
+
+**WPL**:
+
+En esta entrega no se ha realizado ningún registro de prompt.
 
 # <a name="_heading=h.1rjavh2rwb77"></a>5. Alucinaciones de la IA
 Podemos definir las alucinaciones de la IA, como aquellos textos generados que no cumplen con el objetivo final al que queríamos llegar con el uso de esta herramientas. 
