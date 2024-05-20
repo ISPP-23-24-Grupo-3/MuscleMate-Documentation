@@ -21,6 +21,7 @@ sidebar_position: 3
 | v1.10    | 2024-05-06 | Alejandro Sosa Corral    |Cambiado "Sprint 3" por "PPL"|
 | v2.0    | 2024-05-20 | Angel Muñoz Prieto   |Adición de Información Relacionada con el WPL|
 | v2.1    | 2024-05-20 | Juan Jesús Martín      |Actualización del documento relacionada con el WPL|
+| v2.2    | 2024-05-20 | Ángel Muñoz Prieto      |Cierre del Documento|
 
 
 # Información sobre los Usuarios Piloto del grupo MuscleMate
@@ -98,13 +99,20 @@ Más tarde estos resultados se recogerían en este documento y a partir de el se
 #### Usuarios Piloto ajenos a la Asignatura
 
 
-- **Leal Sarmiento** (Gimnasio TocaSport):Destaca el gran avance, la mejora de la interfaz y la adicción de nuevas funcionalidades como la de subir imágenes.
+- **Leal Sarmiento** (Gimnasio TocaSport):Destaca el gran avance, la mejora de la interfaz y la adición de nuevas funcionalidades como la de subir imágenes.
 - **Javier Pardo** (Gimnasio Coliseum):Sorprendido por la gran mejora de la app respecto al último despliegue, no objeta ningún fallo y nos hace llegar su enhorabuena.
 - **Vicente** (Dueño TocaSport): Valora muchísimo el trabajo que hay detrás del producto final, en una sesión de discord como las anteriores veces hemos probado todos los casos de uso con todos los roles posible y cabe destacar la valoración muy positiva  por parte del cliente. "El avance y la mejora de la calidad ha sido brutal". Destaca como funcionalidad la gestión de incidencias, las gráficas de estadísticas y poder subir imágenes. Agradece que hayamos contado con él y sus gimnasios , además apunta formalmente que le encantaría ser un cliente real o incluso poder adquirir acciones de la app de manera real.
 - **Leal Ojeda** (Gimnasio Coliseum): Satisface todas las necesidades para llevar un control del entrenamiento así como ver tu progreso. Bastante intuitiva y valora muy positivamente la mejora de calidad a medida del paso del tiempo.
 - **Carrizosa Mateos** (Gimnasio TocaSport): Él mismo se autodescribe como el más crítico con la app y en este caso solo objeta darnos la enhorabuena por el avance de calidad así como la implementación de nuevas funcionalidades.
 - **José Miguel Olivares Leal** : No encuentra nada negativo y se postula como inversor en la compra de acciones, "me encanta la app y creo que es bastante útil y original".
 - **María del Carmen Fernández González** : Ha probado a monitorear varios entrenos con los diferentes despliegues y cabe destacar su asombro por la mejora de calidad, la intutividad de la app así como la implementación de nuevas funcionalidades.
+
+- **Manuel Morgollon**(Gimnasio Yo10SportClub): Se aprecia una gran mejoría en la app, muy intuitiva y solo destaca que algunas cargas son algo lentas.
+- **Víctor Vázquez**(Gimnasio Dreamfit): La aplicación es muy superior a la versión del Sprint 3 y se aprecia mucho la función de la gestión de eventos, ya que en el gimnasio es bastante incómodo de realizar.
+- **Martín Romero**(Gimnasio LowFit): Se ha mejorado considerablemente la gestión de las series y entrenos gracias a funciones como el contador de descanso o las gráficas ya bien implementadas, algo que se agradece mucho.
+- **Pablo Miranda**(Gimnasio BasicFit): Ve algo lento el manejo de la app en cuanto a navegabilidad ya que no es posible volver atras de manera sencilla; aun así nota una gran mejora en la app.
+- **Pablo Moreno**(Gimnasio McFit): Le ha gustado mucho la version definitiva de la aplicación, aunque sigue creyendo que, para ser totalmente funcional, necesita más variedad de músculos y máquinas si se quiere aprovechar al 100%
+- **Carlos Liberal**(Gimnasio Dreamfit): Se marca mucho la mejora de la app respecto a versiones anteriores y ya es algo que daría gusto de utilizar en el día a día del gimnasio.
 
 
 ### Acciones Derivadas

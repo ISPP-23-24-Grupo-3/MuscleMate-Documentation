@@ -15,12 +15,62 @@ sidebar_position: 3
 | v1.3    | 2024-04-22 | Angel Muñoz Prieto    | Actualización del documento |
 | v1.4    | 2024-05-06 | Ángel Muñoz Prieto    |Actualización del documento para el PPL|
 | v1.5    | 2024-05-06 | Alejandro Sosa Corral    |Cambiado "Sprint 3" por "PPL"|
+| v2.0    | 2024-05-20 | Ángel Muñoz Prieto    | Cierre del Documento | 
 
 ## Información Proporcionada por los Ususarios Piloto
 
 ### Descripción
 
 En este docuemento se detalla la información proporcionada por los usuarios pilotos durante los distintos Sprints del proyecto, pese a que esto sea visible también desde el reporte general enfocado en estos.
+
+### FeedBack Usuarios Piloto World Project Launch
+
+#### Usuarios Piloto del Grupo 9
+
+**Registro**: Puedes meter en nombre y apellidos números. La contraseña muy poco segura, añadir más restricciones. Añadir un ojo para ver la contraseña introducida.
+
+**Eventos**: Si se ponen más asistentes que aforo falla, pero no muestra ningun error. Faltan errores. Al eliminarlo se recomienda meter una carga o redirección a la lista. Estaría bien poder buscar un evento por fecha. Se puede crear eventos en el pasado.
+
+**Incidencias**: Al añadir una imagen alguna vez se añaden a otras en lugar de a la correcta. No son editables. Al cambiar el estado se borra la respuesta.
+
+**Gimnasio**: No son editables.
+
+**Suscripciones**: Esta mal escrito en la página. No deja acceder a veces a la pantalla de suscripción. Un historial de suscripciones sería util.
+
+**Usuario**: Se piden demasiados datos para crearlo, puede afectar al gdpr (Género). Se puede solicitar infinitas veces el borrado de la cuenta. No se puede buscar usuario por apellido. No hay restricciones de edad. Si dejas campos vacios no funciona pero no muestra errores.
+
+**Series**: Se puede crear una serie con todo a 0.
+
+**Ejercicio**: Falta un mensaje de confirmación.
+
+**Maquinas**: Aparece un mensaje de error al guardar los cambios que no desaparece hasta recargar. No se crea correctamente la máquina hasta añadir una imagen, aunque no informa del error.
+
+**Extras**:
+        - Estaría bien que al registrarte inicie sesión solo
+        - Faltan botones de volver atrás en practicamente toda las vistas
+        - Un botón de limpiar filtros para no eliminar 1 a 1. Los filtros están en inglés.
+        -Formato de movil no comprobado
+        -React Router caught the following error during render TypeError: Cannot read properties of null (reading 'control') - Perfil de Cliente
+
+
+        
+#### Usuarios Piloto ajenos a la Asignatura
+
+
+- **Leal Sarmiento** (Gimnasio TocaSport):Destaca el gran avance, la mejora de la interfaz y la adición de nuevas funcionalidades como la de subir imágenes.
+- **Javier Pardo** (Gimnasio Coliseum):Sorprendido por la gran mejora de la app respecto al último despliegue, no objeta ningún fallo y nos hace llegar su enhorabuena.
+- **Vicente** (Dueño TocaSport): Valora muchísimo el trabajo que hay detrás del producto final, en una sesión de discord como las anteriores veces hemos probado todos los casos de uso con todos los roles posible y cabe destacar la valoración muy positiva  por parte del cliente. "El avance y la mejora de la calidad ha sido brutal". Destaca como funcionalidad la gestión de incidencias, las gráficas de estadísticas y poder subir imágenes. Agradece que hayamos contado con él y sus gimnasios , además apunta formalmente que le encantaría ser un cliente real o incluso poder adquirir acciones de la app de manera real.
+- **Leal Ojeda** (Gimnasio Coliseum): Satisface todas las necesidades para llevar un control del entrenamiento así como ver tu progreso. Bastante intuitiva y valora muy positivamente la mejora de calidad a medida del paso del tiempo.
+- **Carrizosa Mateos** (Gimnasio TocaSport): Él mismo se autodescribe como el más crítico con la app y en este caso solo objeta darnos la enhorabuena por el avance de calidad así como la implementación de nuevas funcionalidades.
+- **José Miguel Olivares Leal** : No encuentra nada negativo y se postula como inversor en la compra de acciones, "me encanta la app y creo que es bastante útil y original".
+- **María del Carmen Fernández González** : Ha probado a monitorear varios entrenos con los diferentes despliegues y cabe destacar su asombro por la mejora de calidad, la intutividad de la app así como la implementación de nuevas funcionalidades.
+
+- **Manuel Morgollon**(Gimnasio Yo10SportClub): Se aprecia una gran mejoría en la app, muy intuitiva y solo destaca que algunas cargas son algo lentas.
+- **Víctor Vázquez**(Gimnasio Dreamfit): La aplicación es muy superior a la versión del Sprint 3 y se aprecia mucho la función de la gestión de eventos, ya que en el gimnasio es bastante incómodo de realizar.
+- **Martín Romero**(Gimnasio LowFit): Se ha mejorado considerablemente la gestión de las series y entrenos gracias a funciones como el contador de descanso o las gráficas ya bien implementadas, algo que se agradece mucho.
+- **Pablo Miranda**(Gimnasio BasicFit): Ve algo lento el manejo de la app en cuanto a navegabilidad ya que no es posible volver atras de manera sencilla; aun así nota una gran mejora en la app.
+- **Pablo Moreno**(Gimnasio McFit): Le ha gustado mucho la version definitiva de la aplicación, aunque sigue creyendo que, para ser totalmente funcional, necesita más variedad de músculos y máquinas si se quiere aprovechar al 100%
+- **Carlos Liberal**(Gimnasio Dreamfit): Se marca mucho la mejora de la app respecto a versiones anteriores y ya es algo que daría gusto de utilizar en el día a día del gimnasio.
 
 ### Feedback Usuarios Piloto Preparing Project Launch
 
