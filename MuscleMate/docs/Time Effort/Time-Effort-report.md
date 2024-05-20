@@ -171,3 +171,17 @@ A continuación, mostraremos las estadísticas de la semana del martes 30 al lun
 | Horas trabajadas por día                                                     |
 | ---------------------------------------------------------------------------- |
 | ![Estadística horas trabajadas por día](/img/stats/semana12horasPorDias.png) |
+
+## Semana 13 (Retrospective)
+
+## Semana 14
+
+A continuación, mostraremos las estadísticas de la semana del martes 14 al lunes 20 de mayo.
+| Reloj semanal del proyecto |
+| --------------------------------------------------------------------------------- |
+| ![Estadística reloj de grupo](/img/stats/semana14relojProyecto.png) |
+| ![](/img/stats/semana14relojProyecto2.png) |
+
+| Horas trabajadas por día                                                     |
+| ---------------------------------------------------------------------------- |
+| ![Estadística horas trabajadas por día](/img/stats/semana14horasPorDias.png) |
