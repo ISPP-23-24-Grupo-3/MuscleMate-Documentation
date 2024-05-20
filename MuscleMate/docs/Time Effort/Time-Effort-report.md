@@ -19,6 +19,7 @@ sidebar_position: 5
 | v1.4    | 2024-03-25 | Manuel Ortega | Actualización del documento |
 | v1.5    | 2024-04-22 | Manuel Ortega | Actualización del documento |
 | v1.6    | 2024-05-06 | Manuel Ortega | Actualización del documento |
+| v1.7    | 2024-05-20 | Manuel Ortega | Actualización del documento |
 
 ## Semana 1
 
