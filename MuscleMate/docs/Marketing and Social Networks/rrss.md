@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3, PPL
+## Musclemate, Grupo 3, WPL
 
 | Versión | Fecha      | Autor       | Descripción                 |
 | ------- | ---------- | ----------- | --------------------------- |

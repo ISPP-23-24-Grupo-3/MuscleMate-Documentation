@@ -4,7 +4,7 @@ title: Report of contribution to the common Knowledge Database
 ---
 ![MUSCLEMATE](logo.png)
 
-## Musclemate, Grupo 3, PPL
+## Musclemate, Grupo 3, WPL
 
 
 ##  Historial de Versiones

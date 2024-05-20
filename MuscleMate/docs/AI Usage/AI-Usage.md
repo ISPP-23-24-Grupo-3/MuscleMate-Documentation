@@ -5,7 +5,7 @@ title: AI Usage
 
 ![](Aspose.Words.94545702-886f-425f-bc92-64f408f5ea6d.001.png)
 
-## Musclemate, Grupo 3, PPL
+## Musclemate, Grupo 3, WPL
 ##  Historial de Versiones
 | Versión | Fecha      | Autor                   | Descripción                |
 | ------- | ---------- | ----------------------- | -------------------------- |
