@@ -20,6 +20,7 @@ sidebar_position: 3
 | v1.9    | 2024-05-06 | Ángel Muñoz Prieto    |Actualización del documento para el PPL|
 | v1.10    | 2024-05-06 | Alejandro Sosa Corral    |Cambiado "Sprint 3" por "PPL"|
 | v2.0    | 2024-05-20 | Angel Muñoz Prieto   |Adición de Información Relacionada con el WPL|
+| v2.1    | 2024-05-20 | Juan Jesús Martín      |Actualización del documento relacionada con el WPL|
 
 
 # Información sobre los Usuarios Piloto del grupo MuscleMate
@@ -95,6 +96,15 @@ Más tarde estos resultados se recogerían en este documento y a partir de el se
 
         
 #### Usuarios Piloto ajenos a la Asignatura
+
+
+- **Leal Sarmiento** (Gimnasio TocaSport):Destaca el gran avance, la mejora de la interfaz y la adicción de nuevas funcionalidades como la de subir imágenes.
+- **Javier Pardo** (Gimnasio Coliseum):Sorprendido por la gran mejora de la app respecto al último despliegue, no objeta ningún fallo y nos hace llegar su enhorabuena.
+- **Vicente** (Dueño TocaSport): Valora muchísimo el trabajo que hay detrás del producto final, en una sesión de discord como las anteriores veces hemos probado todos los casos de uso con todos los roles posible y cabe destacar la valoración muy positiva  por parte del cliente. "El avance y la mejora de la calidad ha sido brutal". Destaca como funcionalidad la gestión de incidencias, las gráficas de estadísticas y poder subir imágenes. Agradece que hayamos contado con él y sus gimnasios , además apunta formalmente que le encantaría ser un cliente real o incluso poder adquirir acciones de la app de manera real.
+- **Leal Ojeda** (Gimnasio Coliseum): Satisface todas las necesidades para llevar un control del entrenamiento así como ver tu progreso. Bastante intuitiva y valora muy positivamente la mejora de calidad a medida del paso del tiempo.
+- **Carrizosa Mateos** (Gimnasio TocaSport): Él mismo se autodescribe como el más crítico con la app y en este caso solo objeta darnos la enhorabuena por el avance de calidad así como la implementación de nuevas funcionalidades.
+- **José Miguel Olivares Leal** : No encuentra nada negativo y se postula como inversor en la compra de acciones, "me encanta la app y creo que es bastante útil y original".
+- **María del Carmen Fernández González** : Ha probado a monitorear varios entrenos con los diferentes despliegues y cabe destacar su asombro por la mejora de calidad, la intutividad de la app así como la implementación de nuevas funcionalidades.
 
 
 ### Acciones Derivadas
